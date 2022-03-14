@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test MinMaxBox Component MinMaxBox Component renders correctly 1`] = `
+<MinMaxBox__BoxWrapper>
+  <div>
+    <GenericTextField
+      converter={[Function]}
+      error={false}
+      handleDisable={[Function]}
+      label="Min"
+      maxDisplayLength={7}
+      maxInputLength={11}
+      onChange={[Function]}
+      pattern={/\\./}
+      placeholder="0h00"
+      style={
+        Object {
+          "width": "70px",
+        }
+      }
+      type="text"
+      value={0}
+    />
+    <GenericTextField
+      converter={[Function]}
+      error={false}
+      handleDisable={[Function]}
+      label="Max"
+      maxDisplayLength={7}
+      maxInputLength={11}
+      onChange={[Function]}
+      pattern={/\\./}
+      placeholder="0h00"
+      style={
+        Object {
+          "width": "70px",
+        }
+      }
+      type="text"
+      value={59}
+    />
+  </div>
+</MinMaxBox__BoxWrapper>
+`;

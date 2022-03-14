@@ -1,0 +1,848 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AircraftTypes Form component render correct in readOnly mode 1`] = `
+<Form
+  anchor="right"
+  cancelButton="Cancel"
+  editMode={false}
+  enableReadOnly={false}
+  formId=""
+  handleCancel={[MockFunction]}
+  handleCrewComplements={[MockFunction]}
+  handleOk={[MockFunction]}
+  handleSubmit={[Function]}
+  inlineError={null}
+  isDisabled={false}
+  isOpen={true}
+  okButton="Ok"
+  onChange={[Function]}
+  onClose={[MockFunction]}
+  openItemName="My open item test"
+  position={
+    Object {
+      "code": "FLY",
+      "id": 10,
+      "name": "Flyer",
+      "typeId": 1,
+      "typeNam": "Flight Deck",
+    }
+  }
+>
+  <FormHeader>
+    <span />
+    <span />
+  </FormHeader>
+  <FormBody>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <div>
+        <h2 />
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <AircraftTypesForm__FormControl
+              error={false}
+            >
+              <AircraftTypesForm__Input
+                className=""
+                color="secondary"
+                disabled={true}
+                error={false}
+                id="aircraftType"
+                inputProps={
+                  Object {
+                    "maxLength": 4,
+                    "name": "aircraftType",
+                  }
+                }
+                onChange={[Function]}
+                required={true}
+                value=""
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </AircraftTypesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <InputSelector
+              disabled={true}
+              displayed="name"
+              handleChange={[Function]}
+              items={
+                Array [
+                  Object {
+                    "id": "777",
+                    "name": "test name",
+                  },
+                  Object {
+                    "id": "359",
+                    "name": "test name",
+                  },
+                ]
+              }
+              label=""
+              name="aircraftModel"
+              required={true}
+              selected=""
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <AircraftTypesForm__FormControl
+              error={false}
+            >
+              <AircraftTypesForm__Input
+                className=""
+                color="secondary"
+                disabled={true}
+                error={false}
+                id="aircraftName"
+                inputProps={
+                  Object {
+                    "maxLength": 50,
+                    "name": "aircraftName",
+                  }
+                }
+                onChange={[Function]}
+                required={true}
+                value=""
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </AircraftTypesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <InputSelector
+              disabled={true}
+              displayed="name"
+              handleChange={[Function]}
+              items={
+                Array [
+                  Object {
+                    "id": undefined,
+                    "name": "C1-Bunk",
+                  },
+                  Object {
+                    "id": undefined,
+                    "name": "C2-Recicling",
+                  },
+                ]
+              }
+              label=""
+              name="restFacility"
+              required={true}
+              selected="NONE"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <h2 />
+            <StandardCrewComplement
+              currentCrewGroupId={null}
+              defaultValues={null}
+              disabled={true}
+              id="crewComposition"
+              initialAssociatedPositionsValue={0}
+              onChange={[Function]}
+              openItemId="102"
+              showOnlyAssociatedCGPositions={false}
+              t={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [
+                      "ERRORS.AIRCRAFT.aircraftType",
+                    ],
+                    Array [
+                      "GLOBAL.form.add",
+                    ],
+                    Array [
+                      "GLOBAL.form.save",
+                    ],
+                    Array [
+                      "GLOBAL.form.close",
+                    ],
+                    Array [
+                      "GLOBAL.form.cancel",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.edit",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.title",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftType",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftModel",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftName",
+                    ],
+                    Array [
+                      "ERRORS.AIRCRAFT.aircraftName",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.restFacility",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.crewComplement.title",
+                    ],
+                    Array [
+                      "ERRORS.AIRCRAFT.aircraftType",
+                    ],
+                    Array [
+                      "GLOBAL.form.add",
+                    ],
+                    Array [
+                      "GLOBAL.form.save",
+                    ],
+                    Array [
+                      "GLOBAL.form.close",
+                    ],
+                    Array [
+                      "GLOBAL.form.cancel",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.edit",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.title",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftType",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftModel",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftName",
+                    ],
+                    Array [
+                      "ERRORS.AIRCRAFT.aircraftName",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.restFacility",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.crewComplement.title",
+                    ],
+                    Array [
+                      "ERRORS.AIRCRAFT.aircraftType",
+                    ],
+                    Array [
+                      "GLOBAL.form.add",
+                    ],
+                    Array [
+                      "GLOBAL.form.save",
+                    ],
+                    Array [
+                      "GLOBAL.form.close",
+                    ],
+                    Array [
+                      "GLOBAL.form.cancel",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.edit",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.title",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftType",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftModel",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftName",
+                    ],
+                    Array [
+                      "ERRORS.AIRCRAFT.aircraftName",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.restFacility",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.crewComplement.title",
+                    ],
+                    Array [
+                      "ERRORS.AIRCRAFT.aircraftType",
+                    ],
+                    Array [
+                      "GLOBAL.form.add",
+                    ],
+                    Array [
+                      "GLOBAL.form.save",
+                    ],
+                    Array [
+                      "GLOBAL.form.close",
+                    ],
+                    Array [
+                      "GLOBAL.form.cancel",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.view",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.title",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftType",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftModel",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftName",
+                    ],
+                    Array [
+                      "ERRORS.AIRCRAFT.aircraftName",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.restFacility",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.crewComplement.title",
+                    ],
+                  ],
+                  "results": Array [
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                  ],
+                }
+              }
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </ScrollBar>
+  </FormBody>
+</Form>
+`;
+
+exports[`AircraftTypesForm Component renders correctly 1`] = `
+<Form
+  anchor="right"
+  cancelButton="Cancel"
+  editMode={false}
+  enableReadOnly={false}
+  formId=""
+  handleCancel={[MockFunction]}
+  handleCrewComplements={[MockFunction]}
+  handleOk={[MockFunction]}
+  handleSubmit={[Function]}
+  inlineError={null}
+  isDisabled={true}
+  isOpen={true}
+  okButton="Ok"
+  onChange={[Function]}
+  onClose={[MockFunction]}
+  openItemName="My open item test"
+  position={
+    Object {
+      "code": "FLY",
+      "id": 10,
+      "name": "Flyer",
+      "typeId": 1,
+      "typeNam": "Flight Deck",
+    }
+  }
+>
+  <FormHeader>
+    <span />
+    <span />
+  </FormHeader>
+  <FormBody>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <div>
+        <h2 />
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <AircraftTypesForm__FormControl
+              error={false}
+            >
+              <AircraftTypesForm__Input
+                className=""
+                color="secondary"
+                disabled={false}
+                error={false}
+                id="aircraftType"
+                inputProps={
+                  Object {
+                    "maxLength": 4,
+                    "name": "aircraftType",
+                  }
+                }
+                onChange={[Function]}
+                required={true}
+                value=""
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </AircraftTypesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <InputSelector
+              disabled={false}
+              displayed="name"
+              handleChange={[Function]}
+              items={
+                Array [
+                  Object {
+                    "id": "777",
+                    "name": "test name",
+                  },
+                  Object {
+                    "id": "359",
+                    "name": "test name",
+                  },
+                ]
+              }
+              label=""
+              name="aircraftModel"
+              required={true}
+              selected=""
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <AircraftTypesForm__FormControl
+              error={false}
+            >
+              <AircraftTypesForm__Input
+                className=""
+                color="secondary"
+                disabled={false}
+                error={false}
+                id="aircraftName"
+                inputProps={
+                  Object {
+                    "maxLength": 50,
+                    "name": "aircraftName",
+                  }
+                }
+                onChange={[Function]}
+                required={true}
+                value=""
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </AircraftTypesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <InputSelector
+              disabled={false}
+              displayed="name"
+              handleChange={[Function]}
+              items={
+                Array [
+                  Object {
+                    "id": undefined,
+                    "name": "C1-Bunk",
+                  },
+                  Object {
+                    "id": undefined,
+                    "name": "C2-Recicling",
+                  },
+                ]
+              }
+              label=""
+              name="restFacility"
+              required={true}
+              selected="NONE"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <h2 />
+            <StandardCrewComplement
+              currentCrewGroupId={null}
+              defaultValues={null}
+              disabled={false}
+              id="crewComposition"
+              initialAssociatedPositionsValue={0}
+              onChange={[Function]}
+              openItemId="102"
+              showOnlyAssociatedCGPositions={false}
+              t={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [
+                      "ERRORS.AIRCRAFT.aircraftType",
+                    ],
+                    Array [
+                      "GLOBAL.form.add",
+                    ],
+                    Array [
+                      "GLOBAL.form.save",
+                    ],
+                    Array [
+                      "GLOBAL.form.close",
+                    ],
+                    Array [
+                      "GLOBAL.form.cancel",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.edit",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.title",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftType",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftModel",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.aircraftName",
+                    ],
+                    Array [
+                      "ERRORS.AIRCRAFT.aircraftName",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.general.restFacility",
+                    ],
+                    Array [
+                      "DATA.aircraft.form.section.crewComplement.title",
+                    ],
+                  ],
+                  "results": Array [
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                  ],
+                }
+              }
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </ScrollBar>
+  </FormBody>
+</Form>
+`;

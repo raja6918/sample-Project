@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalLoader component render correct 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "background": "",
+      "color": "",
+    }
+  }
+>
+  <ModalLoader__DialogUi
+    aria-labelledby="form-dialog-title"
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(ForwardRef(CircularProgress))
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    />
+    <WithStyles(ForwardRef(DialogTitle))
+      id="form-dialog-title"
+    />
+    <WithStyles(ForwardRef(DialogContent))>
+      <WithStyles(ForwardRef(DialogContentText)) />
+    </WithStyles(ForwardRef(DialogContent))>
+  </ModalLoader__DialogUi>
+</ThemeProvider>
+`;

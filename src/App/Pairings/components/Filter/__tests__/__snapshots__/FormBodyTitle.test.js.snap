@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test FormBodyTitle Component FormBodyTitle Component renders correctly 1`] = `
+<FormBodyTitle__FormTitle>
+  <h2 />
+  <div>
+    <FormBodyTitle__LastFilterButton
+      color="primary"
+      disableFocusRipple={true}
+      disableRipple={true}
+      disabled={true}
+      startIcon={<Memo />}
+    />
+    <FormBodyTitle__ClearAllButton
+      color="primary"
+      disableFocusRipple={true}
+      disableRipple={true}
+      disabled={false}
+      onClick={[MockFunction]}
+      startIcon={<Memo />}
+    />
+  </div>
+</FormBodyTitle__FormTitle>
+`;

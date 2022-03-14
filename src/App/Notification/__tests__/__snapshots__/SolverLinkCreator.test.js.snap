@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite to test the SolverLinkCreator component SolverLinkCreator component renders 1`] = `
+<Link
+  onClick={[Function]}
+  replace={false}
+  style={
+    Object {
+      "color": "#0a75c2",
+      "fontSize": "13px",
+      "textDecoration": "none",
+    }
+  }
+  to={
+    Object {
+      "pathname": "/solver/112",
+      "state": Object {
+        "openItemId": 112,
+        "openItemName": "",
+        "openSolverId": 3,
+        "readOnly": false,
+      },
+    }
+  }
+>
+  solverName
+</Link>
+`;

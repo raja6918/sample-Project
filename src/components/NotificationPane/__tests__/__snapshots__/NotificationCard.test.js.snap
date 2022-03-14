@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationCard component renders correct 1`] = `
+<NotificationCard__CardHolder>
+  <NotificationCard__Row1>
+    <SolverIcon
+      style={
+        Object {
+          "marginRight": "5px",
+          "width": "16px",
+        }
+      }
+      tooltip=""
+    />
+    <span />
+    <span>
+      <span>
+        July 2020 Production
+      </span>
+      <Memo([object Object])
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      />
+    </span>
+  </NotificationCard__Row1>
+  <NotificationCard__Row2 />
+  <NotificationCard__Row3>
+    <span />
+  </NotificationCard__Row3>
+</NotificationCard__CardHolder>
+`;

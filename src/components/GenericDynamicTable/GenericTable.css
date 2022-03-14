@@ -1,0 +1,45 @@
+#dynamic-table-container .MuiTableRow {
+  cursor: default;
+}
+.MuiTableRow.hover:hover {
+  background-color: #e8f4fc !important;
+}
+.MuiTableRow.selected {
+  background-color: #bae1fc;
+}
+.MuiTableRow td:last-child {
+  padding-right: 40px;
+}
+.MuiTableRow.highlight {
+  background-color: #5098e7 !important;
+}
+.scrollbar-container > .MuiTableBody-root {
+  overflow: unset;
+}
+
+#dynamic-table-container .MuiTableCell-head {
+  position: relative;
+  resize: both;
+}
+
+#dynamic-table-container .resize-handle {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  bottom: 12px;
+  height: 20px;
+  width: 15px;
+  /* cursor: col-resize;
+  resize: both; */
+  display: flex;
+  justify-content: center;
+}
+
+.header--being-resized .MuiTableCell-head {
+  cursor: col-resize;
+  resize: both;
+}
+
+#dynamic-table .ps__rail-x {
+  z-index: 2;
+}

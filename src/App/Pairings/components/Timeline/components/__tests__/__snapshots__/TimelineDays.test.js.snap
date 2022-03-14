@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimelineDays Component renders 1`] = `
+<TimelineDays
+  calendarData={
+    Array [
+      Object {
+        "days": Array [
+          Object {
+            "dayIndex": 0,
+            "dayName": "Wednesday",
+            "dayNumber": "25",
+            "dayShortName": "We",
+            "isCarryIn": true,
+            "isCarryOut": false,
+            "isDayAfterPeriodEnd": false,
+            "isFirstDayOfMonth": false,
+            "isPeriodEnd": false,
+            "isPeriodStart": false,
+            "isWeekend": false,
+            "relativeDay": -7,
+          },
+          Object {
+            "dayIndex": 1,
+            "dayName": "Thursday",
+            "dayNumber": "26",
+            "dayShortName": "Th",
+            "isCarryIn": true,
+            "isCarryOut": false,
+            "isDayAfterPeriodEnd": false,
+            "isFirstDayOfMonth": false,
+            "isPeriodEnd": false,
+            "isPeriodStart": false,
+            "isWeekend": false,
+            "relativeDay": -6,
+          },
+        ],
+        "daysCount": 7,
+        "monthName": "September",
+        "monthNumber": "8",
+        "year": "2018",
+      },
+    ]
+  }
+  columnWidthInPx={40}
+  onZoomSelection={[MockFunction]}
+  timelineHeaderRef={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          <div
+            class="pt-dates"
+          >
+            <div
+              class="day"
+              id="0"
+              style="width: 40px;"
+            >
+              <div
+                class="date"
+              >
+                <span>
+                  We
+                </span>
+                <span>
+                  25
+                </span>
+              </div>
+              <div
+                class="relative"
+              >
+                -7
+              </div>
+            </div>
+            <div
+              class="day"
+              id="1"
+              style="width: 40px;"
+            >
+              <div
+                class="date"
+              >
+                <span>
+                  Th
+                </span>
+                <span>
+                  26
+                </span>
+              </div>
+              <div
+                class="relative"
+              >
+                -6
+              </div>
+            </div>
+          </div>,
+        ],
+      ],
+    }
+  }
+  timelineVisibleDays={5}
+>
+  <div
+    className="pt-dates"
+  >
+    <div
+      className="day"
+      id={0}
+      key="-7"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "width": "40px",
+        }
+      }
+    >
+      <div
+        className="date"
+      >
+        <span>
+          We
+        </span>
+        <span>
+          25
+        </span>
+      </div>
+      <div
+        className="relative"
+      >
+        -7
+      </div>
+    </div>
+    <div
+      className="day"
+      id={1}
+      key="-6"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "width": "40px",
+        }
+      }
+    >
+      <div
+        className="date"
+      >
+        <span>
+          Th
+        </span>
+        <span>
+          26
+        </span>
+      </div>
+      <div
+        className="relative"
+      >
+        -6
+      </div>
+    </div>
+  </div>
+</TimelineDays>
+`;

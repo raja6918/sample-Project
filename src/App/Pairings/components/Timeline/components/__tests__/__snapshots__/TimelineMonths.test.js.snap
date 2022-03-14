@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimelineMonths Component renders 1`] = `
+<TimelineMonths
+  calendarData={
+    Array [
+      Object {
+        "days": Array [
+          Object {
+            "dayIndex": 0,
+            "dayName": "Wednesday",
+            "dayNumber": "25",
+            "dayShortName": "We",
+            "isCarryIn": true,
+            "isCarryOut": false,
+            "isDayAfterPeriodEnd": false,
+            "isFirstDayOfMonth": false,
+            "isPeriodEnd": false,
+            "isPeriodStart": false,
+            "isWeekend": false,
+            "relativeDay": -7,
+          },
+          Object {
+            "dayIndex": 1,
+            "dayName": "Thursday",
+            "dayNumber": "26",
+            "dayShortName": "Th",
+            "isCarryIn": true,
+            "isCarryOut": false,
+            "isDayAfterPeriodEnd": false,
+            "isFirstDayOfMonth": false,
+            "isPeriodEnd": false,
+            "isPeriodStart": false,
+            "isWeekend": false,
+            "relativeDay": -6,
+          },
+        ],
+        "daysCount": 7,
+        "monthName": "September",
+        "monthNumber": "8",
+        "year": "2018",
+      },
+    ]
+  }
+  columnWidthInPx={40}
+  initialColumnWidthInPx={40}
+  isZoomed={true}
+  monthSelectionRef={[MockFunction]}
+  onZoomSelection={[MockFunction]}
+  outerWidth={40}
+  startDay={10}
+  t={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "PAIRINGS.zoomError",
+          Object {
+            "maxDays": 70,
+          },
+        ],
+      ],
+    }
+  }
+  timelineVisibleDays={5}
+  totalTimelineDurationDays={10}
+>
+  <div
+    style={
+      Object {
+        "left": "0px",
+        "position": "absolute",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Tooltip))
+      disableFocusListener={true}
+      disableHoverListener={true}
+      disableTouchListener={true}
+      open={false}
+      placement="top"
+      title=" , "
+    >
+      <ForwardRef(Tooltip)
+        classes={
+          Object {
+            "arrow": "MuiTooltip-arrow",
+            "popper": "MuiTooltip-popper",
+            "popperArrow": "MuiTooltip-popperArrow",
+            "popperInteractive": "MuiTooltip-popperInteractive",
+            "tooltip": "MuiTooltip-tooltip",
+            "tooltipArrow": "MuiTooltip-tooltipArrow",
+            "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+            "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+            "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+            "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+            "touch": "MuiTooltip-touch",
+          }
+        }
+        disableFocusListener={true}
+        disableHoverListener={true}
+        disableTouchListener={true}
+        open={false}
+        placement="top"
+        title=" , "
+      >
+        <span
+          aria-describedby={null}
+          className=""
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+          title={null}
+        />
+        <ForwardRef(Popper)
+          anchorEl={
+            <span
+              class=""
+              style="display: block;"
+            />
+          }
+          className="MuiTooltip-popper"
+          id={null}
+          open={false}
+          placement="top"
+          popperOptions={
+            Object {
+              "modifiers": Object {
+                "arrow": Object {
+                  "element": null,
+                  "enabled": false,
+                },
+              },
+            }
+          }
+          transition={true}
+        />
+      </ForwardRef(Tooltip)>
+    </WithStyles(ForwardRef(Tooltip))>
+  </div>
+  <div
+    className="pt-months"
+    style={
+      Object {
+        "width": 40,
+      }
+    }
+  >
+    <div
+      className="month-holder"
+      key="2018-8"
+    >
+      <div
+        className="month-title"
+      >
+        September 2018
+      </div>
+      <div
+        className="container-month-day"
+      >
+        <WithStyles(ForwardRef(Tooltip))
+          key="tooltip_25"
+          placement="top"
+          title="September 25, 2018"
+        >
+          <ForwardRef(Tooltip)
+            classes={
+              Object {
+                "arrow": "MuiTooltip-arrow",
+                "popper": "MuiTooltip-popper",
+                "popperArrow": "MuiTooltip-popperArrow",
+                "popperInteractive": "MuiTooltip-popperInteractive",
+                "tooltip": "MuiTooltip-tooltip",
+                "tooltipArrow": "MuiTooltip-tooltipArrow",
+                "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                "touch": "MuiTooltip-touch",
+              }
+            }
+            placement="top"
+            title="September 25, 2018"
+          >
+            <div
+              aria-describedby={null}
+              className="month-day"
+              data-key={0}
+              key="25"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "width": 40,
+                }
+              }
+              title="September 25, 2018"
+            />
+            <ForwardRef(Popper)
+              anchorEl={
+                <div
+                  class="month-day"
+                  data-key="0"
+                  style="width: 40px;"
+                  title="September 25, 2018"
+                />
+              }
+              className="MuiTooltip-popper"
+              id={null}
+              open={false}
+              placement="top"
+              popperOptions={
+                Object {
+                  "modifiers": Object {
+                    "arrow": Object {
+                      "element": null,
+                      "enabled": false,
+                    },
+                  },
+                }
+              }
+              transition={true}
+            />
+          </ForwardRef(Tooltip)>
+        </WithStyles(ForwardRef(Tooltip))>
+        <WithStyles(ForwardRef(Tooltip))
+          key="tooltip_26"
+          placement="top"
+          title="September 26, 2018"
+        >
+          <ForwardRef(Tooltip)
+            classes={
+              Object {
+                "arrow": "MuiTooltip-arrow",
+                "popper": "MuiTooltip-popper",
+                "popperArrow": "MuiTooltip-popperArrow",
+                "popperInteractive": "MuiTooltip-popperInteractive",
+                "tooltip": "MuiTooltip-tooltip",
+                "tooltipArrow": "MuiTooltip-tooltipArrow",
+                "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                "touch": "MuiTooltip-touch",
+              }
+            }
+            placement="top"
+            title="September 26, 2018"
+          >
+            <div
+              aria-describedby={null}
+              className="month-day"
+              data-key={1}
+              key="26"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "width": 40,
+                }
+              }
+              title="September 26, 2018"
+            />
+            <ForwardRef(Popper)
+              anchorEl={
+                <div
+                  class="month-day"
+                  data-key="1"
+                  style="width: 40px;"
+                  title="September 26, 2018"
+                />
+              }
+              className="MuiTooltip-popper"
+              id={null}
+              open={false}
+              placement="top"
+              popperOptions={
+                Object {
+                  "modifiers": Object {
+                    "arrow": Object {
+                      "element": null,
+                      "enabled": false,
+                    },
+                  },
+                }
+              }
+              transition={true}
+            />
+          </ForwardRef(Tooltip)>
+        </WithStyles(ForwardRef(Tooltip))>
+      </div>
+    </div>
+  </div>
+</TimelineMonths>
+`;

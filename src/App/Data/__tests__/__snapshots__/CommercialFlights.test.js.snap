@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommercialFlights component render correct 1`] = `
+<Fragment>
+  <withDeleteHandler
+    clearErrorNotification={[Function]}
+    inlineError={null}
+    reportError={[Function]}
+    t={[MockFunction]}
+  />
+</Fragment>
+`;

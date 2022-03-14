@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateCard Render 1`] = `
+<Connect(TemplateCard)
+  t={[MockFunction]}
+  template={
+    Object {
+      "category": "Pairing",
+      "createdBy": "AD OPT",
+      "id": "6",
+      "lastModified": "2018-05-21T08:30:00.586Z",
+      "name": "Blank",
+      "status": "FREE",
+    }
+  }
+/>
+`;

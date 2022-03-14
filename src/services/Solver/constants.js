@@ -1,0 +1,10 @@
+export const SOLVER_ENDPOINT = '/data/solver-requests';
+export const JOB_STATUS_ENDPOINT = '/data/solver-jobs/get';
+export const SOLVER_JOB_ENDPOINT = '/data/solver-jobs';
+export const SOLVER_TASKS_ENDPOINT = '/data/solver-tasks';
+export const SOLVER_RECIPES_ENDPOINT = '/data/solver-recipes';
+export const RULESETS_ENDPOINT = '/data/rulesets';
+export const CREW_GROUPS_ENDPOINT = '/data/crew-groups';
+export const SOLVER_SCOPES_ENDPOINT = '/data/solver-scopes';
+export const SOLVER_KPI_ENDPOINT = `${SOLVER_JOB_ENDPOINT}/solverkpis`;
+export const SOLVER_FAVOURITE_ENDPOINT = '/data/solver-requests/favourite';

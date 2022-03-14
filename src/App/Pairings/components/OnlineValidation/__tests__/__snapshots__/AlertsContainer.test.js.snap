@@ -1,0 +1,398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test AlertsContainer Component AlertsContainer Component renders correctly 1`] = `
+<Dialog
+  backButton="Back"
+  cancelButton="Cancel"
+  className=""
+  enableBack={false}
+  formId="alertDialog"
+  fullWidth={true}
+  handleBack={[Function]}
+  handleCancel={[Function]}
+  maxWidth="sm"
+  onClose={[Function]}
+  onEntered={[Function]}
+  open={true}
+  overlayComponent={null}
+  title="undefined Test"
+>
+  <PairingBar
+    alertSelected={null}
+    pairing={
+      Object {
+        "alerts": Object {
+          "cautionAlerts": Array [
+            Object {
+              "contextEndDateTime": "2019-07-08T20:35",
+              "contextStartDateTime": "2019-07-08T19:45",
+              "leg": Object {
+                "arrivalStationCode": "YYR",
+                "departureStationCode": "YYT",
+                "flightNumber": 8885,
+                "startDate": "2019-07-08",
+              },
+              "message": "Should be maximum of 3 but currently is 5",
+              "rule": Object {
+                "code": "leg-nb-max",
+                "name": "Consecutive Flight Duty Periods",
+              },
+              "tag": "at",
+            },
+          ],
+          "errorAlerts": Array [
+            Object {
+              "contextEndDateTime": "2019-07-08T20:35",
+              "contextStartDateTime": "2019-07-08T19:45",
+              "leg": Object {
+                "arrivalStationCode": "YYT",
+                "departureStationCode": "YHZ",
+                "flightNumber": 8992,
+                "startDate": "2019-07-08",
+              },
+              "message": "Invalid flight reference",
+              "rule": null,
+              "tag": "at",
+            },
+            Object {
+              "contextEndDateTime": "2019-07-08T20:35",
+              "contextStartDateTime": "2019-07-08T19:45",
+              "leg": Object {
+                "arrivalStationCode": "YHZ",
+                "departureStationCode": "YYR",
+                "flightNumber": 8899,
+                "startDate": "2019-07-08",
+              },
+              "message": "Mismatched arrival and departure stations between flights.",
+              "rule": null,
+              "tag": "at",
+            },
+          ],
+          "infoAlerts": Array [
+            Object {
+              "contextEndDateTime": "2019-07-08T20:35",
+              "contextStartDateTime": "2019-07-08T19:45",
+              "leg": Object {
+                "arrivalStationCode": "YYR",
+                "departureStationCode": "YYT",
+                "flightNumber": 8634,
+                "startDate": "2019-07-08",
+              },
+              "message": "Should be maximum of 3 but currently is 5",
+              "rule": Object {
+                "code": "leg-nb-max",
+                "name": "Consecutive Flight Duty Periods",
+              },
+              "tag": "at",
+            },
+          ],
+          "warningAlerts": Array [
+            Object {
+              "contextEndDateTime": "2019-07-08T20:35",
+              "contextStartDateTime": "2019-07-08T19:45",
+              "leg": Object {
+                "arrivalStationCode": "YYR",
+                "departureStationCode": "YYT",
+                "flightNumber": 8829,
+                "startDate": "2019-07-08",
+              },
+              "message": "duty credit exceeded",
+              "rule": Object {
+                "code": "duty-credit",
+                "name": "Duty credit",
+              },
+              "tag": "at",
+            },
+          ],
+        },
+        "name": "Test",
+      }
+    }
+  />
+  <AlertsContainer__AlertListContainer>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <Connect(AlertList)
+        alertType="error"
+        alerts={
+          Array [
+            Object {
+              "contextEndDateTime": "2019-07-08T20:35",
+              "contextStartDateTime": "2019-07-08T19:45",
+              "leg": Object {
+                "arrivalStationCode": "YYT",
+                "departureStationCode": "YHZ",
+                "flightNumber": 8992,
+                "startDate": "2019-07-08",
+              },
+              "message": "Invalid flight reference",
+              "rule": null,
+              "tag": "at",
+            },
+            Object {
+              "contextEndDateTime": "2019-07-08T20:35",
+              "contextStartDateTime": "2019-07-08T19:45",
+              "leg": Object {
+                "arrivalStationCode": "YHZ",
+                "departureStationCode": "YYR",
+                "flightNumber": 8899,
+                "startDate": "2019-07-08",
+              },
+              "message": "Mismatched arrival and departure stations between flights.",
+              "rule": null,
+              "tag": "at",
+            },
+          ]
+        }
+        onAlertClear={[Function]}
+        onAlertSelect={[Function]}
+        openRuleEditDialog={[Function]}
+        readOnly={null}
+        t={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                "PAIRINGS.alerts.DIALOG.showAlerts",
+              ],
+              Array [
+                "PAIRINGS.alerts.DIALOG.close",
+              ],
+              Array [
+                "PAIRINGS.alerts.DIALOG.back",
+              ],
+              Array [
+                "PAIRINGS.alerts.loader",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+      />
+      <Connect(AlertList)
+        alertType="warning"
+        alerts={
+          Array [
+            Object {
+              "contextEndDateTime": "2019-07-08T20:35",
+              "contextStartDateTime": "2019-07-08T19:45",
+              "leg": Object {
+                "arrivalStationCode": "YYR",
+                "departureStationCode": "YYT",
+                "flightNumber": 8829,
+                "startDate": "2019-07-08",
+              },
+              "message": "duty credit exceeded",
+              "rule": Object {
+                "code": "duty-credit",
+                "name": "Duty credit",
+              },
+              "tag": "at",
+            },
+          ]
+        }
+        onAlertClear={[Function]}
+        onAlertSelect={[Function]}
+        openRuleEditDialog={[Function]}
+        readOnly={null}
+        t={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                "PAIRINGS.alerts.DIALOG.showAlerts",
+              ],
+              Array [
+                "PAIRINGS.alerts.DIALOG.close",
+              ],
+              Array [
+                "PAIRINGS.alerts.DIALOG.back",
+              ],
+              Array [
+                "PAIRINGS.alerts.loader",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+      />
+      <Connect(AlertList)
+        alertType="caution"
+        alerts={
+          Array [
+            Object {
+              "contextEndDateTime": "2019-07-08T20:35",
+              "contextStartDateTime": "2019-07-08T19:45",
+              "leg": Object {
+                "arrivalStationCode": "YYR",
+                "departureStationCode": "YYT",
+                "flightNumber": 8885,
+                "startDate": "2019-07-08",
+              },
+              "message": "Should be maximum of 3 but currently is 5",
+              "rule": Object {
+                "code": "leg-nb-max",
+                "name": "Consecutive Flight Duty Periods",
+              },
+              "tag": "at",
+            },
+          ]
+        }
+        onAlertClear={[Function]}
+        onAlertSelect={[Function]}
+        openRuleEditDialog={[Function]}
+        readOnly={null}
+        t={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                "PAIRINGS.alerts.DIALOG.showAlerts",
+              ],
+              Array [
+                "PAIRINGS.alerts.DIALOG.close",
+              ],
+              Array [
+                "PAIRINGS.alerts.DIALOG.back",
+              ],
+              Array [
+                "PAIRINGS.alerts.loader",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+      />
+      <Connect(AlertList)
+        alertType="info"
+        alerts={
+          Array [
+            Object {
+              "contextEndDateTime": "2019-07-08T20:35",
+              "contextStartDateTime": "2019-07-08T19:45",
+              "leg": Object {
+                "arrivalStationCode": "YYR",
+                "departureStationCode": "YYT",
+                "flightNumber": 8634,
+                "startDate": "2019-07-08",
+              },
+              "message": "Should be maximum of 3 but currently is 5",
+              "rule": Object {
+                "code": "leg-nb-max",
+                "name": "Consecutive Flight Duty Periods",
+              },
+              "tag": "at",
+            },
+          ]
+        }
+        onAlertClear={[Function]}
+        onAlertSelect={[Function]}
+        openRuleEditDialog={[Function]}
+        readOnly={null}
+        t={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                "PAIRINGS.alerts.DIALOG.showAlerts",
+              ],
+              Array [
+                "PAIRINGS.alerts.DIALOG.close",
+              ],
+              Array [
+                "PAIRINGS.alerts.DIALOG.back",
+              ],
+              Array [
+                "PAIRINGS.alerts.loader",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+      />
+    </ScrollBar>
+  </AlertsContainer__AlertListContainer>
+  <ModalLoader
+    background=""
+    color="white"
+    loaderRequired={true}
+    onClose={[Function]}
+    open={false}
+    subtitle=""
+    title=""
+  />
+</Dialog>
+`;

@@ -1,0 +1,18 @@
+.MuiTableRow {
+  cursor: pointer;
+}
+.MuiTableRow.hover:hover {
+  background-color: #e8f4fc !important;
+}
+.MuiTableRow.selected {
+  background-color: #bae1fc;
+}
+.MuiTableRow td:last-child {
+  padding-right: 40px;
+}
+.MuiTableRow.highlight {
+  background-color: #5098e7 !important;
+}
+.scrollbar-container > .MuiTableBody-root {
+  overflow: unset;
+}

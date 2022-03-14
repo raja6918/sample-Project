@@ -1,0 +1,400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component Home component renders correct 1`] = `
+<ScrollBar
+  className=""
+  component="div"
+  containerRef={[Function]}
+  option={
+    Object {
+      "swipeEasing": true,
+      "wheelSpeed": 0.4,
+    }
+  }
+>
+  <Home__MainContainer>
+    <Home__Header>
+      <h2 />
+      <Connect(AccessEnabler)
+        disableComponent={true}
+        render={[Function]}
+        scopes={
+          Array [
+            "scenario_manage",
+            "sc_manage",
+          ]
+        }
+      />
+      <Connect(AccessEnabler)
+        disableComponent={true}
+        render={[Function]}
+        scopes={
+          Array [
+            "import_action",
+          ]
+        }
+      />
+    </Home__Header>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <Home__CardsContainer
+        editMode={false}
+        importInProgress={null}
+        innerRef={[Function]}
+      >
+        <div />
+      </Home__CardsContainer>
+    </ScrollBar>
+    <ImportDialog
+      bins={Array []}
+      closeDialog={[Function]}
+      connectToBin={[Function]}
+      createNewBin={[Function]}
+      formId="importForm"
+      handleImport={[Function]}
+      open={false}
+      scenarioBinId={null}
+      showNotification={[Function]}
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "SCENARIOS.viewOnly.viewOnlyText",
+            ],
+            Array [
+              "DATA.dataHome",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+            Array [
+              "DATA.import.stopDialogText",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      toggleLoader={[Function]}
+    />
+    <VersionsDialog
+      closeDialog={[Function]}
+      dataName=""
+      formId="versionsForm"
+      handleOk={[Function]}
+      open={false}
+      scenarioBinId={null}
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "SCENARIOS.viewOnly.viewOnlyText",
+            ],
+            Array [
+              "DATA.dataHome",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+            Array [
+              "DATA.import.stopDialogText",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      versions={Array []}
+    />
+    <NewDataDialog
+      closeDialog={[Function]}
+      dataFiles={Array []}
+      dataName=""
+      formId="newDataForm"
+      handleOk={[Function]}
+      isConnectedToBin={false}
+      open={false}
+      scenarioBinId={null}
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "SCENARIOS.viewOnly.viewOnlyText",
+            ],
+            Array [
+              "DATA.dataHome",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+            Array [
+              "DATA.import.stopDialogText",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    />
+    <DataConversionDialog
+      closeDialog={[Function]}
+      conversionWarnings={Object {}}
+      formId="DataConversionForm"
+      handleOk={[Function]}
+      open={false}
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "SCENARIOS.viewOnly.viewOnlyText",
+            ],
+            Array [
+              "DATA.dataHome",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+            Array [
+              "DATA.import.stopDialogText",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    />
+    <StopDialog
+      formId="DataConversionForm"
+      handleClose={[Function]}
+      handleOk={[Function]}
+      open={false}
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "SCENARIOS.viewOnly.viewOnlyText",
+            ],
+            Array [
+              "DATA.dataHome",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+            Array [
+              "DATA.import.stopDialogText",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      texts={
+        Object {
+          "content": undefined,
+          "okButton": undefined,
+          "title": undefined,
+        }
+      }
+    />
+    <ImportErrorDialog
+      closeDialog={[Function]}
+      closeOnly={true}
+      conversionErrors={Array []}
+      formId="ImportErrorForm"
+      isInternalError={false}
+      open={false}
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "SCENARIOS.viewOnly.viewOnlyText",
+            ],
+            Array [
+              "DATA.dataHome",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+            Array [
+              "DATA.import.stopDialogText",
+            ],
+            Array [
+              "DATA.import.stopDialogTitle",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    />
+    <ModalLoader
+      background=""
+      color="white"
+      loaderRequired={true}
+      onClose={[Function]}
+      open={false}
+      subtitle=""
+      title=""
+    />
+    <Notification
+      autoHideDuration={5000}
+      bottomheight={0}
+      buttonText=""
+      clear={[Function]}
+      displayCloseButton={false}
+      message={null}
+      onLinkAction={[Function]}
+      renderers={
+        Object {
+          "paragraph": "span",
+        }
+      }
+      type=""
+    />
+  </Home__MainContainer>
+</ScrollBar>
+`;

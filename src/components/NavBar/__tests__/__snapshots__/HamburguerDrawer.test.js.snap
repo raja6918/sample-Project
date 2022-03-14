@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HamburguerDrawer component reders correct 1`] = `
+<Fragment>
+  <HamburgerDrawer__HamburgerBTN
+    aria-label="Menu"
+    className="tm-hamburger__menu-btn"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <Memo([object Object]) />
+  </HamburgerDrawer__HamburgerBTN>
+  <HamburgerDrawer__DrawerUI
+    onClose={[Function]}
+    open={false}
+  >
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <HamburgerDrawer__DrawerContent
+        className="hamburger-scroll"
+        role="button"
+        tabIndex={0}
+      >
+        <HamburgerDrawer__ProfileContent>
+          <div
+            className="profile-content"
+          >
+            <HamburgerDrawer__CloseChevron
+              onClick={[Function]}
+            >
+              <Icon
+                iconcolor="#fff"
+              >
+                chevron_left
+              </Icon>
+            </HamburgerDrawer__CloseChevron>
+          </div>
+          <div
+            className="heading1"
+          >
+            MAIN MENU
+          </div>
+          <HamburgerDrawer__List
+            component="nav"
+          >
+            <Connect(AccessEnabler)
+              render={[Function]}
+              scopes={
+                Array [
+                  "dashboard_view",
+                  "dashboard_manage",
+                ]
+              }
+            />
+            <Connect(AccessEnabler)
+              render={[Function]}
+              scopes={
+                Array [
+                  "scenario_view",
+                  "scenario_manage",
+                  "sc_v",
+                ]
+              }
+            />
+            <Connect(AccessEnabler)
+              render={[Function]}
+              scopes={
+                Array [
+                  "template_view",
+                  "template_manage",
+                  "tm_v",
+                ]
+              }
+            />
+          </HamburgerDrawer__List>
+          <Connect(AccessEnabler)
+            render={[Function]}
+            scopes={
+              Array [
+                "users_manage",
+              ]
+            }
+          />
+        </HamburgerDrawer__ProfileContent>
+      </HamburgerDrawer__DrawerContent>
+    </ScrollBar>
+  </HamburgerDrawer__DrawerUI>
+</Fragment>
+`;

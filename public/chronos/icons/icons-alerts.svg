@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="348px" height="48px" viewBox="0 0 348 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sprites</title>
+    <g id="Sprites" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="_icons/alert/infraction" transform="translate(100.000000, 0.000000)">
+            <path d="M24,0 C10.752,0 0,10.752 0,24 C0,37.248 10.752,48 24,48 C37.248,48 48,37.248 48,24 C48,10.752 37.248,0 24,0 Z" id="Path-Copy-4" fill="#FF650C" fill-rule="nonzero"></path>
+            <circle id="Oval-Copy-11" stroke="#FFFFFF" stroke-width="4" cx="24" cy="24" r="16.4"></circle>
+            <line x1="14" y1="22" x2="34" y2="26" id="Line-4-Copy-2" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square" transform="translate(24.000000, 24.000000) rotate(33.690068) translate(-24.000000, -24.000000) "></line>
+        </g>
+        <g id="_icons/alert/info" transform="translate(300.000000, 0.000000)">
+            <path d="M24,0 C10.752,0 0,10.752 0,24 C0,37.248 10.752,48 24,48 C37.248,48 48,37.248 48,24 C48,10.752 37.248,0 24,0 Z" id="Path" fill="#5098E7"></path>
+            <circle id="Oval-Copy-11" stroke="#FFFFFF" stroke-width="4" cx="24" cy="24" r="16.4"></circle>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" transform="translate(24.000000, 16.000000) rotate(-180.000000) translate(-24.000000, -16.000000) " points="26.4 18.4 21.6 18.4 21.6 13.6 26.4 13.6"></polygon>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" transform="translate(24.000000, 28.800000) rotate(-180.000000) translate(-24.000000, -28.800000) " points="26.4 34.4 21.6 34.4 21.6 23.2 26.4 23.2"></polygon>
+        </g>
+        <g id="_icons/alert/error">
+            <path d="M24,0 C10.752,0 0,10.752 0,24 C0,37.248 10.752,48 24,48 C37.248,48 48,37.248 48,24 C48,10.752 37.248,0 24,0 Z" id="Path-Copy-4" fill="#D10000" fill-rule="nonzero"></path>
+            <circle id="Oval-Copy-11" stroke="#FFFFFF" stroke-width="4" cx="24" cy="24" r="16.4"></circle>
+            <line x1="14" y1="22" x2="34" y2="26" id="Line-4-Copy-2" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square" transform="translate(24.000000, 24.000000) rotate(33.690068) translate(-24.000000, -24.000000) "></line>
+            <line x1="14" y1="22" x2="34" y2="26" id="Line-4-Copy-2" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square" transform="translate(24.000000, 24.000000) scale(-1, 1) rotate(33.690068) translate(-24.000000, -24.000000) "></line>
+        </g>
+        <g id="_icons/alert/caution" transform="translate(200.000000, 0.000000)">
+            <path d="M24,0 C10.752,0 0,10.752 0,24 C0,37.248 10.752,48 24,48 C37.248,48 48,37.248 48,24 C48,10.752 37.248,0 24,0 Z" id="Path-Copy-5" fill="#E8BB00"></path>
+            <circle id="Oval-Copy-11" stroke="#FFFFFF" stroke-width="4" cx="24" cy="24" r="16.4"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimelineRows Component renders 1`] = `
+<TimelineRows
+  rows={
+    Array [
+      Object {},
+      Object {},
+      Object {},
+      Object {},
+      Object {},
+      Object {},
+    ]
+  }
+  rowsContainerRef={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          <div
+            class="pt-horizontal-lines"
+          >
+            <div
+              class="pt-hl"
+              style="height: 40px;"
+            />
+            <div
+              class="pt-hl"
+              style="height: 40px;"
+            />
+            <div
+              class="pt-hl"
+              style="height: 40px;"
+            />
+            <div
+              class="pt-hl"
+              style="height: 40px;"
+            />
+            <div
+              class="pt-hl"
+              style="height: 40px;"
+            />
+            <div
+              class="pt-hl"
+              style="height: 40px;"
+            />
+          </div>,
+        ],
+      ],
+    }
+  }
+>
+  <div
+    className="pt-horizontal-lines"
+  >
+    <div
+      className="pt-hl"
+      key="0"
+      style={
+        Object {
+          "height": 40,
+        }
+      }
+    />
+    <div
+      className="pt-hl"
+      key="1"
+      style={
+        Object {
+          "height": 40,
+        }
+      }
+    />
+    <div
+      className="pt-hl"
+      key="2"
+      style={
+        Object {
+          "height": 40,
+        }
+      }
+    />
+    <div
+      className="pt-hl"
+      key="3"
+      style={
+        Object {
+          "height": 40,
+        }
+      }
+    />
+    <div
+      className="pt-hl"
+      key="4"
+      style={
+        Object {
+          "height": 40,
+        }
+      }
+    />
+    <div
+      className="pt-hl"
+      key="5"
+      style={
+        Object {
+          "height": 40,
+        }
+      }
+    />
+  </div>
+</TimelineRows>
+`;

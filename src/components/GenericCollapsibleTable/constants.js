@@ -1,0 +1,2 @@
+export const DEFAULT_FIXED_COLUMNS = 2;
+export const MIN_DISTANCE_TO_BOTTOM = 300;

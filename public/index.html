@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <!--
+      <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/chronos/css/jquery.contextMenu.css" type="text/css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/chronos/css/gantt/gantt.common.css?v=1" type="text/css">
+    <!-- <link rel="stylesheet" href="%PUBLIC_URL%/chronos/css/bootstrap-glyphicons.css"> -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/roboto.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/lato.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/materialicon.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/style.css">
+
+    <noscript id="jss-insertion-point"></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-W782WVP');</script>
+
+    <title>Sierra</title>
+  </head>
+  <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W782WVP"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <div id="notification-area"></div>
+    <script type="text/javascript" src="%PUBLIC_URL%/app-config.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/atmosphere.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/rtns.js"></script>
+
+    <script>
+      window.base_url = "/chronos";
+      window.chronosWorkerPath = "";
+      window.workerPath = "/workers"
+      window.mtResourceUrl = "/chronos";
+      window.imagePath = "/chronos/icons";
+      window.ganttLayoutComplete = {W1: true};
+      window.iFlight_Module_Name = "OPS";
+      window.dataLayer= window.dataLayer || []
+    </script>
+
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/jquery.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/date.min.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/jquery.longpress.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/jquery.contextMenu.js"></script>
+
+    <!--  Chronos dependencies -->
+
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/jquery.event.drag-2.2.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/jquery.ba-resize.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/jquery.colorhelpers.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.core.js?v=1"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.workerlink.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.navigate.js?v=1"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.jquery.resize.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.scrollbar.js?v=1"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.resize.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.util.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.date.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.multiScreen.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.webStorage.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.wrapRows.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.scrollLink.js"></script>
+    <!-- <script type="text/javascript" src="%PUBLIC_URL%/chronos/chronos.timezone.data.js"></script> -->
+
+
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/webcomponents-bundle.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/chronos/custom-elements-es5-adapter.js"></script>
+    <!-- <script type="text/javascript" src="%PUBLIC_URL%/chronos/hidpi-canvas.js"></script> -->
+  </body>
+</html>

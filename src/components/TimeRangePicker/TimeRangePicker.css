@@ -1,0 +1,83 @@
+.mui-ctrp-container {
+  min-height: 64px;
+}
+.mui-ctrp-middle,
+.mui-ctrp-left,
+.mui-ctrp-right {
+  background-color: #0a75c2;
+  text-align: center;
+  color: #fff;
+}
+.mui-ctrp-rightchevron,
+.mui-ctrp-leftchevron {
+  min-height: 5em;
+  min-width: 2em;
+  cursor: pointer;
+}
+.hourLabel,
+.minLabel,
+.hourminseperator {
+  font-size: 3.95rem;
+  font-weight: 400;
+  margin-top: -6px;
+  line-height: 7rem;
+}
+.hourminseperator {
+  cursor: default;
+  margin: 0 4px 0 2px;
+}
+.mui-ctrp-middletitle {
+  padding-top: 5px;
+}
+
+.hourLabel:hover,
+.minLabel:hover {
+  background: rgb(0 0 0 / 6%);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.mui-ctrp-dialogcontent {
+  min-width: 275px;
+  min-height: 305px;
+}
+.mui-ctrp-dialog > .MuiPickersClock-pin,
+.MuiPickersClockPointer-pointer {
+  background-color: #0a75c2 !important;
+}
+.mui-ctrp-dialog > .MuiPickersClockPointer-thumb {
+  border-color: #0a75c2 !important;
+}
+
+.mui-ctrp-dialog {
+  min-height: 458px;
+}
+
+.mui-ctrp-selected {
+  color: rgba(255, 255, 255, 0.54);
+}
+.mui-ctrp-buttons span {
+  color: #0a75c2 !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+.mui-ctrp-middlehourmin {
+  margin-top: -9px;
+}
+
+.mui-ctrp-text svg {
+  font-size: 0.9rem;
+}
+.mui-ctrp-text {
+  cursor: pointer;
+}
+.mui-ctrp-text > input {
+  text-overflow: ellipsis;
+}
+
+.mui-ctrp-clock {
+  color: #0a75c2;
+}
+
+.mui-ctrp-hide {
+  display: none !important;
+}

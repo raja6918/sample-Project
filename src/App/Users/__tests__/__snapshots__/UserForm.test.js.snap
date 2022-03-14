@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserForm Component renders 1`] = `
+<Form
+  anchor="right"
+  cancelButton="Cancel"
+  enableReadOnly={false}
+  formId="userForm"
+  handleCancel={[MockFunction]}
+  handleOk={[Function]}
+  handleSubmit={[Function]}
+  isDisabled={true}
+  okButton="Ok"
+  onChange={[Function]}
+  onClose={[MockFunction]}
+  open={true}
+  restrictReadOnly={true}
+>
+  <FormHeader>
+    <span />
+    <span>
+       
+    </span>
+  </FormHeader>
+  <FormBody>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={6}
+            xs={12}
+          >
+            <UserForm__FormControl
+              error={false}
+            >
+              <UserForm__Input
+                className=""
+                defaultValue=""
+                id="firstName"
+                inputProps={
+                  Object {
+                    "maxLength": 50,
+                    "name": "firstName",
+                  }
+                }
+                margin="normal"
+                onChange={[Function]}
+                required={true}
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </UserForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={6}
+            xs={12}
+          >
+            <UserForm__FormControl
+              error={false}
+            >
+              <UserForm__Input
+                className=""
+                defaultValue=""
+                id="lastName"
+                inputProps={
+                  Object {
+                    "maxLength": 50,
+                    "name": "lastName",
+                  }
+                }
+                margin="normal"
+                onChange={[Function]}
+                required={true}
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </UserForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <UserForm__FormControl
+              error={false}
+            >
+              <UserForm__Input
+                className=""
+                defaultValue=""
+                disabled={null}
+                id="userName"
+                inputProps={
+                  Object {
+                    "maxLength": 25,
+                    "name": "userName",
+                  }
+                }
+                margin="normal"
+                onChange={[Function]}
+                required={true}
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </UserForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <UserForm__FormControl
+              error={false}
+            >
+              <UserForm__Input
+                className=""
+                defaultValue=""
+                id="email"
+                inputProps={
+                  Object {
+                    "maxLength": 100,
+                    "name": "email",
+                  }
+                }
+                margin="normal"
+                onChange={[Function]}
+                required={true}
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </UserForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <WithStyles(ForwardRef(Collapse))
+              in={true}
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                sm={12}
+                xs={12}
+              >
+                <UserForm__FormControl
+                  error={false}
+                >
+                  <UserForm__Input
+                    defaultValue=""
+                    id="password"
+                    inputProps={
+                      Object {
+                        "maxLength": 50,
+                        "name": "password",
+                        "type": "password",
+                      }
+                    }
+                    margin="normal"
+                    onChange={[Function]}
+                    required={true}
+                  />
+                  <PasswordValidator
+                    t={
+                      [MockFunction] {
+                        "calls": Array [
+                          Array [
+                            "DIALOG.ADD_USER.ok",
+                          ],
+                          Array [
+                            "DIALOG.ADD_USER.title",
+                          ],
+                          Array [
+                            "DIALOG.ADD_USER.firstName",
+                          ],
+                          Array [
+                            "ERRORS.USERS.firstName",
+                          ],
+                          Array [
+                            "DIALOG.ADD_USER.lastName",
+                          ],
+                          Array [
+                            "ERRORS.USERS.lastName",
+                          ],
+                          Array [
+                            "DIALOG.ADD_USER.userName",
+                          ],
+                          Array [
+                            "ERRORS.USERS.userName",
+                          ],
+                          Array [
+                            "DIALOG.ADD_USER.email",
+                          ],
+                          Array [
+                            "ERRORS.USERS.emailMalformed",
+                          ],
+                          Array [
+                            "DIALOG.ADD_USER.password",
+                          ],
+                          Array [
+                            "DIALOG.ADD_USER.passwordRe",
+                          ],
+                          Array [
+                            "ERRORS.USERS.passwordDoNotMatch",
+                          ],
+                          Array [
+                            "DIALOG.ADD_USER.role",
+                          ],
+                        ],
+                        "results": Array [
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                          Object {
+                            "type": "return",
+                            "value": undefined,
+                          },
+                        ],
+                      }
+                    }
+                    value=""
+                  />
+                </UserForm__FormControl>
+              </WithStyles(ForwardRef(Grid))>
+              <UserForm__GridMarginTop
+                item={true}
+                sm={12}
+                xs={12}
+              >
+                <UserForm__FormControl
+                  error={false}
+                >
+                  <UserForm__Input
+                    className=""
+                    defaultValue=""
+                    id="passwordRe"
+                    inputProps={
+                      Object {
+                        "maxLength": 50,
+                        "name": "passwordRe",
+                        "type": "password",
+                      }
+                    }
+                    margin="normal"
+                    onChange={[Function]}
+                    required={true}
+                  />
+                  <ErrorMessage
+                    error={true}
+                    isVisible={false}
+                    message=""
+                  />
+                </UserForm__FormControl>
+              </UserForm__GridMarginTop>
+            </WithStyles(ForwardRef(Collapse))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <UserForm__FormControl>
+              <ModelSelector
+                defaultValue=""
+                disabled={false}
+                handleChange={[Function]}
+                items={
+                  Array [
+                    "Admin",
+                    "Planner",
+                    "Reviewer",
+                  ]
+                }
+                label=""
+                menuitemlabel="roleName"
+                menukey="id"
+                name="roleId"
+                placeholder=""
+                required={true}
+                selected=""
+                setDefaultOption={false}
+              />
+            </UserForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </ScrollBar>
+  </FormBody>
+</Form>
+`;

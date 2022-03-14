@@ -1,0 +1,8 @@
+.ellipse-zoom-popper {
+    top: -6px !important;
+    & .MuiTooltip-tooltip {
+        padding: 8px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+}

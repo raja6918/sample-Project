@@ -1,0 +1,41 @@
+.read-only-form div[class*='MuiInput-underline'],
+.read-only-form div[class^='MuiInput-underline'],
+.read-only-form > div:nth-child(2) > div > div:first-child .material-icons,
+.read-only-form > div:nth-child(2) > div > div:first-child .draggable-list,
+.read-only-form .MuiFormLabel-root,
+.read-only-form .MuiGrid-root,
+.read-only-form .MuiSvgIcon-root {
+  color: rgba(0, 0, 0, 0.38) !important;
+}
+
+.read-only-form .custom-bar {
+  border: 1px solid rgba(0, 0, 0, 0.38) !important;
+  background-color: rgba(0, 0, 0, 0.38) !important;
+}
+
+.read-only-form .Cal__Day__selection {
+  background-color: rgba(0, 0, 0, 0.38) !important;
+}
+
+.read-only-form .Cal__Day__selected {
+  color: rgba(0, 0, 0, 0) !important;
+}
+
+.read-only-form .chip-container {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.read-only-form div[class*='MuiInput-underline']::before,
+.read-only-form div[class^='MuiInput-underline']::before,
+.read-only-form > div:nth-child(2) > div > div:first-child label + div::before {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.42);
+}
+
+.read-only-form .hide-btn {
+  display: none;
+}
+
+.read-only-form .MuiInputBase-input,
+.read-only-form .MuiInputAdornment-root {
+  cursor: default !important;
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem Component renders 1`] = `
+<MenuItem
+  disabled={false}
+  onClick={[MockFunction]}
+>
+  <Icon>
+    icon
+  </Icon>
+  <MenuText>
+    test text
+  </MenuText>
+</MenuItem>
+`;

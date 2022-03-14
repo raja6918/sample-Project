@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResetButton Component render correctly 1`] = `
+<SierraMuiTooltip
+  arrow={true}
+  classes={
+    Object {
+      "popper": "reset-zoom-popper",
+      "tooltip": "zoom-tooltip",
+    }
+  }
+  interactive={false}
+  placement="bottom"
+  title="Test Tooltip Content"
+>
+  <span>
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="reset icon"
+      disabled={false}
+      onClick={[Function]}
+      size="small"
+      style={
+        Object {
+          "pointerEvents": "auto",
+        }
+      }
+    >
+      <Memo([object Object])
+        color="primary"
+        fontSize="small"
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </span>
+</SierraMuiTooltip>
+`;
+
+exports[`ResetButton Component render correctly when it is disabled 1`] = `
+<SierraMuiTooltip
+  arrow={true}
+  classes={
+    Object {
+      "popper": "reset-zoom-popper",
+      "tooltip": "zoom-tooltip",
+    }
+  }
+  interactive={false}
+  placement="bottom"
+  title="Test Tooltip Content"
+>
+  <span>
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="reset icon"
+      disabled={true}
+      onClick={[Function]}
+      size="small"
+      style={
+        Object {
+          "pointerEvents": "auto",
+        }
+      }
+    >
+      <Memo([object Object])
+        color="disabled"
+        fontSize="small"
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </span>
+</SierraMuiTooltip>
+`;

@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Rule Description Component Description Component renders HyperLink correctly 1`] = `
+<ReactMarkdown
+  astPlugins={Array []}
+  escapeHtml={true}
+  parserOptions={Object {}}
+  plugins={Array []}
+  rawSourcePos={false}
+  renderers={
+    Object {
+      "link": [Function],
+      "paragraph": "span",
+    }
+  }
+  skipHtml={false}
+  sourcePos={false}
+  transformLinkUri={[Function]}
+/>
+`;
+
+exports[`Test Rule Description Component Description Component renders text correctly 1`] = `<Fragment />`;
+
+exports[`Test Rule Description Component GenericDateField Component render and work correctly 1`] = `
+<ReactMarkdown
+  astPlugins={Array []}
+  escapeHtml={true}
+  parserOptions={Object {}}
+  plugins={Array []}
+  rawSourcePos={false}
+  renderers={
+    Object {
+      "link": [Function],
+      "paragraph": "span",
+    }
+  }
+  skipHtml={false}
+  sourcePos={false}
+  transformLinkUri={[Function]}
+/>
+`;
+
+exports[`Test Rule Description Component GenericTextField Component render and work correctly 1`] = `
+<ReactMarkdown
+  astPlugins={Array []}
+  escapeHtml={true}
+  parserOptions={Object {}}
+  plugins={Array []}
+  rawSourcePos={false}
+  renderers={
+    Object {
+      "link": [Function],
+      "paragraph": "span",
+    }
+  }
+  skipHtml={false}
+  sourcePos={false}
+  transformLinkUri={[Function]}
+/>
+`;
+
+exports[`Test Rule Description Component GenericTimeField Component render and work correctly 1`] = `
+<ReactMarkdown
+  astPlugins={Array []}
+  escapeHtml={true}
+  parserOptions={Object {}}
+  plugins={Array []}
+  rawSourcePos={false}
+  renderers={
+    Object {
+      "link": [Function],
+      "paragraph": "span",
+    }
+  }
+  skipHtml={false}
+  sourcePos={false}
+  transformLinkUri={[Function]}
+/>
+`;
+
+exports[`Test Rule Description Component SelectInput Component render and work correctly 1`] = `
+<ReactMarkdown
+  astPlugins={Array []}
+  escapeHtml={true}
+  parserOptions={Object {}}
+  plugins={Array []}
+  rawSourcePos={false}
+  renderers={
+    Object {
+      "link": [Function],
+      "paragraph": "span",
+    }
+  }
+  skipHtml={false}
+  sourcePos={false}
+  transformLinkUri={[Function]}
+/>
+`;

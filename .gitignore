@@ -1,0 +1,59 @@
+.GCM
+.gcmprod*
+*~
+!_*
+*.class
+!LauncherBootstrap.class
+*.elc
+*.pyc
+*.bak
+*.log
+.nfs*
+.gitk-tmp.*
+.gitk
+classes/
+dist/
+target/
+drivers-lin/
+drivers-win/
+logs/
+bin/
+package/
+WEB-INF/lib/
+WEB-INF/classes/
+.settings/
+.tern-project
+AltitudeParamGenerated.jar
+*-tests/
+AdoptIvyRepository
+_build/
+.vscode/*
+.vs/*
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+.env.development
+public/app-config.js
+public/app-config.local.js
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#Java related files
+*.project
+*.classpath

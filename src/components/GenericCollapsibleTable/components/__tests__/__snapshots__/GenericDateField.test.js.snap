@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenericDateField Component render correctly 1`] = `
+<MuiPickersUtilsProvider
+  utils={[Function]}
+>
+  <span
+    className="date-time-pointer"
+  >
+     
+    <PickerWithState
+      InputProps={
+        Object {
+          "className": "",
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))>
+            <Icon
+              iconcolor="#ff650c"
+              margin="0"
+              size={18}
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "right": "2px",
+                  "top": "0px",
+                }
+              }
+            >
+              date_range
+            </Icon>
+          </WithStyles(ForwardRef(InputAdornment))>,
+        }
+      }
+      allowKeyboardControl={true}
+      className=""
+      disabled={false}
+      error={false}
+      format="dd/MM/yyyy"
+      invalidDateMessage="Invalid Date Format"
+      maxDate="2100-12-31"
+      maxDateMessage="Date should not be after maximal date"
+      minDate="2019-01-01"
+      minDateMessage="Date should not be before minimal date"
+      onChange={[Function]}
+      onOpen={[Function]}
+      openTo="date"
+      style={
+        Object {
+          "width": "55px",
+          "zIndex": 1,
+        }
+      }
+      value="2019-01-01"
+      views={
+        Array [
+          "year",
+          "date",
+        ]
+      }
+    />
+     
+  </span>
+</MuiPickersUtilsProvider>
+`;

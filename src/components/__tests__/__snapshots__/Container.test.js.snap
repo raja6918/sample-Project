@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container Component renders 1`] = `
+.c0 {
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin: 0 auto;
+}
+
+<Container>
+  <div
+    className="c0"
+  />
+</Container>
+`;
+
+exports[`Container Component renders 2`] = `
+.c0 {
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin: 70px auto;
+}
+
+<Container
+  margin="70px auto"
+>
+  <div
+    className="c0"
+  />
+</Container>
+`;
+
+exports[`Container Component renders 3`] = `
+.c0 {
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin: 10px 20px 30px 40px;
+}
+
+<Container
+  margin="10px 20px 30px 40px"
+>
+  <div
+    className="c0"
+  />
+</Container>
+`;
+
+exports[`Container Component renders 4`] = `
+.c0 {
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin: 1em;
+}
+
+<Container
+  margin="1em"
+>
+  <div
+    className="c0"
+  />
+</Container>
+`;

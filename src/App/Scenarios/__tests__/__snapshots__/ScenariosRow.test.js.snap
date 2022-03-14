@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuAction component renders correct 1`] = `
+<MenuItem
+  disabled={false}
+  onClick={[Function]}
+>
+  <Icon>
+    info
+  </Icon>
+  <MenuText>
+    Get Info
+  </MenuText>
+</MenuItem>
+`;

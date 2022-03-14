@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pairings Component renders 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ErrorHandler
+      crewGroups={
+        Array [
+          Object {
+            "id": 1,
+            "name": "320 pilots",
+            "ruleset": 1,
+          },
+        ]
+      }
+      date={
+        Object {
+          "endDate": "31-06-2020",
+          "startDate": "01-06-2020",
+        }
+      }
+      handleCrewGroupChange={[MockFunction]}
+      name="Pairings"
+      onAddClick={[MockFunction]}
+      onFilterClick={[MockFunction]}
+      onMoreClick={[MockFunction]}
+      openItemName="Test 0001"
+      ruleSets={
+        Array [
+          Object {
+            "id": 1,
+            "name": "base9-apply-bcd-10",
+          },
+        ]
+      }
+      t={[Function]}
+    />
+  </Router>
+</BrowserRouter>
+`;

@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Suite for Navbar NavBar component renders 1`] = `
+<NavBar__Root>
+  <WithStyles(ForwardRef(AppBar))
+    position="fixed"
+  >
+    <WithStyles(ForwardRef(Toolbar))>
+      <Component
+        t={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                "NAVBAR.menuProfile.signOut",
+              ],
+              Array [
+                "NAVBAR.menuProfile.signOut",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        userName="fName lName"
+      />
+      <NavBar__Title
+        color="inherit"
+        variant="title"
+      >
+        <Link
+          replace={false}
+          to="/"
+        >
+          SIERRA
+        </Link>
+      </NavBar__Title>
+      <NavBar__ContainerBTNs>
+        <div>
+          <NavBar__NotificationsBTN
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(Badge))
+              badgeContent={0}
+              color="secondary"
+            >
+              <WithStyles(ForwardRef(Icon))>
+                notifications
+              </WithStyles(ForwardRef(Icon))>
+            </WithStyles(ForwardRef(Badge))>
+          </NavBar__NotificationsBTN>
+          <NavBar__ProfileBTN
+            aria-haspopup="true"
+            aria-owns={null}
+            color="inherit"
+            onClick={[Function]}
+          >
+            <ProfileIcon
+              disabled={false}
+              firstName="Test"
+              lastName="Test"
+            />
+            <WithStyles(ForwardRef(Icon))>
+              arrow_drop_down
+            </WithStyles(ForwardRef(Icon))>
+          </NavBar__ProfileBTN>
+          <NavBar__MenuProfile
+            anchorEl={null}
+            anchorOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "bottom",
+              }
+            }
+            getContentAnchorEl={null}
+            id="menu-appbar"
+            onClose={[Function]}
+            open={false}
+            transformOrigin={
+              Object {
+                "horizontal": "right",
+                "vertical": "top",
+              }
+            }
+          >
+            <Profile
+              disabled={false}
+              firstName="Test"
+              lastName="Test"
+              userRole="Planner"
+            />
+            <WithStyles(ForwardRef(Divider)) />
+            <MenuItem__MenuItemLink
+              onClick={[Function]}
+            >
+              <NavBar__Link
+                onClick={[Function]}
+                to="/logout"
+              >
+                <MenuText
+                  style={
+                    Object {
+                      "fontWeight": 400,
+                      "opacity": 0.9,
+                    }
+                  }
+                  textColor="#333333"
+                />
+              </NavBar__Link>
+            </MenuItem__MenuItemLink>
+          </NavBar__MenuProfile>
+        </div>
+      </NavBar__ContainerBTNs>
+      <Connect(NotificationPane)
+        handleCancel={[Function]}
+        isOpen={false}
+        t={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                "NAVBAR.menuProfile.signOut",
+              ],
+              Array [
+                "NAVBAR.menuProfile.signOut",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+      />
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+</NavBar__Root>
+`;

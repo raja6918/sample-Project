@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CrewBaseForm Component renders correctly 1`] = `
+<Form
+  anchor="right"
+  cancelButton="Cancel"
+  editMode={false}
+  enableReadOnly={false}
+  formId=""
+  handleCancel={[MockFunction]}
+  handleOk={[MockFunction]}
+  handleSubmit={[Function]}
+  inlineError={null}
+  isDisabled={true}
+  isOpen={true}
+  okButton="Ok"
+  onChange={[Function]}
+  openItemId="102"
+  openItemName="My open item test"
+  updateBases={[MockFunction]}
+>
+  <FormHeader>
+    <span />
+    <span />
+  </FormHeader>
+  <FormBody>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <div>
+        <h2 />
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <CrewBasesForm__FormControl
+              error={false}
+              required={true}
+            >
+              <CrewBasesForm__Input
+                className=""
+                error={false}
+                inputProps={
+                  Object {
+                    "id": "baseCode",
+                    "maxLength": 3,
+                    "name": "baseCode",
+                    "placeholder": undefined,
+                    "title": undefined,
+                    "type": "text",
+                  }
+                }
+                onChange={[Function]}
+                required={true}
+                value=""
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </CrewBasesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <CrewBasesForm__FormControl
+              error={false}
+            >
+              <CrewBasesForm__Input
+                className=""
+                color="secondary"
+                defaultValue=""
+                error={false}
+                id="baseName"
+                inputProps={
+                  Object {
+                    "maxLength": 50,
+                    "name": "baseName",
+                  }
+                }
+                onChange={[Function]}
+                required={true}
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </CrewBasesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <CrewBasesForm__FormControl>
+              <AutoCompleteForm
+                disabled={false}
+                error={false}
+                errorMessage=""
+                id="countryCode"
+                name="countryCode"
+                onChange={[Function]}
+                required={false}
+                suggestions={Array []}
+                value={null}
+              />
+            </CrewBasesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <CrewBasesForm__FormControl
+              required={true}
+            >
+              <CrewBasesForm__StyledAutoComplete
+                ListboxComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "propTypes": Object {
+                      "children": [Function],
+                    },
+                    "render": [Function],
+                  }
+                }
+                disableCloseOnSelect={true}
+                getOptionLabel={[Function]}
+                getOptionSelected={[Function]}
+                id="stationCodes"
+                multiple={true}
+                name="stationCodes"
+                onChange={[Function]}
+                options={Array []}
+                renderInput={[Function]}
+                renderOption={[Function]}
+                value={Array []}
+              />
+            </CrewBasesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </ScrollBar>
+  </FormBody>
+</Form>
+`;
+
+exports[`Crewbase Form component render correct in readOnly mode 1`] = `
+<Form
+  anchor="right"
+  cancelButton="Cancel"
+  editMode={false}
+  enableReadOnly={false}
+  formId=""
+  handleCancel={[MockFunction]}
+  handleOk={[MockFunction]}
+  handleSubmit={[Function]}
+  inlineError={null}
+  isDisabled={false}
+  isOpen={true}
+  okButton="Ok"
+  onChange={[Function]}
+  openItemId="102"
+  openItemName="My open item test"
+  updateBases={[MockFunction]}
+>
+  <FormHeader>
+    <span />
+    <span />
+  </FormHeader>
+  <FormBody>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <div>
+        <h2 />
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <CrewBasesForm__FormControl
+              error={false}
+              required={true}
+            >
+              <CrewBasesForm__Input
+                className=""
+                disabled={true}
+                error={false}
+                inputProps={
+                  Object {
+                    "id": "baseCode",
+                    "maxLength": 3,
+                    "name": "baseCode",
+                    "placeholder": undefined,
+                    "title": undefined,
+                    "type": "text",
+                  }
+                }
+                onChange={[Function]}
+                required={true}
+                value=""
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </CrewBasesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <CrewBasesForm__FormControl
+              error={false}
+            >
+              <CrewBasesForm__Input
+                className=""
+                color="secondary"
+                defaultValue=""
+                disabled={true}
+                error={false}
+                id="baseName"
+                inputProps={
+                  Object {
+                    "maxLength": 50,
+                    "name": "baseName",
+                  }
+                }
+                onChange={[Function]}
+                required={true}
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </CrewBasesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <CrewBasesForm__FormControl>
+              <AutoCompleteForm
+                disabled={true}
+                error={false}
+                errorMessage=""
+                id="countryCode"
+                name="countryCode"
+                onChange={[Function]}
+                required={false}
+                suggestions={Array []}
+                value={null}
+              />
+            </CrewBasesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <CrewBasesForm__FormControl
+              required={true}
+            >
+              <CrewBasesForm__StyledAutoComplete
+                ListboxComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "propTypes": Object {
+                      "children": [Function],
+                    },
+                    "render": [Function],
+                  }
+                }
+                disableCloseOnSelect={true}
+                disabled={true}
+                getOptionLabel={[Function]}
+                getOptionSelected={[Function]}
+                id="stationCodes"
+                multiple={true}
+                name="stationCodes"
+                onChange={[Function]}
+                options={Array []}
+                renderInput={[Function]}
+                renderOption={[Function]}
+                value={Array []}
+              />
+            </CrewBasesForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </ScrollBar>
+  </FormBody>
+</Form>
+`;

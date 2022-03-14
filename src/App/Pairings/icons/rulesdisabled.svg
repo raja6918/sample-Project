@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>_icons/rules 24px</title>
+    <defs>
+        <polygon id="path-1" points="0 0 12.7678571 0 12.7678571 12.7678571 0 12.7678571"></polygon>
+    </defs>
+    <g id="_icons/rules-24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-19" transform="translate(2.000000, 2.000000)">
+            <g id="ic_gavel_black_18px" transform="translate(4.000000, 3.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="a"></g>
+                <path d="M0.531994048,11.171875 L6.91592262,11.171875 L6.91592262,12.2358631 L0.531994048,12.2358631 L0.531994048,11.171875 Z M2.79030878,4.29319196 L4.29585193,2.78924479 L11.8182478,10.3127046 L10.3137686,11.8171838 L2.79030878,4.29319196 Z M6.55257068,0.531994048 L9.56206101,3.54095238 L8.05651786,5.04649554 L5.04862351,2.03540923 L6.55257068,0.531994048 Z M2.03487723,5.04596354 L5.04436756,8.05545387 L3.53988839,9.55993304 L0.530398065,6.55044271 L2.03487723,5.04596354 Z" id="Shape" fill="#7E7E7E" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+            <circle id="Oval" stroke="#7E7E7E" stroke-width="2" cx="10" cy="10" r="9"></circle>
+        </g>
+    </g>
+</svg>

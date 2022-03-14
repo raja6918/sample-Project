@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PairingsSolverResults Component renders 1`] = `
+<Fragment>
+  <Pairings
+    clearErrorNotification={[Function]}
+    editMode={false}
+    handleClose={[Function]}
+    handleSave={[Function]}
+    inlineError={null}
+    location={Object {}}
+    previewMode={false}
+    readOnly={false}
+    reportError={[Function]}
+    setReadOnly={[Function]}
+    t={[MockFunction]}
+  />
+</Fragment>
+`;

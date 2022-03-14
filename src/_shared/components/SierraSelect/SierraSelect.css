@@ -1,0 +1,8 @@
+.simulatedFocus label {
+  color: #0a75c2 !important;
+  transform: translate(0, 1.5px) scale(0.75);
+}
+
+.simulatedFocus label + div::before {
+  border-bottom: 2px solid rgb(7, 81, 135) !important;
+}

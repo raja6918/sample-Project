@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PairingLabels Component renders 1`] = `
+<PairingLabels
+  activity={
+    Object {
+      "duration": "1h59",
+      "station": "STA",
+    }
+  }
+>
+  <span
+    className="pa-labels-group"
+  >
+    <span
+      className="pa-labels-row"
+      key="row-0"
+    >
+      <span
+        className="pa-label"
+        key="label-0"
+      >
+        1h59
+      </span>
+    </span>
+  </span>
+</PairingLabels>
+`;

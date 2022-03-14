@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenericTextField Component render correctly 1`] = `
+<GenericTextField
+  converter={[Function]}
+  data={
+    Object {
+      "name": "hello",
+    }
+  }
+  enableReset={false}
+  error={false}
+  getTooltipContent={[Function]}
+  handleDisable={[Function]}
+  handleRemoveParamSet={[Function]}
+  handleReset={[Function]}
+  handleTooltipDisable={[Function]}
+  maxInputLength={7}
+  onChange={[Function]}
+  pattern={/\\./}
+  placeholder=""
+  removeOverlay={[Function]}
+  rightPadding=""
+  style={
+    Object {
+      "width": "55px",
+    }
+  }
+  type="number"
+  value={11}
+>
+  <span
+    className="rule-description-input"
+  >
+     
+    <WithStyles(ForwardRef(TextField))
+      className=""
+      disabled={false}
+      error={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      placeholder=""
+      style={
+        Object {
+          "width": "55px",
+          "zIndex": 1,
+        }
+      }
+      type="number"
+      value={11}
+    >
+      <ForwardRef(TextField)
+        className=""
+        classes={
+          Object {
+            "root": "MuiTextField-root",
+          }
+        }
+        disabled={false}
+        error={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        placeholder=""
+        style={
+          Object {
+            "width": "55px",
+            "zIndex": 1,
+          }
+        }
+        type="number"
+        value={11}
+      >
+        <WithStyles(ForwardRef(FormControl))
+          className="MuiTextField-root"
+          color="primary"
+          disabled={false}
+          error={false}
+          fullWidth={false}
+          onClick={[Function]}
+          required={false}
+          style={
+            Object {
+              "width": "55px",
+              "zIndex": 1,
+            }
+          }
+          variant="standard"
+        >
+          <ForwardRef(FormControl)
+            className="MuiTextField-root"
+            classes={
+              Object {
+                "fullWidth": "MuiFormControl-fullWidth",
+                "marginDense": "MuiFormControl-marginDense",
+                "marginNormal": "MuiFormControl-marginNormal",
+                "root": "MuiFormControl-root",
+              }
+            }
+            color="primary"
+            disabled={false}
+            error={false}
+            fullWidth={false}
+            onClick={[Function]}
+            required={false}
+            style={
+              Object {
+                "width": "55px",
+                "zIndex": 1,
+              }
+            }
+            variant="standard"
+          >
+            <div
+              className="MuiFormControl-root MuiTextField-root"
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": "55px",
+                  "zIndex": 1,
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Input))
+                autoFocus={false}
+                fullWidth={false}
+                multiline={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder=""
+                type="number"
+                value={11}
+              >
+                <ForwardRef(Input)
+                  autoFocus={false}
+                  classes={
+                    Object {
+                      "colorSecondary": "MuiInput-colorSecondary",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "focused": "Mui-focused",
+                      "formControl": "MuiInput-formControl",
+                      "fullWidth": "MuiInput-fullWidth",
+                      "input": "MuiInput-input",
+                      "inputMarginDense": "MuiInput-inputMarginDense",
+                      "inputMultiline": "MuiInput-inputMultiline",
+                      "inputTypeSearch": "MuiInput-inputTypeSearch",
+                      "marginDense": "MuiInput-marginDense",
+                      "multiline": "MuiInput-multiline",
+                      "root": "MuiInput-root",
+                      "underline": "MuiInput-underline",
+                    }
+                  }
+                  fullWidth={false}
+                  multiline={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder=""
+                  type="number"
+                  value={11}
+                >
+                  <WithStyles(ForwardRef(InputBase))
+                    autoFocus={false}
+                    classes={
+                      Object {
+                        "colorSecondary": "MuiInput-colorSecondary",
+                        "disabled": "Mui-disabled",
+                        "error": "Mui-error",
+                        "focused": "Mui-focused",
+                        "formControl": "MuiInput-formControl",
+                        "fullWidth": "MuiInput-fullWidth",
+                        "input": "MuiInput-input",
+                        "inputMarginDense": "MuiInput-inputMarginDense",
+                        "inputMultiline": "MuiInput-inputMultiline",
+                        "inputTypeSearch": "MuiInput-inputTypeSearch",
+                        "marginDense": "MuiInput-marginDense",
+                        "multiline": "MuiInput-multiline",
+                        "root": "MuiInput-root MuiInput-underline",
+                        "underline": null,
+                      }
+                    }
+                    fullWidth={false}
+                    inputComponent="input"
+                    multiline={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder=""
+                    type="number"
+                    value={11}
+                  >
+                    <ForwardRef(InputBase)
+                      autoFocus={false}
+                      classes={
+                        Object {
+                          "adornedEnd": "MuiInputBase-adornedEnd",
+                          "adornedStart": "MuiInputBase-adornedStart",
+                          "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                          "disabled": "Mui-disabled Mui-disabled",
+                          "error": "Mui-error Mui-error",
+                          "focused": "Mui-focused Mui-focused",
+                          "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                          "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                          "input": "MuiInputBase-input MuiInput-input",
+                          "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                          "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                          "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                          "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                          "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                          "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                          "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                          "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                          "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
+                        }
+                      }
+                      fullWidth={false}
+                      inputComponent="input"
+                      multiline={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      placeholder=""
+                      type="number"
+                      value={11}
+                    >
+                      <div
+                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                        onClick={[Function]}
+                      >
+                        <input
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiInput-input"
+                          disabled={false}
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          placeholder=""
+                          required={false}
+                          type="number"
+                          value={11}
+                        />
+                      </div>
+                    </ForwardRef(InputBase)>
+                  </WithStyles(ForwardRef(InputBase))>
+                </ForwardRef(Input)>
+              </WithStyles(ForwardRef(Input))>
+            </div>
+          </ForwardRef(FormControl)>
+        </WithStyles(ForwardRef(FormControl))>
+      </ForwardRef(TextField)>
+    </WithStyles(ForwardRef(TextField))>
+     
+  </span>
+</GenericTextField>
+`;

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Solver/_icons/Launched</title>
+    <g id="Solver/_icons/Launched" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <polygon id="Shape" points="0 0 36 0 36 36 0 36"></polygon>
+            <g id="Group-15" transform="translate(3.000000, 3.000000)" fill-rule="nonzero">
+                <circle id="Oval-2" fill="#5C6BC0" cx="15" cy="15" r="15"></circle>
+                <g id="Group-13" transform="translate(7.000000, 3.000000)">
+                    <path d="M4.5,4.26753827 C4.5,2.93985969 7.3,0 8,0 C8.7,0 11.5,3.12952806 11.5,4.26753827 C11.5,5.02621173 11.5,9.29375 11.5,17.0701531 L4.5,17.0701531 C4.5,9.48341837 4.5,5.2158801 4.5,4.26753827 Z" id="Rectangle-8" fill="#FFFFFF"></path>
+                    <path d="M12.5,11.1581633 C14.5,11.530102 15.5,12.459949 15.5,14.0406888 C15.5,15.6214286 15.5,17.4811224 15.5,19.5267857 L12.5,16.6442602 L12.5,11.1581633 Z" id="Rectangle" fill="#FFFFFF"></path>
+                    <path d="M3.5,11.1581633 C1.5,11.530102 0.5,12.459949 0.5,14.0406888 L0.5,19.5267857 L3.5,16.6442602 L3.5,11.1581633 Z" id="Rectangle_1_" fill="#FFFFFF"></path>
+                    <ellipse id="Oval-3" fill="#5C6BC0" cx="8" cy="6.90369898" rx="2.5" ry="2.32461735"></ellipse>
+                    <g id="Group-8" transform="translate(5.000000, 18.000000)" fill="#FFFFFF">
+                        <rect id="Rectangle-2" x="0.5" y="0" width="1" height="3.96067882"></rect>
+                        <rect id="Rectangle-2_1_" x="4.5" y="0" width="1" height="3.96067882"></rect>
+                        <rect id="Rectangle-2_2_" x="2.5" y="0" width="1" height="7.12922187"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

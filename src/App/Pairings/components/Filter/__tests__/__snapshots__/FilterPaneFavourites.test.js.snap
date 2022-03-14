@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test FilterPaneFavourites Component FilterPaneFavourites Component renders correctly 1`] = `
+<FilterPaneFavourites__FavouritesSession
+  container={true}
+>
+  <FilterPaneFavourites__SubSession
+    container={true}
+    item={true}
+    xs={8}
+  >
+    <FilterPaneFavourites__StyledAutocomplete
+      blurOnSelect={true}
+      disableClearable={true}
+      getOptionLabel={[Function]}
+      renderInput={[Function]}
+    />
+  </FilterPaneFavourites__SubSession>
+  <FilterPaneFavourites__SubSession
+    container={true}
+    item={true}
+    style={
+      Object {
+        "borderLeft": "1px solid #B2B2B2",
+      }
+    }
+    xs={4}
+  >
+    <FilterPaneFavourites__Button
+      color="primary"
+      disabled={false}
+      endIcon={<Memo />}
+    />
+  </FilterPaneFavourites__SubSession>
+</FilterPaneFavourites__FavouritesSession>
+`;

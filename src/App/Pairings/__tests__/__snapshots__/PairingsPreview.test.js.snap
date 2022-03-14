@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PairingsPreview Component should not render Pairings component if both storage is empty 1`] = `""`;
+
+exports[`PairingsPreview Component should render Pairings component if local storage is not empty 1`] = `
+<Fragment>
+  <ErrorHandler
+    handleClose={[Function]}
+    handleSave={[Function]}
+    location={Object {}}
+    match={
+      Object {
+        "params": Object {
+          "previewID": 6213,
+        },
+      }
+    }
+    previewMode={true}
+    reportError={[MockFunction]}
+    t={[MockFunction]}
+    userData={
+      Object {
+        "email": "admin@kronos.com",
+        "firstName": "admin",
+        "id": "2",
+        "lastName": "admin",
+        "role": "Administrator",
+        "username": "admin",
+      }
+    }
+  />
+  <ModalLoader
+    background=""
+    color="white"
+    loaderRequired={true}
+    onClose={[Function]}
+    open={false}
+    subtitle=""
+    title=""
+  />
+  <Notification
+    autoHideDuration={5000}
+    bottomheight={0}
+    buttonText=""
+    clear={[Function]}
+    displayCloseButton={false}
+    message={null}
+    onLinkAction={[Function]}
+    renderers={
+      Object {
+        "paragraph": "span",
+      }
+    }
+    type=""
+  />
+</Fragment>
+`;
+
+exports[`PairingsPreview Component should render Pairings component if session storage is not empty 1`] = `
+<Fragment>
+  <ErrorHandler
+    handleClose={[Function]}
+    handleSave={[Function]}
+    location={Object {}}
+    match={
+      Object {
+        "params": Object {
+          "previewID": 6213,
+        },
+      }
+    }
+    previewMode={true}
+    reportError={[MockFunction]}
+    t={[MockFunction]}
+    userData={
+      Object {
+        "email": "admin@kronos.com",
+        "firstName": "admin",
+        "id": "2",
+        "lastName": "admin",
+        "role": "Administrator",
+        "username": "admin",
+      }
+    }
+  />
+  <ModalLoader
+    background=""
+    color="white"
+    loaderRequired={true}
+    onClose={[Function]}
+    open={false}
+    subtitle=""
+    title=""
+  />
+  <Notification
+    autoHideDuration={5000}
+    bottomheight={0}
+    buttonText=""
+    clear={[Function]}
+    displayCloseButton={false}
+    message={null}
+    onLinkAction={[Function]}
+    renderers={
+      Object {
+        "paragraph": "span",
+      }
+    }
+    type=""
+  />
+</Fragment>
+`;

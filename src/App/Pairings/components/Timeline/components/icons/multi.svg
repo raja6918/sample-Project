@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Multi</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Spacing-Specs---Current-vs-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pairings-Flight-actionbar--SPACING-FINAL-Clem---multi" transform="translate(-613.000000, -635.000000)">
+            <g id="Pairing/menu_click-multiple" transform="translate(500.000000, 620.000000)">
+                <g id="Menu-Copy-3">
+                    <g id="Multi" transform="translate(110.000000, 12.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="18" height="18"></rect>
+                        <path d="M4.09622412,5.19111382 L3,5.19111382 L3,13.9044431 C3,14.5095025 3.49079625,15 4.09622412,15 L12.8148599,15 L12.8148599,13.9044431 L4.09622412,13.9044431 L4.09622412,5.19111382 Z M13.9037759,3 L6.27405603,3 C5.67148413,3.00401479 5.18512668,3.49333837 5.18514007,4.09555691 L5.18514007,11.7279367 C5.18514007,12.0165594 5.29986482,12.2933609 5.50407617,12.4974479 C5.70828753,12.701535 5.98525756,12.8161899 6.27405603,12.8161899 L13.9037759,12.8161899 C14.5063612,12.8162033 14.9959828,12.3301419 15,11.7279367 L15,4.10286062 C15,3.49780125 14.5092037,3.00730371 13.9037759,3.00730371 L13.9037759,3 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

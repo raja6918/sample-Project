@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Component renders 1`] = `
+.c0 {
+  margin: 10px 30px;
+  background: rgb(255,255,255);
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 3px;
+  min-width: 400px;
+}
+
+.c0 div {
+  color: inherit;
+  padding: 0px 10px;
+}
+
+.c0 input {
+  padding-left: 7px;
+  padding-right: 7px;
+  font-family: 'Lato',seans-serif;
+  font-size: 14px;
+  caret-color: #4a4a4a;
+  color: #4a4a4a;
+}
+
+.c1 {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto 0;
+  color: #7e7e7e;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    min-width: 250px;
+  }
+}
+
+@media (max-width:576px) {
+  .c0 {
+    min-width: auto;
+    margin: 0px;
+  }
+}
+
+<Component>
+  <SearchEngine
+    t={[Function]}
+  >
+    <SearchEngine__Form>
+      <WithStyles(ForwardRef(FormControl))
+        className="c0"
+      >
+        <ForwardRef(FormControl)
+          className="c0"
+          classes={
+            Object {
+              "fullWidth": "MuiFormControl-fullWidth",
+              "marginDense": "MuiFormControl-marginDense",
+              "marginNormal": "MuiFormControl-marginNormal",
+              "root": "MuiFormControl-root",
+            }
+          }
+        >
+          <div
+            className="MuiFormControl-root c0"
+          >
+            <WithStyles(ForwardRef(Input))
+              disableUnderline={true}
+              id="seachEngine"
+              placeholder=""
+              startAdornment={
+                <SearchEngine__SearchIcon>
+                  search
+                </SearchEngine__SearchIcon>
+              }
+              type="text"
+            >
+              <ForwardRef(Input)
+                classes={
+                  Object {
+                    "colorSecondary": "MuiInput-colorSecondary",
+                    "disabled": "Mui-disabled",
+                    "error": "Mui-error",
+                    "focused": "Mui-focused",
+                    "formControl": "MuiInput-formControl",
+                    "fullWidth": "MuiInput-fullWidth",
+                    "input": "MuiInput-input",
+                    "inputMarginDense": "MuiInput-inputMarginDense",
+                    "inputMultiline": "MuiInput-inputMultiline",
+                    "inputTypeSearch": "MuiInput-inputTypeSearch",
+                    "marginDense": "MuiInput-marginDense",
+                    "multiline": "MuiInput-multiline",
+                    "root": "MuiInput-root",
+                    "underline": "MuiInput-underline",
+                  }
+                }
+                disableUnderline={true}
+                id="seachEngine"
+                placeholder=""
+                startAdornment={
+                  <SearchEngine__SearchIcon>
+                    search
+                  </SearchEngine__SearchIcon>
+                }
+                type="text"
+              >
+                <WithStyles(ForwardRef(InputBase))
+                  classes={
+                    Object {
+                      "colorSecondary": "MuiInput-colorSecondary",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "focused": "Mui-focused",
+                      "formControl": "MuiInput-formControl",
+                      "fullWidth": "MuiInput-fullWidth",
+                      "input": "MuiInput-input",
+                      "inputMarginDense": "MuiInput-inputMarginDense",
+                      "inputMultiline": "MuiInput-inputMultiline",
+                      "inputTypeSearch": "MuiInput-inputTypeSearch",
+                      "marginDense": "MuiInput-marginDense",
+                      "multiline": "MuiInput-multiline",
+                      "root": "MuiInput-root",
+                      "underline": null,
+                    }
+                  }
+                  fullWidth={false}
+                  id="seachEngine"
+                  inputComponent="input"
+                  multiline={false}
+                  placeholder=""
+                  startAdornment={
+                    <SearchEngine__SearchIcon>
+                      search
+                    </SearchEngine__SearchIcon>
+                  }
+                  type="text"
+                >
+                  <ForwardRef(InputBase)
+                    classes={
+                      Object {
+                        "adornedEnd": "MuiInputBase-adornedEnd",
+                        "adornedStart": "MuiInputBase-adornedStart",
+                        "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                        "disabled": "Mui-disabled Mui-disabled",
+                        "error": "Mui-error Mui-error",
+                        "focused": "Mui-focused Mui-focused",
+                        "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                        "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                        "input": "MuiInputBase-input MuiInput-input",
+                        "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                        "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                        "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                        "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                        "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                        "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                        "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                        "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                        "root": "MuiInputBase-root MuiInput-root",
+                      }
+                    }
+                    fullWidth={false}
+                    id="seachEngine"
+                    inputComponent="input"
+                    multiline={false}
+                    placeholder=""
+                    startAdornment={
+                      <SearchEngine__SearchIcon>
+                        search
+                      </SearchEngine__SearchIcon>
+                    }
+                    type="text"
+                  >
+                    <div
+                      className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedStart"
+                      onClick={[Function]}
+                    >
+                      <SearchEngine__SearchIcon>
+                        <WithStyles(ForwardRef(Icon))
+                          className="c1"
+                        >
+                          <ForwardRef(Icon)
+                            className="c1"
+                            classes={
+                              Object {
+                                "colorAction": "MuiIcon-colorAction",
+                                "colorDisabled": "MuiIcon-colorDisabled",
+                                "colorError": "MuiIcon-colorError",
+                                "colorPrimary": "MuiIcon-colorPrimary",
+                                "colorSecondary": "MuiIcon-colorSecondary",
+                                "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                                "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                                "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                                "root": "MuiIcon-root",
+                              }
+                            }
+                          >
+                            <span
+                              aria-hidden={true}
+                              className="material-icons MuiIcon-root c1"
+                            >
+                              search
+                            </span>
+                          </ForwardRef(Icon)>
+                        </WithStyles(ForwardRef(Icon))>
+                      </SearchEngine__SearchIcon>
+                      <input
+                        aria-invalid={false}
+                        className="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedStart"
+                        disabled={false}
+                        id="seachEngine"
+                        onAnimationStart={[Function]}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        placeholder=""
+                        required={false}
+                        type="text"
+                      />
+                    </div>
+                  </ForwardRef(InputBase)>
+                </WithStyles(ForwardRef(InputBase))>
+              </ForwardRef(Input)>
+            </WithStyles(ForwardRef(Input))>
+          </div>
+        </ForwardRef(FormControl)>
+      </WithStyles(ForwardRef(FormControl))>
+    </SearchEngine__Form>
+  </SearchEngine>
+</Component>
+`;

@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SolverList Render 1`] = `
+<React.Fragment>
+  <SolverList__FilterContainer
+    open={false}
+  >
+    <SolverList__Checkbox
+      checked={false}
+      indeterminate={false}
+      onChange={[Function]}
+    />
+    <WithStyles(IconButton)
+      onClick={[Function]}
+    >
+      <Icon
+        iconcolor="#0A75C2"
+        margin="0"
+      >
+        filter_list
+      </Icon>
+    </WithStyles(IconButton)>
+    <WithStyles(IconButton)
+      aria-haspopup="true"
+      aria-label="More"
+    >
+      <Icon
+        iconcolor="#0A75C2"
+        margin="0"
+      >
+        more_vert
+      </Icon>
+    </WithStyles(IconButton)>
+  </SolverList__FilterContainer>
+  <SolverList__List>
+    <SolverList__FilterInputContainer
+      in={false}
+    >
+      <FilterInput__InputSearch>
+        <WithStyles(Input)
+          disableUnderline={true}
+          endAdornment={false}
+          innerRef={[Function]}
+          onChange={[Function]}
+          placeholder="search"
+          startAdornment={
+            <FilterInput__SearchIcon>
+              search
+            </FilterInput__SearchIcon>
+          }
+          type="text"
+        />
+      </FilterInput__InputSearch>
+    </SolverList__FilterInputContainer>
+    <SolverList__Item
+      key="6"
+    >
+      <SolverCard
+        active={false}
+        handleCheckbox={[Function]}
+        handleClick={[MockFunction]}
+        isSelected={false}
+        request={
+          Object {
+            "id": 6,
+            "lastModified": "2018-02-11T22:25:09.586Z",
+            "name": "Crew Solution: 444 Pilots",
+            "status": "completed",
+          }
+        }
+        t={[MockFunction]}
+      />
+    </SolverList__Item>
+    <SolverList__Item
+      key="1"
+    >
+      <SolverCard
+        active={false}
+        handleCheckbox={[Function]}
+        handleClick={[MockFunction]}
+        isSelected={false}
+        request={
+          Object {
+            "id": 1,
+            "lastModified": "2018-04-11T22:25:09.586Z",
+            "name": "Crew Solution: 777 Pilots",
+            "status": "running",
+          }
+        }
+        t={[MockFunction]}
+      />
+    </SolverList__Item>
+    <SolverList__Item
+      key="3"
+    >
+      <SolverCard
+        active={false}
+        handleCheckbox={[Function]}
+        handleClick={[MockFunction]}
+        isSelected={false}
+        request={
+          Object {
+            "id": 3,
+            "lastModified": "2018-04-01T22:25:09.586Z",
+            "name": "Crew Solution: 999 Pilots",
+            "status": "completed",
+          }
+        }
+        t={[MockFunction]}
+      />
+    </SolverList__Item>
+    <SolverList__Item
+      key="4"
+    >
+      <SolverCard
+        active={false}
+        handleCheckbox={[Function]}
+        handleClick={[MockFunction]}
+        isSelected={false}
+        request={
+          Object {
+            "id": 4,
+            "lastModified": "2018-04-15T22:25:09.586Z",
+            "name": "Crew Solution: 777 Pilots",
+            "status": "stopping",
+          }
+        }
+        t={[MockFunction]}
+      />
+    </SolverList__Item>
+    <SolverList__Item
+      key="5"
+    >
+      <SolverCard
+        active={false}
+        handleCheckbox={[Function]}
+        handleClick={[MockFunction]}
+        isSelected={false}
+        request={
+          Object {
+            "id": 5,
+            "lastModified": "2018-06-20T22:25:09.586Z",
+            "name": "Crew Solution: 333 Pilots",
+            "status": "stoppedWithResults",
+          }
+        }
+        t={[MockFunction]}
+      />
+    </SolverList__Item>
+    <SolverList__Item
+      key="2"
+    >
+      <SolverCard
+        active={false}
+        handleCheckbox={[Function]}
+        handleClick={[MockFunction]}
+        isSelected={false}
+        request={
+          Object {
+            "id": 2,
+            "lastModified": "2018-04-14T22:25:09.586Z",
+            "name": "Crew Solution: 888 Pilots",
+            "status": "failed",
+          }
+        }
+        t={[MockFunction]}
+      />
+    </SolverList__Item>
+    <SolverList__Item
+      key="7"
+    >
+      <SolverCard
+        active={false}
+        handleCheckbox={[Function]}
+        handleClick={[MockFunction]}
+        isSelected={false}
+        request={
+          Object {
+            "id": 7,
+            "lastModified": "2018-03-11T22:25:09.586Z",
+            "name": "Crew Solution: 111 Pilots",
+            "status": "running",
+          }
+        }
+        t={[MockFunction]}
+      />
+    </SolverList__Item>
+    <SolverList__Item
+      key="8"
+    >
+      <SolverCard
+        active={false}
+        handleCheckbox={[Function]}
+        handleClick={[MockFunction]}
+        isSelected={false}
+        request={
+          Object {
+            "id": 8,
+            "lastModified": "2018-05-11T22:25:09.586Z",
+            "name": "Crew Solution: 777 Pilots",
+            "status": "completed",
+          }
+        }
+        t={[MockFunction]}
+      />
+    </SolverList__Item>
+    <SolverList__Item
+      key="9"
+    >
+      <SolverCard
+        active={false}
+        handleCheckbox={[Function]}
+        handleClick={[MockFunction]}
+        isSelected={false}
+        request={
+          Object {
+            "id": 9,
+            "lastModified": "2018-01-11T22:25:09.586Z",
+            "name": "Crew Solution: 555 Pilots",
+            "status": "running",
+          }
+        }
+        t={[MockFunction]}
+      />
+    </SolverList__Item>
+    <SolverList__Item
+      key="10"
+    >
+      <SolverCard
+        active={false}
+        handleCheckbox={[Function]}
+        handleClick={[MockFunction]}
+        isSelected={false}
+        request={
+          Object {
+            "id": 10,
+            "lastModified": "2018-09-11T22:25:09.586Z",
+            "name": "Crew Solution: 888 Pilots",
+            "status": "completed",
+          }
+        }
+        t={[MockFunction]}
+      />
+    </SolverList__Item>
+    <SolverList__Item
+      key="11"
+    >
+      <SolverCard
+        active={false}
+        handleCheckbox={[Function]}
+        handleClick={[MockFunction]}
+        isSelected={false}
+        request={
+          Object {
+            "id": 11,
+            "lastModified": "2017-04-11T22:25:09.586Z",
+            "name": "Crew Solution: 000 Pilots",
+            "status": "running",
+          }
+        }
+        t={[MockFunction]}
+      />
+    </SolverList__Item>
+  </SolverList__List>
+</React.Fragment>
+`;

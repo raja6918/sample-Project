@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accommodations Component renders correctly with an initial state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<Accommodations
+  closeDeleteDialog={[MockFunction]}
+  deleteDialogItem={
+    Object {
+      "billingPolicyCode": "PER_24H_BLOCKS",
+      "capacity": 123,
+      "checkInTime": null,
+      "checkOutTime": null,
+      "contractLastDate": "2019-05-30",
+      "contractStartDate": "2019-05-30",
+      "cost": 89,
+      "costDisplay": "89.00 CAD",
+      "currencyCode": "CAD",
+      "extendedStayCostFactor": 50,
+      "id": 700044,
+      "name": " Holiday Inn Ambassador",
+      "stationCodes": Array [
+        "YQG",
+      ],
+      "typeCode": "STATION",
+      "typeDisplayName": "Station",
+    }
+  }
+  editMode={false}
+  openDeleteDialog={[MockFunction]}
+  openItemId="1"
+  openItemName="Test Scenario"
+  t={[MockFunction]}
+>
+  <Loading>
+    <Loading__Overlay>
+      <div
+        className="c0"
+      >
+        <ReactLoadingComponent
+          fill="#ed4d15"
+          height={200}
+          type="rings"
+          width={200}
+        >
+          <Component
+            fill="#ed4d15"
+            height={200}
+            type="rings"
+            width={200}
+          >
+            <Component
+              fill="#ed4d15"
+              height={200}
+              type="rings"
+              width={200}
+            >
+              <svg
+                height={200}
+                stroke="#ed4d15"
+                viewBox="0 0 45 45"
+                width={200}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  fillRule="evenodd"
+                  strokeWidth="2"
+                  transform="translate(1 1)"
+                >
+                  <circle
+                    cx="22"
+                    cy="22"
+                    r="6"
+                    strokeOpacity="0"
+                  >
+                    <animate
+                      attributeName="r"
+                      begin="1.5s"
+                      calcMode="linear"
+                      dur="3s"
+                      repeatCount="indefinite"
+                      values="6;22"
+                    />
+                    <animate
+                      attributeName="stroke-opacity"
+                      begin="1.5s"
+                      calcMode="linear"
+                      dur="3s"
+                      repeatCount="indefinite"
+                      values="1;0"
+                    />
+                    <animate
+                      attributeName="stroke-width"
+                      begin="1.5s"
+                      calcMode="linear"
+                      dur="3s"
+                      repeatCount="indefinite"
+                      values="2;0"
+                    />
+                  </circle>
+                  <circle
+                    cx="22"
+                    cy="22"
+                    r="6"
+                    strokeOpacity="0"
+                  >
+                    <animate
+                      attributeName="r"
+                      begin="3s"
+                      calcMode="linear"
+                      dur="3s"
+                      repeatCount="indefinite"
+                      values="6;22"
+                    />
+                    <animate
+                      attributeName="stroke-opacity"
+                      begin="3s"
+                      calcMode="linear"
+                      dur="3s"
+                      repeatCount="indefinite"
+                      values="1;0"
+                    />
+                    <animate
+                      attributeName="stroke-width"
+                      begin="3s"
+                      calcMode="linear"
+                      dur="3s"
+                      repeatCount="indefinite"
+                      values="2;0"
+                    />
+                  </circle>
+                  <circle
+                    cx="22"
+                    cy="22"
+                    r="8"
+                  >
+                    <animate
+                      attributeName="r"
+                      begin="0s"
+                      calcMode="linear"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                      values="6;1;2;3;4;5;6"
+                    />
+                  </circle>
+                </g>
+              </svg>
+            </Component>
+          </Component>
+        </ReactLoadingComponent>
+      </div>
+    </Loading__Overlay>
+  </Loading>
+</Accommodations>
+`;
+
+exports[`Accomodations component render correct in readOnly mode 1`] = `<Loading />`;

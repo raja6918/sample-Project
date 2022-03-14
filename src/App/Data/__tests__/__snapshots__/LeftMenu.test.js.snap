@@ -1,0 +1,578 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Leftmenu componente render corrects 1`] = `
+<LeftMenu__Container
+  open={true}
+>
+  <LeftMenu__DataLink
+    to={
+      Object {
+        "pathname": "/data/1",
+        "state": Object {
+          "editMode": false,
+          "openItemId": "1",
+          "openItemName": "Test Scenario",
+          "readOnly": undefined,
+        },
+      }
+    }
+  >
+    <Icon>
+      arrow_back
+    </Icon>
+    <span />
+  </LeftMenu__DataLink>
+  <LeftMenu__List
+    component="nav"
+    open={true}
+  >
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <MenuItem
+        className="tm-vertical_menu__aircraft_types-btn"
+        editMode={false}
+        hovercolor="#C5267C"
+        icon="airplanemode_active"
+        key="/aircraft"
+        link="/data/1040/aircraft"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        viewBox="0 0 44 44"
+      />
+      <MenuItem
+        className="tm-vertical_menu__stations-btn"
+        editMode={false}
+        hovercolor="#00BFA5"
+        icon="location_city"
+        key="/stations"
+        link="/data/1040/stations"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        viewBox="0 0 44 44"
+      />
+      <MenuItem
+        className="tm-vertical_menu__coterminal_transports-btn"
+        editMode={false}
+        hovercolor="#00C853"
+        icon="airport_shuttle"
+        key="/coterminal-transports"
+        link="/data/1040/coterminal-transports"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        viewBox="0 0 44 44"
+      />
+      <MenuItem
+        className="tm-vertical_menu__accommodations-btn"
+        editMode={false}
+        hovercolor="#119798"
+        icon="hotel"
+        key="/accommodations"
+        link="/data/1040/accommodations"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        viewBox="0 0 44 44"
+      />
+      <MenuItem
+        className="tm-vertical_menu__positions-btn"
+        editMode={false}
+        hovercolor="#FF9800"
+        icon="star"
+        key="/positions"
+        link="/data/1040/positions"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        viewBox="0 0 44 44"
+      />
+      <MenuItem
+        className="tm-vertical_menu__rules-btn"
+        editMode={false}
+        hovercolor="#AF764C"
+        icon="gavel"
+        key="/rules"
+        link="/data/1040/rules"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        viewBox="0 0 44 44"
+      />
+      <noscript
+        key="/rules/rule-sets"
+        link="/data/1040/rules/rule-sets"
+      />
+      <MenuItem
+        className="tm-vertical_menu__operating_flights-btn"
+        editMode={false}
+        hovercolor="#9C27B0"
+        icon="flight_takeoff"
+        key="/operating-flights"
+        link="/data/1040/operating-flights"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        viewBox="0 0 44 44"
+      />
+      <MenuItem
+        className="tm-vertical_menu__commercial_flights-btn"
+        editMode={false}
+        hovercolor="#3F51B5"
+        icon="flight_land"
+        key="/commercial-flights"
+        link="/data/1040/commercial-flights"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        viewBox="0 0 44 44"
+      />
+      <MenuItem
+        className="tm-vertical_menu__countries-btn"
+        editMode={false}
+        hovercolor="#4A90E2"
+        icon="countries"
+        key="/countries"
+        link="/data/1040/countries"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        svgIcon={[Function]}
+        viewBox="0 0 44 44"
+      />
+      <MenuItem
+        className="tm-vertical_menu__currencies-btn"
+        editMode={false}
+        hovercolor="#158753"
+        icon="currencies"
+        key="/currencies"
+        link="/data/1040/currencies"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        svgIcon={[Function]}
+        viewBox="0 0 44 44"
+      />
+      <MenuItem
+        className="tm-vertical_menu__regions-btn"
+        editMode={false}
+        hovercolor="#2564AD"
+        icon="regions"
+        key="/regions"
+        link="/data/1040/regions"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        svgIcon={[Function]}
+        viewBox="0 0 44 44"
+      />
+      <noscript
+        key="/aircraft/models"
+        link="/data/1040/aircraft/models"
+      />
+      <MenuItem
+        className="tm-vertical_menu__crew_bases-btn"
+        editMode={false}
+        hovercolor="#2564AD"
+        icon="crewBases"
+        key="/crew-bases"
+        link="/data/1040/crew-bases"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        svgIcon={[Function]}
+        viewBox="-7 0 44 44"
+      />
+      <MenuItem
+        className="tm-vertical_menu__crew_groups-btn"
+        editMode={false}
+        hovercolor="#F47100"
+        icon="group"
+        key="/crew-groups"
+        link="/data/1040/crew-groups"
+        location="/data/1040/stations"
+        name="Test name"
+        open={true}
+        openItemId="1"
+        openItemName="Test Scenario"
+        readOnly={false}
+        scenarioId={1040}
+        scenarioName="Scenario Test"
+        showInEditMode={true}
+        viewBox="0 0 44 44"
+      />
+    </ScrollBar>
+    <LeftMenu__ExpandCollapseButton
+      open={true}
+    >
+      <div
+        onClick={[MockFunction]}
+      >
+        <Icon
+          iconcolor="#ffffff"
+        >
+          chevron_left
+        </Icon>
+        <Icon
+          iconcolor="#ffffff"
+        >
+          chevron_left
+        </Icon>
+      </div>
+    </LeftMenu__ExpandCollapseButton>
+  </LeftMenu__List>
+</LeftMenu__Container>
+`;
+
+exports[`Leftmenu componente render corrects 2`] = `
+.c0 {
+  height: calc(100vh - 54px);
+  width: 256px;
+  vertical-align: top;
+  display: inline-block;
+  border-right: 1px solid #cccccc;
+  position: relative;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.18),0 16px 16px 0 rgba(0,0,0,0.24);
+  -webkit-transition: width 0.2s ease;
+  transition: width 0.2s ease;
+  overflow-x: hidden;
+  font-size: 0;
+}
+
+.c0 * {
+  margin: 0;
+  padding: 0;
+}
+
+.c0 svg {
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 24px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 nav a {
+  padding: 12px 20px;
+}
+
+.c0 > a {
+  padding: 16px 20px 36px 20px;
+  height: 58px;
+  width: 256px;
+  position: relative;
+}
+
+.c0 > a span {
+  margin-right: 30px;
+  margin-left: 0;
+  position: static;
+  top: inherit;
+}
+
+.c0 > a span:last-child {
+  top: inherit;
+}
+
+<div
+  className="c0"
+  open={true}
+/>
+`;
+
+exports[`Leftmenu componente render corrects 3`] = `
+.c0 {
+  height: calc(100vh - 54px);
+  width: 65px;
+  vertical-align: top;
+  display: inline-block;
+  border-right: 1px solid #cccccc;
+  position: relative;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.18),0 16px 16px 0 rgba(0,0,0,0.24);
+  -webkit-transition: width 0.2s ease;
+  transition: width 0.2s ease;
+  overflow-x: hidden;
+  font-size: 0;
+}
+
+.c0 * {
+  margin: 0;
+  padding: 0;
+}
+
+.c0 svg {
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  font-size: 24px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 nav a {
+  padding: 12px 20px;
+}
+
+.c0 > a {
+  padding: 12px 14px 16px 15px;
+  height: 58px;
+  width: 65px;
+  position: relative;
+}
+
+.c0 > a span {
+  margin-right: 0;
+  margin-left: 3px;
+  position: absolute;
+  top: 8px;
+}
+
+.c0 > a span:last-child {
+  top: 35px;
+}
+
+<div
+  className="c0"
+  open={false}
+/>
+`;
+
+exports[`Leftmenu componente render corrects 4`] = `
+.c0 {
+  background-color: #afafaf;
+  height: 48px;
+  line-height: 48px;
+  position: fixed;
+  bottom: 0;
+  width: 256px;
+  -webkit-transition: width 0.2s ease;
+  transition: width 0.2s ease;
+}
+
+.c0:hover {
+  background-color: #afafaf;
+}
+
+.c0 span {
+  position: absolute;
+  top: 12px;
+}
+
+.c0 span:nth-child(1) {
+  right: 23px;
+}
+
+.c0 span:nth-child(2) {
+  right: 13px;
+}
+
+.c0 div {
+  width: 65px;
+  height: 48px;
+  float: right;
+  cursor: pointer;
+}
+
+<div
+  className="c0"
+  open={true}
+/>
+`;
+
+exports[`Leftmenu componente render corrects 5`] = `
+.c0 {
+  background-color: #afafaf;
+  height: 48px;
+  line-height: 48px;
+  position: fixed;
+  bottom: 0;
+  width: 65px;
+  -webkit-transition: width 0.2s ease;
+  transition: width 0.2s ease;
+}
+
+.c0:hover {
+  background-color: #afafaf;
+}
+
+.c0 span {
+  position: absolute;
+  top: 12px;
+}
+
+.c0 span:nth-child(1) {
+  right: 23px;
+}
+
+.c0 span:nth-child(2) {
+  right: 13px;
+}
+
+.c0 div {
+  width: 65px;
+  height: 48px;
+  float: right;
+  cursor: pointer;
+}
+
+<div
+  className="c0"
+  open={false}
+/>
+`;
+
+exports[`Leftmenu componente render corrects 6`] = `
+.c0:hover a span {
+  color: #ff0000;
+}
+
+.c0:hover * {
+  fill: #ff0000;
+}
+
+<WithStyles(ForwardRef(ListItem))
+  className="c0"
+  hovercolor="#ff0000"
+/>
+`;
+
+exports[`Leftmenu componente render corrects 7`] = `
+<SierraMuiTooltip
+  classes={
+    Object {
+      "popper": "ellipse-zoom-popper",
+    }
+  }
+  disableFocusListener={true}
+  disableTouchListener={true}
+  key="tooltip_/data/1040/aircraft"
+  onClose={[Function]}
+  onOpen={[Function]}
+  open={false}
+  placement="right"
+  title=""
+>
+  <LeftMenu__ListItemMU
+    button={true}
+    hovercolor="#607D8B"
+    style={null}
+  >
+    <Link
+      replace={false}
+      to={
+        Object {
+          "pathname": "/data/1040/aircraft",
+          "state": Object {
+            "editMode": false,
+            "openItemId": "1",
+            "openItemName": "Test Scenario",
+            "readOnly": false,
+          },
+        }
+      }
+    >
+      <Icon
+        iconcolor={null}
+      >
+        airplanemode_active
+      </Icon>
+      <p>
+        Aircraft
+      </p>
+    </Link>
+  </LeftMenu__ListItemMU>
+</SierraMuiTooltip>
+`;

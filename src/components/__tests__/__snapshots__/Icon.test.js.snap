@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon component renders correct 1`] = `
+.c0 {
+  color: #7e7e7e;
+  margin: 0 8px 0 0;
+  background-color: transparent;
+  border-radius: initial;
+}
+
+<Icon>
+  <WithStyles(ForwardRef(Icon))
+    className="c0"
+  >
+    <ForwardRef(Icon)
+      className="c0"
+      classes={
+        Object {
+          "colorAction": "MuiIcon-colorAction",
+          "colorDisabled": "MuiIcon-colorDisabled",
+          "colorError": "MuiIcon-colorError",
+          "colorPrimary": "MuiIcon-colorPrimary",
+          "colorSecondary": "MuiIcon-colorSecondary",
+          "fontSizeInherit": "MuiIcon-fontSizeInherit",
+          "fontSizeLarge": "MuiIcon-fontSizeLarge",
+          "fontSizeSmall": "MuiIcon-fontSizeSmall",
+          "root": "MuiIcon-root",
+        }
+      }
+    >
+      <span
+        aria-hidden={true}
+        className="material-icons MuiIcon-root c0"
+      />
+    </ForwardRef(Icon)>
+  </WithStyles(ForwardRef(Icon))>
+</Icon>
+`;
+
+exports[`Icon component renders correct 2`] = `
+.c0 {
+  color: #0A75C2 !important;
+  margin: 0 0 0 8px;
+  background-color: transparent;
+  border-radius: initial;
+}
+
+<Icon
+  iconcolor="#0A75C2"
+  margin="0 0 0 8px"
+>
+  <WithStyles(ForwardRef(Icon))
+    className="c0"
+    iconcolor="#0A75C2"
+    margin="0 0 0 8px"
+  >
+    <ForwardRef(Icon)
+      className="c0"
+      classes={
+        Object {
+          "colorAction": "MuiIcon-colorAction",
+          "colorDisabled": "MuiIcon-colorDisabled",
+          "colorError": "MuiIcon-colorError",
+          "colorPrimary": "MuiIcon-colorPrimary",
+          "colorSecondary": "MuiIcon-colorSecondary",
+          "fontSizeInherit": "MuiIcon-fontSizeInherit",
+          "fontSizeLarge": "MuiIcon-fontSizeLarge",
+          "fontSizeSmall": "MuiIcon-fontSizeSmall",
+          "root": "MuiIcon-root",
+        }
+      }
+      iconcolor="#0A75C2"
+      margin="0 0 0 8px"
+    >
+      <span
+        aria-hidden={true}
+        className="material-icons MuiIcon-root c0"
+        iconcolor="#0A75C2"
+        margin="0 0 0 8px"
+      />
+    </ForwardRef(Icon)>
+  </WithStyles(ForwardRef(Icon))>
+</Icon>
+`;
+
+exports[`Icon component renders correct 3`] = `
+.c0 {
+  color: #7e7e7e;
+  margin: 0 0 0 8px;
+  background-color: transparent;
+  border-radius: initial;
+}
+
+<Icon
+  margin="0 0 0 8px"
+>
+  <WithStyles(ForwardRef(Icon))
+    className="c0"
+    margin="0 0 0 8px"
+  >
+    <ForwardRef(Icon)
+      className="c0"
+      classes={
+        Object {
+          "colorAction": "MuiIcon-colorAction",
+          "colorDisabled": "MuiIcon-colorDisabled",
+          "colorError": "MuiIcon-colorError",
+          "colorPrimary": "MuiIcon-colorPrimary",
+          "colorSecondary": "MuiIcon-colorSecondary",
+          "fontSizeInherit": "MuiIcon-fontSizeInherit",
+          "fontSizeLarge": "MuiIcon-fontSizeLarge",
+          "fontSizeSmall": "MuiIcon-fontSizeSmall",
+          "root": "MuiIcon-root",
+        }
+      }
+      margin="0 0 0 8px"
+    >
+      <span
+        aria-hidden={true}
+        className="material-icons MuiIcon-root c0"
+        margin="0 0 0 8px"
+      />
+    </ForwardRef(Icon)>
+  </WithStyles(ForwardRef(Icon))>
+</Icon>
+`;
+
+exports[`Icon component renders correct 4`] = `
+.c0 {
+  color: #0A75C2 !important;
+  margin: 0 8px 0 0;
+  background-color: transparent;
+  border-radius: initial;
+}
+
+<Icon
+  iconcolor="#0A75C2"
+>
+  <WithStyles(ForwardRef(Icon))
+    className="c0"
+    iconcolor="#0A75C2"
+  >
+    <ForwardRef(Icon)
+      className="c0"
+      classes={
+        Object {
+          "colorAction": "MuiIcon-colorAction",
+          "colorDisabled": "MuiIcon-colorDisabled",
+          "colorError": "MuiIcon-colorError",
+          "colorPrimary": "MuiIcon-colorPrimary",
+          "colorSecondary": "MuiIcon-colorSecondary",
+          "fontSizeInherit": "MuiIcon-fontSizeInherit",
+          "fontSizeLarge": "MuiIcon-fontSizeLarge",
+          "fontSizeSmall": "MuiIcon-fontSizeSmall",
+          "root": "MuiIcon-root",
+        }
+      }
+      iconcolor="#0A75C2"
+    >
+      <span
+        aria-hidden={true}
+        className="material-icons MuiIcon-root c0"
+        iconcolor="#0A75C2"
+      />
+    </ForwardRef(Icon)>
+  </WithStyles(ForwardRef(Icon))>
+</Icon>
+`;

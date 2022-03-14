@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectWrapped component renders 1`] = `
+<Select
+  arrowRenderer={[Function]}
+  autosize={true}
+  backspaceRemoves={true}
+  backspaceToRemoveMessage="Press backspace to remove {label}"
+  clearAllText="Clear all"
+  clearRenderer={[Function]}
+  clearValueText="Clear value"
+  clearable={true}
+  closeOnSelect={true}
+  deleteRemoves={true}
+  delimiter=","
+  disabled={false}
+  escapeClearsValue={true}
+  filterOptions={[Function]}
+  ignoreAccents={true}
+  ignoreCase={true}
+  inputProps={Object {}}
+  instanceId="sourceTemplate"
+  isLoading={false}
+  joinValues={false}
+  labelKey="label"
+  matchPos="any"
+  matchProp="any"
+  menuBuffer={0}
+  menuRenderer={[Function]}
+  multi={false}
+  name="sourceTemplate"
+  noResultsText={<UNDEFINED />}
+  onBlurResetsInput={true}
+  onCloseResetsInput={true}
+  onSelectResetsInput={true}
+  openOnClick={true}
+  optionComponent={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Tempalte 1",
+        "value": 1,
+      },
+      Object {
+        "label": "Tempalte 2",
+        "value": 2,
+      },
+      Object {
+        "label": "Tempalte 3",
+        "value": 3,
+      },
+    ]
+  }
+  pageSize={5}
+  placeholder="Source Template *"
+  removeSelected={true}
+  required={false}
+  rtl={false}
+  scrollMenuIntoView={true}
+  searchable={true}
+  simpleValue={false}
+  tabSelectsValue={true}
+  trimFilter={true}
+  valueComponent={[Function]}
+  valueKey="value"
+/>
+`;
+
+exports[`SelectWrapped component renders 2`] = `
+<CreatableSelect
+  arrowRenderer={[Function]}
+  clearRenderer={[Function]}
+  filterOptions={[Function]}
+  instanceId="category"
+  isOptionUnique={[Function]}
+  isValidNewOption={[Function]}
+  menuRenderer={[Function]}
+  name="category"
+  newOptionCreator={[Function]}
+  optionComponent={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "Category 1",
+        "value": "Category 1",
+      },
+      Object {
+        "label": "Category 2",
+        "value": "Category 2",
+      },
+      Object {
+        "label": "Category 3",
+        "value": "Category 3",
+      },
+    ]
+  }
+  placeholder="Category"
+  promptTextCreator={[Function]}
+  shouldKeyDownEventCreateNewOption={[Function]}
+  showNewOptionAtTop={true}
+  valueComponent={[Function]}
+/>
+`;

@@ -1,0 +1,1233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test FilterPane Component FilterPane Component renders correctly 1`] = `
+<Base
+  anchor="right"
+  filterCriteria={
+    Array [
+      Object {
+        "categories": Array [
+          Object {
+            "categoryId": 1,
+            "categoryKey": "TRIP_PAIRING_CRITERIA",
+            "categoryName": "Pairing Criteria",
+            "criteria": Array [
+              Object {
+                "crId": "11",
+                "crKey": "TRIP_PAIRING_CR_PAIRING_NAME",
+                "crName": "pairingName",
+                "crValue": "Pairing Name",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "12",
+                "crKey": "TRIP_PAIRING_CR_LAYOVER_AT",
+                "crName": "layoverAt",
+                "crValue": "Layover At",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "13",
+                "crKey": "TRIP_PAIRING_CR_PAIRING_START",
+                "crName": "pairingStart",
+                "crValue": "Pairing start date",
+                "render": "static",
+                "type": "dateTimeType",
+              },
+              Object {
+                "crId": "14",
+                "crKey": "TRIP_PAIRING_CR_PAIRING_END",
+                "crName": "pairingEnd",
+                "crValue": "Pairing end date",
+                "render": "static",
+                "type": "dateTimeType",
+              },
+              Object {
+                "crId": "15",
+                "crKey": "TRIP_PAIRING_CR_CNX_AT",
+                "crName": "cnxAt",
+                "crValue": "TOG at",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "16",
+                "crKey": "TRIP_PAIRING_CR_CNX_DURATION",
+                "crName": "cnxDuration",
+                "crValue": "TOG duration",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "17",
+                "crKey": "TRIP_PAIRING_CR_CNX_ACHG",
+                "crName": "cnxAchg",
+                "crValue": "TOG aircraft change",
+                "render": "static",
+                "type": "multiSelectType",
+              },
+              Object {
+                "crId": "18",
+                "crKey": "TRIP_PAIRING_CR_CREW_BASE",
+                "crName": "crewBase",
+                "crValue": "Crew Base",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "19",
+                "crKey": "TRIP_PAIRING_CR_CC",
+                "crName": "crewComposition",
+                "crValue": "Crew Composition",
+                "render": "dynamic",
+                "type": "multiSelectType",
+              },
+              Object {
+                "crId": "110",
+                "crKey": "TRIP_PAIRING_CR_BLOCK_TIME",
+                "crName": "blockTime",
+                "crValue": "Pairing block hours",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "111",
+                "crKey": "TRIP_PAIRING_CR_TAFB",
+                "crName": "tafb",
+                "crValue": "TAFB",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "112",
+                "crKey": "TRIP_PAIRING_CR_OCCURRENCES",
+                "crName": "occurrences",
+                "crValue": "Pairing occurrences",
+                "render": "static",
+                "type": "intRangeType",
+              },
+              Object {
+                "crId": "113",
+                "crKey": "TRIP_PAIRING_CR_DUTIES",
+                "crName": "duties",
+                "crValue": "Duties",
+                "render": "static",
+                "type": "intRangeType",
+              },
+              Object {
+                "crId": "114",
+                "crKey": "TRIP_PAIRING_CR_DUTY_DAYS",
+                "crName": "dutyDays",
+                "crValue": "Duty Days",
+                "render": "static",
+                "type": "intRangeType",
+              },
+              Object {
+                "crId": "115",
+                "crKey": "TRIP_PAIRING_CR_BPDH",
+                "crName": "bpdh",
+                "crValue": "Average productivity (block per duty hour)",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "116",
+                "crKey": "TRIP_PAIRING_CR_BPDP",
+                "crName": "bpdp",
+                "crValue": "Average productivity (block per duty period)",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "117",
+                "crKey": "TRIP_PAIRING_CR_OP_FLIGHTS",
+                "crName": "opFlights",
+                "crValue": "Flights (in pairing)",
+                "render": "static",
+                "type": "intRangeType",
+              },
+              Object {
+                "crId": "118",
+                "crKey": "TRIP_PAIRING_CR_LAYOVER_DUR",
+                "crName": "layoverDur",
+                "crValue": "Layover Duration",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "119",
+                "crKey": "TRIP_PAIRING_CR_PAIRING_START_TIME",
+                "crName": "pairingStartTime",
+                "crValue": "Pairing start time",
+                "render": "static",
+                "type": "timeType",
+              },
+              Object {
+                "crId": "120",
+                "crKey": "TRIP_PAIRING_CR_PAIRING_END_TIME",
+                "crName": "pairingEndTime",
+                "crValue": "Pairing End time",
+                "render": "static",
+                "type": "timeType",
+              },
+            ],
+          },
+          Object {
+            "categoryId": 2,
+            "categoryKey": "TRIP_DP_CRITERIA",
+            "categoryName": "Duty Period Criteria",
+            "criteria": Array [
+              Object {
+                "crId": "21",
+                "crKey": "TRIP_DP_CRITERIA_DUTY_START",
+                "crName": "dutyStart",
+                "crValue": "Duty start date",
+                "render": "static",
+                "type": "dateTimeType",
+              },
+              Object {
+                "crId": "22",
+                "crKey": "TRIP_DP_CRITERIA_DUTY_END",
+                "crName": "dutyEnd",
+                "crValue": "Duty end date",
+                "render": "static",
+                "type": "dateTimeType",
+              },
+              Object {
+                "crId": "23",
+                "crKey": "TRIP_DP_CRITERIA_DUTY_BLOCK_HOURS",
+                "crName": "dutyBlockHours",
+                "crValue": "Duty block hours",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "24",
+                "crKey": "TRIP_DP_CRITERIA_DUTY_CREDIT_HOURS",
+                "crName": "dutyCreditHours",
+                "crValue": "Duty credit hours",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "25",
+                "crKey": "TRIP_DP_CRITERIA_DUTY_HOURS",
+                "crName": "dutyHours",
+                "crValue": "Duty hours",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "26",
+                "crKey": "TRIP_DP_CRITERIA_OP_FLIGHTS",
+                "crName": "dpOpFlights",
+                "crValue": "Flights (in duty)",
+                "render": "static",
+                "type": "intRangeType",
+              },
+              Object {
+                "crId": "27",
+                "crKey": "TRIP_DP_CRITERIA_BPDH",
+                "crName": "dpBpdh",
+                "crValue": "Block Per Duty Hour",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "28",
+                "crKey": "TRIP_DP_CRITERIA_DUTY_START_TIME",
+                "crName": "dutyStartTime",
+                "crValue": "Duty start time",
+                "render": "static",
+                "type": "timeType",
+              },
+              Object {
+                "crId": "29",
+                "crKey": "TRIP_DP_CRITERIA_DUTY_END_TIME",
+                "crName": "dutyEndTime",
+                "crValue": "Duty end time",
+                "render": "static",
+                "type": "timeType",
+              },
+            ],
+          },
+          Object {
+            "categoryId": 3,
+            "categoryKey": "TRIP_FLIGHT_CRITERIA",
+            "categoryName": "Flight Criteria",
+            "criteria": Array [
+              Object {
+                "crId": "31",
+                "crKey": "TRIP_FLIGHT_CR_FLIGHT_DESIG",
+                "crName": "flightDesig",
+                "crValue": "Flight designator",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "32",
+                "crKey": "TRIP_FLIGHT_CR_AR_TYPE",
+                "crName": "arType",
+                "crValue": "Aircraft Type",
+                "render": "dynamic",
+                "type": "multiSelectType",
+              },
+              Object {
+                "crId": "33",
+                "crKey": "TRIP_FLIGHT_CR_DEP_REG",
+                "crName": "depReg",
+                "crValue": "Flight departures (region)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "34",
+                "crKey": "TRIP_FLIGHT_CR_ARRV_REG",
+                "crName": "arrvReg",
+                "crValue": "Flight arrivals (region)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "35",
+                "crKey": "TRIP_FLIGHT_CR_DEP_CNT",
+                "crName": "depCountry",
+                "crValue": "Flight departures (country)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "36",
+                "crKey": "TRIP_FLIGHT_CR_AR_CNT",
+                "crName": "arrCountry",
+                "crValue": "Flight arrivals (country)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "37",
+                "crKey": "TRIP_FLIGHT_CR_DEP_STATION",
+                "crName": "depStation",
+                "crValue": "Flight departures (station)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "38",
+                "crKey": "TRIP_FLIGHT_CR_ARRV_STATION",
+                "crName": "arrvStation",
+                "crValue": "Flight arrivals (station)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "39",
+                "crKey": "TRIP_FLIGHT_CR_FLIGHT_START",
+                "crName": "flightStart",
+                "crValue": "Flight start date",
+                "render": "static",
+                "type": "dateTimeType",
+              },
+              Object {
+                "crId": "310",
+                "crKey": "TRIP_FLIGHT_CR_FLIGHT_END",
+                "crName": "flightEnd",
+                "crValue": "Flight end date",
+                "render": "static",
+                "type": "dateTimeType",
+              },
+              Object {
+                "crId": "311",
+                "crKey": "TRIP_FLIGHT_CR_FLIGHT_ST_DOW",
+                "crName": "flightStDow",
+                "crValue": "Flight Start DOW",
+                "render": "static",
+                "type": "multiSelectType",
+              },
+              Object {
+                "crId": "312",
+                "crKey": "TRIP_FLIGHT_CR_FLIGHT_ED_DOW",
+                "crName": "flightEdDow",
+                "crValue": "Flight End DOW",
+                "render": "static",
+                "type": "multiSelectType",
+              },
+              Object {
+                "crId": "313",
+                "crKey": "TRIP_FLIGHT_CR_BLOCK_TIME",
+                "crName": "flightBlockTime",
+                "crValue": "Block Time",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "314",
+                "crKey": "TRIP_FLIGHT_CR_FLIGHT_START_TIME",
+                "crName": "flightStartTime",
+                "crValue": "Flight start time",
+                "render": "static",
+                "type": "timeType",
+              },
+              Object {
+                "crId": "315",
+                "crKey": "TRIP_FLIGHT_CR_FLIGHT_END_TIME",
+                "crName": "flightEndTime",
+                "crValue": "Flight end time",
+                "render": "static",
+                "type": "timeType",
+              },
+            ],
+          },
+        ],
+        "filterId": 1,
+        "filterKey": "PAIRINGS_FILTER",
+        "filterName": "Pairings Filter",
+      },
+      Object {
+        "categories": Array [
+          Object {
+            "categoryId": 1,
+            "categoryKey": "LEGS_FLIGHT_CRITERIA",
+            "categoryName": "Flight Criteria",
+            "criteria": Array [
+              Object {
+                "crId": "11",
+                "crKey": "LEGS_FLIGHT_CR_FLIGHT_DESIG",
+                "crName": "legsFlightDesig",
+                "crValue": "Flight Designator",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "12",
+                "crKey": "LEGS_FLIGHT_CR_AR_TYPE",
+                "crName": "legsArType",
+                "crValue": "Aircraft Type",
+                "render": "dynamic",
+                "type": "multiSelectType",
+              },
+              Object {
+                "crId": "13",
+                "crKey": "LEGS_FLIGHT_CR_DEP_REG",
+                "crName": "legsDepReg",
+                "crValue": "Flight departures (region)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "14",
+                "crKey": "LEGS_FLIGHT_CR_ARRV_REG",
+                "crName": "legsArrvReg",
+                "crValue": "Flight arrivals (region)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "15",
+                "crKey": "LEGS_FLIGHT_CR_DEP_CNT",
+                "crName": "legsDepCnt",
+                "crValue": "Flight departures (country)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "16",
+                "crKey": "LEGS_FLIGHT_CR_ARRV_CNT",
+                "crName": "legsArrvCnt",
+                "crValue": "Flight arrivals (country)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "17",
+                "crKey": "LEGS_FLIGHT_CR_DEP_STATION",
+                "crName": "legsDepStation",
+                "crValue": "Flight departures (station)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "18",
+                "crKey": "LEGS_FLIGHT_CR_ARRV_STATION",
+                "crName": "legsArrvStation",
+                "crValue": "Flight arrivals (station)",
+                "render": "dynamic",
+                "type": "multiSelectSearchType",
+              },
+              Object {
+                "crId": "19",
+                "crKey": "LEGS_FLIGHT_CR_FLIGHT_START",
+                "crName": "legsFlightStart",
+                "crValue": "Flight start date",
+                "render": "static",
+                "type": "dateTimeType",
+              },
+              Object {
+                "crId": "110",
+                "crKey": "LEGS_FLIGHT_CR_FLIGHT_END",
+                "crName": "legsFlightEnd",
+                "crValue": "Flight end date",
+                "render": "static",
+                "type": "dateTimeType",
+              },
+              Object {
+                "crId": "111",
+                "crKey": "LEGS_FLIGHT_CR_FLIGHT_ST_DOW",
+                "crName": "legsFlightStDow",
+                "crValue": "Flight Start DOW",
+                "render": "static",
+                "type": "multiSelectType",
+              },
+              Object {
+                "crId": "112",
+                "crKey": "LEGS_FLIGHT_CR_FLIGHT_ED_DOW",
+                "crName": "legsFlightEdDow",
+                "crValue": "Flight End DOW",
+                "render": "static",
+                "type": "multiSelectType",
+              },
+              Object {
+                "crId": "113",
+                "crKey": "LEGS_FLIGHT_CR_BLOCK_TIME",
+                "crName": "legsBlockTime",
+                "crValue": "Block Time",
+                "render": "static",
+                "type": "durationType",
+              },
+              Object {
+                "crId": "114",
+                "crKey": "LEGS_FLIGHT_CR_FLIGHT_START_TIME",
+                "crName": "legsFlightStartTime",
+                "crValue": "Flight start time",
+                "render": "static",
+                "type": "timeType",
+              },
+              Object {
+                "crId": "115",
+                "crKey": "LEGS_FLIGHT_CR_FLIGHT_END_TIME",
+                "crName": "legsFlightEndTime",
+                "crValue": "Flight end time",
+                "render": "static",
+                "type": "timeType",
+              },
+            ],
+          },
+        ],
+        "filterId": 2,
+        "filterKey": "LEGS_FILTER",
+        "filterName": "Legs Filter",
+      },
+    ]
+  }
+  handleCancel={[Function]}
+  isOpen={true}
+  location={
+    Object {
+      "state": Object {
+        "readOnly": false,
+      },
+    }
+  }
+  setFilter={[MockFunction]}
+>
+  <FilterPane__FormContainer>
+    <FormHeader>
+      <span>
+         #
+        1
+      </span>
+      <span />
+    </FormHeader>
+    <FormBody
+      className="filter-body"
+    >
+      <ScrollBar
+        className=""
+        component="div"
+        containerRef={[Function]}
+        option={
+          Object {
+            "swipeEasing": true,
+            "wheelSpeed": 0.4,
+          }
+        }
+      >
+        <div>
+          <FormBodyTitle
+            enableClearAll={false}
+            enableLastFilter={false}
+            formTitle=""
+            handleClearAll={[Function]}
+            handleLastFilterApply={[Function]}
+            isFilterChanged={false}
+            t={
+              [MockFunction] {
+                "calls": Array [
+                  Array [
+                    "FILTER.filterCriteria.filters.PAIRINGS_FILTER",
+                  ],
+                  Array [
+                    "FILTER.filterCriteria.filters.LEGS_FILTER",
+                  ],
+                  Array [
+                    "FILTER.timeline",
+                  ],
+                  Array [
+                    "FILTER.name",
+                  ],
+                  Array [
+                    "FILTER.form.filterType",
+                  ],
+                  Array [
+                    "FILTER.pane.quickFilter.title",
+                  ],
+                  Array [
+                    "FILTER.pane.quickFilter.pairings",
+                  ],
+                  Array [
+                    "FILTER.pane.quickFilter.flights",
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              }
+            }
+            type="new"
+          />
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              sm={12}
+              xs={12}
+            >
+              <FilterPane__FormControl
+                required={true}
+              >
+                <WithStyles(ForwardRef(InputLabel))
+                  htmlFor="filterType"
+                />
+                <SelectInput
+                  data={Object {}}
+                  defaultValue="_default"
+                  enableReset={false}
+                  error={false}
+                  getTooltipContent={[Function]}
+                  handleDisable={[Function]}
+                  handleReset={[Function]}
+                  handleTooltipDisable={[Function]}
+                  items={
+                    Array [
+                      Object {
+                        "display": undefined,
+                        "value": 1,
+                      },
+                      Object {
+                        "display": undefined,
+                        "value": 2,
+                      },
+                    ]
+                  }
+                  name="filterType"
+                  onChange={[Function]}
+                  placeholder=""
+                  removeOverlay={[Function]}
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
+                  value={1}
+                />
+              </FilterPane__FormControl>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              sm={12}
+              style={
+                Object {
+                  "paddingTop": "15px",
+                }
+              }
+              xs={12}
+            >
+              <CriteriaFilter
+                categories={
+                  Array [
+                    Object {
+                      "categoryId": 1,
+                      "categoryKey": "TRIP_PAIRING_CRITERIA",
+                      "categoryName": "Pairing Criteria",
+                      "criteria": Array [
+                        Object {
+                          "crId": "11",
+                          "crKey": "TRIP_PAIRING_CR_PAIRING_NAME",
+                          "crName": "pairingName",
+                          "crValue": "Pairing Name",
+                          "render": "dynamic",
+                          "type": "multiSelectSearchType",
+                        },
+                        Object {
+                          "crId": "12",
+                          "crKey": "TRIP_PAIRING_CR_LAYOVER_AT",
+                          "crName": "layoverAt",
+                          "crValue": "Layover At",
+                          "render": "dynamic",
+                          "type": "multiSelectSearchType",
+                        },
+                        Object {
+                          "crId": "13",
+                          "crKey": "TRIP_PAIRING_CR_PAIRING_START",
+                          "crName": "pairingStart",
+                          "crValue": "Pairing start date",
+                          "render": "static",
+                          "type": "dateTimeType",
+                        },
+                        Object {
+                          "crId": "14",
+                          "crKey": "TRIP_PAIRING_CR_PAIRING_END",
+                          "crName": "pairingEnd",
+                          "crValue": "Pairing end date",
+                          "render": "static",
+                          "type": "dateTimeType",
+                        },
+                        Object {
+                          "crId": "15",
+                          "crKey": "TRIP_PAIRING_CR_CNX_AT",
+                          "crName": "cnxAt",
+                          "crValue": "TOG at",
+                          "render": "dynamic",
+                          "type": "multiSelectSearchType",
+                        },
+                        Object {
+                          "crId": "16",
+                          "crKey": "TRIP_PAIRING_CR_CNX_DURATION",
+                          "crName": "cnxDuration",
+                          "crValue": "TOG duration",
+                          "render": "static",
+                          "type": "durationType",
+                        },
+                        Object {
+                          "crId": "17",
+                          "crKey": "TRIP_PAIRING_CR_CNX_ACHG",
+                          "crName": "cnxAchg",
+                          "crValue": "TOG aircraft change",
+                          "render": "static",
+                          "type": "multiSelectType",
+                        },
+                        Object {
+                          "crId": "18",
+                          "crKey": "TRIP_PAIRING_CR_CREW_BASE",
+                          "crName": "crewBase",
+                          "crValue": "Crew Base",
+                          "render": "dynamic",
+                          "type": "multiSelectSearchType",
+                        },
+                        Object {
+                          "crId": "19",
+                          "crKey": "TRIP_PAIRING_CR_CC",
+                          "crName": "crewComposition",
+                          "crValue": "Crew Composition",
+                          "render": "dynamic",
+                          "type": "multiSelectType",
+                        },
+                        Object {
+                          "crId": "110",
+                          "crKey": "TRIP_PAIRING_CR_BLOCK_TIME",
+                          "crName": "blockTime",
+                          "crValue": "Pairing block hours",
+                          "render": "static",
+                          "type": "durationType",
+                        },
+                        Object {
+                          "crId": "111",
+                          "crKey": "TRIP_PAIRING_CR_TAFB",
+                          "crName": "tafb",
+                          "crValue": "TAFB",
+                          "render": "static",
+                          "type": "durationType",
+                        },
+                        Object {
+                          "crId": "112",
+                          "crKey": "TRIP_PAIRING_CR_OCCURRENCES",
+                          "crName": "occurrences",
+                          "crValue": "Pairing occurrences",
+                          "render": "static",
+                          "type": "intRangeType",
+                        },
+                        Object {
+                          "crId": "113",
+                          "crKey": "TRIP_PAIRING_CR_DUTIES",
+                          "crName": "duties",
+                          "crValue": "Duties",
+                          "render": "static",
+                          "type": "intRangeType",
+                        },
+                        Object {
+                          "crId": "114",
+                          "crKey": "TRIP_PAIRING_CR_DUTY_DAYS",
+                          "crName": "dutyDays",
+                          "crValue": "Duty Days",
+                          "render": "static",
+                          "type": "intRangeType",
+                        },
+                        Object {
+                          "crId": "115",
+                          "crKey": "TRIP_PAIRING_CR_BPDH",
+                          "crName": "bpdh",
+                          "crValue": "Average productivity (block per duty hour)",
+                          "render": "static",
+                          "type": "durationType",
+                        },
+                        Object {
+                          "crId": "116",
+                          "crKey": "TRIP_PAIRING_CR_BPDP",
+                          "crName": "bpdp",
+                          "crValue": "Average productivity (block per duty period)",
+                          "render": "static",
+                          "type": "durationType",
+                        },
+                        Object {
+                          "crId": "117",
+                          "crKey": "TRIP_PAIRING_CR_OP_FLIGHTS",
+                          "crName": "opFlights",
+                          "crValue": "Flights (in pairing)",
+                          "render": "static",
+                          "type": "intRangeType",
+                        },
+                        Object {
+                          "crId": "118",
+                          "crKey": "TRIP_PAIRING_CR_LAYOVER_DUR",
+                          "crName": "layoverDur",
+                          "crValue": "Layover Duration",
+                          "render": "static",
+                          "type": "durationType",
+                        },
+                        Object {
+                          "crId": "119",
+                          "crKey": "TRIP_PAIRING_CR_PAIRING_START_TIME",
+                          "crName": "pairingStartTime",
+                          "crValue": "Pairing start time",
+                          "render": "static",
+                          "type": "timeType",
+                        },
+                        Object {
+                          "crId": "120",
+                          "crKey": "TRIP_PAIRING_CR_PAIRING_END_TIME",
+                          "crName": "pairingEndTime",
+                          "crValue": "Pairing End time",
+                          "render": "static",
+                          "type": "timeType",
+                        },
+                      ],
+                    },
+                    Object {
+                      "categoryId": 2,
+                      "categoryKey": "TRIP_DP_CRITERIA",
+                      "categoryName": "Duty Period Criteria",
+                      "criteria": Array [
+                        Object {
+                          "crId": "21",
+                          "crKey": "TRIP_DP_CRITERIA_DUTY_START",
+                          "crName": "dutyStart",
+                          "crValue": "Duty start date",
+                          "render": "static",
+                          "type": "dateTimeType",
+                        },
+                        Object {
+                          "crId": "22",
+                          "crKey": "TRIP_DP_CRITERIA_DUTY_END",
+                          "crName": "dutyEnd",
+                          "crValue": "Duty end date",
+                          "render": "static",
+                          "type": "dateTimeType",
+                        },
+                        Object {
+                          "crId": "23",
+                          "crKey": "TRIP_DP_CRITERIA_DUTY_BLOCK_HOURS",
+                          "crName": "dutyBlockHours",
+                          "crValue": "Duty block hours",
+                          "render": "static",
+                          "type": "durationType",
+                        },
+                        Object {
+                          "crId": "24",
+                          "crKey": "TRIP_DP_CRITERIA_DUTY_CREDIT_HOURS",
+                          "crName": "dutyCreditHours",
+                          "crValue": "Duty credit hours",
+                          "render": "static",
+                          "type": "durationType",
+                        },
+                        Object {
+                          "crId": "25",
+                          "crKey": "TRIP_DP_CRITERIA_DUTY_HOURS",
+                          "crName": "dutyHours",
+                          "crValue": "Duty hours",
+                          "render": "static",
+                          "type": "durationType",
+                        },
+                        Object {
+                          "crId": "26",
+                          "crKey": "TRIP_DP_CRITERIA_OP_FLIGHTS",
+                          "crName": "dpOpFlights",
+                          "crValue": "Flights (in duty)",
+                          "render": "static",
+                          "type": "intRangeType",
+                        },
+                        Object {
+                          "crId": "27",
+                          "crKey": "TRIP_DP_CRITERIA_BPDH",
+                          "crName": "dpBpdh",
+                          "crValue": "Block Per Duty Hour",
+                          "render": "static",
+                          "type": "durationType",
+                        },
+                        Object {
+                          "crId": "28",
+                          "crKey": "TRIP_DP_CRITERIA_DUTY_START_TIME",
+                          "crName": "dutyStartTime",
+                          "crValue": "Duty start time",
+                          "render": "static",
+                          "type": "timeType",
+                        },
+                        Object {
+                          "crId": "29",
+                          "crKey": "TRIP_DP_CRITERIA_DUTY_END_TIME",
+                          "crName": "dutyEndTime",
+                          "crValue": "Duty end time",
+                          "render": "static",
+                          "type": "timeType",
+                        },
+                      ],
+                    },
+                    Object {
+                      "categoryId": 3,
+                      "categoryKey": "TRIP_FLIGHT_CRITERIA",
+                      "categoryName": "Flight Criteria",
+                      "criteria": Array [
+                        Object {
+                          "crId": "31",
+                          "crKey": "TRIP_FLIGHT_CR_FLIGHT_DESIG",
+                          "crName": "flightDesig",
+                          "crValue": "Flight designator",
+                          "render": "dynamic",
+                          "type": "multiSelectSearchType",
+                        },
+                        Object {
+                          "crId": "32",
+                          "crKey": "TRIP_FLIGHT_CR_AR_TYPE",
+                          "crName": "arType",
+                          "crValue": "Aircraft Type",
+                          "render": "dynamic",
+                          "type": "multiSelectType",
+                        },
+                        Object {
+                          "crId": "33",
+                          "crKey": "TRIP_FLIGHT_CR_DEP_REG",
+                          "crName": "depReg",
+                          "crValue": "Flight departures (region)",
+                          "render": "dynamic",
+                          "type": "multiSelectSearchType",
+                        },
+                        Object {
+                          "crId": "34",
+                          "crKey": "TRIP_FLIGHT_CR_ARRV_REG",
+                          "crName": "arrvReg",
+                          "crValue": "Flight arrivals (region)",
+                          "render": "dynamic",
+                          "type": "multiSelectSearchType",
+                        },
+                        Object {
+                          "crId": "35",
+                          "crKey": "TRIP_FLIGHT_CR_DEP_CNT",
+                          "crName": "depCountry",
+                          "crValue": "Flight departures (country)",
+                          "render": "dynamic",
+                          "type": "multiSelectSearchType",
+                        },
+                        Object {
+                          "crId": "36",
+                          "crKey": "TRIP_FLIGHT_CR_AR_CNT",
+                          "crName": "arrCountry",
+                          "crValue": "Flight arrivals (country)",
+                          "render": "dynamic",
+                          "type": "multiSelectSearchType",
+                        },
+                        Object {
+                          "crId": "37",
+                          "crKey": "TRIP_FLIGHT_CR_DEP_STATION",
+                          "crName": "depStation",
+                          "crValue": "Flight departures (station)",
+                          "render": "dynamic",
+                          "type": "multiSelectSearchType",
+                        },
+                        Object {
+                          "crId": "38",
+                          "crKey": "TRIP_FLIGHT_CR_ARRV_STATION",
+                          "crName": "arrvStation",
+                          "crValue": "Flight arrivals (station)",
+                          "render": "dynamic",
+                          "type": "multiSelectSearchType",
+                        },
+                        Object {
+                          "crId": "39",
+                          "crKey": "TRIP_FLIGHT_CR_FLIGHT_START",
+                          "crName": "flightStart",
+                          "crValue": "Flight start date",
+                          "render": "static",
+                          "type": "dateTimeType",
+                        },
+                        Object {
+                          "crId": "310",
+                          "crKey": "TRIP_FLIGHT_CR_FLIGHT_END",
+                          "crName": "flightEnd",
+                          "crValue": "Flight end date",
+                          "render": "static",
+                          "type": "dateTimeType",
+                        },
+                        Object {
+                          "crId": "311",
+                          "crKey": "TRIP_FLIGHT_CR_FLIGHT_ST_DOW",
+                          "crName": "flightStDow",
+                          "crValue": "Flight Start DOW",
+                          "render": "static",
+                          "type": "multiSelectType",
+                        },
+                        Object {
+                          "crId": "312",
+                          "crKey": "TRIP_FLIGHT_CR_FLIGHT_ED_DOW",
+                          "crName": "flightEdDow",
+                          "crValue": "Flight End DOW",
+                          "render": "static",
+                          "type": "multiSelectType",
+                        },
+                        Object {
+                          "crId": "313",
+                          "crKey": "TRIP_FLIGHT_CR_BLOCK_TIME",
+                          "crName": "flightBlockTime",
+                          "crValue": "Block Time",
+                          "render": "static",
+                          "type": "durationType",
+                        },
+                        Object {
+                          "crId": "314",
+                          "crKey": "TRIP_FLIGHT_CR_FLIGHT_START_TIME",
+                          "crName": "flightStartTime",
+                          "crValue": "Flight start time",
+                          "render": "static",
+                          "type": "timeType",
+                        },
+                        Object {
+                          "crId": "315",
+                          "crKey": "TRIP_FLIGHT_CR_FLIGHT_END_TIME",
+                          "crName": "flightEndTime",
+                          "crValue": "Flight end time",
+                          "render": "static",
+                          "type": "timeType",
+                        },
+                      ],
+                    },
+                  ]
+                }
+                getfilteredCriteria={[Function]}
+                t={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        "FILTER.filterCriteria.filters.PAIRINGS_FILTER",
+                      ],
+                      Array [
+                        "FILTER.filterCriteria.filters.LEGS_FILTER",
+                      ],
+                      Array [
+                        "FILTER.timeline",
+                      ],
+                      Array [
+                        "FILTER.name",
+                      ],
+                      Array [
+                        "FILTER.form.filterType",
+                      ],
+                      Array [
+                        "FILTER.pane.quickFilter.title",
+                      ],
+                      Array [
+                        "FILTER.pane.quickFilter.pairings",
+                      ],
+                      Array [
+                        "FILTER.pane.quickFilter.flights",
+                      ],
+                    ],
+                    "results": Array [
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                    ],
+                  }
+                }
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <FilterPane__WhiteContainer
+              item={true}
+              sm={12}
+              xs={12}
+            >
+              <h2 />
+              <button
+                className="link-button button-reset"
+                onClick={[Function]}
+                type="button"
+              />
+              <button
+                className="link-button button-reset"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "marginBottom": "16px",
+                    "marginTop": "16px",
+                  }
+                }
+                type="button"
+              />
+            </FilterPane__WhiteContainer>
+          </WithStyles(ForwardRef(Grid))>
+        </div>
+      </ScrollBar>
+    </FormBody>
+    <FilterPaneFooter
+      enableSave={false}
+      handleApply={[Function]}
+      handleCancel={[Function]}
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "FILTER.filterCriteria.filters.PAIRINGS_FILTER",
+            ],
+            Array [
+              "FILTER.filterCriteria.filters.LEGS_FILTER",
+            ],
+            Array [
+              "FILTER.timeline",
+            ],
+            Array [
+              "FILTER.name",
+            ],
+            Array [
+              "FILTER.form.filterType",
+            ],
+            Array [
+              "FILTER.pane.quickFilter.title",
+            ],
+            Array [
+              "FILTER.pane.quickFilter.pairings",
+            ],
+            Array [
+              "FILTER.pane.quickFilter.flights",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    />
+  </FilterPane__FormContainer>
+</Base>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CheckboxFilter Component CheckboxFilter Component renders correctly 1`] = `
+<CheckboxFilter__StyledSubComponent>
+  <div>
+    <span>
+       
+    </span>
+    <CheckboxFilter__ClearAllButton
+      color="primary"
+      disableFocusRipple={true}
+      disableRipple={true}
+      disabled={true}
+      onClick={[Function]}
+      size="small"
+      startIcon={<Memo />}
+    />
+  </div>
+  <div>
+    <CheckboxFilter__StyledInputSearch>
+      <WithStyles(ForwardRef(Input))
+        disableUnderline={true}
+        endAdornment=""
+        onChange={[Function]}
+        startAdornment={
+          <FilterInput__SearchIcon>
+            search
+          </FilterInput__SearchIcon>
+        }
+        type="text"
+        value=""
+      />
+    </CheckboxFilter__StyledInputSearch>
+  </div>
+  <ScrollBar
+    className=""
+    component="div"
+    containerRef={[Function]}
+    onScrollDown={[Function]}
+    option={
+      Object {
+        "swipeEasing": true,
+        "wheelSpeed": 0.4,
+      }
+    }
+  >
+    <div />
+  </ScrollBar>
+</CheckboxFilter__StyledSubComponent>
+`;

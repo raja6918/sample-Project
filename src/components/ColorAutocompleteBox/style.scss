@@ -1,0 +1,14 @@
+.margin-check {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.margin-check:after {
+  position: absolute;
+  content: '';
+  border-bottom: 1px solid rgb(204, 204, 204);
+  width: 90%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  left: 50%;
+}

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PairingBlock Component renders 1`] = `
+<PairingBlock
+  activity={
+    Object {
+      "duration": "1h59",
+    }
+  }
+  alertSelected={
+    Object {
+      "alertType": "error",
+      "flightNumber": 7991,
+    }
+  }
+  hourWidthInPx={5}
+>
+  <span
+    className="pairing-block no-activities"
+    style={
+      Object {
+        "background": "#000",
+        "textAlign": "center",
+        "width": 9.916666666666668,
+      }
+    }
+  >
+    <PairingLabels
+      activity={
+        Object {
+          "duration": "1h59",
+        }
+      }
+    >
+      <span
+        className="pa-labels-group"
+      >
+        <span
+          className="pa-labels-row"
+          key="row-0"
+        >
+          <span
+            className="pa-label"
+            key="label-0"
+          >
+            1h59
+          </span>
+        </span>
+      </span>
+    </PairingLabels>
+  </span>
+</PairingBlock>
+`;

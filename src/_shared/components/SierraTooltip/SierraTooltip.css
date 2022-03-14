@@ -1,0 +1,22 @@
+/*
+  More information about how to create themes here:
+  - https://github.com/atomiks/tippyjs/issues/35
+  - https://github.com/tvkhoa/react-tippy/issues/78
+*/
+
+.tippy-tooltip.sierra-theme {
+  background-color: #3d3d3d;
+  padding: 5px;
+}
+
+.tippy-tooltip.sierra-theme[data-animatefill] {
+  background-color: transparent;
+}
+
+.tippy-popper[x-placement='top'] .tippy-tooltip.sierra-theme [x-arrow] {
+  border-top: 7px solid #3d3d3d;
+}
+
+.tippy-popper[x-placement='bottom'] .tippy-tooltip.sierra-theme [x-arrow] {
+  border-bottom: 7px solid #3d3d3d;
+}

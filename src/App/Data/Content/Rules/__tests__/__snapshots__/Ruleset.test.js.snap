@@ -1,0 +1,2266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rule set tests Ruleset component render correct in readOnly mode 1`] = `
+<Fragment>
+  <Connect(AccessEnabler)
+    disableComponent={true}
+    render={[Function]}
+    scopes={
+      Array [
+        "scenario_ruleset_manage",
+      ]
+    }
+  />
+  <AddHeader
+    className="tm-scenario_data_ruleset__create-btn"
+    disableAdd={false}
+    editMode={false}
+    handleDeleteError={[MockFunction]}
+    name="Ruleset"
+    needAddButton={false}
+    onClick={[Function]}
+    openItemId="1"
+    openItemName="Scenario test"
+    readOnly={true}
+    redirectLink={
+      <RedirectLink
+        display="inline-block"
+        margin="0 0 0 0px"
+        to={
+          Object {
+            "pathname": "../rules",
+            "state": Object {
+              "editMode": false,
+              "openItemId": "1",
+              "openItemName": "Scenario test",
+              "readOnly": true,
+            },
+          }
+        }
+      >
+        Ruleset
+      </RedirectLink>
+    }
+    t={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.form.delete",
+          ],
+          Array [
+            "Rule set",
+          ],
+          Array [
+            "DIALOG.DELETE_DATA.title",
+            Object {
+              "name": "base9-apply-bcd-10",
+              "type": "ruleset",
+            },
+          ],
+          Array [
+            "Rule set",
+          ],
+          Array [
+            "DIALOG.DELETE_DATA.body",
+            Object {
+              "name": "base9-apply-bcd-10",
+              "type": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+        ],
+      }
+    }
+    userData={
+      Object {
+        "id": 1,
+      }
+    }
+  />
+  <Container>
+    <RuleSet__TreeDiv>
+      <SortableTree
+        canDrag={false}
+        canDrop={false}
+        generateNodeProps={[Function]}
+        onChange={[Function]}
+        rowHeight={[Function]}
+        style={
+          Object {
+            "height": "620px",
+          }
+        }
+        treeData={Array []}
+      />
+    </RuleSet__TreeDiv>
+    <Notification
+      autoHideDuration={5000}
+      bottomheight={0}
+      buttonText=""
+      clear={[Function]}
+      displayCloseButton={false}
+      message={null}
+      onLinkAction={[Function]}
+      renderers={
+        Object {
+          "paragraph": "span",
+        }
+      }
+      type="success"
+    />
+  </Container>
+</Fragment>
+`;
+
+exports[`Rule set tests Ruleset component renders correct 1`] = `
+<Fragment>
+  <Connect(AccessEnabler)
+    disableComponent={true}
+    render={[Function]}
+    scopes={
+      Array [
+        "scenario_ruleset_manage",
+      ]
+    }
+  />
+  <AddHeader
+    className="tm-scenario_data_ruleset__create-btn"
+    disableAdd={false}
+    editMode={false}
+    handleDeleteError={[MockFunction]}
+    name="Ruleset"
+    needAddButton={false}
+    onClick={[Function]}
+    openItemId="1"
+    openItemName="Scenario test"
+    readOnly={false}
+    redirectLink={
+      <RedirectLink
+        display="inline-block"
+        margin="0 0 0 0px"
+        to={
+          Object {
+            "pathname": "../rules",
+            "state": Object {
+              "editMode": false,
+              "openItemId": "1",
+              "openItemName": "Scenario test",
+              "readOnly": false,
+            },
+          }
+        }
+      >
+        Ruleset
+      </RedirectLink>
+    }
+    t={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.addChild",
+          ],
+          Array [
+            "GLOBAL.menu.duplicate",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.lastModified",
+            Array [
+              "02-FEB 2020",
+            ],
+          ],
+          Array [
+            "DATA.ruleSets.name",
+          ],
+          Array [
+            "DATA.rules.name",
+          ],
+          Array [
+            "GLOBAL.redirectTo",
+            Object {
+              "data": "ruleset",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+          Object {
+            "type": "return",
+            "value": "Ruleset",
+          },
+        ],
+      }
+    }
+    userData={
+      Object {
+        "id": 1,
+      }
+    }
+  />
+  <Container>
+    <RuleSet__TreeDiv>
+      <SortableTree
+        canDrag={false}
+        canDrop={false}
+        generateNodeProps={[Function]}
+        onChange={[Function]}
+        rowHeight={[Function]}
+        style={
+          Object {
+            "height": "620px",
+          }
+        }
+        treeData={
+          Array [
+            Object {
+              "children": Array [
+                Object {
+                  "description": null,
+                  "fallback": 2,
+                  "id": 1,
+                  "lastModifiedBy": "yy",
+                  "lastModifiedDateTime": "2020-02-02T09:00",
+                  "name": "base9-apply-bcd-10",
+                  "object": "ruleset",
+                  "subtitle": "Ruleset",
+                  "title": "base9-apply-bcd-10",
+                },
+              ],
+              "description": null,
+              "expanded": true,
+              "fallback": 0,
+              "id": 2,
+              "lastModifiedBy": "yy",
+              "lastModifiedDateTime": "2020-02-02T09:00",
+              "name": "base9-apply-bcd-10",
+              "object": "ruleset",
+              "subtitle": "Ruleset",
+              "title": "base9-apply-bcd-10",
+            },
+          ]
+        }
+      />
+    </RuleSet__TreeDiv>
+    <Notification
+      autoHideDuration={5000}
+      bottomheight={0}
+      buttonText=""
+      clear={[Function]}
+      displayCloseButton={false}
+      message={null}
+      onLinkAction={[Function]}
+      renderers={
+        Object {
+          "paragraph": "span",
+        }
+      }
+      type="success"
+    />
+  </Container>
+</Fragment>
+`;

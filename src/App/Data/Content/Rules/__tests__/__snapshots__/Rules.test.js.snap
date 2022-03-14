@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rules component render correct 1`] = `
+<Fragment>
+  <AddHeader
+    className=""
+    disableAdd={false}
+    editMode={false}
+    name=""
+    needAddButton={false}
+    onClick={[Function]}
+    openItemId="1"
+    openItemName="Scenario test"
+    redirectLink={
+      <RedirectLink
+        display="inline-block"
+        margin="0 0 0 0px"
+        to={
+          Object {
+            "pathname": "rules/rule-sets",
+            "state": Object {
+              "editMode": false,
+              "openItemId": "1",
+              "openItemName": "Scenario test",
+              "readOnly": undefined,
+            },
+          }
+        }
+      >
+        DATA.ruleSets.link
+      </RedirectLink>
+    }
+    reportError={[MockFunction]}
+    t={[Function]}
+    userData={
+      Object {
+        "id": 1,
+      }
+    }
+  />
+  <ModalLoader
+    background=""
+    color="white"
+    loaderRequired={true}
+    onClose={[Function]}
+    open={false}
+    subtitle=""
+    title="DATA.rules.loader"
+  />
+  <Container>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="container-cls"
+      container={true}
+      spacing={1}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        DATA.rules.inputSelector
+         :
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <WithStyles(ForwardRef(Select))
+          className="ruleset-select"
+          inputProps={
+            Object {
+              "id": "",
+              "name": "",
+              "required": false,
+            }
+          }
+          onChange={[Function]}
+          value={null}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <DataNotFound
+      style={Object {}}
+      text="GLOBAL.dataLoading.message"
+    />
+  </Container>
+</Fragment>
+`;
+
+exports[`Rules component render correct in readOnly mode 1`] = `
+<Fragment>
+  <AddHeader
+    className=""
+    disableAdd={false}
+    editMode={false}
+    name=""
+    needAddButton={false}
+    onClick={[Function]}
+    openItemId="1"
+    openItemName="Scenario test"
+    readOnly={true}
+    redirectLink={
+      <RedirectLink
+        display="inline-block"
+        margin="0 0 0 0px"
+        to={
+          Object {
+            "pathname": "rules/rule-sets",
+            "state": Object {
+              "editMode": false,
+              "openItemId": "1",
+              "openItemName": "Scenario test",
+              "readOnly": true,
+            },
+          }
+        }
+      >
+        DATA.ruleSets.link
+      </RedirectLink>
+    }
+    reportError={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "error": Object {
+                "response": Object {},
+              },
+            },
+          ],
+          Array [
+            Object {
+              "error": Object {
+                "response": Object {},
+              },
+            },
+          ],
+          Array [
+            Object {
+              "error": Object {
+                "response": Object {},
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    t={[Function]}
+    userData={
+      Object {
+        "id": 1,
+      }
+    }
+  />
+  <ModalLoader
+    background=""
+    color="white"
+    loaderRequired={true}
+    onClose={[Function]}
+    open={false}
+    subtitle=""
+    title="DATA.rules.loader"
+  />
+  <Container>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="container-cls"
+      container={true}
+      spacing={1}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        DATA.rules.inputSelector
+         :
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <WithStyles(ForwardRef(Select))
+          className="ruleset-select"
+          inputProps={
+            Object {
+              "id": "",
+              "name": "",
+              "required": false,
+            }
+          }
+          onChange={[Function]}
+          value={1}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <DataNotFound
+      style={Object {}}
+      text="GLOBAL.dataLoading.message"
+    />
+  </Container>
+</Fragment>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorHighlighter Component render correctly 1`] = `
+<span
+  style={
+    Object {
+      "color": "#FF650C",
+    }
+  }
+>
+  Test
+</span>
+`;

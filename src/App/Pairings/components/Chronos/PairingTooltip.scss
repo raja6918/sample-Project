@@ -1,0 +1,295 @@
+$color_2: #ff650c;
+
+$tooltip-bg: rgba(97, 97, 97, 0.9);
+$tooltip-color: #fff;
+
+$font_weight: 500;
+$row_height: 30px;
+
+.bold {
+  font-weight: $font_weight;
+}
+
+.hightlight {
+  display: flex;
+  position: relative;
+  color: $color_2;
+  font-weight: $font_weight;
+  font-size: 13px;
+
+  .left-icon {
+    margin-right: 4px;
+  }
+
+  .right-icon {
+    position: absolute;
+    right: -20px;
+  }
+}
+
+.auto-grow {
+  flex-grow: 1;
+}
+
+.bullet {
+  border: 1.5px solid #808080;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+}
+
+.line {
+  height: 1px;
+  min-width: 30px;
+  background: #808080;
+}
+
+.underline,
+.overline {
+  font-weight: $font_weight;
+}
+
+.underline {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.under,
+.over {
+  color: #e8bb00;
+}
+
+.noPosition {
+  color: #b2b2b2;
+}
+
+.overline {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.crew-composition-tooltip {
+  width: 100%;
+  text-align: left;
+
+  span {
+    padding: 0;
+  }
+
+  .material-icons {
+    font-size: 11px;
+    padding-left: 2px;
+  }
+
+  .title,
+  .separator {
+    margin-right: 2px;
+  }
+
+  .clickable {
+    cursor: pointer;
+  }
+}
+
+.pa-tooltip {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  height: 96px;
+  // height: 100%;
+  // max-width: 586px;
+  font-size: 12px;
+  padding: 15px 0;
+  border-radius: 0 0 3px 3px;
+
+  .duration {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // margin: 0 4px;
+    font-size: 12px;
+    font-weight: $font_weight;
+
+    :first-child {
+      margin-bottom: 5px;
+    }
+
+    .material-icons {
+      font-size: 24px;
+      font-weight: normal;
+    }
+
+    .rotate-icon {
+      transform: rotate(90deg);
+    }
+  }
+
+  .activity-duration-container {
+    height: auto;
+    padding: 10px 40px;
+    align-items: stretch;
+    border-right: 1px solid #808080;
+  }
+
+  .activity-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    // max-width: 400px;
+    padding: 0 30px 0 15px;
+
+    .pa-tooltip-text {
+      display: flex;
+      width: 100%;
+      padding: 0;
+      text-align: left;
+      line-height: 1.5;
+      & > div:first-child {
+        width: 100px;
+      }
+    }
+    .inner-text {
+      font-weight: 700;
+    }
+  }
+}
+
+.activity-duration {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 11px;
+
+  .start-label,
+  .end-label {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    & > span:first-child {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    & > span:last-child {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+
+  .start-label {
+    text-align: right;
+    margin-right: 8px;
+  }
+
+  .end-label {
+    position: relative;
+    margin-left: 8px;
+    text-align: left;
+
+    &.elements-2 {
+      &.LAY {
+        margin-top: 14px;
+      }
+    }
+
+    .days-diff {
+      position: absolute;
+      right: -26px;
+    }
+  }
+}
+
+.sierra-tooltip {
+  position: absolute;
+  min-width: 432px;
+  max-width: 680px;
+  z-index: 10;
+  display: block;
+  visibility: hidden;
+  border: 1px solid #333333;
+  border-radius: 3px 3px 3px 3px;
+  opacity: 0.95;
+  background: #333333;
+  color: #ffffff;
+
+  &.up::after {
+    content: '';
+    position: absolute;
+    left: var(--sierra-tooltip-left);
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #333333 transparent;
+    bottom: 100%;
+    color: #333333;
+  }
+  &.down::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: var(--sierra-tooltip-left);
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #333333 transparent transparent transparent;
+    color: #333333;
+  }
+}
+
+.sierra-tooltip-header {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 15px;
+  left: 0px;
+  top: 8px;
+  background: #000000;
+  border-radius: 3px 3px 0px 0px;
+  display: flex;
+  color: #fff;
+  opacity: 0.95;
+  justify-content: space-between;
+}
+
+.crew-comp-name {
+  margin-right: 20px;
+}
+.names {
+  min-width: 67px;
+  padding-right: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.coterm{
+width:0px !important;
+}
+
+.containerDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.centerDiv {
+  display: flex;
+  align-items: center;
+}
+
+.duration-label {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.aircraftTypeCode-label {
+  font-size: 12px;
+  font-weight: 400;
+}

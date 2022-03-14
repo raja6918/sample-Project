@@ -1,0 +1,20 @@
+<svg width="280" height="24" viewBox="0 0 280 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 5H6C5.44772 5 5 5.44772 5 6V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V6C19 5.44772 18.5523 5 18 5Z" stroke="white" stroke-width="2"/>
+<path d="M14.8285 14.8285L9.17163 9.17163L14.8285 14.8285ZM9.17163 14.8285L14.8285 9.17163L9.17163 14.8285Z" stroke="white" stroke-width="2"/>
+<path d="M58 5H46C45.4477 5 45 5.44772 45 6V18C45 18.5523 45.4477 19 46 19H58C58.5523 19 59 18.5523 59 18V6C59 5.44772 58.5523 5 58 5Z" stroke="white" stroke-width="2"/>
+<path d="M48 15H56" stroke="white" stroke-width="2"/>
+<path d="M98 5H86C85.4477 5 85 5.44772 85 6V18C85 18.5523 85.4477 19 86 19H98C98.5523 19 99 18.5523 99 18V6C99 5.44772 98.5523 5 98 5Z" stroke="white" stroke-width="2"/>
+<path d="M85 7H99" stroke="white" stroke-width="2"/>
+<path d="M128 8H126C124.895 8 124 8.89543 124 10V18C124 19.1046 124.895 20 126 20H134C135.105 20 136 19.1046 136 18V16H134V18H126V10H128V8Z" fill="white"/>
+<path d="M138 5H130C129.448 5 129 5.44772 129 6V14C129 14.5523 129.448 15 130 15H138C138.552 15 139 14.5523 139 14V6C139 5.44772 138.552 5 138 5Z" stroke="white" stroke-width="2"/>
+<path d="M160.5 0V24" stroke="#333333"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M198.24 5.59009L187.66 16.1701L183.48 12.0001L182.07 13.4101L187.66 19.0001L199.66 7.00009L198.24 5.59009ZM194 7.00009L192.59 5.59009L186.25 11.9301L187.66 13.3401L194 7.00009ZM182 19.0001L176.41 13.4101L177.83 12.0001L183.41 17.5901L182 19.0001Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M259 6V8H277V6H259ZM266 18H270V16H266V18ZM274 13H262V11H274V13Z" fill="white"/>
+<path d="M229 7.5L238 16.5L229 7.5ZM238 7.5L229 16.5L238 7.5Z" stroke="white" stroke-width="2"/>
+<mask id="mask0_957_5233" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="217" y="6" width="12" height="12">
+<path d="M223.5 6.5H217V17.5H222.5L228.5 11.5L223.5 6.5Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_957_5233)">
+<path d="M220 16H225H220ZM216 8H229H216ZM218 12H230H218Z" stroke="white" stroke-width="2"/>
+</g>
+</svg>

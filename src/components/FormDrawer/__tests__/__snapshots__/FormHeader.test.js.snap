@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormHeader Component renders 1`] = `
+.c0 {
+  background: #5098e7;
+  padding: 20px 20px 34px 14px;
+  height: 113px;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c0 span {
+  display: block;
+}
+
+.c0 > span:first-child {
+  font-size: 14px;
+  margin-top: 14px;
+  font-weight: 400;
+}
+
+.c0 > span:last-child {
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+<div
+  className="c0"
+/>
+`;

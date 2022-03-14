@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Position Form component render correct in readOnly mode 1`] = `
+<Form
+  anchor="right"
+  cancelButton="Cancel"
+  editMode={false}
+  enableReadOnly={false}
+  formId=""
+  handleCancel={[MockFunction]}
+  handleOk={[MockFunction]}
+  handleSubmit={[Function]}
+  inlineError={null}
+  isDisabled={false}
+  isOpen={true}
+  okButton="Ok"
+  onChange={[Function]}
+  onClose={[MockFunction]}
+  openItemId="102"
+  openItemName="My open item test"
+>
+  <FormHeader>
+    <span />
+    <span />
+  </FormHeader>
+  <FormBody>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <div>
+        <h2 />
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <PositionsForm__FormControl
+              error={false}
+            >
+              <FormComponents__Input
+                className=""
+                color="secondary"
+                disabled={true}
+                error={false}
+                id="positionCode"
+                inputProps={
+                  Object {
+                    "maxLength": 10,
+                    "name": "positionCode",
+                  }
+                }
+                onChange={[Function]}
+                required={true}
+                value=""
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </PositionsForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <PositionsForm__FormControl
+              error={false}
+            >
+              <FormComponents__Input
+                className=""
+                color="secondary"
+                disabled={true}
+                error={false}
+                id="positionName"
+                inputProps={
+                  Object {
+                    "maxLength": 50,
+                    "name": "positionName",
+                  }
+                }
+                onChange={[Function]}
+                value=""
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </PositionsForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <InputSelector
+              disabled={true}
+              displayed="name"
+              handleChange={[Function]}
+              items={Array []}
+              label=""
+              name="positionType"
+              required={true}
+              selected=""
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <PositionSeniority
+              disabled={true}
+              position={
+                Object {
+                  "code": "FLY",
+                  "id": 10,
+                  "name": "Flyer",
+                  "typeId": 1,
+                  "typeNam": "Flight Deck",
+                }
+              }
+              positionType=""
+              positions={Array []}
+              sortItems={[Function]}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </ScrollBar>
+  </FormBody>
+</Form>
+`;
+
+exports[`PositionsForm Component renders correctly 1`] = `
+<Form
+  anchor="right"
+  cancelButton="Cancel"
+  editMode={false}
+  enableReadOnly={false}
+  formId=""
+  handleCancel={[MockFunction]}
+  handleOk={[MockFunction]}
+  handleSubmit={[Function]}
+  inlineError={null}
+  isDisabled={true}
+  isOpen={true}
+  okButton="Ok"
+  onChange={[Function]}
+  onClose={[MockFunction]}
+  openItemId="102"
+  openItemName="My open item test"
+>
+  <FormHeader>
+    <span />
+    <span />
+  </FormHeader>
+  <FormBody>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <div>
+        <h2 />
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <PositionsForm__FormControl
+              error={false}
+            >
+              <FormComponents__Input
+                className=""
+                color="secondary"
+                error={false}
+                id="positionCode"
+                inputProps={
+                  Object {
+                    "maxLength": 10,
+                    "name": "positionCode",
+                  }
+                }
+                onChange={[Function]}
+                required={true}
+                value=""
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </PositionsForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <PositionsForm__FormControl
+              error={false}
+            >
+              <FormComponents__Input
+                className=""
+                color="secondary"
+                error={false}
+                id="positionName"
+                inputProps={
+                  Object {
+                    "maxLength": 50,
+                    "name": "positionName",
+                  }
+                }
+                onChange={[Function]}
+                value=""
+              />
+              <ErrorMessage
+                error={true}
+                isVisible={false}
+                message=""
+              />
+            </PositionsForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <InputSelector
+              disabled={false}
+              displayed="name"
+              handleChange={[Function]}
+              items={Array []}
+              label=""
+              name="positionType"
+              required={true}
+              selected=""
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <PositionSeniority
+              disabled={false}
+              position={
+                Object {
+                  "code": "FLY",
+                  "id": 10,
+                  "name": "Flyer",
+                  "typeId": 1,
+                  "typeNam": "Flight Deck",
+                }
+              }
+              positionType=""
+              positions={Array []}
+              sortItems={[Function]}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </ScrollBar>
+  </FormBody>
+</Form>
+`;

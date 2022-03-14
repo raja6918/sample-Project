@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddHeader Component renders 1`] = `
+<Header
+  style={
+    Object {
+      "marginBottom": "0px",
+    }
+  }
+>
+  <h2
+    style={
+      Object {
+        "fontSize": "20px",
+      }
+    }
+  >
+    Stations
+  </h2>
+  <ContextConsumer>
+    <Component />
+  </ContextConsumer>
+</Header>
+`;

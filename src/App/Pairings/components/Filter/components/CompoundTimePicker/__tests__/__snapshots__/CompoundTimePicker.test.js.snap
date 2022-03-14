@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CompoundTimePicker Component CompoundTimePicker Component renders correctly 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  style={
+    Object {
+      "width": "160px",
+    }
+  }
+>
+  <MuiPickersUtilsProvider
+    utils={[Function]}
+  >
+    <CompoundTimePicker__PickersWrapper>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={12}
+        xs={12}
+      >
+        <PickerWithState
+          InputProps={
+            Object {
+              "endAdornment": <Memo
+                color="primary"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />,
+            }
+          }
+          ampm={false}
+          className="picker-field"
+          format="HH:mm"
+          invalidDateMessage="Invalid Time Format"
+          name="startTime"
+          onChange={[Function]}
+          openTo="hours"
+          placeholder="HH:MM"
+          value={"2020-01-01T00:00:00.000Z"}
+          views={
+            Array [
+              "hours",
+              "minutes",
+            ]
+          }
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={12}
+        xs={12}
+      >
+        <PickerWithState
+          InputProps={
+            Object {
+              "endAdornment": <Memo
+                color="primary"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />,
+            }
+          }
+          ampm={false}
+          className="picker-field2"
+          format="HH:mm"
+          invalidDateMessage="Invalid Time Format"
+          name="endTime"
+          onChange={[Function]}
+          openTo="hours"
+          placeholder="HH:MM"
+          value={"2020-01-01T00:00:00.000Z"}
+          views={
+            Array [
+              "hours",
+              "minutes",
+            ]
+          }
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </CompoundTimePicker__PickersWrapper>
+  </MuiPickersUtilsProvider>
+</WithStyles(ForwardRef(Grid))>
+`;

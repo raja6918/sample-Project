@@ -1,0 +1,1551 @@
+{
+  "GLOBAL": {
+    "dataNotFound": {
+      "message": "No {{data}} were found",
+      "dataUsers": "users",
+      "dataRoles": "roles",
+      "dataScenarios": "scenarios",
+      "noResults": "No results found"
+    },
+    "dataLoading": {
+      "message": "Fetching {{data}}..."
+    },
+    "filters": {
+      "noResults": "No {{data}} match the filters"
+    },
+    "form": {
+      "ok": "OK",
+      "add": "ADD",
+      "save": "SAVE",
+      "edit": "EDIT",
+      "cancel": "CANCEL",
+      "delete": "DELETE",
+      "create": "CREATE",
+      "capCreate": "Create",
+      "endorse": "ENDORSE",
+      "skip": "SKIP",
+      "close": "CLOSE"
+    },
+    "menu": {
+      "open": "Open",
+      "getOrEditInfo": "Get/Edit info",
+      "edit": "Edit",
+      "viewOrEdit": "View/Edit",
+      "getInfo": "Get info",
+      "delete": "Delete",
+      "duplicate": "Duplicate",
+      "add": "Add",
+      "addChild": "Add child"
+    },
+    "serviceNotAvailable": "Service is not available now. Please try again later.",
+    "createdBy": "Created by",
+    "lastModified": "Last modified",
+    "viewMore": "View more",
+    "redirectTo": "Back to {{data}}"
+  },
+  "LOGIN": {
+    "username": "Username *",
+    "password": "Password *",
+    "button": "LOG IN",
+    "loginTitle": "Log in",
+    "appTitle": "SIERRA",
+    "appVersion": "BETA",
+    "bg": "Login.jpg",
+    "invalidCredentials": "Invalid username or password"
+  },
+  "CATEGORY": {
+    "create": "Create category",
+    "label": "Category"
+  },
+  "SEARCHENGINE": "Search",
+  "NAVBAR": {
+    "menuProfile": {
+      "signedIn": "Signed in as {{user}}",
+      "profile": "Profile",
+      "userAdmin": "User administration",
+      "settings": "Settings",
+      "help": "Help",
+      "signOut": "Sign out"
+    },
+    "hamburgerMenu": {
+      "signOut": "Sign out",
+      "scenarios": "Scenarios",
+      "pairings": "Pairings",
+      "solver": "Solver",
+      "data": "Data",
+      "reports": "Reports",
+      "dashboard": "Dashboard",
+      "referenceData": "Reference data",
+      "users": "Users",
+      "templates": "Templates"
+    }
+  },
+  "USERS": {
+    "tableName": "Users",
+    "rolesLink": "Manage user roles",
+    "type": "user",
+    "menu": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "headers": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "userName": "Username",
+      "role": "Role"
+    }
+  },
+  "ROLES": {
+    "tableName": "User roles",
+    "name": "Roles",
+    "usersLink": "Back to users",
+    "type": "role",
+    "headers": {
+      "roleName": "Role name",
+      "roleDescription": "Description"
+    },
+    "newUserRole": {
+      "formTitle": "New user role",
+      "editFormTitle": "Edit user role",
+      "userRoleName": "Name of user role",
+      "description": "Description (up to 250 characters)",
+      "permissionsText": "Permissions",
+      "permissionSubtext": "Choose what this new role is allowed to do.",
+      "createNewRoleButton": "CREATE NEW ROLE",
+      "updateRoleButton": "SAVE ROLE",
+      "grantDenyAccess": "Grant/Deny access",
+      "options": "Options",
+      "clearAll": "Clear all",
+      "selectAll": "Select all",
+      "resources": {
+        "DASHBOARD": "Dashboard",
+        "SCENARIOS": "Scenarios",
+        "TEMPLATES": "Templates",
+        "REPORTS": "Reports",
+        "AUDIT_TRAIL": "Audit trail",
+        "SETTINGS": "Application settings",
+        "USERS": "Users"
+      },
+      "permissions": {
+        "view": "View",
+        "viewOnly": "View only",
+        "viewAndManagePartial": "View and manage - partial",
+        "viewAndManageFull": "View and manage - full",
+        "generate": "Generate",
+        "generateAndManage": "Generate and manage",
+        "modifyPartial": "Modify - partial",
+        "modifyFull": "Modify - full",
+        "noAccess": "No access",
+        "unknown": "Unknown"
+      },
+      "permissionDescription": {
+        "dashboard_view": "View only",
+        "dashboard_manage": "View and manage",
+        "widget_edit": "Add, modify, delete widgets",
+        "widget_configure": "Configure widgets",
+        "scenario_view": "View only",
+        "scenario_manage": "View and manage",
+        "scenario_add": "Create scenarios",
+        "scenario_delete": "Delete scenarios",
+        "pairing_edit": "Modify data and pairings",
+        "scenario_rule_edit": "Modify rule values",
+        "scenario_ruleset_manage": "Manage rule sets",
+        "solver_manage": "Manage solver requests",
+        "solver_evaluate": "Evaluate solver results",
+        "import_action": "Import data to a scenario",
+        "scenario_publish": "Publish scenario data",
+        "template_view": "View only",
+        "template_manage": "View and manage",
+        "template_add": "Create templates",
+        "template_edit": "Modify data",
+        "template_delete": "Delete templates",
+        "template_rule_edit": "Modify rule values",
+        "template_ruleset_manage": "Manage rule sets",
+        "reports_generate": "Generate reports",
+        "reports_manage": "Manage report templates",
+        "audit_view": "View audit trail",
+        "settings_edit": "Modify application settings",
+        "settings_configure": "Configure rules visibility",
+        "users_manage": "Manage users",
+        "user_role_manage": "Manage user roles"
+      }
+    }
+  },
+  "DIALOG": {
+    "ADD_USER": {
+      "title": "Add user",
+      "cancel": "CANCEL",
+      "ok": "ADD",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "userName": "Username",
+      "email": "Email",
+      "password": "Password",
+      "passwordRe": "Re-enter password",
+      "role": "Role *"
+    },
+    "EDIT_USER": {
+      "title": "Edit user",
+      "ok": "SAVE",
+      "password": "New password",
+      "passwordRe": "Re-enter new password"
+    },
+    "DELETE_SCENARIO": {
+      "title": "Delete scenario",
+      "body": "Are you sure you want to delete the scenario **{{scenarioToDelete}}** ?",
+      "cancel": "CANCEL",
+      "ok": "DELETE"
+    },
+    "DELETE_DATA": {
+      "title": "Delete {{type}} {{name}}",
+      "body": "Are you sure you want to delete the {{type}} **{{name}}**?"
+    }
+  },
+  "SCENARIOS": {
+    "tableName": "Scenarios",
+    "menu": {
+      "getInfo": "Get info",
+      "saveAs": "Save as template",
+      "delete": "Delete",
+      "duplicate": "Duplicate"
+    },
+    "tableHead": {
+      "today": "Today",
+      "name": "Name",
+      "status": "Status",
+      "period": "Planning period",
+      "created": "Created by",
+      "createdBy": {
+        "me": "Me",
+        "anyone": "Anyone",
+        "notMe": "Not me"
+      },
+      "modified": "Last opened by me",
+      "month": "This month",
+      "older": "Older"
+    },
+    "form": {
+      "template": "A new scenario will be created from:",
+      "name": "Scenario name",
+      "startDate": "Start date",
+      "duration": "Duration",
+      "title": "Create a new scenario",
+      "durationTitleMatch": "Enter a correct number",
+      "asTemplate": {
+        "title": "Create a new template",
+        "subtitle": "A new template will be created from:",
+        "loader": "Creating new template from",
+        "success": "Template **{{templateName}}** has been created.",
+        "labels": {
+          "autocomplete": "Category",
+          "description": "Description (up to 1000 characters)",
+          "templateName": "Template name"
+        }
+      }
+    },
+    "process": {
+      "create": "Creating scenario...",
+      "open": "Opening scenario..."
+    },
+    "info": {
+      "referenceData": "Reference data:",
+      "deletedTemplate": "Deleted template",
+      "template": "template",
+      "scenarioName": "Scenario name",
+      "created": "Created",
+      "createdBy": "Created by",
+      "lastOpenedByMe": "Last opened by me",
+      "lastModified": "Last modified",
+      "description": "Description (up to 1000 characters)",
+      "successMsg": "1 scenario has been saved",
+      "tabs": {
+        "details": "DETAILS",
+        "notes": "NOTES"
+      }
+    },
+    "viewOnly": {
+      "okButton": "Open",
+      "title": "Open scenario in view-only mode?",
+      "line_1": "The scenario {{scenarioName}} is currently opened by",
+      "line_2": "This scenario will be opened in view-only mode. No edits will be possible.",
+      "viewOnlyText": "(view-only)"
+    }
+  },
+  "DATA": {
+    "dataHome": "Data home",
+    "title": "Data",
+    "lastModified": "Last modified:",
+    "lastImport": "Last import:",
+    "source": {
+      "template": "From template",
+      "import": "From import"
+    },
+    "card": {
+      "from": "From",
+      "import": "Import",
+      "template": "Template",
+      "modified": "(modified)",
+      "otherVersions": "Other versions",
+      "versionsAvailable": "Versions available",
+      "someNew": "(Some new)",
+      "version": "version"
+    },
+    "integrationAlerts": {
+      "alerts": "Alerts",
+      "dontShow": "Don't show me this warning again"
+    },
+    "updateModal": {
+      "importedBy": "Imported by",
+      "title": "Update {{0}} data",
+      "innerText": "The following version(s) of this data are available:",
+      "updateButton": "UPDATE",
+      "at": "at"
+    },
+    "newVersionsModal": {
+      "title": "New data available",
+      "innerText": "New versions of the following data are available:",
+      "updateButton": "UPDATE"
+    },
+    "newImportVersionsModal": {
+      "title": "Import data from this bin",
+      "innerText": "The following data is available in the import data bin. Select the item(s) you want to import into the scenario, or Skip to import new data to the bin",
+      "importButton": "IMPORT"
+    },
+    "dataConversionModal": {
+      "titleStepOne": "Step 1 - Warnings",
+      "stepOneCompleted": "Step 1 completed. ",
+      "stepOneMessage": "You can either Stop The Import to fix the issues and then relaunch, or Ignore And Continue the import.",
+      "stepOneIssues": "Some issues were found with the data you’re trying to import.",
+      "skipped": "Skipped: ",
+      "ignoreButton": "IGNORE AND CONTINUE",
+      "stopButton": "STOP THE IMPORT"
+    },
+    "generic": {
+      "extraTimes": {
+        "addExtraTime": "Add extra time",
+        "extraTime": "Extra time",
+        "startTime": "Between",
+        "endTime": "And"
+      }
+    },
+    "dateDetails": "From {{0}} to {{1}} ({{2}} days)",
+    "connectSuccess": "The scenario has been successfully connected to the bin **{{name}}**.",
+    "import": {
+      "importButton": "IMPORT DATA",
+      "dialogTitle": "Import data",
+      "dialogTitleConnect": "Connect to an import data bin",
+      "dialogMainMessage": "Let's get started by connecting this scenario to an import data bin",
+      "dialogMainDate": "For the period",
+      "dialogFormUpload": "IMPORT",
+      "dialogFormConnect": "CONNECT",
+      "fromAPIButton": "Import from API",
+      "fromComputerButton": "Import from my computer",
+      "dropTextFirst": "Drop files or",
+      "dropTextButton": "click here",
+      "dropTextLast": "to upload",
+      "addFromBin": "Connect to one of existing bins for this planning period:",
+      "noBins": "No bins exist yet for the dates in this scenario",
+      "createNew": "Create a new bin",
+      "duplicatedName": "This name already exists. Please choose another one.",
+      "directoryPlaceholder": "Enter a bin name",
+      "loaderTitle": "Uploading data...",
+      "loaderInProgress": "Importing data...",
+      "stopLoader": "Stopping import...",
+      "stopDialogTitle": "Stop the import",
+      "stopDialogText": "Are you sure you want to stop the process?<br/><br/>All data will be deleted.",
+      "importCompleted": "The import completed successfully with no alerts.",
+      "importFailedTitle": "The import failed",
+      "importFailedText": "Your import could not be completed for the following reason(s):",
+      "InternalErrorText": "Your import failed because of an internal error.",
+      "contactAdministratorText": "Try again or contact your administrator if this problem persists.",
+      "dataConversionText": "Data conversion",
+      "importStopped": "The import process has been stopped. No new data has been added to the import data bin.",
+      "fileTypes": {
+        "pairing": "Pairings",
+        "flight": "Operating flights",
+        "accommodation": "Accommodations",
+        "aircraftType": "Aircraft types",
+        "commercialFlight": "Commercial flights",
+        "coterminalTransport": "Coterminal transports",
+        "country": "Countries",
+        "base": "Crew bases",
+        "currency": "Currencies",
+        "position": "Positions",
+        "region": "Regions",
+        "rule": "Rules",
+        "station": "Stations",
+        "unknown": "Unrecognized"
+      }
+    },
+    "aircraft": {
+      "name": "Aircraft types",
+      "type": "Aircraft type",
+      "nameTypes": "aircraft types",
+      "headers": {
+        "type": "Type",
+        "model": "Model",
+        "name": "Name",
+        "restFacility": "Rest facility",
+        "standardComplement": "Standard complement"
+      },
+      "form": {
+        "add": "Add aircraft type",
+        "edit": "Edit aircraft type",
+        "view": "View aircraft type",
+        "section": {
+          "general": {
+            "title": "General",
+            "aircraftType": "IATA/ICAO type designator",
+            "aircraftModel": "Model",
+            "aircraftName": "Aircraft name",
+            "restFacility": "Rest facility"
+          },
+          "crewComplement": {
+            "title": "Standard crew complement",
+            "crewMembers": "{{quantity}} crew member(s)"
+          }
+        }
+      }
+    },
+    "aircraftModels": {
+      "name": "Aircraft models",
+      "type": "Aircraft model",
+      "link": "Manage aircraft models",
+      "nameTypes": "aircraft models",
+      "headers": {
+        "model": "Model",
+        "name": "Name"
+      },
+      "form": {
+        "add": "Add model",
+        "edit": "Edit model",
+        "view": "View model",
+        "section": {
+          "general": {
+            "title": "General",
+            "modelCode": "Model code",
+            "modelName": "Model name"
+          }
+        }
+      }
+    },
+    "accommodations": {
+      "name": "Accommodations",
+      "type": "Accommodation",
+      "form": {
+        "add": "Add accommodation",
+        "edit": "Edit accommodation",
+        "view": "View accommodation",
+        "section": {
+          "general": {
+            "title": "General",
+            "name": "Name/Description",
+            "served": "Stations served",
+            "typeOfAccommodation": "Type of accommodation",
+            "negotiatedRooms": "Negotiated rooms per day",
+            "contractStartDate": "Contract start",
+            "contractEndDate": "Contract end"
+          },
+          "cost": {
+            "title": "Cost",
+            "nightlyRate": "Nightly rate",
+            "price": "Price",
+            "nightsCalculatedBy": "Nights calculated by",
+            "24HoursBlocks": "24-hour blocks",
+            "checkInOutTime": "Check-in/Check-out",
+            "checkInTime": "Check-In time",
+            "checkOutTime": "Check-Out time",
+            "costExtendedStay": "% Cost for extended stay (e.g., 50)"
+          },
+          "transit": {
+            "title": "Transit",
+            "transitCardHeader": "Transit to/from {{code}}",
+            "defTransitFlag": "Apply default transits to/from all stations",
+            "defTransitTime": "Default transit time",
+            "defTransitTimeVal": "0 minutes",
+            "defTransitCost": "Default transit cost",
+            "defTransitCostVal": "0 USD",
+            "transitTime": "Transit time (mins)",
+            "transitCost": "Transit cost",
+            "costBasis": "Cost basis",
+            "costBasisOps": {
+              "perCrewMember": "Per crew member",
+              "fixed": "Fixed"
+            }
+          }
+        }
+      },
+      "tableName": "Hotels",
+      "headers": {
+        "name": "Name",
+        "stations": "Stations",
+        "type": "Type",
+        "nightlyRate": "Nightly rate",
+        "rooms": "Rooms"
+      }
+    },
+    "crewBases": {
+      "name": "Crew bases",
+      "type": "Crew base",
+      "headers": {
+        "name": "Name",
+        "country": "Country",
+        "stations": "Stations"
+      },
+      "form": {
+        "add": "Add crew base",
+        "edit": "Edit crew base",
+        "view": "View crew base",
+        "section": {
+          "general": {
+            "title": "General",
+            "code": "Base code",
+            "codePlaceholder": "Three alpha characters",
+            "name": "Base name",
+            "country": "Country",
+            "stations": "Stations serving this base"
+          }
+        }
+      }
+    },
+    "coterminalTransports": {
+      "name": "Coterminal transports",
+      "type": "Coterminal transport",
+      "headers": {
+        "from": "From",
+        "to": "To",
+        "name": "Name",
+        "type": "Type"
+      },
+      "form": {
+        "add": "Add coterminal transport",
+        "edit": "Edit coterminal transport",
+        "view": "View coterminal transport",
+        "createReturnTransport": "Create return transport",
+        "section": {
+          "general": {
+            "title": "General",
+            "oneWay": "One-way",
+            "twoWay": "Two-way",
+            "departureStationCode": "From",
+            "arrivalStationCode": "To",
+            "name": "Transport name",
+            "defaultName": "{{route}} transport",
+            "type": "Type of transport",
+            "transportTypeOptions": {
+              "Station Shuttle": "Station shuttle",
+              "Limousine": "Limousine",
+              "Taxi": "Taxi"
+            },
+            "capacity": "Maximum passengers"
+          },
+          "timing": {
+            "title": "Timing",
+            "titleOutbound": "Timing - Outbound direction",
+            "titleOposite": "Timing - Inbound direction",
+            "availabilityBetween": "Between",
+            "availabilityAnd": "And",
+            "duration": "Transport time (mins)",
+            "minConnectionTime": "Minimum connection time (mins)",
+            "connectionTimeBefore": "Before",
+            "connectionTimeAfter": "After"
+          },
+          "cost": {
+            "title": "Cost",
+            "cost": "Transport cost",
+            "costBasis": "Cost basis",
+            "costBasisOptions": {
+              "PER_CREWMEMBER": "Per crew member",
+              "FIXED": "Fixed cost"
+            },
+            "creditCost": "Credit cost per crew member (mins)",
+            "creditScope": "Credit applied to"
+          }
+        }
+      }
+    },
+    "solver": {
+      "name": "Solver",
+      "form": {
+        "add": "Add solver request",
+        "edit": "Edit solver request",
+        "createReturnTransport": "Create return transport",
+        "section": {
+          "general": {
+            "title": "General"
+          }
+        }
+      },
+      "preview": {
+        "loader": "Preparing preview..."
+      }
+    },
+    "stations": {
+      "name": "Stations",
+      "type": "Station",
+      "headers": {
+        "code": "Code",
+        "name": "Name",
+        "country": "Country",
+        "region": "Region",
+        "timeZone": "Time zone"
+      },
+      "form": {
+        "add": "Add station",
+        "edit": "Edit station",
+        "view": "View station",
+        "name": "Station name",
+        "terminals": "Terminals",
+        "section": {
+          "general": {
+            "title": "General",
+            "code": "IATA code",
+            "codePlaceholder": "Three alpha characters",
+            "crewDomicile": "Crew domicile"
+          },
+          "geography": {
+            "title": "Geography",
+            "country": "Country",
+            "region": "Region",
+            "latitude": "Latitude",
+            "longitude": "Longitude"
+          },
+          "time": {
+            "title": "Time",
+            "timeZone": "Time zone",
+            "DSTChange": "DST change",
+            "DSTStartDateTime": "DST start date and time *",
+            "DSTEndDateTime": "DST end date and time *"
+          }
+        }
+      },
+      "deleteSuccess": "{{removed}} out of {{total}} stations has been deleted",
+      "addSuccess": "1 new station has been added",
+      "editSuccesSingular": "{{edited}} station has been edited",
+      "editSuccessPlural": "{{edited}} stations have been edited"
+    },
+    "positions": {
+      "name": "Positions",
+      "type": "Position",
+      "headers": {
+        "name": "Name",
+        "code": "Code",
+        "order": "Seniority"
+      },
+      "positionTypes": {
+        "flight": "Flight deck",
+        "cabin": "Cabin crew"
+      },
+      "form": {
+        "add": "Add position",
+        "edit": "Edit position",
+        "view": "View position",
+        "positionName": "Position name",
+        "section": {
+          "general": {
+            "title": "General",
+            "positionCode": "Position code",
+            "positionType": "Position type"
+          }
+        }
+      }
+    },
+    "rules": {
+      "name": "Rules",
+      "link": "Manage rule sets",
+      "title": "Manage rule sets",
+      "inputSelector": "Rule set",
+      "textField": {
+        "label": "Rule sets name"
+      },
+      "headers": {
+        "name": "Name",
+        "state": "State",
+        "settingsFrom": "Settings from",
+        "category": "Category",
+        "type": "Type"
+      },
+      "tooltip": {
+        "settingsFrom": "Setting from {{name}}",
+        "revertTo": "Revert to value from {{name}}"
+      },
+      "stateData": {
+        "on": "On",
+        "off": "Off",
+        "all": "All"
+      },
+      "loader": "Refreshing rules...",
+      "ruleTable": {
+        "view": "View",
+        "general": "General",
+        "exceptions": "Exceptions",
+        "tooltip": {
+          "revertTo": "Revert to {{name}} value"
+        }
+      }
+    },
+    "ruleSets": {
+      "name": "Rule sets",
+      "link": "Manage rule sets",
+      "nodeTitle": "Move (Drag and Drop)",
+      "lastModified": "Last modified: {{0}}",
+      "info": {
+        "rulesetName": "Rule set name",
+        "lastModifiedBy": "Last modified by",
+        "lastModifiedDate": "Last modified",
+        "description": "Description (up to 1000 characters)",
+        "tabs": {
+          "details": "DETAILS",
+          "notes": "NOTES"
+        }
+      }
+    },
+    "operatingFlights": {
+      "name": "Operating flights",
+      "type": "Operating flight",
+      "footerName": "Operating flight aggregates / {{flightCount}} Operating flights",
+      "secondName": "Flights",
+      "UTC": "UTC",
+      "LT": "Local time",
+      "headers": {
+        "flightDesignator": "Flight designator",
+        "departureStationCode": "From",
+        "arrivalStationCode": "To",
+        "startTime": "Departure",
+        "endTime": "Arrival",
+        "operationDays": "Days of operation",
+        "firstDepartureDate": "First departure",
+        "lastDepartureDate": "Last departure",
+        "onwardFlightDesignator": "Onward flight",
+        "aircraftTypeCode": "Aircraft type",
+        "crewComposition": "Crew complement"
+      },
+      "form": {
+        "add": "Add operating flights",
+        "edit": "Edit operating flights",
+        "view": "View operating flights",
+        "section": {
+          "general": {
+            "title": "General",
+            "airlineIdentifier": "Airline",
+            "flightNumber": "Flight",
+            "operationalSuffix": "Suffix",
+            "departureStationCode": "From",
+            "arrivalStationCode": "To",
+            "terminal": "Terminal",
+            "startTime": "Departure time",
+            "endTime": "Arrival time",
+            "serviceTypeCode": "Service type",
+            "onwardFlightDesignator": "Onward flight",
+            "onwardFlightDayOffset": "Onward day offset",
+            "aircraftTypeCode": "Aircraft type",
+            "aircraftConfigurationVersion": "Cabin configuration",
+            "tailNumber": "Tail number",
+            "deadheadSeatsNumber": "Seats for deadheads",
+            "flightDates": "Flight dates *",
+            "dateSelected": "date selected",
+            "datesSelected": "dates selected"
+          },
+          "crew": {
+            "title": "Required crew complement"
+          },
+          "extraTime": {
+            "title": "Extra time",
+            "pilot": "Pilot",
+            "cabin": "Cabin crew",
+            "extraBriefing": "Brief (mins)",
+            "extraDebriefing": "Debrief (mins)"
+          },
+          "extraInformation": {
+            "title": "Extra information",
+            "tags": "Tags",
+            "label": "tags"
+          }
+        }
+      }
+    },
+    "crewGroups": {
+      "name": "Crew groups",
+      "type": "Crew group",
+      "headers": {
+        "name": "Name",
+        "positions": "Position(s)",
+        "airlines": "Airlines",
+        "aircraftTypes": "Aircraft type(s)",
+        "ruleset": "Default rule set"
+      },
+      "form": {
+        "add": "Add crew group",
+        "edit": "Edit crew group",
+        "view": "View crew group",
+        "section": {
+          "general": {
+            "title": "General",
+            "name": "Crew group name",
+            "positions": "Position(s)",
+            "airlines": "Airlines",
+            "aircraftTypes": "Aircraft type(s)",
+            "ruleset": "Default rule set"
+          }
+        }
+      }
+    },
+    "commercialFlights": {
+      "name": "Commercial flights",
+      "type": "Commercial flight",
+      "footerName": "Commercial flight aggregates / {{flightCount}} Commercial flights",
+      "secondName": "Flights",
+      "UTC": "UTC",
+      "LT": "Local time",
+      "headers": {
+        "flightDesignator": "Flight designator",
+        "departureStationCode": "From",
+        "arrivalStationCode": "To",
+        "startTime": "Departure",
+        "endTime": "Arrival",
+        "operationDays": "Days of operation",
+        "firstDepartureDate": "First departure",
+        "lastDepartureDate": "Last departure",
+        "aircraftTypeCode": "Aircraft type",
+        "aircraftConfigurationVersion": "Cabin configuration"
+      },
+      "form": {
+        "add": "Add commercial flights",
+        "edit": "Edit commercial flights",
+        "view": "View commercial flights",
+        "section": {
+          "general": {
+            "title": "General",
+            "airlineIdentifier": "Airline",
+            "flightNumber": "Flight",
+            "operationalSuffix": "Suffix",
+            "departureStationCode": "From",
+            "arrivalStationCode": "To",
+            "terminal": "Terminal",
+            "startTime": "Departure time",
+            "endTime": "Arrival time",
+            "serviceTypeCode": "Service type",
+            "onwardFlightDesignator": "Onward flight",
+            "onwardFlightDayOffset": "Onward day offset",
+            "aircraftTypeCode": "Aircraft type",
+            "aircraftConfigurationVersion": "Cabin configuration",
+            "tailNumber": "Tail number",
+            "deadheadSeatsNumber": "Seats for deadheads",
+            "flightDates": "Flight dates *",
+            "dateSelected": "date selected",
+            "datesSelected": "dates selected"
+          },
+          "crew": {
+            "title": "Required crew complement"
+          },
+          "extraTime": {
+            "title": "Extra time",
+            "pilot": "Pilot",
+            "cabin": "Cabin crew",
+            "extraBriefing": "Brief (mins)",
+            "extraDebriefing": "Debrief (mins)"
+          },
+          "extraInformation": {
+            "title": "Extra information",
+            "tags": "Tags",
+            "label": "tags"
+          }
+        }
+      }
+    },
+    "currencies": {
+      "name": "Currencies",
+      "type": "Currency",
+      "headers": {
+        "name": "Name",
+        "code": "Code",
+        "exchangeRate": "Exchange rate",
+        "usd": "USD"
+      },
+      "form": {
+        "add": "Add currency",
+        "edit": "Edit currency",
+        "view": "View currency",
+        "name": "Currency name",
+        "section": {
+          "general": {
+            "title": "General",
+            "code": "Currency code"
+          },
+          "exchange": {
+            "title": "Exchange",
+            "rate": "Exchange rate (this currency to the base currency)"
+          }
+        }
+      }
+    },
+    "countries": {
+      "name": "Countries",
+      "type": "Country",
+      "headers": {
+        "code": "Code",
+        "name": "Name",
+        "currency": "Currency"
+      },
+      "form": {
+        "add": "Add country",
+        "edit": "Edit country",
+        "view": "View country",
+        "countryName": "Country name",
+        "section": {
+          "general": {
+            "title": "General",
+            "countryCode": "Country code",
+            "countryCodePlaceholder": "Two alpha characters",
+            "currency": "Currency"
+          }
+        }
+      }
+    },
+    "regions": {
+      "name": "Regions",
+      "type": "Region",
+      "headers": {
+        "code": "Code",
+        "name": "Name"
+      },
+      "form": {
+        "add": "Add region",
+        "edit": "Edit region",
+        "view": "View region",
+        "regionName": "Region name",
+        "section": {
+          "general": {
+            "title": "General",
+            "regionCode": "Region code",
+            "regionCodePlaceholder": "Unique alphanumeric code"
+          }
+        }
+      }
+    },
+    "template": "STANDARD TEMPLATE"
+  },
+  "TEMPLATES": {
+    "title": "Templates",
+    "editMode": "TEMPLATE",
+    "select": "New scenario: select a template",
+    "galleryTitle": "Scenarios",
+    "manage": "Manage templates",
+    "formTitle": "Create a new template",
+    "sourceTemplate": "Source template",
+    "templateName": "Template name",
+    "description": "Description (up to 1000 characters)",
+    "sourceTemplateTitle": "A new template will be created from template:",
+    "creating": "Creating new template...",
+    "opening": "Opening template...",
+    "readOnlyTooltip": "This template is being viewed by someone else",
+    "viewOnlyTooltip": "This template can be opened only in view-only mode",
+    "messages": {
+      "deleteTitle": "Delete template",
+      "deleteBody": "Are you sure you want to delete the template **{{name}}**?",
+      "deleteBody2": "There is no undo for this operation."
+    },
+    "getInfo": {
+      "detailsTab": "DETAILS",
+      "notesTab": "NOTES",
+      "templateName": "Template name",
+      "created": "Created",
+      "createdBy": "Created by",
+      "lastModified": "Last modified",
+      "lastModifiedBy": "Last modified by",
+      "category": "Category",
+      "description": "Description (up to 1000 characters)"
+    },
+    "viewOnly": {
+      "okButton": "Open",
+      "title": "Open template in view-only mode?",
+      "line_1": "The template {{templateName}} is currently opened by",
+      "line_2": "This template will be opened in view-only mode. No edits will be possible."
+    }
+  },
+  "SOLVER": {
+    "name": "Solver request",
+    "summary": "Summary",
+    "targets": "Targets",
+    "statistics": "Statistics",
+    "general": "General",
+    "specifications": "Specifications",
+    "noActiveRequest": "No solver request has been selected",
+    "noSolverRequests": "No solver requests were found",
+    "addSolverRequest": "Add solver request",
+    "stopSolverTitle": "Stop the solver request",
+    "stopSolverMessage": "Are you sure you want to stop this solver request? You will not be able to resume the request from this point, if you re-launch.",
+    "stopSolverButton": "Stop solver request",
+    "stopSolverNotification": "A signal has been sent to stop solver request **{{name}}**.",
+    "options": {
+      "compare": "Compare",
+      "launch": "Launch",
+      "delete": "Delete"
+    },
+    "statusMessages": {
+      "READY_TO_LAUNCH": {
+        "textBar": "Ready to launch!",
+        "label": ""
+      },
+      "Launching": {
+        "textBar": "Launching...",
+        "label": "Launching..."
+      },
+      "Creating": {
+        "textBar": "Putting together the solver job...",
+        "label": "Launched:"
+      },
+      "Waiting": {
+        "textBar": "Waiting for an available computer resource...",
+        "label": "Launched:"
+      },
+      "Sending": {
+        "textBar": "Sending the job...",
+        "label": "Launched:"
+      },
+      "Running": {
+        "textBar": "Running...",
+        "label": "Launched:"
+      },
+      "Fetching": {
+        "textBar": "Getting the results...",
+        "label": "Launched:"
+      },
+      "Done-success": {
+        "textBar": "Completed successfully",
+        "label": "Completed:"
+      },
+      "Done-stopped": {
+        "textBar": "Stopped by user",
+        "label": "Stopped:"
+      },
+      "Done-failed": {
+        "textBar": "Stopped internally: something went wrong",
+        "label": "Failed:"
+      },
+      "Stopping": {
+        "textBar": "Stopping...",
+        "label": "Stopping..."
+      }
+    },
+    "tabSummary": {
+      "requestName": "Request name",
+      "solverTask": "Solver task",
+      "crewGroup": "Crew group",
+      "crewGroupMissing": "This crew group has either been renamed or does not exist in this scenario.",
+      "ruleSetMissing": "This rule set has either been renamed or does not exist in this scenario.",
+      "targets": "Targets",
+      "rules": "Rules",
+      "ruleSet": "Rule set",
+      "recipe": "Recipe",
+      "description": "Description (up to 1000 characters)",
+      "scope": "Scope",
+      "crewComplements": "Crew complements"
+    },
+    "form": {
+      "requestName": "Request name",
+      "solverTask": "Solver task",
+      "crewGroup": "Crew group",
+      "targets": "Targets",
+      "rules": "Rules",
+      "ruleSet": "Rule set",
+      "recipe": "Recipe",
+      "description": "Description (up to 1000 characters)",
+      "scope": "Scope",
+      "crewComplements": "Crew complements",
+      "target": "Targets",
+      "recipes": {
+        "name": "Recipes",
+        "description": "If using more than one recipe, click and drag to place them in order of priority.",
+        "fieldName": "recipeNames",
+        "summaryFieldName": "solverRecipeName"
+      }
+    },
+    "tabStatistics": {
+      "statistics": "Statistics",
+      "total": "Total",
+      "columns": "Columns",
+      "allBases": "All bases"
+    },
+    "loaderStatistics": {
+      "waitMessage": "Please wait",
+      "waitStatus": "Fetching statistics..."
+    },
+    "KpiParameters": {
+      "hotelNightNb": "Accommodation nights",
+      "hotelCost": "Accommodations cost",
+      "acChangeNb": "Aircraft changes",
+      "avgBlockPerDayDur": "Average block per duty day",
+      "avgBlockPerDutyDur": "Average block per duty period",
+      "blockHoursDur": "Block hours",
+      "dutyDayNb": "Duty days",
+      "dutyHoursDur": "Duty hours",
+      "dutyNb": "Duty periods",
+      "intDeadheadNb": "Internal deadheads",
+      "oneDayPairingNb": "Number of 1-day pairings",
+      "twoDayPairingNb": "Number of 2-day pairings",
+      "threeDayPairingNb": "Number of 3-day pairings",
+      "fourDayPairingNb": "Number of 4-day pairings",
+      "fiveplusDayPairingNb": "Number of 5-or-more-day pairings",
+      "cmlDeadheadNb": "OAL deadheads",
+      "cmlDeadheadCost": "OAL deadheads cost",
+      "pairingPatternNb": "Pairing patterns",
+      "pairingOccurNb": "Pairings (occurrences)",
+      "oneDayPairingRatio": "Percent 1-day pairings",
+      "twoDayPairingRatio": "Percent 2-day pairings",
+      "threeDayPairingRatio": "Percent 3-day pairings",
+      "fourDayPairingRatio": "Percent 4-day pairings",
+      "fiveplusDayPairingRatio": "Percent 5-or-more-day pairings",
+      "salaryCost": "Salaries cost",
+      "tafbDur": "Time away from base",
+      "totalCost": "Total (real) cost"
+    },
+    "tabCompare": {
+      "statistic": "Statistics",
+      "compareTitle": "Compare solver requests",
+      "saveButton": "Save as",
+      "allCrewBases": "All crew bases",
+      "defaultKPIs": "Default KPIs",
+      "winterKPIs": "Winter KPIs",
+      "summerKPIs": "Summer KPIs",
+      "pilotNegos": "Pilot negos"
+    },
+    "actionBar": {
+      "actionButtons": {
+        "launch": "Launch",
+        "stop": "Stop",
+        "preview": "Preview",
+        "endorse": "Favorite",
+        "more": "More"
+      }
+    },
+    "endorseDialog": {
+      "header": "Endorse solver request?",
+      "body1": "The following solver request is already endorsed for this Crew Group: ",
+      "body2": "Choose Endorse if you prefer the selected solver request."
+    }
+  },
+  "PAIRINGS": {
+    "name": "Pairings",
+    "zoomError": "Error! The date range can not exceed **{{maxDays}}** days",
+    "actionBar": {
+      "timelineReference": "Timeline",
+      "context": "Context",
+      "crewGroups": "Crew group",
+      "timelineReferenceOptions": {
+        "YVR": "Vancouver, Brithish Columbia, Canada (YVR)",
+        "HEL": "Helsinki, Helsinki-Vantaa, Finland (HEL)",
+        "YUL": "Dorval, Pierre Elliott Trudeau, Canada (YUL)"
+      },
+      "contextOptions": {
+        "domestic": "B777 Domestic Pilots",
+        "international": "B777 International Pilots",
+        "pilots": "B757 Pilots"
+      }
+    },
+    "activities": {
+      "tooltips": {
+        "titles": {
+          "layover": "Rest",
+          "signOn": "Briefing",
+          "signOff": "Debriefing",
+          "connection": "Connection",
+          "longConnection": "Long connection",
+          "flight": "Flight {{flightNumber}}",
+          "cmlFlight": "Commercial flight {{flightNumber}}",
+          "flightundercovered": "Flight {{flightNumber}} - Undercovered",
+          "flightovercovered": "Flight {{flightNumber}} - Overcovered",
+          "flightcovered": "Flight {{flightNumber}} - Covered",
+          "flightuncovered": "Flight {{flightNumber}} - Uncovered",
+          "flightmixed": "Flight {{flightNumber}} - Mixed",
+          "dhi": "Internal deadhead {{dhiNumber}}",
+          "coterminalTransport": "Coterminal transport",
+          "ruleSet": "Rule set"
+        },
+        "body": {
+          "internalDeadhead": "Internal deadhead",
+          "commercialDeadhead": "Commercial flight",
+          "acclReference": "Accl reference",
+          "flightOperatingOn": "Operating on {{aircraft}}",
+          "route": "From {{departure}} to {{arrival}}",
+          "schedule": "{{departure}} - {{arrival}} (UTC)",
+          "timezone": "Time zone: {{timezone}}",
+          "restPeriod": "Rest time: {{duration}}",
+          "connectionWithAircraftChange": "Change aircraft",
+          "connectionWithoutAircraftChange": "No aircraft change",
+          "flightCrewComposition": "Required:",
+          "flightPairings": "Pairings: {{pairings}}",
+          "coveredHere": "Covered here",
+          "elsewhere": "Elsewhere",
+          "inPairings": "In pairings",
+          "type": "Type",
+          "STATION_SHUTTLE": "Station Shuttle"
+        },
+        "common": {
+          "required": "Required"
+        }
+      }
+    },
+    "solverResults": {
+      "message": "Previewing pairings from",
+      "viewOnly": "(view only)",
+      "btnClosePreview": "Close Preview",
+      "btnSavePairings": "Save Pairings",
+      "loader": "Saving pairings for crew group {{crewGroupName}}"
+    },
+    "zoomTool": {
+      "tooltips": {
+        "openSlider": "Show zoom slider",
+        "hideSlider": "Hide zoom slider"
+      }
+    },
+    "toolbar": {
+      "getInfo": "Details",
+      "multiSelect": "Multi-select",
+      "selectMultiple": "Select multiple",
+      "selectAll": "Select all",
+      "unSelectAll": "Unselect all",
+      "edit": "Edit",
+      "editName": "Edit name",
+      "editCc": "Edit C/C",
+      "lock": "Lock",
+      "join": "Join",
+      "zoom": "Zoom",
+      "break": "Break",
+      "viewAlerts": "View alerts"
+    },
+    "details": {
+      "goBack": "Back to pairing",
+      "pairing": "Pairing",
+      "utc": "UTC",
+      "localTime": "Local time",
+      "localBaseTime": "Local base time",
+      "openNewWindow": "Open in a new window",
+      "print": "Print",
+      "exportPdf": "Export as PDF",
+      "pairingDetails": "Pairing details",
+      "crewBase": "Crew base",
+      "crewComposition": "Crew complement",
+      "tags": "Tags",
+      "tagsLabel": "tags",
+      "statistics": "Statistics",
+      "otherstatistics": "Other statistics",
+      "alerts": "Alerts",
+      "statisticsHeaderName": "Statistic",
+      "statisticsHeaderValue": "Values",
+      "alertHeaderType": "Type",
+      "alertHeaderDescription": "Description",
+      "backTop": "Back to top",
+      "top": "Top",
+      "day": "Day",
+      "seeMore": "See more",
+      "seeLess": "See less",
+      "details": "Details",
+      "stats": {
+        "cost": "Real cost",
+        "blockTime": "Total flight time",
+        "salaryCost": "Salary cost",
+        "dutyDays": "Duty days",
+        "accommodationCost": "Accommodations cost (24-hour periods)",
+        "blockTimePerDutyDay": "Productivity (block hours/duty days)",
+        "aircraftChanges": "Number of aircraft changes",
+        "dutyNb": "Duty periods",
+        "tafb": "Total TAFB",
+        "blockTimePerDuty": "Productivity (block hours/duty periods)",
+        "credit": "Total credit time",
+        "dutyTime": "Total duty time"
+      }
+    },
+    "transportTypes": {
+      "STATION_SHUTTLE": {
+        "shortName": "Shuttle",
+        "name": "Station shuttle"
+      },
+      "LIMOUSINE": {
+        "shortName": "Limousine",
+        "name": "Limousine"
+      },
+      "TAXI": {
+        "shortName": "Taxi",
+        "name": "Taxi"
+      }
+    },
+    "alerts": {
+      "DIALOG": {
+        "editRule": "Edit rule",
+        "showAlerts": "Alerts for pairing",
+        "cancel": "CANCEL",
+        "close": "CLOSE",
+        "back": "BACK TO ALERTS"
+      },
+      "loader": "Refreshing rule...",
+      "type": {
+        "error": "Error",
+        "warning": "Infraction",
+        "caution": "Caution",
+        "info": "Flag"
+      },
+      "editRule": "Edit rule",
+      "tag": {
+        "at": "At",
+        "before": "Before",
+        "after": "After",
+        "from": "From"
+      },
+      "description": "{{tag}} flight **{{flightNumber}}**, {{departureStationCode}}-{{arrivalStationCode}}, on {{startDate}}.",
+      "detailDescription": "{{tag}} flight {{flightNumber}}, {{departureStationCode}}-{{arrivalStationCode}}, on {{startDate}}.",
+      "noAlertsMessage": "This pairing has no alerts."
+    },
+    "paneActionBar": {
+      "tooltip": {
+        "filter": "Filter",
+        "clear": "Clear",
+        "select-all": "Select all",
+        "min": "Minimize",
+        "max": "Maximize",
+        "restore": "Restore",
+        "close_icon": "Close"
+      },
+      "titles": {
+        "pairings": "pairings",
+        "flights": "flights",
+        "dhi": "internal deadheads",
+        "cml": "commercial flights",
+        "operating": "operating flights"
+      }
+    },
+    "contextMenu": {
+      "title": "activities selected",
+      "menuOptions": {
+        "viewAlerts": "View alerts",
+        "details": "Details",
+        "break": "Break",
+        "lock": "Lock",
+        "unlock": "Unlock",
+        "editName": "Edit name",
+        "viewName": "View name",
+        "editTags": "Edit tags",
+        "viewTags": "View tags",
+        "editComplement": "Edit complement",
+        "viewComplement": "View complement",
+        "suggest": "Suggest",
+        "impose": "Impose",
+        "join": "Join",
+        "internalDeadhead": "View as internal deadhead",
+        "operatingFlight": "View as operating flight"
+      }
+    },
+    "crewComplement": {
+      "edit": "Edit crew complement",
+      "view": "View crew complement",
+      "join": "Create pairing: specify crew composition",
+      "successMessageForMulti": "The crew complements of {{count}} pairings have been successfully updated",
+      "successMessage": "The crew complements of pairing {{pairingName}} departing on {{departureDate}} has been successfully updated"
+    },
+    "tags": {
+      "heading": "Edit tags for pairing {{name}}",
+      "multiPairingsHeading": "Edit tags for {{count}} pairings",
+      "viewTagsHeading": "View tags for pairing  {{name}}",
+      "successMessage": "Pairing tags have been successfully updated for {{pairingName}} departing on {{departureDate}}",
+      "successMessageForMulti": "Pairing tags have been successfully updated for {{count}} pairings"
+    },
+    "break": {
+      "loader": "Breaking pairings...",
+      "unBrokenPairingsMessage": "{{numberOfPairingsBroken}} pairings were successfully broken, while {{numberOfPairingsNotBroken}} pairings were left intact since they are locked."
+    }
+  },
+  "NOTIFICATIONS": {
+    "solver": {
+      "SUCCESS": "Solver request [{{solverRequestName}}]({{urlObject}}) in scenario **{{scenarioId}}** has been successfully completed.",
+      "ERROR": "Solver request [{{solverRequestName}}]({{urlObject}}) in scenario **{{scenarioId}}** has failed."
+    },
+    "pairing": "Pairing data has been updated. Please refresh the page to view [Refresh page]().",
+    "additionalMsg": "{{notificationCount}} new notifications. Open the notifications center for details."
+  },
+  "PASSWORD_VALIDATOR": {
+    "rules": {
+      "contains8Chars": "At least 8 characters",
+      "containsLowerUpperCase": "Lower and upper case letters",
+      "containsNum": "At least one number",
+      "containsNoBlank": "No blank spaces"
+    }
+  },
+  "NOTIFICATION": {
+    "notificationPaneHeader": "Notifications",
+    "notificationpopup": {
+      "title": "Switch scenarios",
+      "OKbutton": "SWITCH SCENARIOS",
+      "message": "To view solver request **{{solverRequestName}}**, the current scenario will close and scenario **{{scenarioName}}** will open."
+    },
+    "notificationTexts": {
+      "scenario": "Scenario",
+      "solverRequest": "Solver request",
+      "noNotification": "There are no notifications",
+      "solverRequestCompleted": "Solver request [{{solverRequestName}}]({{solverPath}}) completed successfully!",
+      "solverRequestFailed": "Solver request [{{solverRequestName}}]({{solverPath}}) failed."
+    },
+    "defaultTimeFormat": "D MMMM, YYYY [at] HH:mm",
+    "defaultSolverName": "Default solver"
+  },
+  "FILTER": {
+    "name": "Filters",
+    "timeline": "Timeline",
+    "new": "New filter",
+    "and": "and",
+    "form": {
+      "filterType": "Filter type",
+      "criteria": "Criteria"
+    },
+    "flightTypes": "Flight types",
+    "icons": {
+      "clear": "Clear filter",
+      "open": "Open filter pane",
+      "favourites": "Add to favourites"
+    },
+    "pane": {
+      "buttons": {
+        "cancel": "cancel",
+        "refine": "refine",
+        "augment": "augment",
+        "apply": "apply",
+        "clearAll": "Clear all",
+        "lastFilter": "Last filter",
+        "add": "ADD",
+        "save": "save"
+      },
+      "labels": {
+        "anyOf": "Any of",
+        "between": "Between",
+        "and": "And"
+      },
+      "quickFilter": {
+        "title": "Quick filter actions",
+        "pairings": "Display all pairings",
+        "flights": "Display all flights"
+      },
+      "favourites": {
+        "saveBtn": "Save filter",
+        "selectInputPlaceholder": "Load saved filter",
+        "saveBtnNew": "Save new",
+        "saveBtnUpdate": "Update this filter",
+        "placeholder": "Filter name*",
+        "errorInfo": "Filter name should be unique"
+      }
+    },
+    "filterCriteria": {
+      "filters": {
+        "PAIRINGS_FILTER": "Pairings filter",
+        "LEGS_FILTER": "Flights filter"
+      },
+      "categories": {
+        "TRIP_PAIRING_CRITERIA": "Pairing criteria",
+        "TRIP_DP_CRITERIA": "Duty period criteria",
+        "TRIP_FLIGHT_CRITERIA": "Flight criteria",
+        "LEGS_FLIGHT_CRITERIA": "Flight criteria"
+      },
+      "criteria": {
+        "TRIP_PAIRING_CR_PAIRING_NAME": "Pairing name",
+        "TRIP_PAIRING_CR_LAYOVER_AT": "Layover at",
+        "TRIP_PAIRING_CR_PAIRING_START": "Pairing start date",
+        "TRIP_PAIRING_CR_PAIRING_START_TIME": "Pairing start time",
+        "TRIP_PAIRING_CR_PAIRING_END": "Pairing end date",
+        "TRIP_PAIRING_CR_PAIRING_END_TIME": "Pairing end time",
+        "TRIP_PAIRING_CR_CNX_AT": "TOG station",
+        "TRIP_PAIRING_CR_CNX_DURATION": "TOG",
+        "TRIP_PAIRING_CR_CNX_ACHG": "TOG aircraft change",
+        "TRIP_PAIRING_CR_CREW_BASE": "Crew base",
+        "TRIP_PAIRING_CR_CC": "Crew complement",
+        "TRIP_PAIRING_CR_BLOCK_TIME": "Pairing flight hours",
+        "TRIP_PAIRING_CR_TAFB": "TAFB",
+        "TRIP_PAIRING_CR_OCCURRENCES": "Pairing occurrences",
+        "TRIP_PAIRING_CR_DUTIES": "Duties",
+        "TRIP_PAIRING_CR_DUTY_DAYS": "Duty days",
+        "TRIP_PAIRING_CR_BPDH": "Flight hrs per day",
+        "TRIP_PAIRING_CR_BPDP": "Flight hrs per duty",
+        "TRIP_PAIRING_CR_OP_FLIGHTS": "Flights (in pairing)",
+        "TRIP_PAIRING_CR_LAYOVER_DUR": "Layover duration",
+        "TRIP_DP_CRITERIA_DUTY_START": "Duty start date",
+        "TRIP_DP_CRITERIA_DUTY_START_TIME": "Duty start time",
+        "TRIP_DP_CRITERIA_DUTY_END": "Duty end date",
+        "TRIP_DP_CRITERIA_DUTY_END_TIME": "Duty end time",
+        "TRIP_DP_CRITERIA_DUTY_BLOCK_HOURS": "Duty flight hours",
+        "TRIP_DP_CRITERIA_DUTY_CREDIT_HOURS": "Duty credit hours",
+        "TRIP_DP_CRITERIA_DUTY_HOURS": "Duty hours",
+        "TRIP_DP_CRITERIA_DUTY_DUR": "Duty duration",
+        "TRIP_DP_CRITERIA_OP_FLIGHTS": "Flights (in duty)",
+        "TRIP_DP_CRITERIA_BPDH": "Block per duty hour",
+        "TRIP_DP_CRITERIA_BPDP": "Block per duty period",
+        "TRIP_FLIGHT_CR_FLIGHT_DESIG": "Flight designator",
+        "TRIP_FLIGHT_CR_FLIGHT_NUM": "Flight number",
+        "TRIP_FLIGHT_CR_AR_TYPE": "Aircraft type",
+        "TRIP_FLIGHT_CR_DEP_REG": "Flight departures (region)",
+        "TRIP_FLIGHT_CR_ARRV_REG": "Flight arrivals (region)",
+        "TRIP_FLIGHT_CR_DEP_CNT": "Flight departures (country)",
+        "TRIP_FLIGHT_CR_AR_CNT": "Flight arrivals (country)",
+        "TRIP_FLIGHT_CR_DEP_STATION": "Flight departures (station)",
+        "TRIP_FLIGHT_CR_ARRV_STATION": "Flight arrivals (station)",
+        "TRIP_FLIGHT_CR_FLIGHT_START": "Flight departure date",
+        "TRIP_FLIGHT_CR_FLIGHT_START_TIME": "Flight departure time",
+        "TRIP_FLIGHT_CR_FLIGHT_END": "Flight arrival date",
+        "TRIP_FLIGHT_CR_FLIGHT_END_TIME": "Flight arrival time",
+        "TRIP_FLIGHT_CR_FLIGHT_ST_DOW": "Flight departure weekday",
+        "TRIP_FLIGHT_CR_FLIGHT_ED_DOW": "Flight arrival weekday",
+        "TRIP_FLIGHT_CR_BLOCK_TIME": "Block time",
+        "TRIP_FLIGHT_CR_DEADHEADS": "Deadheads",
+        "TRIP_FLIGHT_CR_GEOGRAPHICAL_COORDINATES": "Geographical coordinates",
+        "LEGS_FLIGHT_CR_FLIGHT_DESIG": "Flight designator",
+        "LEGS_FLIGHT_CR_FLIGHT_NUM": "Flight number",
+        "LEGS_FLIGHT_CR_AR_TYPE": "Aircraft type",
+        "LEGS_FLIGHT_CR_DEP_REG": "Flight departures (region)",
+        "LEGS_FLIGHT_CR_ARRV_REG": "Flight arrivals (region)",
+        "LEGS_FLIGHT_CR_DEP_CNT": "Flight departures (country)",
+        "LEGS_FLIGHT_CR_ARRV_CNT": "Flight arrivals (country)",
+        "LEGS_FLIGHT_CR_DEP_STATION": "Flight departures (station)",
+        "LEGS_FLIGHT_CR_ARRV_STATION": "Flight arrivals (station)",
+        "LEGS_FLIGHT_CR_FLIGHT_START": "Flight start date",
+        "LEGS_FLIGHT_CR_FLIGHT_START_TIME": "Flight start time",
+        "LEGS_FLIGHT_CR_FLIGHT_END": "Flight end date",
+        "LEGS_FLIGHT_CR_FLIGHT_END_TIME": "Flight end time",
+        "LEGS_FLIGHT_CR_FLIGHT_ST_DOW": "Flight start DOW",
+        "LEGS_FLIGHT_CR_FLIGHT_ED_DOW": "Flight end DOW",
+        "LEGS_FLIGHT_CR_BLOCK_TIME": "Block time",
+        "LEGS_FLIGHT_CR_FLIGHT_TYPES": "Flight types",
+        "LEGS_FLIGHT_CR_GEOGRAPHICAL_COORDINATES": "Geographical coordinates",
+        "TRIP_FLIGHT_CR_FLIGHT_COVERAGE": "Flight coverage",
+        "LEGS_FLIGHT_CR_FLIGHT_COVERAGE": "Flight coverage"
+      },
+      "geographicalOptions": {
+        "departure-arrival": "Departure/arrival in zone",
+        "departure": "Departure in zone",
+        "arrival": "Arrival in zone",
+        "outside": "Outside zone"
+      }
+    }
+  },
+  "DYNAMIC_TABLE": {
+    "noData": "No data found",
+    "rowOptions": {
+      "rowAbove": "Insert row above",
+      "rowBelow": "Insert row below",
+      "deleteRow": "Delete row"
+    },
+    "columnOptions": {
+      "columnLeft": "Insert column left",
+      "columnRight": "Insert column right",
+      "deleteColumn": "Delete column"
+    },
+    "tableType": {
+      "list": {
+        "keyDisplayName": "Item"
+      }
+    },
+    "switchComponent": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "timeRangePicker": {
+      "from": "From",
+      "to": "To"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenericTimeField Component render correctly 1`] = `
+<MuiPickersUtilsProvider
+  utils={[Function]}
+>
+  <span
+    className="date-time-pointer"
+  >
+     
+    <PickerWithState
+      InputProps={
+        Object {
+          "className": "",
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))>
+            <Memo
+              className="access-time-icon-cls"
+              style={
+                Object {
+                  "color": "#ff650c",
+                  "cursor": "pointer",
+                }
+              }
+            />
+          </WithStyles(ForwardRef(InputAdornment))>,
+        }
+      }
+      ampm={false}
+      className=""
+      disabled={false}
+      error={false}
+      invalidDateMessage="Invalid Time Format"
+      onChange={[Function]}
+      onClose={[Function]}
+      onOpen={[Function]}
+      openTo="hours"
+      style={
+        Object {
+          "width": "55px",
+          "zIndex": 1,
+        }
+      }
+      value="02.00"
+      variant="dialog"
+      views={
+        Array [
+          "hours",
+          "minutes",
+        ]
+      }
+    />
+     
+  </span>
+</MuiPickersUtilsProvider>
+`;

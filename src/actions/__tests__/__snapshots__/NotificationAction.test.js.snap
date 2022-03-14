@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests related to Notification Actions check adding a notification action is dispatched properly 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "activeTime": "0:00:10",
+      "alertType": "SUCCESS",
+      "creationDateTime": "2020-08-12T07:57:15+0000",
+      "elapsedTime": "0:00:15",
+      "eventId": "139288-data-test",
+      "eventType": "solver",
+      "jobId": "139288-data-test",
+      "jobOwner": "5",
+      "lastModified": "2020-08-12T07:57:20+0000",
+      "message": null,
+      "notificationType": "solver",
+      "scenarioId": "3",
+      "scenarioName": "Jazz Template with Pairings",
+      "solverId": "46",
+      "solverName": "data test",
+      "state": "Done-success",
+      "status": "Done-success",
+    },
+    "type": "NOTIFICATION_SUCCESS",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check notification increment action gets dispatched as expected 1`] = `
+Array [
+  Object {
+    "payload": 1,
+    "type": "NOTIFICATION_INCREMENT",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check notification reset works as expected 1`] = `
+Array [
+  Object {
+    "payload": 0,
+    "type": "NOTIFICATION_RESET",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check the clean up action is dispatched 1`] = `
+Array [
+  Object {
+    "type": "NOTIFICATION_CLEANUP",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check the notification Bar action is dispatched 1`] = `
+Array [
+  Object {
+    "bool": true,
+    "type": "NOTIFICATION_BAR_CLOSE",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check the view all action is dispatched 1`] = `
+Array [
+  Object {
+    "type": "VIEWED_ALL_NOTIFICATION",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check whether the add delete notification action is dispatched 1`] = `
+Array [
+  Object {
+    "type": "NOTIFICATION_ALL_DELETE",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check whether the fetch action works correctly with scroll 1`] = `
+Array [
+  Object {
+    "bool": true,
+    "type": "NOTIFICATION_FETCHING",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check whether the fetch data action without scroll is dispatched 1`] = `
+Array [
+  Object {
+    "bool": true,
+    "type": "NOTIFICATION_FETCHING",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check whether the fetching notification action is dispatched 1`] = `
+Array [
+  Object {
+    "bool": true,
+    "type": "NOTIFICATION_FETCHING",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check whether the single delete notification action is dispatched 1`] = `
+Array [
+  Object {
+    "notificationId": 1,
+    "type": "NOTIFICATION_SINGLE_DELTE",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check whether the single notificationw action is dispatched 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "activeTime": "0:00:10",
+      "alertType": "SUCCESS",
+      "creationDateTime": "2020-08-12T07:57:15+0000",
+      "elapsedTime": "0:00:15",
+      "eventId": "139288-data-test",
+      "eventType": "solver",
+      "jobId": "139288-data-test",
+      "jobOwner": "5",
+      "lastModified": "2020-08-12T07:57:20+0000",
+      "message": null,
+      "notificationType": "solver",
+      "scenarioId": "3",
+      "scenarioName": "Jazz Template with Pairings",
+      "solverId": "46",
+      "solverName": "data test",
+      "state": "Done-success",
+      "status": "Done-success",
+    },
+    "type": "NOTIFICATION_ADD",
+  },
+]
+`;
+
+exports[`Tests related to Notification Actions check whether the update all notification action is dispatched 1`] = `
+Array [
+  Object {
+    "type": "NOTIFICATION_ALL_SEEN",
+  },
+]
+`;

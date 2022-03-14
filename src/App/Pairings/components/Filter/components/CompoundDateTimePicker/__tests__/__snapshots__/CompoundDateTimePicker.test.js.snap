@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CompoundDateTimePicker Component CompoundDateTimePicker Component renders correctly 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  style={
+    Object {
+      "width": "160px",
+    }
+  }
+>
+  <MuiPickersUtilsProvider
+    utils={[Function]}
+  >
+    <CompoundDateTimePicker__PickersWrapper>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={12}
+        xs={12}
+      >
+        <PickerWithState
+          InputProps={
+            Object {
+              "endAdornment": <Memo
+                color="primary"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />,
+            }
+          }
+          allowKeyboardControl={true}
+          ampm={false}
+          className="picker-field"
+          format="yy/MM/dd HH:mm"
+          invalidDateMessage="Invalid Date Format"
+          maxDate="2020-12-06T06:02"
+          maxDateMessage="Date should not be after maximal date"
+          minDate={1900-01-01T00:00:00.000Z}
+          minDateMessage="Date should not be before minimal date"
+          name="startTime"
+          onChange={[Function]}
+          openTo="date"
+          orientation="portrait"
+          placeholder="YY/MM/DD HH:MM"
+          showTabs={true}
+          value="2020-12-06T06:02"
+          views={
+            Array [
+              "year",
+              "date",
+              "hours",
+              "minutes",
+            ]
+          }
+          wider={true}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={12}
+        xs={12}
+      >
+        <PickerWithState
+          InputProps={
+            Object {
+              "endAdornment": <Memo
+                color="primary"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />,
+            }
+          }
+          allowKeyboardControl={true}
+          ampm={false}
+          className="picker-field2"
+          format="yy/MM/dd HH:mm"
+          invalidDateMessage="Invalid Date Format"
+          maxDate={2100-01-01T00:00:00.000Z}
+          maxDateMessage="Date should not be after maximal date"
+          minDate="2020-12-06T06:02"
+          minDateMessage="Date should not be before minimal date"
+          name="endTime"
+          onChange={[Function]}
+          openTo="date"
+          orientation="portrait"
+          placeholder="YY/MM/DD HH:MM"
+          showTabs={true}
+          value="2020-12-06T06:02"
+          views={
+            Array [
+              "year",
+              "date",
+              "hours",
+              "minutes",
+            ]
+          }
+          wider={true}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </CompoundDateTimePicker__PickersWrapper>
+  </MuiPickersUtilsProvider>
+</WithStyles(ForwardRef(Grid))>
+`;

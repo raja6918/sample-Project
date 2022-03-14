@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form renders correctly 1`] = `
+<Base
+  anchor="right"
+  handleCancel={[Function]}
+  handleOk={[MockFunction]}
+  handleSubmit={[Function]}
+  isDisabled={false}
+  isOpen={true}
+>
+  <Form__FormContainer>
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+  </Form__FormContainer>
+</Base>
+`;

@@ -1,0 +1,28 @@
+export const mockData = {
+  data: [
+    {
+      activeTime: '0:00:05',
+      alertType: 'NOTICE',
+      creationDateTime: '2020-08-12T07:57:15+0000',
+      elapsedTime: '0:00:00',
+      eventId: 'JOB1001',
+      eventType: 'solver',
+      jobId: 'JOB1001',
+      jobOwner: 11,
+      lastModified: '2020-08-12T07:57:15+0000',
+      message: 'string',
+      notificationType: 'solver',
+      scenarioId: 2,
+      scenarioName: 'Test',
+      solverId: 1,
+      solverName: 'Test',
+      state: 'Queued',
+      status: 'Done-success',
+      viewStatus: 'SEEN',
+    },
+  ],
+  endIndex: 20,
+  notViewedCount: 20,
+  startIndex: 0,
+  totalCount: 40,
+};

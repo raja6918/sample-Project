@@ -1,0 +1,1064 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Compare component renders without crash 1`] = `
+.c0 {
+  margin-bottom: 2em;
+}
+
+.c0 h2 {
+  margin: 0;
+  font-size: 20px;
+  color: rgba(0,0,0,0.87);
+  font-weight: normal;
+}
+
+.c0 .right-wrapper {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  right: 0;
+}
+
+.c0 .right-wrapper > div {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 1em;
+}
+
+.c0 button {
+  font-size: 13px;
+  text-transform: capitalize;
+  width: 100px;
+  margin-left: 20px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  top: 4px;
+}
+
+@media (max-width:880px) {
+  .c0 .right-wrapper {
+    position: static;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width:709px) {
+  .c0 button {
+    margin-left: 0;
+  }
+}
+
+@media (max-width:689px) {
+  .c0 .right-wrapper {
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  .c0 button {
+    top: 10px;
+    margin-left: 0;
+  }
+}
+
+<CompareHeader
+  buttonLabel="Save"
+  columnValue="hotelRooms"
+  crewbases={
+    Array [
+      "LND",
+    ]
+  }
+  handleChangeColumn={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "SOLVER.tabCompare.allCrewBases",
+        ],
+      ],
+    }
+  }
+  kpiValue={1}
+  t={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "SOLVER.tabCompare.allCrewBases",
+        ],
+      ],
+    }
+  }
+  title="Compare Solvers Title"
+>
+  <CompareHeader__Header>
+    <div
+      className="c0"
+    >
+      <h2>
+        Compare Solvers Title
+      </h2>
+      <div
+        className="drops-wrapper"
+      >
+        <WithStyles(ForwardRef(FormControl))>
+          <ForwardRef(FormControl)
+            classes={
+              Object {
+                "fullWidth": "MuiFormControl-fullWidth",
+                "marginDense": "MuiFormControl-marginDense",
+                "marginNormal": "MuiFormControl-marginNormal",
+                "root": "MuiFormControl-root",
+              }
+            }
+          >
+            <div
+              className="MuiFormControl-root"
+            >
+              <WithStyles(ForwardRef(Select))
+                MenuProps={
+                  Object {
+                    "anchorOrigin": Object {
+                      "horizontal": "left",
+                      "vertical": "bottom",
+                    },
+                    "getContentAnchorEl": null,
+                  }
+                }
+                inputProps={
+                  Object {
+                    "id": "crewBaseSelected",
+                    "name": "crewBaseSelected",
+                  }
+                }
+                onChange={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        "SOLVER.tabCompare.allCrewBases",
+                      ],
+                    ],
+                  }
+                }
+                style={
+                  Object {
+                    "margin": "1em 0 0",
+                    "width": "150px",
+                  }
+                }
+                value="hotelRooms"
+              >
+                <ForwardRef(Select)
+                  MenuProps={
+                    Object {
+                      "anchorOrigin": Object {
+                        "horizontal": "left",
+                        "vertical": "bottom",
+                      },
+                      "getContentAnchorEl": null,
+                    }
+                  }
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "filled": "MuiSelect-filled",
+                      "icon": "MuiSelect-icon",
+                      "iconFilled": "MuiSelect-iconFilled",
+                      "iconOpen": "MuiSelect-iconOpen",
+                      "iconOutlined": "MuiSelect-iconOutlined",
+                      "nativeInput": "MuiSelect-nativeInput",
+                      "outlined": "MuiSelect-outlined",
+                      "root": "MuiSelect-root",
+                      "select": "MuiSelect-select",
+                      "selectMenu": "MuiSelect-selectMenu",
+                    }
+                  }
+                  inputProps={
+                    Object {
+                      "id": "crewBaseSelected",
+                      "name": "crewBaseSelected",
+                    }
+                  }
+                  onChange={
+                    [MockFunction] {
+                      "calls": Array [
+                        Array [
+                          "SOLVER.tabCompare.allCrewBases",
+                        ],
+                      ],
+                    }
+                  }
+                  style={
+                    Object {
+                      "margin": "1em 0 0",
+                      "width": "150px",
+                    }
+                  }
+                  value="hotelRooms"
+                >
+                  <WithStyles(ForwardRef(Input))
+                    inputComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "propTypes": Object {
+                          "IconComponent": [Function],
+                          "MenuProps": [Function],
+                          "SelectDisplayProps": [Function],
+                          "aria-label": [Function],
+                          "autoFocus": [Function],
+                          "autoWidth": [Function],
+                          "children": [Function],
+                          "className": [Function],
+                          "classes": [Function],
+                          "defaultValue": [Function],
+                          "disabled": [Function],
+                          "displayEmpty": [Function],
+                          "inputRef": [Function],
+                          "labelId": [Function],
+                          "multiple": [Function],
+                          "name": [Function],
+                          "onBlur": [Function],
+                          "onChange": [Function],
+                          "onClose": [Function],
+                          "onFocus": [Function],
+                          "onOpen": [Function],
+                          "open": [Function],
+                          "readOnly": [Function],
+                          "renderValue": [Function],
+                          "tabIndex": [Function],
+                          "type": [Function],
+                          "value": [Function],
+                          "variant": [Function],
+                        },
+                        "render": [Function],
+                      }
+                    }
+                    inputProps={
+                      Object {
+                        "IconComponent": Object {
+                          "$$typeof": Symbol(react.memo),
+                          "compare": null,
+                          "type": Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "render": [Function],
+                          },
+                        },
+                        "MenuProps": Object {
+                          "anchorOrigin": Object {
+                            "horizontal": "left",
+                            "vertical": "bottom",
+                          },
+                          "getContentAnchorEl": null,
+                        },
+                        "SelectDisplayProps": Object {
+                          "id": undefined,
+                        },
+                        "autoWidth": false,
+                        "children": Array [
+                          <UNDEFINED
+                            value="total"
+                          />,
+                          Array [
+                            <UNDEFINED
+                              value="LND"
+                            >
+                              LND
+                            </UNDEFINED>,
+                          ],
+                        ],
+                        "classes": Object {
+                          "disabled": "Mui-disabled",
+                          "filled": "MuiSelect-filled",
+                          "icon": "MuiSelect-icon",
+                          "iconFilled": "MuiSelect-iconFilled",
+                          "iconOpen": "MuiSelect-iconOpen",
+                          "iconOutlined": "MuiSelect-iconOutlined",
+                          "nativeInput": "MuiSelect-nativeInput",
+                          "outlined": "MuiSelect-outlined",
+                          "root": "MuiSelect-root",
+                          "select": "MuiSelect-select",
+                          "selectMenu": "MuiSelect-selectMenu",
+                        },
+                        "displayEmpty": false,
+                        "id": "crewBaseSelected",
+                        "labelId": undefined,
+                        "multiple": false,
+                        "name": "crewBaseSelected",
+                        "onClose": undefined,
+                        "onOpen": undefined,
+                        "open": undefined,
+                        "renderValue": undefined,
+                        "type": undefined,
+                        "variant": "standard",
+                      }
+                    }
+                    onChange={
+                      [MockFunction] {
+                        "calls": Array [
+                          Array [
+                            "SOLVER.tabCompare.allCrewBases",
+                          ],
+                        ],
+                      }
+                    }
+                    style={
+                      Object {
+                        "margin": "1em 0 0",
+                        "width": "150px",
+                      }
+                    }
+                    value="hotelRooms"
+                  >
+                    <ForwardRef(Input)
+                      classes={
+                        Object {
+                          "colorSecondary": "MuiInput-colorSecondary",
+                          "disabled": "Mui-disabled",
+                          "error": "Mui-error",
+                          "focused": "Mui-focused",
+                          "formControl": "MuiInput-formControl",
+                          "fullWidth": "MuiInput-fullWidth",
+                          "input": "MuiInput-input",
+                          "inputMarginDense": "MuiInput-inputMarginDense",
+                          "inputMultiline": "MuiInput-inputMultiline",
+                          "inputTypeSearch": "MuiInput-inputTypeSearch",
+                          "marginDense": "MuiInput-marginDense",
+                          "multiline": "MuiInput-multiline",
+                          "root": "MuiInput-root",
+                          "underline": "MuiInput-underline",
+                        }
+                      }
+                      inputComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "propTypes": Object {
+                            "IconComponent": [Function],
+                            "MenuProps": [Function],
+                            "SelectDisplayProps": [Function],
+                            "aria-label": [Function],
+                            "autoFocus": [Function],
+                            "autoWidth": [Function],
+                            "children": [Function],
+                            "className": [Function],
+                            "classes": [Function],
+                            "defaultValue": [Function],
+                            "disabled": [Function],
+                            "displayEmpty": [Function],
+                            "inputRef": [Function],
+                            "labelId": [Function],
+                            "multiple": [Function],
+                            "name": [Function],
+                            "onBlur": [Function],
+                            "onChange": [Function],
+                            "onClose": [Function],
+                            "onFocus": [Function],
+                            "onOpen": [Function],
+                            "open": [Function],
+                            "readOnly": [Function],
+                            "renderValue": [Function],
+                            "tabIndex": [Function],
+                            "type": [Function],
+                            "value": [Function],
+                            "variant": [Function],
+                          },
+                          "render": [Function],
+                        }
+                      }
+                      inputProps={
+                        Object {
+                          "IconComponent": Object {
+                            "$$typeof": Symbol(react.memo),
+                            "compare": null,
+                            "type": Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "render": [Function],
+                            },
+                          },
+                          "MenuProps": Object {
+                            "anchorOrigin": Object {
+                              "horizontal": "left",
+                              "vertical": "bottom",
+                            },
+                            "getContentAnchorEl": null,
+                          },
+                          "SelectDisplayProps": Object {
+                            "id": undefined,
+                          },
+                          "autoWidth": false,
+                          "children": Array [
+                            <UNDEFINED
+                              value="total"
+                            />,
+                            Array [
+                              <UNDEFINED
+                                value="LND"
+                              >
+                                LND
+                              </UNDEFINED>,
+                            ],
+                          ],
+                          "classes": Object {
+                            "disabled": "Mui-disabled",
+                            "filled": "MuiSelect-filled",
+                            "icon": "MuiSelect-icon",
+                            "iconFilled": "MuiSelect-iconFilled",
+                            "iconOpen": "MuiSelect-iconOpen",
+                            "iconOutlined": "MuiSelect-iconOutlined",
+                            "nativeInput": "MuiSelect-nativeInput",
+                            "outlined": "MuiSelect-outlined",
+                            "root": "MuiSelect-root",
+                            "select": "MuiSelect-select",
+                            "selectMenu": "MuiSelect-selectMenu",
+                          },
+                          "displayEmpty": false,
+                          "id": "crewBaseSelected",
+                          "labelId": undefined,
+                          "multiple": false,
+                          "name": "crewBaseSelected",
+                          "onClose": undefined,
+                          "onOpen": undefined,
+                          "open": undefined,
+                          "renderValue": undefined,
+                          "type": undefined,
+                          "variant": "standard",
+                        }
+                      }
+                      onChange={
+                        [MockFunction] {
+                          "calls": Array [
+                            Array [
+                              "SOLVER.tabCompare.allCrewBases",
+                            ],
+                          ],
+                        }
+                      }
+                      style={
+                        Object {
+                          "margin": "1em 0 0",
+                          "width": "150px",
+                        }
+                      }
+                      value="hotelRooms"
+                    >
+                      <WithStyles(ForwardRef(InputBase))
+                        classes={
+                          Object {
+                            "colorSecondary": "MuiInput-colorSecondary",
+                            "disabled": "Mui-disabled",
+                            "error": "Mui-error",
+                            "focused": "Mui-focused",
+                            "formControl": "MuiInput-formControl",
+                            "fullWidth": "MuiInput-fullWidth",
+                            "input": "MuiInput-input",
+                            "inputMarginDense": "MuiInput-inputMarginDense",
+                            "inputMultiline": "MuiInput-inputMultiline",
+                            "inputTypeSearch": "MuiInput-inputTypeSearch",
+                            "marginDense": "MuiInput-marginDense",
+                            "multiline": "MuiInput-multiline",
+                            "root": "MuiInput-root MuiInput-underline",
+                            "underline": null,
+                          }
+                        }
+                        fullWidth={false}
+                        inputComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "propTypes": Object {
+                              "IconComponent": [Function],
+                              "MenuProps": [Function],
+                              "SelectDisplayProps": [Function],
+                              "aria-label": [Function],
+                              "autoFocus": [Function],
+                              "autoWidth": [Function],
+                              "children": [Function],
+                              "className": [Function],
+                              "classes": [Function],
+                              "defaultValue": [Function],
+                              "disabled": [Function],
+                              "displayEmpty": [Function],
+                              "inputRef": [Function],
+                              "labelId": [Function],
+                              "multiple": [Function],
+                              "name": [Function],
+                              "onBlur": [Function],
+                              "onChange": [Function],
+                              "onClose": [Function],
+                              "onFocus": [Function],
+                              "onOpen": [Function],
+                              "open": [Function],
+                              "readOnly": [Function],
+                              "renderValue": [Function],
+                              "tabIndex": [Function],
+                              "type": [Function],
+                              "value": [Function],
+                              "variant": [Function],
+                            },
+                            "render": [Function],
+                          }
+                        }
+                        inputProps={
+                          Object {
+                            "IconComponent": Object {
+                              "$$typeof": Symbol(react.memo),
+                              "compare": null,
+                              "type": Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "render": [Function],
+                              },
+                            },
+                            "MenuProps": Object {
+                              "anchorOrigin": Object {
+                                "horizontal": "left",
+                                "vertical": "bottom",
+                              },
+                              "getContentAnchorEl": null,
+                            },
+                            "SelectDisplayProps": Object {
+                              "id": undefined,
+                            },
+                            "autoWidth": false,
+                            "children": Array [
+                              <UNDEFINED
+                                value="total"
+                              />,
+                              Array [
+                                <UNDEFINED
+                                  value="LND"
+                                >
+                                  LND
+                                </UNDEFINED>,
+                              ],
+                            ],
+                            "classes": Object {
+                              "disabled": "Mui-disabled",
+                              "filled": "MuiSelect-filled",
+                              "icon": "MuiSelect-icon",
+                              "iconFilled": "MuiSelect-iconFilled",
+                              "iconOpen": "MuiSelect-iconOpen",
+                              "iconOutlined": "MuiSelect-iconOutlined",
+                              "nativeInput": "MuiSelect-nativeInput",
+                              "outlined": "MuiSelect-outlined",
+                              "root": "MuiSelect-root",
+                              "select": "MuiSelect-select",
+                              "selectMenu": "MuiSelect-selectMenu",
+                            },
+                            "displayEmpty": false,
+                            "id": "crewBaseSelected",
+                            "labelId": undefined,
+                            "multiple": false,
+                            "name": "crewBaseSelected",
+                            "onClose": undefined,
+                            "onOpen": undefined,
+                            "open": undefined,
+                            "renderValue": undefined,
+                            "type": undefined,
+                            "variant": "standard",
+                          }
+                        }
+                        multiline={false}
+                        onChange={
+                          [MockFunction] {
+                            "calls": Array [
+                              Array [
+                                "SOLVER.tabCompare.allCrewBases",
+                              ],
+                            ],
+                          }
+                        }
+                        style={
+                          Object {
+                            "margin": "1em 0 0",
+                            "width": "150px",
+                          }
+                        }
+                        type="text"
+                        value="hotelRooms"
+                      >
+                        <ForwardRef(InputBase)
+                          classes={
+                            Object {
+                              "adornedEnd": "MuiInputBase-adornedEnd",
+                              "adornedStart": "MuiInputBase-adornedStart",
+                              "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                              "disabled": "Mui-disabled Mui-disabled",
+                              "error": "Mui-error Mui-error",
+                              "focused": "Mui-focused Mui-focused",
+                              "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                              "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                              "input": "MuiInputBase-input MuiInput-input",
+                              "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                              "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                              "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                              "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                              "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                              "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                              "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                              "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                              "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
+                            }
+                          }
+                          fullWidth={false}
+                          inputComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "propTypes": Object {
+                                "IconComponent": [Function],
+                                "MenuProps": [Function],
+                                "SelectDisplayProps": [Function],
+                                "aria-label": [Function],
+                                "autoFocus": [Function],
+                                "autoWidth": [Function],
+                                "children": [Function],
+                                "className": [Function],
+                                "classes": [Function],
+                                "defaultValue": [Function],
+                                "disabled": [Function],
+                                "displayEmpty": [Function],
+                                "inputRef": [Function],
+                                "labelId": [Function],
+                                "multiple": [Function],
+                                "name": [Function],
+                                "onBlur": [Function],
+                                "onChange": [Function],
+                                "onClose": [Function],
+                                "onFocus": [Function],
+                                "onOpen": [Function],
+                                "open": [Function],
+                                "readOnly": [Function],
+                                "renderValue": [Function],
+                                "tabIndex": [Function],
+                                "type": [Function],
+                                "value": [Function],
+                                "variant": [Function],
+                              },
+                              "render": [Function],
+                            }
+                          }
+                          inputProps={
+                            Object {
+                              "IconComponent": Object {
+                                "$$typeof": Symbol(react.memo),
+                                "compare": null,
+                                "type": Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "render": [Function],
+                                },
+                              },
+                              "MenuProps": Object {
+                                "anchorOrigin": Object {
+                                  "horizontal": "left",
+                                  "vertical": "bottom",
+                                },
+                                "getContentAnchorEl": null,
+                              },
+                              "SelectDisplayProps": Object {
+                                "id": undefined,
+                              },
+                              "autoWidth": false,
+                              "children": Array [
+                                <UNDEFINED
+                                  value="total"
+                                />,
+                                Array [
+                                  <UNDEFINED
+                                    value="LND"
+                                  >
+                                    LND
+                                  </UNDEFINED>,
+                                ],
+                              ],
+                              "classes": Object {
+                                "disabled": "Mui-disabled",
+                                "filled": "MuiSelect-filled",
+                                "icon": "MuiSelect-icon",
+                                "iconFilled": "MuiSelect-iconFilled",
+                                "iconOpen": "MuiSelect-iconOpen",
+                                "iconOutlined": "MuiSelect-iconOutlined",
+                                "nativeInput": "MuiSelect-nativeInput",
+                                "outlined": "MuiSelect-outlined",
+                                "root": "MuiSelect-root",
+                                "select": "MuiSelect-select",
+                                "selectMenu": "MuiSelect-selectMenu",
+                              },
+                              "displayEmpty": false,
+                              "id": "crewBaseSelected",
+                              "labelId": undefined,
+                              "multiple": false,
+                              "name": "crewBaseSelected",
+                              "onClose": undefined,
+                              "onOpen": undefined,
+                              "open": undefined,
+                              "renderValue": undefined,
+                              "type": undefined,
+                              "variant": "standard",
+                            }
+                          }
+                          multiline={false}
+                          onChange={
+                            [MockFunction] {
+                              "calls": Array [
+                                Array [
+                                  "SOLVER.tabCompare.allCrewBases",
+                                ],
+                              ],
+                            }
+                          }
+                          style={
+                            Object {
+                              "margin": "1em 0 0",
+                              "width": "150px",
+                            }
+                          }
+                          type="text"
+                          value="hotelRooms"
+                        >
+                          <div
+                            className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "margin": "1em 0 0",
+                                "width": "150px",
+                              }
+                            }
+                          >
+                            <ForwardRef(SelectInput)
+                              IconComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.memo),
+                                  "compare": null,
+                                  "type": Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "render": [Function],
+                                  },
+                                }
+                              }
+                              MenuProps={
+                                Object {
+                                  "anchorOrigin": Object {
+                                    "horizontal": "left",
+                                    "vertical": "bottom",
+                                  },
+                                  "getContentAnchorEl": null,
+                                }
+                              }
+                              SelectDisplayProps={
+                                Object {
+                                  "id": undefined,
+                                }
+                              }
+                              aria-invalid={false}
+                              autoWidth={false}
+                              className="MuiInputBase-input MuiInput-input"
+                              classes={
+                                Object {
+                                  "disabled": "Mui-disabled",
+                                  "filled": "MuiSelect-filled",
+                                  "icon": "MuiSelect-icon",
+                                  "iconFilled": "MuiSelect-iconFilled",
+                                  "iconOpen": "MuiSelect-iconOpen",
+                                  "iconOutlined": "MuiSelect-iconOutlined",
+                                  "nativeInput": "MuiSelect-nativeInput",
+                                  "outlined": "MuiSelect-outlined",
+                                  "root": "MuiSelect-root",
+                                  "select": "MuiSelect-select",
+                                  "selectMenu": "MuiSelect-selectMenu",
+                                }
+                              }
+                              disabled={false}
+                              displayEmpty={false}
+                              id="crewBaseSelected"
+                              inputRef={[Function]}
+                              multiple={false}
+                              name="crewBaseSelected"
+                              onAnimationStart={[Function]}
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              required={false}
+                              value="hotelRooms"
+                              variant="standard"
+                            >
+                              <div
+                                aria-haspopup="listbox"
+                                aria-labelledby="mui-component-select-crewBaseSelected"
+                                className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                                id="mui-component-select-crewBaseSelected"
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onMouseDown={[Function]}
+                                role="button"
+                                tabIndex={0}
+                              >
+                                <span
+                                  dangerouslySetInnerHTML={
+                                    Object {
+                                      "__html": "&#8203;",
+                                    }
+                                  }
+                                />
+                              </div>
+                              <input
+                                aria-hidden={true}
+                                className="MuiSelect-nativeInput"
+                                id="crewBaseSelected"
+                                name="crewBaseSelected"
+                                onAnimationStart={[Function]}
+                                onChange={[Function]}
+                                required={false}
+                                tabIndex={-1}
+                                value="hotelRooms"
+                              />
+                              <ForwardRef(ArrowDropDownIcon)
+                                className="MuiSelect-icon"
+                              >
+                                <WithStyles(ForwardRef(SvgIcon))
+                                  className="MuiSelect-icon"
+                                >
+                                  <ForwardRef(SvgIcon)
+                                    className="MuiSelect-icon"
+                                    classes={
+                                      Object {
+                                        "colorAction": "MuiSvgIcon-colorAction",
+                                        "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                        "colorError": "MuiSvgIcon-colorError",
+                                        "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                        "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                        "root": "MuiSvgIcon-root",
+                                      }
+                                    }
+                                  >
+                                    <svg
+                                      aria-hidden={true}
+                                      className="MuiSvgIcon-root MuiSelect-icon"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M7 10l5 5 5-5z"
+                                      />
+                                    </svg>
+                                  </ForwardRef(SvgIcon)>
+                                </WithStyles(ForwardRef(SvgIcon))>
+                              </ForwardRef(ArrowDropDownIcon)>
+                              <WithStyles(ForwardRef(Menu))
+                                MenuListProps={
+                                  Object {
+                                    "aria-labelledby": undefined,
+                                    "disableListWrap": true,
+                                    "role": "listbox",
+                                  }
+                                }
+                                PaperProps={
+                                  Object {
+                                    "style": Object {
+                                      "minWidth": undefined,
+                                    },
+                                  }
+                                }
+                                anchorEl={
+                                  <div
+                                    aria-haspopup="listbox"
+                                    aria-labelledby="mui-component-select-crewBaseSelected"
+                                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                                    id="mui-component-select-crewBaseSelected"
+                                    role="button"
+                                    tabindex="0"
+                                  >
+                                    <span>
+                                      ​
+                                    </span>
+                                  </div>
+                                }
+                                anchorOrigin={
+                                  Object {
+                                    "horizontal": "left",
+                                    "vertical": "bottom",
+                                  }
+                                }
+                                getContentAnchorEl={null}
+                                id="menu-crewBaseSelected"
+                                onClose={[Function]}
+                                open={false}
+                              >
+                                <ForwardRef(Menu)
+                                  MenuListProps={
+                                    Object {
+                                      "aria-labelledby": undefined,
+                                      "disableListWrap": true,
+                                      "role": "listbox",
+                                    }
+                                  }
+                                  PaperProps={
+                                    Object {
+                                      "style": Object {
+                                        "minWidth": undefined,
+                                      },
+                                    }
+                                  }
+                                  anchorEl={
+                                    <div
+                                      aria-haspopup="listbox"
+                                      aria-labelledby="mui-component-select-crewBaseSelected"
+                                      class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                                      id="mui-component-select-crewBaseSelected"
+                                      role="button"
+                                      tabindex="0"
+                                    >
+                                      <span>
+                                        ​
+                                      </span>
+                                    </div>
+                                  }
+                                  anchorOrigin={
+                                    Object {
+                                      "horizontal": "left",
+                                      "vertical": "bottom",
+                                    }
+                                  }
+                                  classes={
+                                    Object {
+                                      "list": "MuiMenu-list",
+                                      "paper": "MuiMenu-paper",
+                                    }
+                                  }
+                                  getContentAnchorEl={null}
+                                  id="menu-crewBaseSelected"
+                                  onClose={[Function]}
+                                  open={false}
+                                >
+                                  <WithStyles(ForwardRef(Popover))
+                                    PaperProps={
+                                      Object {
+                                        "classes": Object {
+                                          "root": "MuiMenu-paper",
+                                        },
+                                        "style": Object {
+                                          "minWidth": undefined,
+                                        },
+                                      }
+                                    }
+                                    anchorEl={
+                                      <div
+                                        aria-haspopup="listbox"
+                                        aria-labelledby="mui-component-select-crewBaseSelected"
+                                        class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                                        id="mui-component-select-crewBaseSelected"
+                                        role="button"
+                                        tabindex="0"
+                                      >
+                                        <span>
+                                          ​
+                                        </span>
+                                      </div>
+                                    }
+                                    anchorOrigin={
+                                      Object {
+                                        "horizontal": "left",
+                                        "vertical": "bottom",
+                                      }
+                                    }
+                                    getContentAnchorEl={null}
+                                    id="menu-crewBaseSelected"
+                                    onClose={[Function]}
+                                    onEntering={[Function]}
+                                    open={false}
+                                    transformOrigin={
+                                      Object {
+                                        "horizontal": "left",
+                                        "vertical": "top",
+                                      }
+                                    }
+                                    transitionDuration="auto"
+                                  >
+                                    <ForwardRef(Popover)
+                                      PaperProps={
+                                        Object {
+                                          "classes": Object {
+                                            "root": "MuiMenu-paper",
+                                          },
+                                          "style": Object {
+                                            "minWidth": undefined,
+                                          },
+                                        }
+                                      }
+                                      anchorEl={
+                                        <div
+                                          aria-haspopup="listbox"
+                                          aria-labelledby="mui-component-select-crewBaseSelected"
+                                          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                                          id="mui-component-select-crewBaseSelected"
+                                          role="button"
+                                          tabindex="0"
+                                        >
+                                          <span>
+                                            ​
+                                          </span>
+                                        </div>
+                                      }
+                                      anchorOrigin={
+                                        Object {
+                                          "horizontal": "left",
+                                          "vertical": "bottom",
+                                        }
+                                      }
+                                      classes={
+                                        Object {
+                                          "paper": "MuiPopover-paper",
+                                          "root": "MuiPopover-root",
+                                        }
+                                      }
+                                      getContentAnchorEl={null}
+                                      id="menu-crewBaseSelected"
+                                      onClose={[Function]}
+                                      onEntering={[Function]}
+                                      open={false}
+                                      transformOrigin={
+                                        Object {
+                                          "horizontal": "left",
+                                          "vertical": "top",
+                                        }
+                                      }
+                                      transitionDuration="auto"
+                                    >
+                                      <ForwardRef(Modal)
+                                        BackdropProps={
+                                          Object {
+                                            "invisible": true,
+                                          }
+                                        }
+                                        className="MuiPopover-root"
+                                        container={<body />}
+                                        id="menu-crewBaseSelected"
+                                        onClose={[Function]}
+                                        open={false}
+                                      />
+                                    </ForwardRef(Popover)>
+                                  </WithStyles(ForwardRef(Popover))>
+                                </ForwardRef(Menu)>
+                              </WithStyles(ForwardRef(Menu))>
+                            </ForwardRef(SelectInput)>
+                          </div>
+                        </ForwardRef(InputBase)>
+                      </WithStyles(ForwardRef(InputBase))>
+                    </ForwardRef(Input)>
+                  </WithStyles(ForwardRef(Input))>
+                </ForwardRef(Select)>
+              </WithStyles(ForwardRef(Select))>
+            </div>
+          </ForwardRef(FormControl)>
+        </WithStyles(ForwardRef(FormControl))>
+      </div>
+    </div>
+  </CompareHeader__Header>
+</CompareHeader>
+`;

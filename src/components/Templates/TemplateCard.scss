@@ -1,0 +1,11 @@
+.temp-icon-tooltip {
+    border-radius: 6px;
+    width: 140px;
+    color: #ffffff;
+}
+ .temp-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7, 0.7);
+}

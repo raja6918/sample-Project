@@ -1,0 +1,21 @@
+.value-container > div > div:nth-child(2) {
+  color: #e0e0e0;
+  cursor: pointer;
+}
+.value-container > div > div:nth-child(2):hover {
+  background: none !important;
+}
+.value-container > div > div:nth-child(2) > svg {
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+.value-container > div > div:nth-child(2) > svg:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.css-tlfecz-indicatorContainer {
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+.read-only-form .css-tlfecz-indicatorContainer {
+  color: rgba(0, 0, 0, 0.38) !important;
+}

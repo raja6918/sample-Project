@@ -1,0 +1,319 @@
+{
+  "ERRORS": {
+    "undefined": "**Error key not defined**",
+    "ERROR_CODE": "Error code",
+    "FIELD_PATTERN_ERROR": "The value you have entered for {{0}} is invalid.",
+    "ENTITY_FIELD_ERROR": "The value you have entered is invalid.",
+    "COMPLEX_RULE_ENTITY_FIELD_ERROR": "One or more of the values you have entered are invalid.",
+    "ERROR_FILTER_SYNTAX": "Syntax error in filter",
+    "SCENARIO_ID_NOT_EXIST": "Scenario {{0}} can't be found. It may have been deleted by someone else.",
+    "SCENARIO_NOT_FOUND": "Scenario {{0}} can't be found. It may have been deleted by someone else.",
+    "SCENARIO_NOT_FOUND_TEMPLATE": "Template {{0}} can't be found. It may have been deleted by someone else.",
+    "SCENARIO_ID_NOT_EXIST_TEMPLATE": "Template {{0}} can't be found. It may have been deleted by someone else.",
+    "SCENARIO_SHOULD_NOT_BE_OPENED": "Can't delete an open scenario. Please close the scenario and try again.",
+
+    "SCENARIO_SHOULD_NOT_BE_OPENED_TEMPLATE": "Can't delete an open template. Please close the template and try again.",
+    "SCENARIO_CHANGE_FORBIDDEN": "Standard template cannot be modified.",
+    "SCENARIO_READ_ONLY": "Standard template cannot be modified.",
+    "SCENARIO_PERMANENT_TEMPLATE": "This template cannot be modified.",
+    "FIELD_SIZE_ERROR": "Template name must be less than or eqaul to 50 characters",
+    "NOT_NULL_ERROR": "Field Validation error: {{0}} must not be null",
+    "NOT_BLANK_ERROR": "Field Validation error: {{0}} must not be blank",
+    "USER_USERNAME_DUPLICATED": "The user name entered already exists. Please enter a different user name.",
+    "EMAIL_MALFORMED_ERROR": "Email must be a well-formed email address. Please enter a proper one.",
+    "ENTITY_FIELD_DUPLICATE": "The **{{0}} {{1}} {{2}}** already exists, please enter a different one.",
+    "ENTITY_NOT_EXIST": "{{0}} **{{1}}** can't be found. It may have already been deleted.",
+    "ENTITY_NOT_FOUND": "{{0}} **{{1}}** can't be found. It may have already been deleted.",
+    "DATA_NOT_EXIST": "{{0}} **{{1}}** can't be found. It may have already been deleted.",
+    "MAX_VALUE_ERROR": "flightNumber must be less than or equal to 9999.",
+    "USER_ID_NOT_EXIST": "This user has already been deleted. Please refresh your screen.",
+    "USER_USERNAME_ACCOUNT_DISABLED_DUPLICATED": "The user name entered already exists in another (disabled) account.  Please enter a different user name.",
+    "NOT_FOUND": {
+      "LINE_1": "Uh-Oh... Something went wrong.",
+      "LINE_2": "We can't seem to find the page you're looking for!",
+      "LINE_3": "Don't worry, we'll send a probe out to find it - in the meantime,",
+      "LINE_4": "<0> you can go back where you were.</0>"
+    },
+    "PLATFORM_ERROR": {
+      "LINE_1": "Oops! Looks like we're having some server issues.",
+      "LINE_2": "It's not you, it's us...",
+      "LINE_3": " and we'll all pretend this never happened.",
+      "LINE_4": "<0> Just go back to where you were </0>"
+    },
+    "UNKNOW_ERROR": {
+      "LINE_1": "Ummm... Something weird happened!",
+      "LINE_2": "We may have to travel back in time to figure this one out.",
+      "LINE_3": "In the meantime,",
+      "LINE_4": "<0>you can go back to where you were.</0>"
+    },
+    "FORBIDDEN": {
+      "LINE_1": "Oops... This is forbidden airspace.",
+      "LINE_2": "You don’t have permission to access this area.",
+      "LINE_3": "You can ",
+      "LINE_4": "<0>turn back now</0>, or head over to the <1>homepage</1>."
+    },
+    "UNAUTHORIZED": {
+      "LINE_1": "Seems like you lost your key...",
+      "LINE_2": "You need to be authorized to access this page.",
+      "LINE_3": "Please ",
+      "LINE_4": "<0>login</0> to view this page"
+    },
+    "ERROR_HANDLING": {
+      "ERRORS_DETECTED": "The following problems were detected"
+    },
+    "TEMPLATE_NAME_DUPLICATE": "Another template with this name already exists. Please change the name and try again.",
+    "SCENARIO_DUPLICATE_TEMPLATE_NAME": "Another template with this name already exists. Please change the name and try again.",
+    "SCENARIO_SOURCE_ID_NOT_EXIST": "Source Id {{0}} does not exist.",
+    "AUTH_CREDENTIALS_INVALID": "The Username or Password you have entered is invalid. Please try again.",
+    "STATIONS": {
+      "IATACode": "IATA code must be 3 letters",
+      "stationName": "Station name should not start with a space or special character",
+      "terminals": "Terminals must be letters or numbers (max. 2 characters)",
+      "latitude": "Latitude must be a number between -90.000000 and 90.000000",
+      "longitude": "Longitude must be a number between -180.000000 and 180.000000",
+      "endDate": "End date should not be before start date"
+    },
+    "USERS": {
+      "firstName": "First name cannot start with a space or special character",
+      "lastName": "Last name cannot start with a space or special character",
+      "userName": "Username should be in format similar to: jose, jose12, joe.stone, joe_stone, joe-stone",
+      "emailMalformed": "E-mail cannot start with a space or special character",
+      "passwordDoNotMatch": "Passwords don't match",
+      "password": "Passwords must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter and one number. No blank spaces please"
+    },
+    "ROLES": {
+      "userRoleName": "The role name must contain only letters or numbers",
+      "userRoleDuplicate": "The user role **{{name}}** already exists, Please enter a different one.",
+      "roleCreationFailureDefault": "The role could not be created. Please try again. If this problem persists, please contact customer support.",
+      "roleUpdateFailureDefault": "The role could not be updated. Please try again. If this problem persists, please contact your administrator."
+    },
+    "SCENARIOS": {
+      "duration": "The duration of a scenario cannot exceed 366 days",
+      "name": "Scenario name cannot start with a space or special character",
+      "templatePermission": "You need permissions to the template group (minimum view-only) to be able to create scenarios.  Please see your network administrator."
+    },
+    "TEMPLATES": {
+      "name": "Template name cannot start with a space or special character"
+    },
+    "COUNTRIES": {
+      "countryCode": "Country code must be two letters",
+      "countryName": "Country name cannot start with space, number or special character"
+    },
+    "CURRENCIES": {
+      "currencyCode": "Currency code must be three letters",
+      "currencyName": "Currency name cannot start with a space or special character",
+      "currencyRate": "Exchange rate must be a number greater than zero"
+    },
+    "REGIONS": {
+      "regionCode": "Region code should be in format similar to: EMEA or ASIA-PAC",
+      "regionName": "Region name cannot start with space, number or special character"
+    },
+    "POSITIONS": {
+      "positionCode": "Position code should be in format similar to: CPT or FA-J",
+      "positionName": "Position name cannot start with a space or special character"
+    },
+    "AIRCRAFT": {
+      "aircraftType": "Aircraft type should be in a format similar to: B77W or 773",
+      "aircraftName": "Aircraft name cannot start with a space or special character"
+    },
+    "AICRAFT_MODELS": {
+      "modelCode": "Aircraft model should be in a format similar to: 777",
+      "modelName": "Aircraft model name cannot start with a space or special character"
+    },
+    "ACCOMMODATIONS": {
+      "name": "Accommodation name cannot start with a space or special character",
+      "capacity": "Negotiated rooms must be a number between 0-1000",
+      "cost": "Nightly rate must be greater than 0",
+      "costExtendedStay": "% cost must be a number between 0-100",
+      "endDate": "End date should not be before start date",
+      "transitTime": "Transit time must be a positive number",
+      "transitCost": "Transit cost must be a positive number"
+    },
+    "SOLVER": {
+      "name": "Solver name cannot start with a space or special character",
+      "crewgroup": "Crew group is a mandatory field",
+      "ruleset": "Rule set is a mandatory field"
+    },
+    "CREWBASES": {
+      "baseCode": "Base code must be 3 letters",
+      "baseName": "Crew base name cannot start with a space or special character"
+    },
+    "CREW_GROUPS": {
+      "name": "Crew group name cannot start with a space or special character"
+    },
+    "COTERMINAL_TRANSPORTS": {
+      "name": "Transport name cannot start with a space or special character",
+      "capacity": "Maximum passengers must be a positive number",
+      "duration": "Transport time must be a positive number (no decimals)",
+      "connectionTimeBeforeAfter": "Must be a positive number",
+      "cost": "Transport cost must be a positive decimal number",
+      "creditCost": "Credit cost must be a positive number"
+    },
+    "OPERATING_FLIGHTS": {
+      "flightNumber": "Must be 1 to 4 digits",
+      "onwardFlightDesignator": "Must be in format e.g., AZ9, CV318, ABF1467",
+      "onwardFlightDayOffset": "Must be 1 to 2 digits",
+      "operationalSuffix": "Must be one letter",
+      "tailNumber": "Tail number cannot start with a space or special character",
+      "aircraftConfigurationVersion": "Must be a string of characters (max 20)",
+      "deadheadSeatsNumber": "Must be a number between 0-999",
+      "extraBriefing": "Must be positive number"
+    },
+    "COMMERCIAL_FLIGHTS": {
+      "airlineCode": "Must be 2 to 3 letters",
+      "flightNumber": "Must be 1 to 4 digits",
+      "onwardFlightDesignator": "Must be in format e.g., AZ9, CV318, ABF1467",
+      "onwardFlightDayOffset": "Must be 1 to 2 digits",
+      "operationalSuffix": "Must be one letter",
+      "tailNumber": "Tail number cannot start with a space or special character",
+      "aircraftConfigurationVersion": "Must be a string of characters (max 20)",
+      "deadheadSeatsNumber": "Must be a number between 0-999",
+      "extraBriefing": "Must be positive number",
+      "aircraftTypeCode": "Aircraft type should be in a format similar to: B77W or 773"
+    },
+    "EXTRATIMES": {
+      "extraTime": "Extra time must be a positive number",
+      "startEndTime": "Start time must be before end time"
+    },
+    "RULESET": {
+      "name": "Ruleset name cannot start with a space or special character",
+      "editFail": "Rule set **{{ruleSet}}** was not updated.",
+      "ENTITY_FIELD_DUPLICATE": "Another rule set with this name already exists. Please change the name and try again.",
+      "MIN_VALUE_ERROR": "Root rule set cannot be edited.",
+      "ADD": {
+        "ENTITY_FIELD_DUPLICATE": "Another rule set with this name already exists. Please change the name and try again in the get/edit info pane.",
+        "FAIL": "Something went wrong. The new rule set could not be created. If this problem persists, please contact your network administrator.",
+        "NAME_ERROR": "Something went wrong with the rule set name you entered. Please try again in the get/edit info pane."
+      },
+      "ENTITY_NOT_EXIST": "{{0}} **{{1}}** can't be found. It may have already been deleted.",
+      "NO_RESPONSE": "Something went wrong. Unable to fetch data from server. If this problem persists, please contact your network administrator."
+    },
+    "USER_ROLE_INVALID": "{{0}} **{{1}}** can't be found. It may have already been deleted.",
+    "IMPORT": {
+      "error": "Error",
+      "unrecognized": "This file extension is not recognized. Use the drop down to select one of the supported data types or click the 'X' to remove the file from the selection.",
+      "duplicatedSingular": "You selected too many files for {{0}}. Only {{1}} file is allowed for this data type, please delete the extra files.",
+      "duplicatedPlural": "You selected too many files for {{0}}. Only {{1}} files are allowed for this data type, please delete the extra files.",
+      "missingMandatory": "The {{0}} file can only be uploaded together with {{1}}.  Please ensure that a file for {{1}} is included in your selection.",
+      "missingComplementary": "The {{0}} file you selected can only be uploaded together with {{1}}. Please ensure that all of these files are included in your selection.",
+      "generic": "There are multiple issues with the files you selected. To know more, click on the alert icon on each card, wherever it appears.",
+      "transferFailed": "Upload failed: the data transfer somehow got interrupted. Please check your internet connection and try again.",
+      "corruptedData": "Upload failed: the data in your import somehow got corrupted along the way. Try again or contact your administrator if this problem persists.",
+      "validationError": "Upload failed: one or more file validations failed on reception. Try again or contact your administrator if this problem persists.",
+      "genericUpload": "Upload failed: something went wrong during the upload process. Please try again or contact your administrator if this problem persists.",
+      "binNameIncorrect": "Bin name cannot start with space or special character",
+      "conversion": {
+        "warningLine": "Line (**{{0}}**) was **skipped**:",
+        "warningBadFormat": "The information is not presented in the expected format",
+        "warningBadValue": "The **value** **{{0}}** doesn’t seem right",
+        "warningDuplicatedEntity": "This flight is a **duplicate** of another one",
+        "warningMissingFields": "This line is **missing fields** that were expected",
+        "warningBadData": "This line contains **information that wasn’t expected**",
+        "undefined": "**Error key not defined**",
+        "badXML": "The format of the file is not proper XML"
+      },
+      "errors": {
+        "flightNotImported": "**Flight {{0}} departing {{1}}** was **not imported**",
+        "pairingNotImported": "**Pairing {{0}} starting {{1}}** was **not imported**",
+        "deadHeadAggregateNotImported": "**Commercial flight {{0}} departing {{1}}**  was **not imported**",
+        "refersToPosition": "It refers to the following position, which is not in the scenario:",
+        "refersToAirline": "It refers to the following airline, which is not in the scenario:",
+        "refersToStation": "It refers to the following station, which is not in the scenario:",
+        "refersToAircraftType": "It refers to the following aircraft type, which is not in the scenario:",
+        "refersToCrewBase": "It refers to the following crew base, which is not in the scenario:",
+        "refersToDeadhead": "It refers to the following deadhead, which is not in the scenario:",
+        "markedObsolete": "The imported flight data is **missing {{0}} flights** that are included in one or more pairings. These flights have been **marked as “obsolete”** and the affected pairings are otherwise unchanged.",
+        "deletingPairing": "Pairing **{{0}}** starting on **{{1}}** was **deleted** because the following flight could not be found in the imported data: **{{2}}** departing on **{{3}}**",
+        "mockedMarkedObsolete": "The imported flight data is **missing {{0}} “mocked” flights** that are included in one or more pairings. These flights have not been marked as “obsolete” and remain **unchanged** in the affected pairings.",
+        "undefined": "**Pending translation**"
+      }
+    },
+    "GENERIC_TEXT_FIELD": {
+      "name": "Text field cannot start with a space or special character"
+    },
+    "GENERIC_DELETE_DUPLICATE_ERROR": {
+      "message": "This {{type}} cannot be deleted because it is referenced by other data in your scenario. To remove this item, first delete all dependant data and then try again."
+    },
+    "ROLE_REFERENCE_ERROR": {
+      "message": "This {{type}} cannot be deleted because it has reference with one or more users."
+    },
+    "PAIRING_PREVIEW_ERROR": {
+      "title": "Preview solver result",
+      "body": "You’ve reached the limit of 5 previews. Please close one of your previews and try again."
+    },
+    "SNACK_404_ERROR": {
+      "message": "NETWORK CONNECTION FAILURE"
+    },
+    "SNACK_500_ERROR": {
+      "message": "INTERNAL SERVER ERROR"
+    },
+    "SNACK_400_ERROR": {
+      "message": "BAD REQUEST"
+    },
+    "PAIRING_PREVIEW_BLOCKED": {
+      "title": "Pop-ups blocked",
+      "body": "You need to allow pop-ups and redirects to open previews in a new tab."
+    },
+    "PAIRING_PREVIEW_SAVE": {
+      "message": "Something went wrong. Your pairings could not be saved. If this problem persists, please contact your network administrator."
+    },
+    "FAVORITE_SET": {
+      "message": "The solver request **{{solverRequestName}}** was not set to favorite"
+    },
+    "FAVORITE_UNSET": {
+      "message": "The favorite option was not unset for solver request  **{{solverRequestName}}**"
+    },
+    "RULES_DESCRIPTION": {
+      "Numbers": {
+        "rangeValidation": "The possible values for this parameter range from **{{0}}** to **{{1}}**. Please try again.",
+        "minValidation": "For this parameter, a value of **{{0}}** or greater is expected. Please try again.",
+        "maxValidation": "For this parameter, a value of **{{0}}** or smaller is expected. Please try again."
+      },
+      "Time": {
+        "rangeValidation": "The possible values for this parameter range from **{{0}}** to **{{1}}**. Please try again.",
+        "minValidation": "For this parameter, a value of **{{0}}** or greater is expected. Please try again.",
+        "maxValidation": "For this parameter, a value of **{{0}}** or smaller is expected. Please try again."
+      },
+      "String": {
+        "rangeValidation": "You need to enter between **{{0}}** and **{{1}}** characters for this parameter.",
+        "minValidation": "You need to enter atleast **{{0}}** characters for this parameter.",
+        "maxValidation": "You cannot enter more than **{{0}}** characters for this parameter.",
+        "regexValidation": "The characters entered don't match the expected pattern for this parameter. Please try again."
+      },
+      "Duration": {
+        "rangeValidation": "The possible values for this parameter range from **{{0}}** to **{{1}}**. Please try again.",
+        "minValidation": "For this parameter, a value of **{{0}}** or greater is expected. Please try again.",
+        "maxValidation": "For this parameter, a value of **{{0}}** or smaller is expected. Please try again.",
+        "formatValidation": "Enter a duration in the format HHhMM (e.g., 2h04 or 23h59)"
+      }
+    },
+    "RULE_TABLE": {
+      "uniqueKey": "The **{{0}}** should be unique.",
+      "uniqueHeader": "The **{{0}}** should be unique.",
+      "noGapTimeRange": "Your time ranges contain one or more gaps. Please check the times you entered and try again.",
+      "notExactOneDay": "Your time ranges are not covering exactly 24h00. Please check the times you entered and try again."
+    },
+    "FILTER": {
+      "dateTimeRangeIncorrect": "The start of the date/time range must occur either before or should be the same as the end of the specified range.",
+      "durationFormatIncorrect": "Enter a duration in the format HHhMM (e.g., 2h04 or 23h59)",
+      "invalidFormat": "Invalid format",
+      "durationRangeError": "The minimum value must be smaller than or same as the maximum.",
+      "integerRangeError": "The minimum value must be smaller than or same as the maximum.",
+      "timeRangeIncorrect": "The start of the time range must occur before the end of the specified range.",
+      "latitudeInvalidFormatMessage": "Latitude must be a number between -90.0000 and 90.0000.",
+      "longitudeInvalidFormatMessage": "Longitude must be a number between -180.0000 and 180.0000.",
+      "InvalidFormatMessage": "Must enter both min and max.",
+      "save": "Something went wrong. Filter **{{filterName}}** could not be saved. If this problem persists, please contact your Administrator."
+    },
+    "NOTIFICATIONS": {
+      "message": "Something went wrong. Unable to delete data from server. If this problem persists, please contact your network administrator",
+      "noInternet": "### No internet connection \nYou don’t seem to be connected to the internet. To continue working in Sierra, please check your network settings."
+    },
+    "INVALID_PARAMETER_VALUE": "Invalid param values passed in the request",
+    "MISSING_PARAMETERS_ERROR": "Missing required parameter in the request",
+    "GANTT_OPERATIONS": {
+      "break": "Something went wrong with the break operation. If this problem persists, please contact customer support.",
+      "join": "Something went wrong with the join operation. If this problem persists, please contact customer support."
+    }
+  }
+}

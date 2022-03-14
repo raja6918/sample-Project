@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimelineColumns Component renders 1`] = `
+<TimelineColumns
+  columnWidthInPx={40}
+  days={
+    Array [
+      Object {
+        "dayIndex": 0,
+        "dayName": "Wednesday",
+        "dayNumber": "25",
+        "dayShortName": "We",
+        "isCarryIn": true,
+        "isCarryOut": false,
+        "isDayAfterPeriodEnd": false,
+        "isFirstDayOfMonth": false,
+        "isPeriodEnd": false,
+        "isPeriodStart": false,
+        "isWeekend": false,
+        "relativeDay": -7,
+      },
+      Object {
+        "dayIndex": 1,
+        "dayName": "Thursday",
+        "dayNumber": "26",
+        "dayShortName": "Th",
+        "isCarryIn": true,
+        "isCarryOut": false,
+        "isDayAfterPeriodEnd": false,
+        "isFirstDayOfMonth": false,
+        "isPeriodEnd": false,
+        "isPeriodStart": false,
+        "isWeekend": false,
+        "relativeDay": -6,
+      },
+    ]
+  }
+  hourWidthInPx={30}
+  rowsContainerRef={[MockFunction]}
+  timelineVisibleDays={5}
+>
+  <div
+    className="pt-vertical-lines"
+  >
+    <TimelineDay
+      className="pt-vl carry-day"
+      hourWidthInPx={30}
+      isFirstDayOfMonth={false}
+      key="0"
+      style={
+        Object {
+          "width": 40,
+        }
+      }
+      timelineVisibleDays={5}
+    >
+      <div
+        className="pt-vl carry-day "
+        style={
+          Object {
+            "width": 40,
+          }
+        }
+      />
+    </TimelineDay>
+    <TimelineDay
+      className="pt-vl carry-day"
+      hourWidthInPx={30}
+      isFirstDayOfMonth={false}
+      key="1"
+      style={
+        Object {
+          "width": 40,
+        }
+      }
+      timelineVisibleDays={5}
+    >
+      <div
+        className="pt-vl carry-day "
+        style={
+          Object {
+            "width": 40,
+          }
+        }
+      />
+    </TimelineDay>
+  </div>
+</TimelineColumns>
+`;

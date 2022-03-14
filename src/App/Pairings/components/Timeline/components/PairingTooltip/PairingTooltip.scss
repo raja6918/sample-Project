@@ -1,0 +1,217 @@
+$color_1: #e0e0e0;
+$color_2: #ff650c;
+
+$tooltip-bg: #3d3d3d;
+$tooltip-color: #fff;
+
+$font_weight: 500;
+$row_height: 30px;
+
+.bold {
+  font-weight: $font_weight;
+}
+
+.hightlight {
+  display: flex;
+  position: relative;
+  color: $color_2;
+  font-weight: $font_weight;
+  font-size: 13px;
+
+  .left-icon {
+    margin-right: 4px;
+  }
+
+  .right-icon {
+    position: absolute;
+    right: -20px;
+  }
+}
+
+.auto-grow {
+  flex-grow: 1;
+}
+
+.bullet {
+  border: 1px solid $color_1;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+}
+
+.line {
+  height: 1px;
+  min-width: 20px;
+  background: $color_1;
+}
+
+.underline,
+.overline {
+  font-weight: $font_weight;
+}
+
+.underline {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.overline {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.crew-composition-tooltip {
+  width: 100%;
+  text-align: left;
+
+  span {
+    padding: 0;
+  }
+
+  .material-icons {
+    font-size: 11px;
+    padding-left: 2px;
+  }
+
+  .title,
+  .separator {
+    margin-right: 2px;
+  }
+
+  .clickable {
+    cursor: pointer;
+  }
+}
+
+.tippy-popper {
+  max-width: 586px;
+
+  .tippy-tooltip {
+    display: block;
+    font-size: 12px;
+    padding: 0;
+    color: $tooltip-color;
+    background: $tooltip-bg;
+    background-color: $tooltip-bg !important;
+    border-radius: 6px;
+  }
+}
+
+.tippy-popper[x-placement^='top'] {
+  .tippy-tooltip {
+    [x-arrow] {
+      border-top: 7px solid $tooltip-bg !important;
+    }
+  }
+}
+
+.tippy-popper[x-placement^='bottom'] {
+  .tippy-tooltip {
+    [x-arrow] {
+      border-bottom: 7px solid $tooltip-bg !important;
+    }
+  }
+}
+
+.pa-tooltip {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  height: 100%;
+  max-width: 586px;
+  font-size: 12px;
+
+  .duration {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 4px;
+    font-size: 12px;
+    font-weight: $font_weight;
+
+    :first-child {
+      margin-bottom: 5px;
+    }
+
+    .material-icons {
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    .rotate-icon {
+      transform: rotate(90deg);
+    }
+  }
+
+  .activity-duration-container {
+    height: auto;
+    padding: 14px 10px;
+    align-items: stretch;
+    border-right: 1px solid $tooltip-color;
+  }
+
+  .activity-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 400px;
+    padding: 14px 10px;
+    padding-left: 10px;
+
+    .pa-tooltip-text {
+      width: 100%;
+      padding: 0;
+      font-size: 11px;
+      text-align: left;
+      line-height: 1.8;
+
+      &:first-child {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.activity-duration {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 11px;
+
+  .start-label,
+  .end-label {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+
+  .start-label {
+    text-align: right;
+    margin-right: 8px;
+  }
+
+  .end-label {
+    position: relative;
+    margin-left: 8px;
+    text-align: left;
+
+    &.elements-2 {
+      &.LAY {
+        margin-top: 14px;
+      }
+    }
+
+    .days-diff {
+      position: absolute;
+      right: -26px;
+    }
+  }
+}

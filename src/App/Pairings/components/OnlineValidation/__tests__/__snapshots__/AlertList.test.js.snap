@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test AlertList Component AlertList Component renders correctly 1`] = `
+<Fragment>
+  <AlertList__AlertRow
+    key="0"
+    onMouseEnter={[Function]}
+    onMouseLeave={[MockFunction]}
+  >
+    <div>
+      <InfractionIcon
+        className=""
+        fill="none"
+        height="100%"
+        style={Object {}}
+        viewBox="0 0 26 26"
+        width="26px"
+      />
+    </div>
+    <div />
+    <div>
+      <p>
+        <button
+          className="alert-rule-name button-reset"
+          onClick={[Function]}
+          type="button"
+        >
+          Maximum legs per duty
+        </button>
+      </p>
+      <p>
+        maximum legs per duty exceeded
+      </p>
+      <ReactMarkdown
+        astPlugins={Array []}
+        escapeHtml={true}
+        parserOptions={Object {}}
+        plugins={Array []}
+        rawSourcePos={false}
+        renderers={Object {}}
+        skipHtml={false}
+        sourcePos={false}
+        transformLinkUri={[Function]}
+      />
+    </div>
+    <div>
+      <button
+        className="alert-edit-button button-reset"
+        disabled={true}
+        id="edit-rule-btn-warning-0"
+        onClick={[Function]}
+        type="button"
+      />
+    </div>
+  </AlertList__AlertRow>
+  <AlertList__AlertRow
+    key="1"
+    onMouseEnter={[Function]}
+    onMouseLeave={[MockFunction]}
+  >
+    <div>
+      <InfractionIcon
+        className=""
+        fill="none"
+        height="100%"
+        style={Object {}}
+        viewBox="0 0 26 26"
+        width="26px"
+      />
+    </div>
+    <div />
+    <div>
+      <p>
+        <button
+          className="alert-rule-name button-reset"
+          onClick={[Function]}
+          type="button"
+        >
+          Duty credit
+        </button>
+      </p>
+      <p>
+        duty credit exceeded
+      </p>
+      <ReactMarkdown
+        astPlugins={Array []}
+        escapeHtml={true}
+        parserOptions={Object {}}
+        plugins={Array []}
+        rawSourcePos={false}
+        renderers={Object {}}
+        skipHtml={false}
+        sourcePos={false}
+        transformLinkUri={[Function]}
+      />
+    </div>
+    <div>
+      <button
+        className="alert-edit-button button-reset"
+        disabled={true}
+        id="edit-rule-btn-warning-1"
+        onClick={[Function]}
+        type="button"
+      />
+    </div>
+  </AlertList__AlertRow>
+</Fragment>
+`;

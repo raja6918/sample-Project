@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeRangePicker Render 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Input))
+    className="mui-ctrp-text"
+    disableUnderline={true}
+    endAdornment={
+      <UNDEFINED
+        className="mui-ctrp-clock"
+        onClick={[Function]}
+      >
+        clock
+      </UNDEFINED>
+    }
+    inputProps={
+      Object {
+        "onClick": [Function],
+      }
+    }
+    inputRef={
+      Object {
+        "current": null,
+      }
+    }
+    onChange={[Function]}
+    placeholder="search"
+    readOnly={true}
+    startAdornment={
+      <UNDEFINED
+        onClick={[Function]}
+      >
+        search
+      </UNDEFINED>
+    }
+    type="text"
+    value=""
+  />
+  <WithStyles(ForwardRef(Dialog))
+    className="mui-ctrp-dialog"
+    open={false}
+  >
+    <WithStyles(ForwardRef(Grid))
+      className="mui-ctrp-container"
+      container={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="mui-ctrp-left"
+        item={true}
+        xs={2}
+      />
+      <WithStyles(ForwardRef(Grid))
+        className="mui-ctrp-middle"
+        item={true}
+        xs={8}
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="mui-ctrp-middletitle"
+        >
+          BETWEEN
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="mui-ctrp-middlehourmin"
+        >
+          <span
+            className="hourLabel"
+            onClick={[Function]}
+          >
+            03
+          </span>
+          <span
+            className="mui-ctrp-selected hourminseperator"
+          >
+            :
+          </span>
+          <span
+            className="minLabel mui-ctrp-selected"
+            onClick={[Function]}
+          >
+            24
+          </span>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        className="mui-ctrp-right"
+        item={true}
+        xs={2}
+      >
+        <Component
+          className="mui-ctrp-rightchevron"
+          onClick={[Function]}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(DialogContent))
+      className="mui-ctrp-dialogcontent"
+    >
+      <MuiPickersUtilsProvider
+        utils={[Function]}
+      >
+        <TimePickerView
+          ampm={false}
+          date={2018-12-22T18:30:00.000Z}
+          minutesStep={1}
+          onHourChange={[Function]}
+          onMinutesChange={[Function]}
+          onSecondsChange={[Function]}
+          type="hours"
+        />
+      </MuiPickersUtilsProvider>
+    </WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(DialogActions))
+      className="mui-ctrp-buttons"
+    >
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        onClick={[Function]}
+      >
+        CANCEL
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        onClick={[Function]}
+      >
+        OK
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(DialogActions))>
+  </WithStyles(ForwardRef(Dialog))>
+</Fragment>
+`;

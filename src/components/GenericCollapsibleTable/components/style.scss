@@ -1,0 +1,147 @@
+.reset-zoom-popper {
+  top: -6px !important;
+  & .MuiTooltip-tooltip {
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+.rule-description-input {
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  ::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #808080;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #808080;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #808080;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #808080;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #808080;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  ::placeholder {
+    /* Most modern browsers support this now. */
+    color: #808080;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.switchLabelBold {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.switchLabel {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.enabled-thumb {
+  background-color: #ff650c !important;
+}
+
+.disabled-thumb {
+  background-color: #fba776 !important;
+}
+
+.access-time-icon-cls {
+  padding-right: 2px;
+  font-size: 20px;
+}
+
+.autocomplete-combobox {
+  .MuiInputAdornment-positionStart {
+    margin-right: 0px;
+  }
+
+  .Select-placeholder {
+    color: #cdcdcd;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.autocomplete-combobox-focused {
+  // margin-bottom: 25px;
+  > div {
+    // z-index: 99;
+    // position: fixed;
+  }
+
+  .Select-clear-zone {
+    margin-bottom: 2px;
+    margin-right: 5px;
+  }
+}
+
+.autocomplete-combobox-error {
+  .MuiInputBase-root {
+    z-index: 1001;
+  }
+
+  .MuiInput-underline:before,
+  .MuiInput-underline:after {
+    border-bottom-color: #d50000;
+  }
+  & .MuiSelect-icon {
+    color: #d50000;
+  }
+}
+
+.select-input-placeholder {
+  color: #cdcdcd;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.time-range-picker {
+  ::placeholder {
+    font-size: 14px;
+  }
+}

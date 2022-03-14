@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Option component renders 1`] = `
+<WithStyles(ForwardRef(MenuItem))
+  component="div"
+  onClick={[Function]}
+  onFocus={[Function]}
+  selected={null}
+  style={
+    Object {
+      "fontWeight": 400,
+    }
+  }
+  title=""
+/>
+`;

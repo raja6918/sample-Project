@@ -1,0 +1,105 @@
+{
+  "SUCCESS": {
+    "USERS": {
+      "ADD": "User **{{user}}** has been successfully added.",
+      "REMOVE": "User **{{user}}** has been successfully deleted.",
+      "EDIT": "User **{{user}}** has been successfully updated."
+    },
+    "ROLE": {
+      "ADD": "The role **{{role}}** has been successfully created.",
+      "REMOVE": "The role **{{role}}** has been successfully deleted.",
+      "EDIT": "The role **{{role}}** has been successfully updated."
+    },
+    "SCENARIOS": {
+      "ADD": "Scenario **{{scenario}}** has been successfully added.",
+      "REMOVE": "Scenario **{{scenario}}** has been successfully deleted.",
+      "EDIT": "Scenario **{{scenario}}** has been successfully updated."
+    },
+    "STATIONS": {
+      "ADD": "Station **{{station}}** has been successfully added.",
+      "EDIT": "Station **{{station}}** has been successfully updated.",
+      "REMOVE": "Station **{{station}}** has been successfully deleted."
+    },
+    "COUNTRIES": {
+      "ADD": "Country **{{country}}** has been successfully added.",
+      "EDIT": "Country **{{country}}** has been successfully updated.",
+      "REMOVE": "Country **{{country}}** has been successfully deleted."
+    },
+    "CURRENCIES": {
+      "EDIT": "Currency **{{currency}} ({{currencyCode}})** has been successfully updated.",
+      "ADD": "Currency **{{currency}} ({{currencyCode}})** has been successfully added.",
+      "REMOVE": "Currency **{{currency}}** has been successfully deleted."
+    },
+    "REGIONS": {
+      "ADD": "Region **{{region}}** has been successfully added.",
+      "EDIT": "Region **{{region}}** has been successfully updated.",
+      "REMOVE": "Region **{{region}}** has been successfully deleted."
+    },
+    "POSITIONS": {
+      "ADD": "Position **{{position}}** has been successfully added.",
+      "EDIT": "Position **{{position}}** has been successfully updated.",
+      "REMOVE": "Position **{{position}}** has been successfully deleted."
+    },
+    "AIRCRAFT": {
+      "ADD": "Aircraft type **{{aircraft}}** has been successfully added.",
+      "EDIT": "Aircraft type **{{aircraft}}** has been successfully updated.",
+      "REMOVE": "Aircraft type **{{aircraft}}** has been successfully deleted."
+    },
+    "ACCOMMODATIONS": {
+      "ADD": "Accommodation **{{accommodation}}** has been successfully added.",
+      "EDIT": "Accommodation **{{accommodation}}** has been successfully updated.",
+      "REMOVE": "Accommodation **{{accommodation}}** has been successfully deleted."
+    },
+    "COTERMINAL_TRANSPORTS": {
+      "ADD": "Coterminal transport **{{coterminalTransport}}** has been successfully added.",
+      "EDIT": "Coterminal transport **{{coterminalTransport}}** has been successfully updated.",
+      "REMOVE": "Coterminal transport **{{coterminalTransport}}** has been successfully deleted."
+    },
+    "SOLVER": {
+      "ADD": "Solver request **{{solverRequest}}** has been successfully added."
+    },
+    "AIRCRAFT_MODELS": {
+      "ADD": "Aircraft model **{{model.name}} ({{model.code}})** has been successfully added.",
+      "EDIT": "Aircraft model **{{model.name}} ({{model.code}})** has been successfully updated.",
+      "REMOVE": "Aircraft model **{{modelcode}}** has been successfully deleted."
+    },
+    "CREWBASES": {
+      "ADD": "Crew base **{{crewbase}}** has been successfully added.",
+      "EDIT": "Crew base **{{crewbase}}** has been successfully updated.",
+      "REMOVE": "Crew base **{{crewBase}}** has been successfully deleted."
+    },
+    "TEMPLATES": {
+      "ADD": "Template **{{templateName}}** has been successfully added.",
+      "EDIT": "Template **{{templateName}}** has been successfully updated.",
+      "REMOVE": "Template **{{templateName}}** has been successfully deleted."
+    },
+    "OPERATING_FLIGHTS": {
+      "ADD": "Operating flights aggregate **{{flightNumber}}** has been successfully added.",
+      "EDIT": "Operating flights aggregate **{{flightNumber}}** has been successfully updated.",
+      "REMOVE": "Operating flight **{{flightDesignator}}** has been successfully deleted."
+    },
+    "COMMERCIAL_FLIGHTS": {
+      "ADD": "Commercial flights aggregate **{{flightNumber}}** has been successfully added.",
+      "EDIT": "Commercial flights aggregate **{{flightNumber}}** has been successfully updated.",
+      "REMOVE": "Commercial flight **{{flightDesignator}}** has been successfully deleted."
+    },
+    "CREW_GROUPS": {
+      "ADD": "Crew group **{{crewGroup}}** has been successfully added.",
+      "EDIT": "Crew group **{{crewGroup}}** has been successfully updated.",
+      "REMOVE": "Crew group **{{crewGroup}}** has been successfully deleted."
+    },
+    "PAIRING_PREVIEW": {
+      "SAVE": "The pairings from solver request **{{solverRequestName}}** have been successfully saved for crew group **{{crewGroupName}}**.",
+      "SAVE_WARNING": "The pairings from solver request **{{solverRequestName}}** were saved for crew group **{{crewGroupName}}**, but some errors were detected. For details, see the alerts bar in the data page."
+    },
+    "RULESET": {
+      "REMOVE": "Rule set **{{ruleSet}}** has been successfully deleted.",
+      "ADD": "Rule set **{{ruleSet}}** has been successfully added.",
+      "EDIT": "Rule set **{{ruleSet}}** has been successfully updated."
+    },
+    "FILTER": {
+      "SAVE": "Filter **{{filterName}}** was successfully saved.",
+      "UPDATE": "Filter **{{filterName}}** was successfully updated."
+    }
+  }
+}

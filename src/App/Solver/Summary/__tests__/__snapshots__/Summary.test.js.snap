@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary Component renders 1`] = `
+<Fragment>
+  <Connect(SummaryForm)
+    activeRequest={
+      Object {
+        "crewGroupId": 1,
+        "crewGroupName": "CG Name",
+        "description": "Description for Draft Run: 888 Pilots",
+        "elapsedTime": "00:00:00",
+        "id": 1,
+        "isEndorsed": false,
+        "jobId": 0,
+        "lastModified": "2020-03-30T21:45:11.219Z",
+        "name": "Draft Run: 888 Pilots",
+        "rulesetId": 1,
+        "solverRecipeId": 1,
+        "solverScopeId": 1,
+        "solverTaskId": 1,
+        "status": "idle",
+      }
+    }
+    isEditing={[Function]}
+    readOnly={false}
+    setNewSolverRequests={[MockFunction]}
+    t={[MockFunction]}
+    updateEndorsed={false}
+  />
+</Fragment>
+`;

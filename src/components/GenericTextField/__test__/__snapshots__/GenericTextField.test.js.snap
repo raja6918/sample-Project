@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Generic Test Component renders 1`] = `
+.c0 {
+  width: 100%;
+}
+
+<GenericTextField
+  id="activeRequestName"
+  onBlur={[MockFunction]}
+  readOnly={false}
+  value="solver title"
+>
+  <GenericTextField__FormControl
+    error={false}
+  >
+    <WithStyles(ForwardRef(FormControl))
+      className="c0"
+      error={false}
+    >
+      <ForwardRef(FormControl)
+        className="c0"
+        classes={
+          Object {
+            "fullWidth": "MuiFormControl-fullWidth",
+            "marginDense": "MuiFormControl-marginDense",
+            "marginNormal": "MuiFormControl-marginNormal",
+            "root": "MuiFormControl-root",
+          }
+        }
+        error={false}
+      >
+        <div
+          className="MuiFormControl-root c0"
+        >
+          <WithStyles(ForwardRef(TextField))
+            InputProps={
+              Object {
+                "endAdornment": <UNDEFINED
+                  position="end"
+                >
+                  <UNDEFINED
+                    color="primary"
+                  >
+                    edit
+                  </UNDEFINED>
+                </UNDEFINED>,
+              }
+            }
+            disabled={false}
+            error={false}
+            id="activeRequestName"
+            inputProps={
+              Object {
+                "maxLength": 50,
+              }
+            }
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            value="solver title"
+          >
+            <ForwardRef(TextField)
+              InputProps={
+                Object {
+                  "endAdornment": <UNDEFINED
+                    position="end"
+                  >
+                    <UNDEFINED
+                      color="primary"
+                    >
+                      edit
+                    </UNDEFINED>
+                  </UNDEFINED>,
+                }
+              }
+              classes={
+                Object {
+                  "root": "MuiTextField-root",
+                }
+              }
+              disabled={false}
+              error={false}
+              id="activeRequestName"
+              inputProps={
+                Object {
+                  "maxLength": 50,
+                }
+              }
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              value="solver title"
+            >
+              <WithStyles(ForwardRef(FormControl))
+                className="MuiTextField-root"
+                color="primary"
+                disabled={false}
+                error={false}
+                fullWidth={false}
+                onClick={[Function]}
+                required={false}
+                variant="standard"
+              >
+                <ForwardRef(FormControl)
+                  className="MuiTextField-root"
+                  classes={
+                    Object {
+                      "fullWidth": "MuiFormControl-fullWidth",
+                      "marginDense": "MuiFormControl-marginDense",
+                      "marginNormal": "MuiFormControl-marginNormal",
+                      "root": "MuiFormControl-root",
+                    }
+                  }
+                  color="primary"
+                  disabled={false}
+                  error={false}
+                  fullWidth={false}
+                  onClick={[Function]}
+                  required={false}
+                  variant="standard"
+                >
+                  <div
+                    className="MuiFormControl-root MuiTextField-root"
+                    onClick={[Function]}
+                  >
+                    <WithStyles(ForwardRef(Input))
+                      autoFocus={false}
+                      endAdornment={
+                        <UNDEFINED
+                          position="end"
+                        >
+                          <UNDEFINED
+                            color="primary"
+                          >
+                            edit
+                          </UNDEFINED>
+                        </UNDEFINED>
+                      }
+                      fullWidth={false}
+                      id="activeRequestName"
+                      inputProps={
+                        Object {
+                          "maxLength": 50,
+                        }
+                      }
+                      multiline={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      value="solver title"
+                    >
+                      <ForwardRef(Input)
+                        autoFocus={false}
+                        classes={
+                          Object {
+                            "colorSecondary": "MuiInput-colorSecondary",
+                            "disabled": "Mui-disabled",
+                            "error": "Mui-error",
+                            "focused": "Mui-focused",
+                            "formControl": "MuiInput-formControl",
+                            "fullWidth": "MuiInput-fullWidth",
+                            "input": "MuiInput-input",
+                            "inputMarginDense": "MuiInput-inputMarginDense",
+                            "inputMultiline": "MuiInput-inputMultiline",
+                            "inputTypeSearch": "MuiInput-inputTypeSearch",
+                            "marginDense": "MuiInput-marginDense",
+                            "multiline": "MuiInput-multiline",
+                            "root": "MuiInput-root",
+                            "underline": "MuiInput-underline",
+                          }
+                        }
+                        endAdornment={
+                          <UNDEFINED
+                            position="end"
+                          >
+                            <UNDEFINED
+                              color="primary"
+                            >
+                              edit
+                            </UNDEFINED>
+                          </UNDEFINED>
+                        }
+                        fullWidth={false}
+                        id="activeRequestName"
+                        inputProps={
+                          Object {
+                            "maxLength": 50,
+                          }
+                        }
+                        multiline={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        value="solver title"
+                      >
+                        <WithStyles(ForwardRef(InputBase))
+                          autoFocus={false}
+                          classes={
+                            Object {
+                              "colorSecondary": "MuiInput-colorSecondary",
+                              "disabled": "Mui-disabled",
+                              "error": "Mui-error",
+                              "focused": "Mui-focused",
+                              "formControl": "MuiInput-formControl",
+                              "fullWidth": "MuiInput-fullWidth",
+                              "input": "MuiInput-input",
+                              "inputMarginDense": "MuiInput-inputMarginDense",
+                              "inputMultiline": "MuiInput-inputMultiline",
+                              "inputTypeSearch": "MuiInput-inputTypeSearch",
+                              "marginDense": "MuiInput-marginDense",
+                              "multiline": "MuiInput-multiline",
+                              "root": "MuiInput-root MuiInput-underline",
+                              "underline": null,
+                            }
+                          }
+                          endAdornment={
+                            <UNDEFINED
+                              position="end"
+                            >
+                              <UNDEFINED
+                                color="primary"
+                              >
+                                edit
+                              </UNDEFINED>
+                            </UNDEFINED>
+                          }
+                          fullWidth={false}
+                          id="activeRequestName"
+                          inputComponent="input"
+                          inputProps={
+                            Object {
+                              "maxLength": 50,
+                            }
+                          }
+                          multiline={false}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          type="text"
+                          value="solver title"
+                        >
+                          <ForwardRef(InputBase)
+                            autoFocus={false}
+                            classes={
+                              Object {
+                                "adornedEnd": "MuiInputBase-adornedEnd",
+                                "adornedStart": "MuiInputBase-adornedStart",
+                                "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                                "disabled": "Mui-disabled Mui-disabled",
+                                "error": "Mui-error Mui-error",
+                                "focused": "Mui-focused Mui-focused",
+                                "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                                "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                                "input": "MuiInputBase-input MuiInput-input",
+                                "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                                "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                                "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                                "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                                "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                                "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                                "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                                "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                                "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
+                              }
+                            }
+                            endAdornment={
+                              <UNDEFINED
+                                position="end"
+                              >
+                                <UNDEFINED
+                                  color="primary"
+                                >
+                                  edit
+                                </UNDEFINED>
+                              </UNDEFINED>
+                            }
+                            fullWidth={false}
+                            id="activeRequestName"
+                            inputComponent="input"
+                            inputProps={
+                              Object {
+                                "maxLength": 50,
+                              }
+                            }
+                            multiline={false}
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            type="text"
+                            value="solver title"
+                          >
+                            <div
+                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+                              onClick={[Function]}
+                            >
+                              <input
+                                aria-invalid={false}
+                                autoFocus={false}
+                                className="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd"
+                                disabled={false}
+                                id="activeRequestName"
+                                maxLength={50}
+                                onAnimationStart={[Function]}
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onFocus={[Function]}
+                                required={false}
+                                type="text"
+                                value="solver title"
+                              />
+                              <WithStyles(ForwardRef(InputAdornment))
+                                position="end"
+                              >
+                                <ForwardRef(InputAdornment)
+                                  classes={
+                                    Object {
+                                      "disablePointerEvents": "MuiInputAdornment-disablePointerEvents",
+                                      "filled": "MuiInputAdornment-filled",
+                                      "hiddenLabel": "MuiInputAdornment-hiddenLabel",
+                                      "marginDense": "MuiInputAdornment-marginDense",
+                                      "positionEnd": "MuiInputAdornment-positionEnd",
+                                      "positionStart": "MuiInputAdornment-positionStart",
+                                      "root": "MuiInputAdornment-root",
+                                    }
+                                  }
+                                  position="end"
+                                >
+                                  <div
+                                    className="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+                                  >
+                                    <WithStyles(ForwardRef(Icon))
+                                      color="primary"
+                                    >
+                                      <ForwardRef(Icon)
+                                        classes={
+                                          Object {
+                                            "colorAction": "MuiIcon-colorAction",
+                                            "colorDisabled": "MuiIcon-colorDisabled",
+                                            "colorError": "MuiIcon-colorError",
+                                            "colorPrimary": "MuiIcon-colorPrimary",
+                                            "colorSecondary": "MuiIcon-colorSecondary",
+                                            "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                                            "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                                            "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                                            "root": "MuiIcon-root",
+                                          }
+                                        }
+                                        color="primary"
+                                      >
+                                        <span
+                                          aria-hidden={true}
+                                          className="material-icons MuiIcon-root MuiIcon-colorPrimary"
+                                        >
+                                          edit
+                                        </span>
+                                      </ForwardRef(Icon)>
+                                    </WithStyles(ForwardRef(Icon))>
+                                  </div>
+                                </ForwardRef(InputAdornment)>
+                              </WithStyles(ForwardRef(InputAdornment))>
+                            </div>
+                          </ForwardRef(InputBase)>
+                        </WithStyles(ForwardRef(InputBase))>
+                      </ForwardRef(Input)>
+                    </WithStyles(ForwardRef(Input))>
+                  </div>
+                </ForwardRef(FormControl)>
+              </WithStyles(ForwardRef(FormControl))>
+            </ForwardRef(TextField)>
+          </WithStyles(ForwardRef(TextField))>
+        </div>
+      </ForwardRef(FormControl)>
+    </WithStyles(ForwardRef(FormControl))>
+  </GenericTextField__FormControl>
+</GenericTextField>
+`;

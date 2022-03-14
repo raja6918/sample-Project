@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scenarios component render without crashing 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(ErrorHandler)
+    reportError={[MockFunction]}
+    t={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getInfo",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  >
+    <ErrorHandler
+      dispatch={[Function]}
+      reportError={[MockFunction]}
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "GLOBAL.menu.open",
+            ],
+            Array [
+              "GLOBAL.menu.getInfo",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      userPermissions={
+        Array [
+          "scenario_rule_edit",
+          "template_add",
+          "tm_v",
+          "widget_configure",
+          "settings_configure",
+          "reports_generate",
+          "template_edit",
+          "dashboard_manage",
+          "scenario_manage",
+          "bin_view",
+          "scenario_edit",
+          "solver_evaluate",
+          "scenario_rule_view",
+          "scenario_add",
+          "scenario_data_manage",
+          "scenario_data_view",
+          "users_view",
+          "user_role_view",
+          "notification_view",
+          "template_rule_view",
+          "user_role_manage",
+          "widget_view",
+          "pairing_manage",
+          "dashboard_view",
+          "scenario_publish",
+          "reports_manage",
+          "pairing_view",
+          "pairing_edit",
+          "settings_edit",
+          "widget_edit",
+          "template_ruleset_manage",
+          "template_data_view",
+          "template_rule_edit",
+          "template_manage",
+          "solver_view",
+          "scenario_ruleset_view",
+          "uma_protection",
+          "solver_manage",
+          "template_data_manage",
+          "audit_view",
+          "import_view",
+          "notification_manage",
+          "sc_v",
+          "bin_manage",
+          "scenario_delete",
+          "import_action",
+          "template_ruleset_view",
+          "users_manage",
+          "template_delete",
+          "scenario_ruleset_manage",
+        ]
+      }
+    >
+      <Scenarios
+        clearErrorNotification={[Function]}
+        dispatch={[Function]}
+        inlineError={null}
+        reportError={[MockFunction]}
+        setReadOnly={[Function]}
+        t={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                "GLOBAL.menu.open",
+              ],
+              Array [
+                "GLOBAL.menu.getInfo",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        userPermissions={
+          Array [
+            "scenario_rule_edit",
+            "template_add",
+            "tm_v",
+            "widget_configure",
+            "settings_configure",
+            "reports_generate",
+            "template_edit",
+            "dashboard_manage",
+            "scenario_manage",
+            "bin_view",
+            "scenario_edit",
+            "solver_evaluate",
+            "scenario_rule_view",
+            "scenario_add",
+            "scenario_data_manage",
+            "scenario_data_view",
+            "users_view",
+            "user_role_view",
+            "notification_view",
+            "template_rule_view",
+            "user_role_manage",
+            "widget_view",
+            "pairing_manage",
+            "dashboard_view",
+            "scenario_publish",
+            "reports_manage",
+            "pairing_view",
+            "pairing_edit",
+            "settings_edit",
+            "widget_edit",
+            "template_ruleset_manage",
+            "template_data_view",
+            "template_rule_edit",
+            "template_manage",
+            "solver_view",
+            "scenario_ruleset_view",
+            "uma_protection",
+            "solver_manage",
+            "template_data_manage",
+            "audit_view",
+            "import_view",
+            "notification_manage",
+            "sc_v",
+            "bin_manage",
+            "scenario_delete",
+            "import_action",
+            "template_ruleset_view",
+            "users_manage",
+            "template_delete",
+            "scenario_ruleset_manage",
+          ]
+        }
+      >
+        <Loading>
+          <Loading__Overlay>
+            <div
+              className="c0"
+            >
+              <ReactLoadingComponent
+                fill="#ed4d15"
+                height={200}
+                type="rings"
+                width={200}
+              >
+                <Component
+                  fill="#ed4d15"
+                  height={200}
+                  type="rings"
+                  width={200}
+                >
+                  <Component
+                    fill="#ed4d15"
+                    height={200}
+                    type="rings"
+                    width={200}
+                  >
+                    <svg
+                      height={200}
+                      stroke="#ed4d15"
+                      viewBox="0 0 45 45"
+                      width={200}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="none"
+                        fillRule="evenodd"
+                        strokeWidth="2"
+                        transform="translate(1 1)"
+                      >
+                        <circle
+                          cx="22"
+                          cy="22"
+                          r="6"
+                          strokeOpacity="0"
+                        >
+                          <animate
+                            attributeName="r"
+                            begin="1.5s"
+                            calcMode="linear"
+                            dur="3s"
+                            repeatCount="indefinite"
+                            values="6;22"
+                          />
+                          <animate
+                            attributeName="stroke-opacity"
+                            begin="1.5s"
+                            calcMode="linear"
+                            dur="3s"
+                            repeatCount="indefinite"
+                            values="1;0"
+                          />
+                          <animate
+                            attributeName="stroke-width"
+                            begin="1.5s"
+                            calcMode="linear"
+                            dur="3s"
+                            repeatCount="indefinite"
+                            values="2;0"
+                          />
+                        </circle>
+                        <circle
+                          cx="22"
+                          cy="22"
+                          r="6"
+                          strokeOpacity="0"
+                        >
+                          <animate
+                            attributeName="r"
+                            begin="3s"
+                            calcMode="linear"
+                            dur="3s"
+                            repeatCount="indefinite"
+                            values="6;22"
+                          />
+                          <animate
+                            attributeName="stroke-opacity"
+                            begin="3s"
+                            calcMode="linear"
+                            dur="3s"
+                            repeatCount="indefinite"
+                            values="1;0"
+                          />
+                          <animate
+                            attributeName="stroke-width"
+                            begin="3s"
+                            calcMode="linear"
+                            dur="3s"
+                            repeatCount="indefinite"
+                            values="2;0"
+                          />
+                        </circle>
+                        <circle
+                          cx="22"
+                          cy="22"
+                          r="8"
+                        >
+                          <animate
+                            attributeName="r"
+                            begin="0s"
+                            calcMode="linear"
+                            dur="1.5s"
+                            repeatCount="indefinite"
+                            values="6;1;2;3;4;5;6"
+                          />
+                        </circle>
+                      </g>
+                    </svg>
+                  </Component>
+                </Component>
+              </ReactLoadingComponent>
+            </div>
+          </Loading__Overlay>
+        </Loading>
+      </Scenarios>
+    </ErrorHandler>
+  </Connect(ErrorHandler)>
+</Provider>
+`;

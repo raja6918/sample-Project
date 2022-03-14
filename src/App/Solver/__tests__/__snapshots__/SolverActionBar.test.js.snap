@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SolverActionBar Component renders 1`] = `
+<SolverActionBar__BarContainer>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={5}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xm={5}
+      xs={5}
+    >
+      <Connect(AccessEnabler)
+        disableComponent={true}
+        render={[Function]}
+        scopes={
+          Array [
+            "solver_manage",
+          ]
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={0}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xm={6}
+      xs={6}
+    >
+      <SolverActionBar__ActionButtonContainer
+        container={true}
+        spacing={0}
+      >
+        <Connect(AccessEnabler)
+          disableComponent={true}
+          render={[Function]}
+          scopes={
+            Array [
+              "solver_manage",
+            ]
+          }
+        />
+        <Connect(AccessEnabler)
+          disableComponent={true}
+          render={[Function]}
+          scopes={
+            Array [
+              "solver_manage",
+            ]
+          }
+        />
+        <Connect(AccessEnabler)
+          disableComponent={true}
+          render={[Function]}
+        />
+      </SolverActionBar__ActionButtonContainer>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xm={6}
+      xs={6}
+    >
+      <SolverActionBar__ActionButtonContainer
+        container={true}
+        justify="flex-end"
+        spacing={0}
+      >
+        <Connect(AccessEnabler)
+          disableComponent={true}
+          render={[Function]}
+        />
+      </SolverActionBar__ActionButtonContainer>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <ErrorDialog
+    bodyText=""
+    handleOk={[Function]}
+    okText="Ok"
+    onExited={[Function]}
+    open={false}
+    title=""
+  />
+  <ErrorDialog
+    bodyText=""
+    handleOk={[Function]}
+    okText="Ok"
+    onExited={[Function]}
+    open={false}
+    title=""
+  />
+  <ModalLoader
+    background=""
+    color="white"
+    loaderRequired={true}
+    onClose={[Function]}
+    open={false}
+    subtitle=""
+    title=""
+  />
+</SolverActionBar__BarContainer>
+`;

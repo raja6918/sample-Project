@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScenarioTable component renders without crashing 1`] = `
+<div
+  className="scenario-table"
+  id="tableToday"
+  style={Object {}}
+>
+  <ScenarioTable__Paper>
+    <ScenarioTable__Table>
+      <WithStyles(ForwardRef(TableBody))>
+        <Connect(ScenariosRow)
+          handleGetInfo={[MockFunction]}
+          handleOpenScenario={[MockFunction]}
+          handleOpenViewOnly={[MockFunction]}
+          index={0}
+          key="0"
+          openDeleteDialog={[MockFunction]}
+          openSaveAsTemplate={[MockFunction]}
+          scenario={
+            Object {
+              "id": "1",
+              "name": "Scenario 1",
+            }
+          }
+          scenariostofilter="scenariosToday"
+          t={[MockFunction]}
+        />
+        <Connect(ScenariosRow)
+          handleGetInfo={[MockFunction]}
+          handleOpenScenario={[MockFunction]}
+          handleOpenViewOnly={[MockFunction]}
+          index={1}
+          key="1"
+          openDeleteDialog={[MockFunction]}
+          openSaveAsTemplate={[MockFunction]}
+          scenario={
+            Object {
+              "id": "2",
+              "name": "Scenario 2",
+            }
+          }
+          scenariostofilter="scenariosToday"
+          t={[MockFunction]}
+        />
+        <Connect(ScenariosRow)
+          handleGetInfo={[MockFunction]}
+          handleOpenScenario={[MockFunction]}
+          handleOpenViewOnly={[MockFunction]}
+          index={2}
+          key="2"
+          openDeleteDialog={[MockFunction]}
+          openSaveAsTemplate={[MockFunction]}
+          scenario={
+            Object {
+              "id": "3",
+              "name": "Scenario 3",
+            }
+          }
+          scenariostofilter="scenariosToday"
+          t={[MockFunction]}
+        />
+      </WithStyles(ForwardRef(TableBody))>
+    </ScenarioTable__Table>
+  </ScenarioTable__Paper>
+</div>
+`;

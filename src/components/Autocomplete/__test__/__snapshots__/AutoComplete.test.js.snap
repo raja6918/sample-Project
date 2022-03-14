@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoComplete component renders 1`] = `
+<AutoComplete__Input
+  disabled={false}
+  fullWidth={true}
+  id="sourceTemplate"
+  inputComponent={[Function]}
+  inputProps={
+    Object {
+      "createComponent": false,
+      "createLabel": "",
+      "instanceId": "sourceTemplate",
+      "isToolTip": undefined,
+      "name": "sourceTemplate",
+      "options": Array [
+        Object {
+          "label": "Template 1",
+          "value": 1,
+        },
+        Object {
+          "label": "Template 2",
+          "value": 2,
+        },
+        Object {
+          "label": "Template 3",
+          "value": 3,
+        },
+        Object {
+          "label": "Template 4",
+          "value": 4,
+        },
+      ],
+      "required": true,
+      "simpleValue": true,
+      "t": [MockFunction],
+      "value": "",
+    }
+  }
+  onBlur={[Function]}
+  onChange={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onKeyPress={[Function]}
+  placeholder="Template Name *"
+  required={true}
+  startAdornment={
+    <UNDEFINED
+      position="start"
+    >
+      
+    </UNDEFINED>
+  }
+  style={Object {}}
+  value=""
+/>
+`;
+
+exports[`AutoComplete component renders 2`] = `
+<AutoComplete__Input
+  disabled={false}
+  fullWidth={true}
+  id="category"
+  inputComponent={[Function]}
+  inputProps={
+    Object {
+      "createComponent": true,
+      "createLabel": "Create category",
+      "instanceId": "category",
+      "isToolTip": undefined,
+      "name": "category",
+      "options": Array [
+        Object {
+          "label": "Category 1",
+          "value": "Category 1",
+        },
+        Object {
+          "label": "Category 2",
+          "value": "Category 2",
+        },
+        Object {
+          "label": "Category 3",
+          "value": "Category 3",
+        },
+      ],
+      "required": false,
+      "simpleValue": true,
+      "t": [MockFunction],
+      "value": "",
+    }
+  }
+  onBlur={[Function]}
+  onChange={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onKeyPress={[Function]}
+  placeholder="Category"
+  required={false}
+  startAdornment={
+    <UNDEFINED
+      position="start"
+    >
+      
+    </UNDEFINED>
+  }
+  style={Object {}}
+  value=""
+/>
+`;

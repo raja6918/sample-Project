@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test FilterComponent Component CheckboxFilter with Search Component render and work correctly 1`] = `
+<div>
+  <FilterComponent__TitleSession
+    style={
+      Object {
+        "fontWeight": 500,
+      }
+    }
+    width="45%"
+  />
+  <FilterComponent__ComponentSession
+    width="50%"
+  >
+    <ErrorHandler
+      dataResolver={[Function]}
+      enableServerSearch={false}
+      onChange={[Function]}
+      paginationSize={300}
+      render="dynamic"
+      scenarioInfo={
+        Object {
+          "id": undefined,
+        }
+      }
+      scope="layovers"
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "ERRORS.FILTER.durationFormatIncorrect",
+            ],
+            Array [
+              "ERRORS.FILTER.durationRangeError",
+            ],
+            Array [
+              "ERRORS.FILTER.integerRangeError",
+            ],
+            Array [
+              "FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_LAYOVER_AT",
+            ],
+            Array [
+              "ERRORS.FILTER.durationFormatIncorrect",
+            ],
+            Array [
+              "ERRORS.FILTER.durationRangeError",
+            ],
+            Array [
+              "ERRORS.FILTER.integerRangeError",
+            ],
+            Array [
+              "FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_LAYOVER_AT",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      tooltipKey="display"
+    />
+  </FilterComponent__ComponentSession>
+  <FilterComponent__CloseSession
+    width="5%"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="close row"
+      onClick={[Function]}
+      size="small"
+      style={
+        Object {
+          "float": "right",
+        }
+      }
+    >
+      <Memo([object Object])
+        color="primary"
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </FilterComponent__CloseSession>
+</div>
+`;
+
+exports[`Test FilterComponent Component CheckboxFilter without Search Component render and work correctly 1`] = `
+<div>
+  <FilterComponent__TitleSession
+    style={
+      Object {
+        "fontWeight": 500,
+      }
+    }
+    width="45%"
+  />
+  <FilterComponent__ComponentSession
+    width="50%"
+  >
+    <ErrorHandler
+      dataResolver={[Function]}
+      onChange={[Function]}
+      render="dynamic"
+      scenarioInfo={
+        Object {
+          "id": undefined,
+        }
+      }
+      scope="pairings"
+      searchBox={false}
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "ERRORS.FILTER.durationFormatIncorrect",
+            ],
+            Array [
+              "ERRORS.FILTER.durationRangeError",
+            ],
+            Array [
+              "ERRORS.FILTER.integerRangeError",
+            ],
+            Array [
+              "FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_LAYOVER_AT",
+            ],
+            Array [
+              "ERRORS.FILTER.durationFormatIncorrect",
+            ],
+            Array [
+              "ERRORS.FILTER.durationRangeError",
+            ],
+            Array [
+              "ERRORS.FILTER.integerRangeError",
+            ],
+            Array [
+              "FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_LAYOVER_AT",
+            ],
+            Array [
+              "ERRORS.FILTER.durationFormatIncorrect",
+            ],
+            Array [
+              "ERRORS.FILTER.durationRangeError",
+            ],
+            Array [
+              "ERRORS.FILTER.integerRangeError",
+            ],
+            Array [
+              "FILTER.filterCriteria.criteria.TRIP_FLIGHT_CR_AR_TYPE",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      tooltipKey="display"
+    />
+  </FilterComponent__ComponentSession>
+  <FilterComponent__CloseSession
+    width="5%"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="close row"
+      onClick={[Function]}
+      size="small"
+      style={
+        Object {
+          "float": "right",
+        }
+      }
+    >
+      <Memo([object Object])
+        color="primary"
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </FilterComponent__CloseSession>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RedirectLink Component renders without crashing 1`] = `
+.c0 {
+  color: #0a75c2;
+  font-size: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0 0 0 0px;
+  display: inline-block;
+  line-height: 31px;
+}
+
+<Link
+  className="c0"
+  display="inline-block"
+  margin="0 0 0 0px"
+  replace={false}
+  to="/test/path"
+/>
+`;

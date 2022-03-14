@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get info form  component renders 1`] = `
+<Connect(AccessEnabler)
+  disableComponent={true}
+  render={[Function]}
+/>
+`;

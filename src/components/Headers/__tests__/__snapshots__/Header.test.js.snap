@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Header Component Header Component renders correctly 1`] = `
+<Header__StyledHeader>
+  <Header__TableName
+    variant="h6"
+  />
+  <WithStyles(ForwardRef(Fab))
+    aria-label="add"
+    color="secondary"
+    onClick={[MockFunction]}
+  >
+    <Memo([object Object]) />
+  </WithStyles(ForwardRef(Fab))>
+</Header__StyledHeader>
+`;

@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  letter-spacing: 0px !important;
+}
+input[type=text]::-ms-clear {
+  display: none;
+}
+label[data-shrink="false"], label[data-shrink="true"]{
+  color: rgba(0,0,0,.87) !important;
+}
+label[class*="focus"]{
+  color: #0A75C2 !important;
+}
+label[class*="focus"] + div:after, div[class*=focus]::after {
+  background-color: #0A75C2 !important;
+}
+.MuiInput-colorSecondary.MuiInput-underline:after {
+  border-bottom-color: #0A75C2 !important;
+}
+div.drawerTitleInput input{
+  font-size: 20px;
+}
+/* Styles added to patch the behavior of the react-perfect-scrollbar, without them, on the build the scrollbar changes his position */
+/* .ps__rail-x{
+  bottom: 0;
+}
+
+.ps__rail-y{
+  right: 0;
+} */
+/*---------*/
+/* .ps .ps__rail-x:hover, .ps .ps__rail-y:hover, .ps .ps__rail-x:focus, .ps .ps__rail-y:focus, .ps .ps__rail-x.ps--clicking, .ps .ps__rail-y.ps--clicking {
+  background-color: transparent !important;
+} */
+
+.button-reset {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  text-transform: none;
+  --webkit-appearance: button;
+  border: 0;
+  background: none;
+}
+
+.button-reset:hover {
+  cursor: pointer;
+}
+
+.button-reset:hover,
+.button-reset:focus,
+.button-reset:active {
+  background: none;
+  border-color: inherit;
+  border-radius: 0;
+  outline: none;
+}

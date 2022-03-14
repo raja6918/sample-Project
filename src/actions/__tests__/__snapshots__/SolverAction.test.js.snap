@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests related to Solver Actions check show error field  gets triggered as expected 1`] = `
+Array [
+  Object {
+    "bool": false,
+    "type": "TRIGGER_SHOW_ERRORS",
+  },
+]
+`;
+
+exports[`Tests related to Solver Actions check solver push action gets dispatched as expected 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      Object {
+        "activeTime": "0:00:10",
+        "alertType": "ERROR",
+        "creationDateTime": "2020-08-12T07:57:15+0000",
+        "elapsedTime": "0:00:15",
+        "eventId": "139288-data-test-2",
+        "eventType": "solver",
+        "jobId": "139288-data-test-2",
+        "jobOwner": "5",
+        "lastModified": "2020-08-12T07:57:20+0000",
+        "message": null,
+        "notificationType": "solver",
+        "scenarioId": "3",
+        "scenarioName": "Test",
+        "solverId": "48",
+        "solverName": "data test 2",
+        "state": "Done-failed",
+        "status": "Done-failed",
+      },
+    ],
+    "type": "PUSH_LATEST_JOB_STATUS",
+  },
+]
+`;

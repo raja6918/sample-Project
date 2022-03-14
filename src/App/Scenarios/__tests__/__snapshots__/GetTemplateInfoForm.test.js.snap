@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get info form  component renders 1`] = `
+<Form
+  anchor="right"
+  cancelButton="Cancel"
+  enableReadOnly={false}
+  formId="getInfoForm"
+  handleCancel={[MockFunction]}
+  handleOk={[MockFunction]}
+  handleSubmit={[Function]}
+  isDisabled={true}
+  isOpen={true}
+  okButton="Ok"
+  onChange={[Function]}
+  onClose={[MockFunction]}
+>
+  <FormHeader>
+    <span />
+    <span>
+      2018 Pilot Negotiations
+    </span>
+  </FormHeader>
+  <GetTemplateInfoForm__BodySection>
+    <WithStyles(ForwardRef(AppBar))
+      color="default"
+      position="static"
+      style={
+        Object {
+          "boxShadow": "none",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Tabs))
+        onChange={[Function]}
+        value={0}
+        variant="fullWidth"
+      >
+        <WithStyles(ForwardRef(Tab)) />
+        <WithStyles(ForwardRef(Tab))
+          disabled={true}
+        />
+      </WithStyles(ForwardRef(Tabs))>
+    </WithStyles(ForwardRef(AppBar))>
+    <GetTemplateInfoForm__TabContent>
+      <ScrollBar
+        className=""
+        component="div"
+        containerRef={[Function]}
+        option={
+          Object {
+            "swipeEasing": true,
+            "wheelSpeed": 0.4,
+          }
+        }
+      >
+        <div>
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={12}
+            >
+              <GetTemplateInfoForm__InfoLabel>
+                :
+              </GetTemplateInfoForm__InfoLabel>
+              <GetTemplateInfoForm__ContentLabel>
+                2018 Pilot Negotiations
+              </GetTemplateInfoForm__ContentLabel>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              sm={12}
+              xs={12}
+            >
+              <GetTemplateInfoForm__InfoLabel />
+              <GetTemplateInfoForm__ContentLabel>
+                Pairing
+              </GetTemplateInfoForm__ContentLabel>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              sm={12}
+              xs={12}
+            >
+              <GetTemplateInfoForm__InfoLabel>
+                :
+              </GetTemplateInfoForm__InfoLabel>
+              <GetTemplateInfoForm__ContentLabel>
+                December 4, 2017 at 8:30 AM
+              </GetTemplateInfoForm__ContentLabel>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              sm={12}
+              xs={12}
+            >
+              <GetTemplateInfoForm__InfoLabel>
+                :
+              </GetTemplateInfoForm__InfoLabel>
+              <GetTemplateInfoForm__ContentLabel>
+                Fred Smith
+              </GetTemplateInfoForm__ContentLabel>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              sm={12}
+              xs={12}
+            >
+              <GetTemplateInfoForm__InfoLabel>
+                :
+              </GetTemplateInfoForm__InfoLabel>
+              <GetTemplateInfoForm__ContentLabel>
+                March 12, 2018 at 8:30 AM
+              </GetTemplateInfoForm__ContentLabel>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              sm={12}
+              xs={12}
+            >
+              <GetTemplateInfoForm__InfoLabel>
+                :
+              </GetTemplateInfoForm__InfoLabel>
+              <GetTemplateInfoForm__ContentLabel>
+                Ruben Ramos
+              </GetTemplateInfoForm__ContentLabel>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              sm={12}
+              xs={12}
+            >
+              <GetTemplateInfoForm__InfoLabel>
+                :
+              </GetTemplateInfoForm__InfoLabel>
+              <GetTemplateInfoForm__ContentLabel>
+                template
+              </GetTemplateInfoForm__ContentLabel>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </div>
+      </ScrollBar>
+    </GetTemplateInfoForm__TabContent>
+  </GetTemplateInfoForm__BodySection>
+</Form>
+`;

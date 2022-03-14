@@ -1,0 +1,54 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
+   <id>altitude-frontend-automation</id>
+   <formats>
+      <format>zip</format>
+   </formats>
+   <includeBaseDirectory>false</includeBaseDirectory>
+
+   <fileSets>
+      <fileSet>
+         <directory>${project.basedir}/src/test/scripts</directory>
+         <outputDirectory>./</outputDirectory>
+         <includes>            
+            <include>**/*.bat</include>
+            <include>**/*.sh</include>
+            <include>**/*.exe</include>
+         </includes>
+         <fileMode>0755</fileMode>
+      </fileSet>
+      <fileSet>
+         <directory>${project.basedir}/drivers-lin</directory>
+         <outputDirectory>drivers-lin</outputDirectory>
+          <includes>            
+             <include>**/*</include>
+         </includes>
+         <fileMode>0755</fileMode>
+      </fileSet>
+      <fileSet>
+         <directory>${project.basedir}/drivers-win</directory>
+         <outputDirectory>drivers-win</outputDirectory>
+          <includes>            
+             <include>**/*</include>
+         </includes>
+         <fileMode>0755</fileMode>
+      </fileSet>
+   </fileSets>
+   <files>
+      <file>
+         <source>${project.build.directory}/${project.artifactId}-${project.version}-tests.jar</source>
+         <outputDirectory>./lib</outputDirectory>
+         <fileMode>0755</fileMode>
+      </file>
+   </files>
+
+   <dependencySets>
+      <dependencySet>
+         <scope>test</scope>
+         <outputDirectory>/lib</outputDirectory>
+         <fileMode>0755</fileMode>
+         <directoryMode>0755</directoryMode>
+         <useProjectArtifact>false</useProjectArtifact>
+      </dependencySet>
+   </dependencySets>
+</assembly>

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for SolverNotificationLinkRender component SolverNotificationLinkRender component renders 1`] = `
+<Fragment>
+  <span
+    onClick={[Function]}
+  >
+    test
+  </span>
+  <ModalLoader
+    background=""
+    color="white"
+    loaderRequired={true}
+    onClose={[Function]}
+    open={false}
+    subtitle=""
+    title={null}
+  />
+  <Notification
+    autoHideDuration={5000}
+    bottomheight={0}
+    buttonText=""
+    clear={[Function]}
+    displayCloseButton={false}
+    message=""
+    onLinkAction={[Function]}
+    renderers={
+      Object {
+        "paragraph": "span",
+      }
+    }
+    type="error"
+  />
+  <SolverNotificationLinkRenderer__StyledDialog
+    className="notification_dialog"
+    handleCancel={[Function]}
+    handleOk={[Function]}
+    okButton="NOTIFICATION.notificationpopup.OKbutton"
+    onClose={[Function]}
+    open={false}
+    renderer={true}
+    title="NOTIFICATION.notificationpopup.title"
+  >
+    <ReactMarkdown
+      astPlugins={Array []}
+      escapeHtml={true}
+      parserOptions={Object {}}
+      plugins={Array []}
+      rawSourcePos={false}
+      renderers={Object {}}
+      skipHtml={false}
+      source="NOTIFICATION.notificationpopup.message"
+      sourcePos={false}
+      transformLinkUri={[Function]}
+    />
+  </SolverNotificationLinkRenderer__StyledDialog>
+</Fragment>
+`;

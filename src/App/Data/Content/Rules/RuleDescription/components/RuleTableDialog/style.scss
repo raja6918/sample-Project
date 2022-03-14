@@ -1,0 +1,39 @@
+.rule-table-alert-rule-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(240, 248, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+#rule-table {
+  & .reset-btn-container {
+    display: inline-block;
+    padding-top: 6px;
+  }
+  & .rule-table-orange {
+    & .MuiInput-input {
+      color: #FF650C;
+    }
+  }
+  & .rule-table-green {
+    & .MuiInput-input {
+      color: #00CE05;
+    }
+  }
+  & .rule-table-orange-read-only {
+    & .MuiInput-input {
+      color: rgba(255, 101, 12, 0.50);
+    }
+  }
+  & .rule-table-green-read-only {
+    & .MuiInput-input {
+      color: rgba(0, 206, 5, 0.50);
+    }
+  }
+}

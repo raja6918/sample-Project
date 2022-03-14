@@ -1,0 +1,35 @@
+# Set default behaviour, in case users don't have core.autocrlf set.
+# This default settings delegates GIT to normalize all files (put LF on commit) that are detected as text files 
+# It gets overwritten by the following lines per explicit file type
+* text=auto
+
+# Explicitly declare text files we want to always be normalized and converted
+# to native line endings on checkout.
+# text=auto replaces LF with operating system's specific eol (CRLF on win, LF on unix)
+# eol=crlf attribute implies 'text' by default on checkin and replaces LF with CRLF on checkout in the working directory 
+# eol=lf attribute implies 'text' by default on checkin and replaces LF with LF on checkout in the working directory
+*.java text
+*.properties text
+*.xml text
+*.html text
+*.vm text
+*.css text
+*.bat eol=crlf
+*.sh eol=lf
+*.txt text
+*.fit text
+*.suite text
+*.sql text
+
+# Denote all files that are truly binary and should not be modified.
+*.pdf binary
+*.gif binary
+*.png binary
+*.jpg binary
+*.jar binary
+*.zip binary
+*.dll binary
+*.class binary
+
+package.json text eol=lf
+package-lock.json text eol=lf

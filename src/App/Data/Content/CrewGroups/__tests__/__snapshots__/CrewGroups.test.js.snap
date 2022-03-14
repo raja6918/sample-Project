@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CrewGroups Component renders 1`] = `<Loading />`;
+
+exports[`CrewGroups Component renders 2`] = `
+<Fragment>
+  <AddHeader
+    className="tm-scenario_data_crew_groups__create-btn"
+    disableAdd={true}
+    editMode={false}
+    name=""
+    needAddButton={true}
+    onClick={[Function]}
+    openItemId="102"
+    openItemName="My open item test"
+    redirectLink={null}
+    scopes={
+      Array [
+        "scenario_data_manage",
+      ]
+    }
+    t={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "DATA.crewGroups.name",
+          ],
+          Array [
+            "GLOBAL.form.delete",
+          ],
+          Array [
+            "DATA.crewGroups.type",
+          ],
+          Array [
+            "DIALOG.DELETE_DATA.title",
+            Object {
+              "name": "320 CM/FA",
+              "type": "",
+            },
+          ],
+          Array [
+            "DATA.crewGroups.type",
+          ],
+          Array [
+            "DIALOG.DELETE_DATA.body",
+            Object {
+              "name": "320 CM/FA",
+              "type": "",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": "",
+          },
+          Object {
+            "type": "return",
+            "value": "",
+          },
+          Object {
+            "type": "return",
+            "value": "",
+          },
+          Object {
+            "type": "return",
+            "value": "",
+          },
+          Object {
+            "type": "return",
+            "value": "",
+          },
+          Object {
+            "type": "return",
+            "value": "",
+          },
+        ],
+      }
+    }
+  />
+  <Container>
+    <Connect(AccessEnabler)
+      disableComponent={true}
+      render={[Function]}
+      scopes={
+        Array [
+          "scenario_data_manage",
+        ]
+      }
+    />
+    <Notification
+      autoHideDuration={5000}
+      bottomheight={0}
+      buttonText=""
+      clear={[Function]}
+      displayCloseButton={false}
+      message={null}
+      onLinkAction={[Function]}
+      renderers={
+        Object {
+          "paragraph": "span",
+        }
+      }
+      type=""
+    />
+    <DeleteDialog
+      bodyText=""
+      bodyText2=""
+      handleCancel={[MockFunction]}
+      handleOk={[Function]}
+      modalCommand={true}
+      okText=""
+      onClose={[MockFunction]}
+      onExited={[Function]}
+      strongText=""
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "DATA.crewGroups.name",
+            ],
+            Array [
+              "GLOBAL.form.delete",
+            ],
+            Array [
+              "DATA.crewGroups.type",
+            ],
+            Array [
+              "DIALOG.DELETE_DATA.title",
+              Object {
+                "name": "320 CM/FA",
+                "type": "",
+              },
+            ],
+            Array [
+              "DATA.crewGroups.type",
+            ],
+            Array [
+              "DIALOG.DELETE_DATA.body",
+              Object {
+                "name": "320 CM/FA",
+                "type": "",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "",
+            },
+            Object {
+              "type": "return",
+              "value": "",
+            },
+            Object {
+              "type": "return",
+              "value": "",
+            },
+            Object {
+              "type": "return",
+              "value": "",
+            },
+            Object {
+              "type": "return",
+              "value": "",
+            },
+            Object {
+              "type": "return",
+              "value": "",
+            },
+          ],
+        }
+      }
+      title=""
+    />
+    <Connect(AccessEnabler)
+      disableComponent={true}
+      render={[Function]}
+      scopes={
+        Array [
+          "scenario_data_manage",
+        ]
+      }
+    />
+  </Container>
+</Fragment>
+`;
+
+exports[`Crewgroups component render correct in readOnly mode 1`] = `<Loading />`;

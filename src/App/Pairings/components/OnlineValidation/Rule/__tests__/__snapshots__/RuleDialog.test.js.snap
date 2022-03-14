@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test RuleDialog Component RuleDialog Component renders correctly 1`] = `
+<Fragment>
+  <div
+    className="pairing-alert-rule-description"
+  >
+    <RuleDialog__RuleTile>
+      Allow deadhead duties at the start, middle, and/or end of a pairing
+    </RuleDialog__RuleTile>
+    <RuleDialog__SessionDiv>
+      <Connect(Description)
+        code="CiesApplyAllowDeadheadDuty"
+        data={
+          Object {
+            "data": "Allow deadhead-only duties in a pairing at the beginning, middle or end of a pairing, according to the following selections.
+[SierraCiesApplyAllowDeadheadDuty0]() Allow deadhead-only duties at the beginning of a pairing.
+[SierraCiesApplyAllowDeadheadDuty1]() Allow deadhead-only duties anywhere in the middle of a pairing.
+[SierraCiesApplyAllowDeadheadDuty2]() Allow deadhead-only duties at the end of a pairing.
+Note: If you want to forbid a deadhead-only duty, remove that duty type from the [hyperlink0]().",
+            "references": Object {
+              "SierraCiesApplyAllowDeadheadDuty0": Object {
+                "definedInCurrent": false,
+                "description": "",
+                "name": "SierraCiesApplyAllowDeadheadDuty0",
+                "object": "userDescriptionParamItem",
+                "paramType": Object {
+                  "object": "booleanParamType",
+                },
+                "referenceRulesetName": "root",
+                "switch": true,
+                "type": "booleanParamType",
+                "value": "true",
+              },
+              "SierraCiesApplyAllowDeadheadDuty1": Object {
+                "definedInCurrent": false,
+                "description": "",
+                "name": "SierraCiesApplyAllowDeadheadDuty1",
+                "object": "userDescriptionParamItem",
+                "paramType": Object {
+                  "object": "booleanParamType",
+                },
+                "referenceRulesetName": "root",
+                "switch": true,
+                "type": "booleanParamType",
+                "value": "true",
+              },
+              "SierraCiesApplyAllowDeadheadDuty2": Object {
+                "definedInCurrent": false,
+                "description": "",
+                "name": "SierraCiesApplyAllowDeadheadDuty2",
+                "object": "userDescriptionParamItem",
+                "paramType": Object {
+                  "object": "booleanParamType",
+                },
+                "referenceRulesetName": "root",
+                "switch": true,
+                "type": "booleanParamType",
+                "value": "true",
+              },
+              "hyperlink0": Object {
+                "code": "CiesApplyDutyComposition",
+                "name": "hyperlink0",
+                "object": "userDescriptionLinkItem",
+                "type": "hyperlink",
+                "value": "Duty Composition rule",
+              },
+            },
+          }
+        }
+        handleParamReset={[Function]}
+        handleParamSet={[Function]}
+        overlay={false}
+        readOnly={false}
+        removeOverlay={[MockFunction]}
+        reportError={[MockFunction]}
+        ruleSet={2}
+        scenarioId={1}
+        setOverlay={[MockFunction]}
+        t={[MockFunction]}
+        toggleLoader={[MockFunction]}
+      />
+    </RuleDialog__SessionDiv>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Pairings Component Pairings Component renders 1`] = `
+<Fragment>
+  <ErrorHandler
+    addButtonDisabled={false}
+    crewGroups={Array []}
+    date={
+      Object {
+        "endDate": "2018-07-21T00:00:00.000Z",
+        "startDate": "2018-07-15T00:00:00.000Z",
+      }
+    }
+    editMode={false}
+    handleCrewGroupChange={[Function]}
+    isFetching={false}
+    location={
+      Object {
+        "state": Object {
+          "openItemId": 1,
+        },
+      }
+    }
+    onAddClick={[Function]}
+    onFilterClick={[Function]}
+    onMoreClick={[Function]}
+    openItemId={1}
+    openItemName="Scenario pairings Jul15 - Jul22"
+    previewMode={false}
+    readOnly={false}
+    ruleSets={Array []}
+    savedCrewGroup={
+      Object {
+        "crewGroup": null,
+        "ruleset": null,
+      }
+    }
+    t={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "PAIRINGS.name",
+          ],
+          Array [
+            "SCENARIOS.viewOnly.viewOnlyText",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />
+  <withRouter(ErrorHandler)
+    currentCrewGroupId={null}
+    endDate="2018-07-21T00:00:00.000Z"
+    filterCriteria={Array []}
+    previewMode={false}
+    readOnly={false}
+    ruleset={null}
+    selectedCrewGroup={null}
+    startDate="2018-07-15T00:00:00.000Z"
+    t={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "PAIRINGS.name",
+          ],
+          Array [
+            "SCENARIOS.viewOnly.viewOnlyText",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    timelineWindowsCount={1}
+    updateTimelineWindowsCount={[Function]}
+  />
+</Fragment>
+`;

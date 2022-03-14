@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Templates component renders correctly 1`] = `
+<Fragment>
+  <Templates__TemplatesHeader>
+    <p />
+    <Connect(AccessEnabler)
+      disableComponent={true}
+      render={[Function]}
+      scopes={
+        Array [
+          "template_add",
+        ]
+      }
+    />
+  </Templates__TemplatesHeader>
+  <TemplatesGallery
+    cardMenuActions={
+      Array [
+        Object {
+          "closesMenu": false,
+          "handleClick": [Function],
+          "icon": "open_in_browser",
+          "text": undefined,
+        },
+        Object {
+          "closesMenu": true,
+          "handleClick": [Function],
+          "icon": "info",
+          "svgIcon": [Function],
+          "text": undefined,
+        },
+        Object {
+          "closesMenu": true,
+          "handleClick": [Function],
+          "icon": "delete",
+          "text": undefined,
+        },
+      ]
+    }
+    drawer={false}
+    handleClick={[Function]}
+    handleClose={[Function]}
+    paddingTop={0}
+    scopes={
+      Object {
+        "add": Array [
+          "template_add",
+        ],
+        "delete": Array [
+          "template_delete",
+        ],
+        "duplicate": Array [
+          "template_add",
+        ],
+        "manage": Array [
+          "template_manage",
+        ],
+        "view": Array [
+          "tm_v",
+        ],
+      }
+    }
+    t={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "TEMPLATES.title",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteTitle",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteBody2",
+          ],
+          Array [
+            "GLOBAL.form.delete",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.title",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.okButton",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.line_2",
+          ],
+          Array [
+            "TEMPLATES.title",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteTitle",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteBody2",
+          ],
+          Array [
+            "GLOBAL.form.delete",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.title",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.okButton",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.line_2",
+          ],
+        ],
+      }
+    }
+    templates={Array []}
+  />
+  <GetInfoForm
+    categorySuggestions={Array []}
+    formId="getInfoForm"
+    handleCancel={[Function]}
+    handleOk={[Function]}
+    isOpen={false}
+    onClose={[Function]}
+    scopes={
+      Object {
+        "add": Array [
+          "template_add",
+        ],
+        "delete": Array [
+          "template_delete",
+        ],
+        "duplicate": Array [
+          "template_add",
+        ],
+        "manage": Array [
+          "template_manage",
+        ],
+        "view": Array [
+          "tm_v",
+        ],
+      }
+    }
+    t={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "TEMPLATES.title",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteTitle",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteBody2",
+          ],
+          Array [
+            "GLOBAL.form.delete",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.title",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.okButton",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.line_2",
+          ],
+          Array [
+            "TEMPLATES.title",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteTitle",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteBody2",
+          ],
+          Array [
+            "GLOBAL.form.delete",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.title",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.okButton",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.line_2",
+          ],
+        ],
+      }
+    }
+    template={Object {}}
+  />
+  0
+  <ModalLoader
+    background=""
+    color="white"
+    loaderRequired={true}
+    onClose={[Function]}
+    open={false}
+    subtitle=""
+    title=""
+  />
+  <DeleteDialog
+    bodyText=""
+    bodyText2=""
+    handleCancel={[Function]}
+    handleOk={[Function]}
+    modalCommand={true}
+    okText=""
+    onClose={[Function]}
+    onExited={[Function]}
+    open={false}
+    strongText={null}
+    t={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "GLOBAL.menu.open",
+          ],
+          Array [
+            "GLOBAL.menu.getOrEditInfo",
+          ],
+          Array [
+            "GLOBAL.menu.delete",
+          ],
+          Array [
+            "TEMPLATES.title",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteTitle",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteBody2",
+          ],
+          Array [
+            "GLOBAL.form.delete",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.title",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.okButton",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.line_2",
+          ],
+          Array [
+            "TEMPLATES.title",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteTitle",
+          ],
+          Array [
+            "TEMPLATES.messages.deleteBody2",
+          ],
+          Array [
+            "GLOBAL.form.delete",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.title",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.okButton",
+          ],
+          Array [
+            "TEMPLATES.viewOnly.line_2",
+          ],
+        ],
+      }
+    }
+    title=""
+  />
+  <Confirmation
+    cancelButton={null}
+    handleCancel={[Function]}
+    handleOk={[Function]}
+    modalCommand={true}
+    okButton="Ok"
+    okButtonDisabled={false}
+    onClose={[Function]}
+    onExited={[Function]}
+    open={false}
+    title=""
+  >
+    <p
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": "14px",
+          "lineHeight": "18px",
+        }
+      }
+    />
+  </Confirmation>
+  <Notification
+    autoHideDuration={5000}
+    bottomheight={0}
+    buttonText=""
+    clear={[Function]}
+    displayCloseButton={false}
+    message={null}
+    onLinkAction={[Function]}
+    renderers={
+      Object {
+        "paragraph": "span",
+      }
+    }
+    type=""
+  />
+</Fragment>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container Component renders 1`] = `
+.c0 {
+  background-image: url(Login.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+<LoginContainer
+  t={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "LOGIN.bg",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Container__LoginContainerWrapper
+    bg="Login.jpg"
+  >
+    <div
+      className="c0"
+    >
+      <div />
+    </div>
+  </Container__LoginContainerWrapper>
+</LoginContainer>
+`;

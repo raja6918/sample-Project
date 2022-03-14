@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StickyTable renders without crashing 1`] = `
+.c0 {
+  overflow: auto;
+  height: 100%;
+}
+
+.c1 {
+  white-space: nowrap;
+  top: -15px;
+  font-size: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.c1 .text-cutter {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c1 .col {
+  min-width: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+.c1 .column {
+  min-width: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.c1 .column.sticky-left,
+.c1 .column.sticky-right {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.c1 .col.right:last-child,
+.c1 .col.right:last-child .column.sticky-right,
+.c1 .col.right:last-child .column.sticky-right .cells-wrapper .cell,
+.c1 .col.right:last-child .column.sticky-right .header.cell {
+  max-width: 80px;
+  width: 80px;
+  min-width: 80px;
+}
+
+.c1 .column > .cells-wrapper {
+  margin-top: 48px;
+  position: absolute;
+  width: 100%;
+}
+
+.c1 .cell {
+  width: 100%;
+  padding: 0 12px;
+  text-align: left;
+  border-bottom: 1px solid #cccccc;
+  vertical-align: inherit;
+  color: rgba(0,0,0,0.87);
+  font-size: 14px;
+  font-weight: 400;
+  background: #ffffff;
+  height: 48px;
+  line-height: 48px;
+}
+
+.c1 .header {
+  background: #e0e0e0;
+  color: rgba(0,0,0,0.87);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.c1 .col:first-child .column .cell {
+  border-left: 1px solid #cccccc;
+}
+
+.c1 .col:last-child .column .cell {
+  border-right: 1px solid #cccccc;
+  text-align: right;
+}
+
+.c1 .column.sticky-left .header.cell.sticky,
+.c1 .column.sticky-right .header.cell.sticky {
+  z-index: 2;
+}
+
+.c1 .header.cell.sticky {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+<StickyTable
+  data={
+    Array [
+      Object {
+        "columnX": "test 1",
+        "columnY": "test 1",
+        "delete": <button
+          type="button"
+        >
+          test 1
+        </button>,
+        "id": 1,
+        "statistics": "Hotel Rooms",
+        "total": 1000,
+      },
+      Object {
+        "columnX": "",
+        "columnY": "test2",
+        "delete": <button
+          type="button"
+        >
+          test 2
+        </button>,
+        "id": 2,
+        "statistics": "Aircrafts",
+        "total": 345,
+      },
+    ]
+  }
+  headers={
+    Array [
+      Object {
+        "id": "statistics",
+        "name": "Statistics",
+        "sticky": true,
+      },
+      Object {
+        "id": "total",
+        "name": "Total",
+      },
+      Object {
+        "id": "columnX",
+        "name": "Test Column X",
+      },
+      Object {
+        "id": "columnY",
+      },
+      Object {
+        "component": <button
+          type="button"
+        >
+          TEST
+        </button>,
+        "id": "delete",
+        "sticky": true,
+      },
+    ]
+  }
+  stickyLeft={1}
+  stickyRight={1}
+>
+  <StickyTable__StickyTableContainer
+    className="container"
+    id="container"
+  >
+    <div
+      className="container c0"
+      id="container"
+    >
+      <StickyTable__Table
+        className="table"
+      >
+        <div
+          className="table c1"
+        >
+          <div
+            className="col left"
+            key="0"
+          >
+            <div
+              className="column sticky-left"
+            >
+              <div
+                className="header cell sticky both-left"
+              >
+                Statistics
+              </div>
+              <div
+                className="cells-wrapper"
+              >
+                <div
+                  className="cell"
+                  key="0"
+                  title=""
+                >
+                  Hotel Rooms
+                </div>
+                <div
+                  className="cell"
+                  key="1"
+                  title=""
+                >
+                  Aircrafts
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col"
+            key="1"
+          >
+            <div
+              className="column"
+            >
+              <div
+                className="header cell sticky"
+              >
+                Total
+              </div>
+              <div
+                className="cells-wrapper"
+              >
+                <div
+                  className="cell text-cutter"
+                  key="0"
+                  title={1000}
+                >
+                  1000
+                </div>
+                <div
+                  className="cell text-cutter"
+                  key="1"
+                  title={345}
+                >
+                  345
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col"
+            key="2"
+          >
+            <div
+              className="column"
+            >
+              <div
+                className="header cell sticky"
+              >
+                Test Column X
+              </div>
+              <div
+                className="cells-wrapper"
+              >
+                <div
+                  className="cell text-cutter"
+                  key="0"
+                  title="test 1"
+                >
+                  test 1
+                </div>
+                <div
+                  className="cell text-cutter"
+                  key="1"
+                  title=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="col"
+            key="3"
+          >
+            <div
+              className="column"
+            >
+              <div
+                className="header cell sticky"
+              />
+              <div
+                className="cells-wrapper"
+              >
+                <div
+                  className="cell text-cutter"
+                  key="0"
+                  title="test 1"
+                >
+                  test 1
+                </div>
+                <div
+                  className="cell text-cutter"
+                  key="1"
+                  title="test2"
+                >
+                  test2
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col right"
+            key="4"
+          >
+            <div
+              className="column sticky-right"
+            >
+              <div
+                className="header cell sticky both-right"
+              >
+                <button
+                  type="button"
+                >
+                  TEST
+                </button>
+              </div>
+              <div
+                className="cells-wrapper"
+              >
+                <div
+                  className="cell"
+                  key="0"
+                >
+                  <button
+                    type="button"
+                  >
+                    test 1
+                  </button>
+                </div>
+                <div
+                  className="cell"
+                  key="1"
+                >
+                  <button
+                    type="button"
+                  >
+                    test 2
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </StickyTable__Table>
+    </div>
+  </StickyTable__StickyTableContainer>
+</StickyTable>
+`;

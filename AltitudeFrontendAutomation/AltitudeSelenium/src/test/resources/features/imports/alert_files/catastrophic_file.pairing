@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data xmlns="http://www.ad-opt.com/2009/Altitude/data">
+    <trip id="FA_737_GW0001">
+        <start-date-utc>2019-05-16</start-date-utc>
+        <template>
+            <xxxx>V3501</xxxx>
+            <base ref="YVR"/>
+            <crew-composition>
+                <seat-role-requirement>
+                    <seat-role ref="EF"/>
+                    <count>1</count>
+                </seat-role-requirement>
+            </crew-composition>
+            <effective-report-time-utc>0:00</effective-report-time-utc>
+            <tafb>5h11</tafb>
+            <tafb-in-period>5h11</tafb-in-period>
+            <block-in-period>2h48</block-in-period>
+            <block-total>2h48</block-total>
+            <credit-in-period>2h48</credit-in-period>
+            <credit-total>2h48</credit-total>
+            <duty-in-period>5h11</duty-in-period>
+            <duty-total>5h11</duty-total>
+            <pre-rest>0h00</pre-rest>
+            <post-rest>0h00</post-rest>
+            <red-eye>false</red-eye>
+            <perdiem>16.9</perdiem>
+            <trip-element-list>
+                <leg>
+                    <status>A</status>
+                    <flight-number>134</flight-number>
+                    <departure-station ref="YVR"/>
+                    <rstart-utc>0 1:00</rstart-utc>
+                    <arrival-station ref="YYC"/>
+                    <rend-utc>0 2:22</rend-utc>
+                    <aircraft-variant>73H</aircraft-variant>
+                    <flight-carrier>WS</flight-carrier>
+                    <duration>1h22</duration>
+                    <credit>1h22</credit>
+                </leg>
+                <leg>
+                    <status>A</status>
+                    <flight-number>139</flight-number>
+                    <departure-station ref="YYC"/>
+                    <rstart-utc>0 3:30</rstart-utc>
+                    <arrival-station ref="YVR"/>
+                    <rend-utc>0 4:56</rend-utc>
+                    <aircraft-variant>73H</aircraft-variant>
+                    <flight-carrier>WS</flight-carrier>
+                    <duration>1h26</duration>
+                    <credit>1h26</credit>
+                </leg>
+            </trip-element-list>
+        </template>
+    </trip>
+    <trip id="FA_737_GW0002">
+        <start-date-utc>2019-05-06</start-date-utc>
+        <template>
+            <name>V3502</name>
+            <base ref="YVR"/>
+            <crew-composition>
+                <seat-role-requirement>
+                    <seat-role ref="EF"/>
+                    <count>1</count>
+                </seat-role-requirement>
+            </crew-composition>
+            <effective-report-time-utc>16:00</effective-report-time-utc>
+            <tafb>5h03</tafb>
+            <tafb-in-period>5h03</tafb-in-period>
+            <block-in-period>3h02</block-in-period>
+            <block-total>3h02</block-total>
+            <credit-in-period>3h02</credit-in-period>
+            <credit-total>3h02</credit-total>
+            <duty-in-period>5h03</duty-in-period>
+            <duty-total>5h03</duty-total>
+            <pre-rest>0h00</pre-rest>
+            <post-rest>0h00</post-rest>
+            <red-eye>false</red-eye>
+            <perdiem>16.46</perdiem>
+            <trip-element-list>
+                <leg>
+                    <status>A</status>
+                    <flight-number>320</flight-number>
+                    <departure-station ref="YVR"/>
+                    <rstart-utc>0 17:00</rstart-utc>
+                    <arrival-station ref="YEG"/>
+                    <rend-utc>0 18:29</rend-utc>
+                    <aircraft-variant>73H</aircraft-variant>
+                    <flight-carrier>WS</flight-carrier>
+                    <duration>1h29</duration>
+                    <credit>1h29</credit>
+                </leg>
+                <leg>
+                    <status>A</status>
+                    <flight-number>177</flight-number>
+                    <departure-station ref="YEG"/>
+                    <rstart-utc>0 19:15</rstart-utc>
+                    <arrival-station ref="YVR"/>
+                    <rend-utc>0 20:48</rend-utc>
+                    <aircraft-variant>73H</aircraft-variant>
+                    <flight-carrier>WS</flight-carrier>
+                    <duration>1h33</duration>
+                    <credit>1h33</credit>
+                </leg>
+            </trip-element-list>
+        </template>
+    </trip>
+

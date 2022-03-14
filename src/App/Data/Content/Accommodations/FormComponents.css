@@ -1,0 +1,10 @@
+.MuiSwitch-track {
+  width: 30px !important;
+  background-color: #cccccc;
+  opacity: 1;
+}
+.MuiSwitch-switchBase {
+  bottom: 0px;
+  left: 11px !important;
+  color: #808080;
+}

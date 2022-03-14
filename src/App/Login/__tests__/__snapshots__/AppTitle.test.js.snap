@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppTitle Component renders 1`] = `
+.c0 h2 {
+  font-size: 36px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.c0 p {
+  font-size: 20px;
+  font-weight: 200;
+  color: #ffffff;
+  margin: 0;
+  opacity: 0.75;
+}
+
+<AppTitleContainer
+  t={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "LOGIN.appTitle",
+        ],
+        Array [
+          "LOGIN.appVersion",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <AppTitle__AppTitleContainerWrapper>
+    <div
+      className="c0"
+    >
+      <h2 />
+      <p
+        title="Build 1234567"
+      />
+    </div>
+  </AppTitle__AppTitleContainerWrapper>
+</AppTitleContainer>
+`;

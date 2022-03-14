@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StationForm Component renders correctly. 1`] = `
+<Form
+  anchor="right"
+  cancelButton=""
+  enableReadOnly={false}
+  formId=""
+  handleCancel={[MockFunction]}
+  handleOk={[Function]}
+  handleSubmit={[Function]}
+  inlineError={null}
+  isDisabled={true}
+  isOpen={false}
+  okButton=""
+  onChange={[Function]}
+  openItemId="1"
+>
+  <FormHeader>
+    <span />
+    <span />
+  </FormHeader>
+  <FormBody>
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+      option={
+        Object {
+          "swipeEasing": true,
+          "wheelSpeed": 0.4,
+        }
+      }
+    >
+      <div>
+        <StationForm__SectionTitle />
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <StationForm__FormControl
+              required={true}
+            >
+              <StationForm__Input
+                className=""
+                error={false}
+                inputProps={
+                  Object {
+                    "id": "IATACode",
+                    "maxLength": 3,
+                    "name": "IATACode",
+                    "placeholder": "",
+                    "title": "",
+                    "type": "text",
+                  }
+                }
+                label=""
+                onChange={[Function]}
+                required={true}
+                value=""
+              />
+            </StationForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <StationForm__FormControl
+              required={true}
+            >
+              <StationForm__Input
+                className=""
+                color="secondary"
+                error={false}
+                inputProps={
+                  Object {
+                    "id": "name",
+                    "maxLength": 75,
+                    "name": "name",
+                  }
+                }
+                label=""
+                onChange={[Function]}
+                required={true}
+                value=""
+              />
+            </StationForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <StationForm__FormControl>
+              <StationForm__Input
+                className=""
+                color="secondary"
+                error={false}
+                inputProps={
+                  Object {
+                    "id": "terminals",
+                    "name": "terminals",
+                    "style": Object {
+                      "textTransform": "uppercase",
+                    },
+                  }
+                }
+                label=""
+                onBlur={[Function]}
+                onChange={[Function]}
+                value=""
+              />
+            </StationForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <StationForm__SectionTitle />
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <StationForm__FormControl
+              required={true}
+            >
+              <WithStyles(ForwardRef(Autocomplete))
+                ListboxComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "propTypes": Object {
+                      "children": [Function],
+                    },
+                    "render": [Function],
+                  }
+                }
+                getOptionLabel={[Function]}
+                id="countryCode"
+                name="countryCode"
+                onChange={[Function]}
+                options={Array []}
+                renderInput={[Function]}
+                renderOption={[Function]}
+                value={null}
+              />
+            </StationForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={12}
+            xs={12}
+          >
+            <StationForm__FormControl>
+              <WithStyles(ForwardRef(InputLabel))
+                htmlFor="regionCode"
+              />
+              <SelectInput
+                disabled={false}
+                items={Array []}
+                name="regionCode"
+                onChange={[Function]}
+                value=""
+              />
+            </StationForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={6}
+            xs={12}
+          >
+            <StationForm__FormControl>
+              <StationForm__Input
+                className=""
+                error={false}
+                inputProps={
+                  Object {
+                    "id": "latitude",
+                    "maxLength": 10,
+                    "name": "latitude",
+                    "title": "",
+                    "type": "text",
+                  }
+                }
+                label=""
+                onChange={[Function]}
+                value=""
+              />
+            </StationForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm={6}
+            xs={12}
+          >
+            <StationForm__FormControl>
+              <StationForm__Input
+                className=""
+                error={false}
+                inputProps={
+                  Object {
+                    "id": "longitude",
+                    "maxLength": 11,
+                    "name": "longitude",
+                    "title": "",
+                    "type": "text",
+                  }
+                }
+                label=""
+                onChange={[Function]}
+                value=""
+              />
+            </StationForm__FormControl>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <StationForm__SectionTitle />
+        <TimeZone
+          disabled={false}
+          onChange={[Function]}
+          station={
+            Object {
+              "code": "VAB",
+              "country": "Mexico",
+              "dst": 120,
+              "dstEndDateTime": "2018-05-18T8:30:00.586Z",
+              "dstStartDateTime": "2018-05-8T18:30:09.586Z",
+              "latitude": 0.3,
+              "longitude": 0.5,
+              "name": "Viva Aerobus",
+              "region": "America",
+              "timeZone": "",
+            }
+          }
+          t={
+            [MockFunction] {
+              "calls": Array [
+                Array [
+                  "ERRORS.STATIONS.IATACode",
+                ],
+                Array [
+                  "GLOBAL.form.add",
+                ],
+                Array [
+                  "GLOBAL.form.save",
+                ],
+                Array [
+                  "GLOBAL.form.close",
+                ],
+                Array [
+                  "GLOBAL.form.cancel",
+                ],
+                Array [
+                  "DATA.stations.form.edit",
+                ],
+                Array [
+                  "DATA.stations.form.section.general.title",
+                ],
+                Array [
+                  "DATA.stations.form.section.general.codePlaceholder",
+                ],
+                Array [
+                  "ERRORS.STATIONS.IATACode",
+                ],
+                Array [
+                  "DATA.stations.form.section.general.code",
+                ],
+                Array [
+                  "DATA.stations.form.name",
+                ],
+                Array [
+                  "DATA.stations.form.terminals",
+                ],
+                Array [
+                  "DATA.stations.form.section.geography.title",
+                ],
+                Array [
+                  "DATA.stations.form.section.geography.region",
+                ],
+                Array [
+                  "ERRORS.STATIONS.latitude",
+                ],
+                Array [
+                  "DATA.stations.form.section.geography.latitude",
+                ],
+                Array [
+                  "ERRORS.STATIONS.longitude",
+                ],
+                Array [
+                  "DATA.stations.form.section.geography.longitude",
+                ],
+                Array [
+                  "DATA.stations.form.section.time.title",
+                ],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+                Object {
+                  "type": "return",
+                  "value": "",
+                },
+              ],
+            }
+          }
+        />
+      </div>
+    </ScrollBar>
+  </FormBody>
+</Form>
+`;

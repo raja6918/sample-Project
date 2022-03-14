@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Regions Component renders 1`] = `<Loading />`;
+
+exports[`Regions component render correct in readOnly mode 1`] = `<Loading />`;

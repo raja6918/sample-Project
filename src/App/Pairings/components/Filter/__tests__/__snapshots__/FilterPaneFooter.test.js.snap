@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test FilterPaneFooter Component FilterPaneFooter Component renders correctly 1`] = `
+<FilterPaneFooter__FormFooter>
+  <ActionsContent>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      onClick={[MockFunction]}
+    />
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      disabled={false}
+      onClick={[MockFunction]}
+      variant="contained"
+    />
+  </ActionsContent>
+</FilterPaneFooter__FormFooter>
+`;

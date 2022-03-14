@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>_icons/clock</title>
+    <g id="_icons/clock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sharp-access_time-24px" transform="translate(2.000000, 2.000000)" fill="#7E7E7E" fill-rule="nonzero">
+            <g id="Group">
+                <path d="M9.99,0 C4.47,0 0,4.48 0,10 C0,15.52 4.47,20 9.99,20 C15.52,20 20,15.52 20,10 C20,4.48 15.52,0 9.99,0 Z M10,18 C5.58,18 2,14.42 2,10 C2,5.58 5.58,2 10,2 C14.42,2 18,5.58 18,10 C18,14.42 14.42,18 10,18 Z" id="Shape"></path>
+                <polygon id="Shape" points="10.5 5 9 5 9 10.9016393 14.25 14 15 12.7901639 10.5 10.1639344"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

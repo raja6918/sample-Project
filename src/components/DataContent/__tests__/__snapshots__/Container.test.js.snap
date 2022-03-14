@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container Component renders 1`] = `
+.c0 {
+  position: relative;
+  padding: 0 24px;
+}
+
+<Container>
+  <div
+    className="c0"
+  />
+</Container>
+`;

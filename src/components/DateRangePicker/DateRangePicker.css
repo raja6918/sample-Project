@@ -1,0 +1,41 @@
+.all-dates {
+  border-bottom: 1px solid #ffffff;
+}
+.selected-dates {
+  background: #0a75c2;
+}
+.selected-dates > button > span {
+  color: #ffffff;
+}
+.between-dates {
+  background: #add1ea;
+}
+.hide-calender {
+  display: none;
+}
+.mui-cdrp-text svg {
+  font-size: 0.9rem;
+}
+.mui-cdrp-calender {
+  color: #0a75c2;
+}
+.mui-cdrp-text {
+  cursor: pointer;
+}
+.mui-cdrp-text > input {
+  text-overflow: ellipsis;
+}
+.all-dates > .MuiPickersDay-daySelected,
+.all-dates > .MuiPickersDay-daySelected:hover {
+  border-radius: unset;
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.87);
+}
+.selected-dates > .MuiPickersDay-daySelected,
+.selected-dates > .MuiPickersDay-daySelected:hover {
+  background: #0a75c2;
+  color: #ffffff;
+}
+.all-dates > .MuiPickersDay-current {
+  color: rgba(0, 0, 0, 0.87);
+}

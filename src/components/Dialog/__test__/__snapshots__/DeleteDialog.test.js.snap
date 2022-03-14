@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteDialog renders correct 1`] = `
+<Confirmation
+  cancelButton={null}
+  handleCancel={[MockFunction]}
+  handleOk={[MockFunction]}
+  okButton="DELETE"
+  okButtonDisabled={false}
+  onExited={[MockFunction]}
+  open={false}
+  title="Delete user"
+>
+  <div
+    style={
+      Object {
+        "marginBottom": "25px",
+        "marginTop": "24px",
+      }
+    }
+  >
+    <p
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": "14px",
+          "lineHeight": "18px",
+          "marginTop": 0,
+        }
+      }
+    >
+      <ReactMarkdown
+        astPlugins={Array []}
+        escapeHtml={true}
+        parserOptions={Object {}}
+        plugins={Array []}
+        rawSourcePos={false}
+        renderers={
+          Object {
+            "paragraph": "span",
+          }
+        }
+        skipHtml={false}
+        source="Are you sure?"
+        sourcePos={false}
+        transformLinkUri={[Function]}
+      />
+    </p>
+  </div>
+</Confirmation>
+`;

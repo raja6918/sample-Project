@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Coterminal Transports component render correct 1`] = `<Loading />`;
+
+exports[`Coterminal Transports component render correct in readOnly mode 1`] = `<Loading />`;

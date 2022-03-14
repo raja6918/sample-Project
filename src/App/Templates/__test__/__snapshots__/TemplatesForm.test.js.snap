@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component renders 1`] = `
+<TemplatesForm__AddDialog
+  cancelButton="CANCEL"
+  disableSave={true}
+  formId="templateForm"
+  handleCancel={[MockFunction]}
+  handleOk={[MockFunction]}
+  okButton="CREATE"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <span />
+  <AutoComplete
+    adornmentIcon=""
+    create={false}
+    createLabel=""
+    defaultValue="-1"
+    disabled={false}
+    id="sourceTemplate"
+    maxLength={1000}
+    name="sourceTemplate"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    placeholder=""
+    required={true}
+    setShrink={[Function]}
+    style={Object {}}
+    suggestions={
+      Array [
+        Object {
+          "label": "Template 1",
+          "value": 1,
+        },
+        Object {
+          "label": "Template 2",
+          "value": 2,
+        },
+        Object {
+          "label": "Template 3",
+          "value": 3,
+        },
+        Object {
+          "label": "Template 4",
+          "value": 4,
+        },
+      ]
+    }
+    t={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "TEMPLATES.formTitle",
+          ],
+          Array [
+            "TEMPLATES.sourceTemplateTitle",
+          ],
+          Array [
+            "TEMPLATES.sourceTemplate",
+          ],
+          Array [
+            "TEMPLATES.templateName",
+          ],
+          Array [
+            "ERRORS.TEMPLATES.name",
+          ],
+          Array [
+            "CATEGORY.label",
+          ],
+          Array [
+            "CATEGORY.create",
+          ],
+          Array [
+            "TEMPLATES.description",
+          ],
+          Array [
+            "TEMPLATES.formTitle",
+          ],
+          Array [
+            "TEMPLATES.sourceTemplateTitle",
+          ],
+          Array [
+            "TEMPLATES.sourceTemplate",
+          ],
+          Array [
+            "TEMPLATES.templateName",
+          ],
+          Array [
+            "ERRORS.TEMPLATES.name",
+          ],
+          Array [
+            "CATEGORY.label",
+          ],
+          Array [
+            "CATEGORY.create",
+          ],
+          Array [
+            "TEMPLATES.description",
+          ],
+        ],
+      }
+    }
+    value="-1"
+  />
+  <TemplatesForm__Input
+    className=""
+    color="primary"
+    fullWidth={true}
+    id="templateName"
+    inputProps={
+      Object {
+        "maxLength": 50,
+        "name": "templateName",
+        "required": true,
+      }
+    }
+    margin="normal"
+    onChange={[Function]}
+    required={true}
+    value=""
+  />
+  <ErrorMessage
+    error={false}
+    isVisible={false}
+    message=""
+  />
+  <TemplatesForm__FormControl>
+    <WithStyles(ForwardRef(InputLabel))
+      htmlFor="category"
+    />
+    <AutoComplete
+      adornmentIcon=""
+      create={true}
+      createLabel=""
+      disabled={false}
+      id="category"
+      maxLength={50}
+      name="category"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      placeholder=""
+      required={false}
+      setShrink={[Function]}
+      style={Object {}}
+      suggestions={
+        Array [
+          Object {
+            "label": "Category 1",
+            "value": "Category 1",
+          },
+          Object {
+            "label": "Category 2",
+            "value": "Category 2",
+          },
+          Object {
+            "label": "Category 3",
+            "value": "Category 3",
+          },
+        ]
+      }
+      t={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "TEMPLATES.formTitle",
+            ],
+            Array [
+              "TEMPLATES.sourceTemplateTitle",
+            ],
+            Array [
+              "TEMPLATES.sourceTemplate",
+            ],
+            Array [
+              "TEMPLATES.templateName",
+            ],
+            Array [
+              "ERRORS.TEMPLATES.name",
+            ],
+            Array [
+              "CATEGORY.label",
+            ],
+            Array [
+              "CATEGORY.create",
+            ],
+            Array [
+              "TEMPLATES.description",
+            ],
+            Array [
+              "TEMPLATES.formTitle",
+            ],
+            Array [
+              "TEMPLATES.sourceTemplateTitle",
+            ],
+            Array [
+              "TEMPLATES.sourceTemplate",
+            ],
+            Array [
+              "TEMPLATES.templateName",
+            ],
+            Array [
+              "ERRORS.TEMPLATES.name",
+            ],
+            Array [
+              "CATEGORY.label",
+            ],
+            Array [
+              "CATEGORY.create",
+            ],
+            Array [
+              "TEMPLATES.description",
+            ],
+          ],
+        }
+      }
+      value=""
+    />
+  </TemplatesForm__FormControl>
+  <TextArea
+    fullWidth={true}
+    id="description"
+    inputProps={
+      Object {
+        "maxLength": 1000,
+        "name": "description",
+      }
+    }
+    margin="normal"
+    multiline={true}
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  />
+</TemplatesForm__AddDialog>
+`;

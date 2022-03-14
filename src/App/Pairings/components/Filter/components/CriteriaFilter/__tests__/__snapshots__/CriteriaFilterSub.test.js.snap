@@ -1,0 +1,444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CriteriaFilterSub Component CriteriaFilterSub Component renders correctly 1`] = `
+<div>
+  <WithStyles(WithStyles(ForwardRef(MenuItem)))
+    id="main-menu"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    selected={false}
+  >
+    <WithStyles(ForwardRef(ListItemText))
+      primary="FILTER.filterCriteria.categories.TRIP_PAIRING_CRITERIA"
+    />
+    <WithStyles(ForwardRef(ListItemIcon))
+      style={
+        Object {
+          "color": "#3f3e3e",
+          "minWidth": "20px",
+        }
+      }
+    >
+      <Memo([object Object])
+        fontSize="small"
+      />
+    </WithStyles(ForwardRef(ListItemIcon))>
+  </WithStyles(WithStyles(ForwardRef(MenuItem)))>
+  <WithStyles(Component)
+    anchorEl={null}
+    id="customized-menu"
+    keepMounted={true}
+    open={false}
+    style={
+      Object {
+        "pointerEvents": "none",
+      }
+    }
+  >
+    <CriteriaFilterSub__StyledSubComponent
+      className="sub-menu"
+      popupHeight={0}
+      style={
+        Object {
+          "pointerEvents": "auto",
+        }
+      }
+    >
+      <div>
+        <CriteriaFilterSub__StyledInputSearch>
+          <WithStyles(ForwardRef(Input))
+            disableUnderline={true}
+            endAdornment=""
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="SEARCHENGINE"
+            startAdornment={
+              <FilterInput__SearchIcon>
+                search
+              </FilterInput__SearchIcon>
+            }
+            type="text"
+            value=""
+          />
+        </CriteriaFilterSub__StyledInputSearch>
+      </div>
+      <ScrollBar
+        className=""
+        component="div"
+        containerRef={[Function]}
+        option={
+          Object {
+            "swipeEasing": true,
+            "wheelSpeed": 0.4,
+          }
+        }
+      >
+        <div>
+          <div
+            key="110"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_BLOCK_TIME
+            </div>
+          </div>
+          <div
+            key="115"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_BPDH
+            </div>
+          </div>
+          <div
+            key="116"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_BPDP
+            </div>
+          </div>
+          <div
+            key="19"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_CC
+            </div>
+          </div>
+          <div
+            key="17"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_CNX_ACHG
+            </div>
+          </div>
+          <div
+            key="15"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_CNX_AT
+            </div>
+          </div>
+          <div
+            key="16"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_CNX_DURATION
+            </div>
+          </div>
+          <div
+            key="18"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_CREW_BASE
+            </div>
+          </div>
+          <div
+            key="113"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_DUTIES
+            </div>
+          </div>
+          <div
+            key="114"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_DUTY_DAYS
+            </div>
+          </div>
+          <div
+            key="12"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_LAYOVER_AT
+            </div>
+          </div>
+          <div
+            key="118"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_LAYOVER_DUR
+            </div>
+          </div>
+          <div
+            key="112"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_OCCURRENCES
+            </div>
+          </div>
+          <div
+            key="117"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_OP_FLIGHTS
+            </div>
+          </div>
+          <div
+            key="14"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_PAIRING_END
+            </div>
+          </div>
+          <div
+            key="120"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_PAIRING_END_TIME
+            </div>
+          </div>
+          <div
+            key="11"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_PAIRING_NAME
+            </div>
+          </div>
+          <div
+            key="13"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_PAIRING_START
+            </div>
+          </div>
+          <div
+            key="119"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_PAIRING_START_TIME
+            </div>
+          </div>
+          <div
+            key="111"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "",
+                "fontWeight": "",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Checkbox))
+              checked={false}
+            />
+            <div>
+              FILTER.filterCriteria.criteria.TRIP_PAIRING_CR_TAFB
+            </div>
+          </div>
+        </div>
+      </ScrollBar>
+      <div>
+        <CriteriaFilterSub__AddButton
+          color="primary"
+          disabled={true}
+          onClick={[Function]}
+          variant="contained"
+        >
+          FILTER.pane.buttons.add
+        </CriteriaFilterSub__AddButton>
+        <CriteriaFilterSub__ClearAllButton
+          color="primary"
+          disableFocusRipple={true}
+          disableRipple={true}
+          disabled={true}
+          onClick={[Function]}
+          size="small"
+          startIcon={<Memo />}
+        >
+          FILTER.pane.buttons.clearAll
+        </CriteriaFilterSub__ClearAllButton>
+      </div>
+    </CriteriaFilterSub__StyledSubComponent>
+  </WithStyles(Component)>
+</div>
+`;

@@ -1,0 +1,905 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on IntegrationAlert IntegrationAlert component render correct 1`] = `
+.c0 {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  border-top-color: #d10000;
+  border-top-width: 7px;
+  border-bottom-width: 0;
+  border-radius: 4px 4px 0 0;
+  position: absolute;
+  bottom: 0px;
+  width: 350px;
+  right: 50px;
+}
+
+.c2 {
+  margin: 10px;
+  cursor: default;
+}
+
+.c3 {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.c1 {
+  color: rgba(0,0,0,0.87);
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+  font-weight: 500;
+  height: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 .text {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-left: 8px;
+}
+
+.c4 {
+  max-height: 330px;
+  min-height: 330px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.c5 {
+  border-bottom: 1px solid #ccc;
+  color: rgba(0,0,0,0.87);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 13px;
+  padding: 14px;
+}
+
+.c5 .text {
+  margin-right: 8px;
+  min-width: 270px;
+}
+
+.c5 .text > p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.c5:last-child {
+  border-bottom: none;
+}
+
+<IntegrationsAlerts
+  importErrors={
+    Object {
+      "datatypes": Object {
+        "flight": Object {
+          "errors": Array [
+            Object {
+              "errorType": "DATA",
+              "id": 6155,
+              "importProcessId": 4,
+              "messageArguments": Array [
+                "2",
+                "2009-07-01 13:20",
+                "AUH",
+              ],
+              "messageKey": "IMPORT_FLIGHT_UNKNOWN_ARR_STATION",
+              "severity": "WARNING",
+            },
+          ],
+        },
+      },
+      "total": 1,
+    }
+  }
+  removeError={[MockFunction]}
+  t={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "DATA.import.fileTypes.flight",
+        ],
+        Array [
+          "DATA.integrationAlerts.alerts",
+        ],
+        Array [
+          "ERRORS.IMPORT.errors.flightNotImported",
+          Array [
+            "2",
+            "2009-07-01 13:20",
+          ],
+        ],
+        Array [
+          "ERRORS.IMPORT.errors.refersToStation",
+        ],
+        Array [
+          "DATA.integrationAlerts.dontShow",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": "",
+        },
+        Object {
+          "type": "return",
+          "value": "",
+        },
+        Object {
+          "type": "return",
+          "value": "",
+        },
+        Object {
+          "type": "return",
+          "value": "",
+        },
+        Object {
+          "type": "return",
+          "value": "",
+        },
+      ],
+    }
+  }
+>
+  <IntegrationsAlerts__StyledIntegrationAlerts>
+    <div
+      className="c0"
+    >
+      <IntegrationsAlerts__StyledTitle>
+        <div
+          className="c1"
+        >
+          <IntegrationsAlerts__StyledIcon
+            color="error"
+          >
+            <Component
+              className="c2"
+              color="error"
+            >
+              <WithStyles(ForwardRef(Icon))
+                className="c2"
+                color="error"
+              >
+                <ForwardRef(Icon)
+                  className="c2"
+                  classes={
+                    Object {
+                      "colorAction": "MuiIcon-colorAction",
+                      "colorDisabled": "MuiIcon-colorDisabled",
+                      "colorError": "MuiIcon-colorError",
+                      "colorPrimary": "MuiIcon-colorPrimary",
+                      "colorSecondary": "MuiIcon-colorSecondary",
+                      "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                      "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                      "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                      "root": "MuiIcon-root",
+                    }
+                  }
+                  color="error"
+                >
+                  <span
+                    aria-hidden={true}
+                    className="material-icons MuiIcon-root c2 MuiIcon-colorError"
+                  >
+                    error
+                  </span>
+                </ForwardRef(Icon)>
+              </WithStyles(ForwardRef(Icon))>
+            </Component>
+          </IntegrationsAlerts__StyledIcon>
+          <span
+            className="text"
+          >
+             (
+            1
+            )
+          </span>
+          <IntegrationsAlerts__StyledIcon
+            actionable={true}
+            onClick={[Function]}
+          >
+            <Component
+              actionable={true}
+              className="c3"
+              onClick={[Function]}
+            >
+              <WithStyles(ForwardRef(Icon))
+                className="c3"
+                onClick={[Function]}
+              >
+                <ForwardRef(Icon)
+                  className="c3"
+                  classes={
+                    Object {
+                      "colorAction": "MuiIcon-colorAction",
+                      "colorDisabled": "MuiIcon-colorDisabled",
+                      "colorError": "MuiIcon-colorError",
+                      "colorPrimary": "MuiIcon-colorPrimary",
+                      "colorSecondary": "MuiIcon-colorSecondary",
+                      "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                      "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                      "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                      "root": "MuiIcon-root",
+                    }
+                  }
+                  onClick={[Function]}
+                >
+                  <span
+                    aria-hidden={true}
+                    className="material-icons MuiIcon-root c3"
+                    onClick={[Function]}
+                  >
+                    expand_less
+                  </span>
+                </ForwardRef(Icon)>
+              </WithStyles(ForwardRef(Icon))>
+            </Component>
+          </IntegrationsAlerts__StyledIcon>
+        </div>
+      </IntegrationsAlerts__StyledTitle>
+      <WithStyles(ForwardRef(Collapse))
+        in={false}
+      >
+        <ForwardRef(Collapse)
+          classes={
+            Object {
+              "container": "MuiCollapse-container",
+              "entered": "MuiCollapse-entered",
+              "hidden": "MuiCollapse-hidden",
+              "wrapper": "MuiCollapse-wrapper",
+              "wrapperInner": "MuiCollapse-wrapperInner",
+            }
+          }
+          in={false}
+        >
+          <Transition
+            addEndListener={[Function]}
+            appear={false}
+            enter={true}
+            exit={true}
+            in={false}
+            mountOnEnter={false}
+            onEnter={[Function]}
+            onEntered={[Function]}
+            onEntering={[Function]}
+            onExit={[Function]}
+            onExited={[Function]}
+            onExiting={[Function]}
+            timeout={300}
+            unmountOnExit={false}
+          >
+            <div
+              className="MuiCollapse-container MuiCollapse-hidden"
+              style={
+                Object {
+                  "minHeight": "0px",
+                }
+              }
+            >
+              <div
+                className="MuiCollapse-wrapper"
+              >
+                <div
+                  className="MuiCollapse-wrapperInner"
+                >
+                  <WithStyles(SierraTabs)
+                    onChange={[Function]}
+                    scrollButtons="auto"
+                    tabs={
+                      Array [
+                        Object {
+                          "label": <React.Fragment>
+                            <div>
+                              
+                            </div>
+                            <div>
+                              (
+                              1
+                              )
+                            </div>
+                          </React.Fragment>,
+                          "value": "flight",
+                        },
+                      ]
+                    }
+                    value="flight"
+                    variant="scrollable"
+                  >
+                    <SierraTabs
+                      classes={
+                        Object {
+                          "root": "SierraTabs-root-1",
+                          "tabRoot": "SierraTabs-tabRoot-4",
+                          "tabSelected": "SierraTabs-tabSelected-5",
+                          "tabsIndicator": "SierraTabs-tabsIndicator-3",
+                          "tabsRoot": "SierraTabs-tabsRoot-2",
+                        }
+                      }
+                      onChange={[Function]}
+                      scrollButtons="auto"
+                      tabs={
+                        Array [
+                          Object {
+                            "label": <React.Fragment>
+                              <div>
+                                
+                              </div>
+                              <div>
+                                (
+                                1
+                                )
+                              </div>
+                            </React.Fragment>,
+                            "value": "flight",
+                          },
+                        ]
+                      }
+                      value="flight"
+                      variant="scrollable"
+                    >
+                      <div
+                        className="SierraTabs-root-1"
+                      >
+                        <WithStyles(ForwardRef(Tabs))
+                          classes={
+                            Object {
+                              "indicator": "SierraTabs-tabsIndicator-3",
+                              "root": "SierraTabs-tabsRoot-2",
+                            }
+                          }
+                          onChange={[Function]}
+                          scrollButtons="auto"
+                          value="flight"
+                          variant="scrollable"
+                        >
+                          <ForwardRef(Tabs)
+                            classes={
+                              Object {
+                                "centered": "MuiTabs-centered",
+                                "fixed": "MuiTabs-fixed",
+                                "flexContainer": "MuiTabs-flexContainer",
+                                "flexContainerVertical": "MuiTabs-flexContainerVertical",
+                                "indicator": "MuiTabs-indicator SierraTabs-tabsIndicator-3",
+                                "root": "MuiTabs-root SierraTabs-tabsRoot-2",
+                                "scrollButtons": "MuiTabs-scrollButtons",
+                                "scrollButtonsDesktop": "MuiTabs-scrollButtonsDesktop",
+                                "scrollable": "MuiTabs-scrollable",
+                                "scroller": "MuiTabs-scroller",
+                                "vertical": "MuiTabs-vertical",
+                              }
+                            }
+                            onChange={[Function]}
+                            scrollButtons="auto"
+                            value="flight"
+                            variant="scrollable"
+                          >
+                            <div
+                              className="MuiTabs-root SierraTabs-tabsRoot-2"
+                            >
+                              <ScrollbarSize
+                                className="MuiTabs-scrollable"
+                                onChange={[Function]}
+                              >
+                                <div
+                                  className="MuiTabs-scrollable"
+                                  style={
+                                    Object {
+                                      "height": 99,
+                                      "overflow": "scroll",
+                                      "position": "absolute",
+                                      "top": -9999,
+                                      "width": 99,
+                                    }
+                                  }
+                                />
+                              </ScrollbarSize>
+                              <div
+                                className="MuiTabs-scroller MuiTabs-scrollable"
+                                onScroll={[Function]}
+                                style={
+                                  Object {
+                                    "marginBottom": -0,
+                                    "overflow": null,
+                                  }
+                                }
+                              >
+                                <div
+                                  className="MuiTabs-flexContainer"
+                                  onKeyDown={[Function]}
+                                  role="tablist"
+                                >
+                                  <WithStyles(ForwardRef(Tab))
+                                    classes={
+                                      Object {
+                                        "root": "SierraTabs-tabRoot-4",
+                                        "selected": "SierraTabs-tabSelected-5",
+                                      }
+                                    }
+                                    fullWidth={false}
+                                    indicator={false}
+                                    key=".$tab-flight"
+                                    label={
+                                      <React.Fragment>
+                                        <div>
+                                          
+                                        </div>
+                                        <div>
+                                          (
+                                          1
+                                          )
+                                        </div>
+                                      </React.Fragment>
+                                    }
+                                    onChange={[Function]}
+                                    selected={true}
+                                    textColor="inherit"
+                                    value="flight"
+                                  >
+                                    <ForwardRef(Tab)
+                                      classes={
+                                        Object {
+                                          "disabled": "Mui-disabled",
+                                          "fullWidth": "MuiTab-fullWidth",
+                                          "labelIcon": "MuiTab-labelIcon",
+                                          "root": "MuiTab-root SierraTabs-tabRoot-4",
+                                          "selected": "Mui-selected SierraTabs-tabSelected-5",
+                                          "textColorInherit": "MuiTab-textColorInherit",
+                                          "textColorPrimary": "MuiTab-textColorPrimary",
+                                          "textColorSecondary": "MuiTab-textColorSecondary",
+                                          "wrapped": "MuiTab-wrapped",
+                                          "wrapper": "MuiTab-wrapper",
+                                        }
+                                      }
+                                      fullWidth={false}
+                                      indicator={false}
+                                      label={
+                                        <React.Fragment>
+                                          <div>
+                                            
+                                          </div>
+                                          <div>
+                                            (
+                                            1
+                                            )
+                                          </div>
+                                        </React.Fragment>
+                                      }
+                                      onChange={[Function]}
+                                      selected={true}
+                                      textColor="inherit"
+                                      value="flight"
+                                    >
+                                      <WithStyles(ForwardRef(ButtonBase))
+                                        aria-selected={true}
+                                        className="MuiTab-root SierraTabs-tabRoot-4 MuiTab-textColorInherit Mui-selected SierraTabs-tabSelected-5"
+                                        disabled={false}
+                                        focusRipple={true}
+                                        onClick={[Function]}
+                                        onFocus={[Function]}
+                                        role="tab"
+                                        tabIndex={0}
+                                      >
+                                        <ForwardRef(ButtonBase)
+                                          aria-selected={true}
+                                          className="MuiTab-root SierraTabs-tabRoot-4 MuiTab-textColorInherit Mui-selected SierraTabs-tabSelected-5"
+                                          classes={
+                                            Object {
+                                              "disabled": "Mui-disabled",
+                                              "focusVisible": "Mui-focusVisible",
+                                              "root": "MuiButtonBase-root",
+                                            }
+                                          }
+                                          disabled={false}
+                                          focusRipple={true}
+                                          onClick={[Function]}
+                                          onFocus={[Function]}
+                                          role="tab"
+                                          tabIndex={0}
+                                        >
+                                          <button
+                                            aria-selected={true}
+                                            className="MuiButtonBase-root MuiTab-root SierraTabs-tabRoot-4 MuiTab-textColorInherit Mui-selected SierraTabs-tabSelected-5"
+                                            disabled={false}
+                                            onBlur={[Function]}
+                                            onClick={[Function]}
+                                            onDragLeave={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyDown={[Function]}
+                                            onKeyUp={[Function]}
+                                            onMouseDown={[Function]}
+                                            onMouseLeave={[Function]}
+                                            onMouseUp={[Function]}
+                                            onTouchEnd={[Function]}
+                                            onTouchMove={[Function]}
+                                            onTouchStart={[Function]}
+                                            role="tab"
+                                            tabIndex={0}
+                                            type="button"
+                                          >
+                                            <span
+                                              className="MuiTab-wrapper"
+                                            >
+                                              <div />
+                                              <div>
+                                                (
+                                                1
+                                                )
+                                              </div>
+                                            </span>
+                                            <WithStyles(memo)
+                                              center={false}
+                                            >
+                                              <ForwardRef(TouchRipple)
+                                                center={false}
+                                                classes={
+                                                  Object {
+                                                    "child": "MuiTouchRipple-child",
+                                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                                    "ripple": "MuiTouchRipple-ripple",
+                                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                    "root": "MuiTouchRipple-root",
+                                                  }
+                                                }
+                                              >
+                                                <span
+                                                  className="MuiTouchRipple-root"
+                                                >
+                                                  <TransitionGroup
+                                                    childFactory={[Function]}
+                                                    component={null}
+                                                    exit={true}
+                                                  />
+                                                </span>
+                                              </ForwardRef(TouchRipple)>
+                                            </WithStyles(memo)>
+                                          </button>
+                                        </ForwardRef(ButtonBase)>
+                                      </WithStyles(ForwardRef(ButtonBase))>
+                                    </ForwardRef(Tab)>
+                                  </WithStyles(ForwardRef(Tab))>
+                                </div>
+                                <WithStyles(ForwardRef(TabIndicator))
+                                  className="MuiTabs-indicator SierraTabs-tabsIndicator-3"
+                                  color="secondary"
+                                  orientation="horizontal"
+                                  style={
+                                    Object {
+                                      "left": 0,
+                                      "width": 0,
+                                    }
+                                  }
+                                >
+                                  <ForwardRef(TabIndicator)
+                                    className="MuiTabs-indicator SierraTabs-tabsIndicator-3"
+                                    classes={
+                                      Object {
+                                        "colorPrimary": "PrivateTabIndicator-colorPrimary-7",
+                                        "colorSecondary": "PrivateTabIndicator-colorSecondary-8",
+                                        "root": "PrivateTabIndicator-root-6",
+                                        "vertical": "PrivateTabIndicator-vertical-9",
+                                      }
+                                    }
+                                    color="secondary"
+                                    orientation="horizontal"
+                                    style={
+                                      Object {
+                                        "left": 0,
+                                        "width": 0,
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="PrivateTabIndicator-root-6 PrivateTabIndicator-colorSecondary-8 MuiTabs-indicator SierraTabs-tabsIndicator-3"
+                                      style={
+                                        Object {
+                                          "left": 0,
+                                          "width": 0,
+                                        }
+                                      }
+                                    />
+                                  </ForwardRef(TabIndicator)>
+                                </WithStyles(ForwardRef(TabIndicator))>
+                              </div>
+                            </div>
+                          </ForwardRef(Tabs)>
+                        </WithStyles(ForwardRef(Tabs))>
+                      </div>
+                    </SierraTabs>
+                  </WithStyles(SierraTabs)>
+                  <IntegrationsAlerts__StyledList>
+                    <div
+                      className="c4"
+                    >
+                      <ScrollBar
+                        className=""
+                        component="div"
+                        containerRef={[Function]}
+                        onScrollY={[Function]}
+                        option={
+                          Object {
+                            "swipeEasing": true,
+                            "wheelSpeed": 0.4,
+                          }
+                        }
+                      >
+                        <div
+                          className="scrollbar-container "
+                        >
+                          <div
+                            style={
+                              Object {
+                                "maxHeight": 330,
+                              }
+                            }
+                          >
+                            <IntegrationsAlerts__StyledAlertRow
+                              key="alert-flight-0"
+                            >
+                              <div
+                                className="c5"
+                              >
+                                <span
+                                  className="text"
+                                >
+                                  <ReactMarkdown
+                                    astPlugins={Array []}
+                                    escapeHtml={true}
+                                    key="flightNotImported-0"
+                                    parserOptions={Object {}}
+                                    plugins={Array []}
+                                    rawSourcePos={false}
+                                    renderers={Object {}}
+                                    skipHtml={false}
+                                    source=""
+                                    sourcePos={false}
+                                    transformLinkUri={[Function]}
+                                  >
+                                    <Root
+                                      key="root-1-1-0"
+                                    />
+                                  </ReactMarkdown>
+                                  <ReactMarkdown
+                                    astPlugins={Array []}
+                                    escapeHtml={true}
+                                    key="refersToStation-0"
+                                    parserOptions={Object {}}
+                                    plugins={Array []}
+                                    rawSourcePos={false}
+                                    renderers={Object {}}
+                                    skipHtml={false}
+                                    source=""
+                                    sourcePos={false}
+                                    transformLinkUri={[Function]}
+                                  >
+                                    <Root
+                                      key="root-1-1-0"
+                                    />
+                                  </ReactMarkdown>
+                                  <b
+                                    key="value-0"
+                                  >
+                                    AUH
+                                  </b>
+                                </span>
+                                <SierraTooltip
+                                  arrow={true}
+                                  position="bottom"
+                                  size="small"
+                                  title=""
+                                >
+                                  <Tooltip
+                                    animateFill={true}
+                                    animation="shift"
+                                    arrow={true}
+                                    arrowSize="regular"
+                                    className=""
+                                    delay={0}
+                                    disabled={false}
+                                    distance={10}
+                                    duration={375}
+                                    followCursor={false}
+                                    hideDelay={0}
+                                    hideDuration={375}
+                                    hideOnClick={true}
+                                    html={null}
+                                    inertia={false}
+                                    interactive={false}
+                                    interactiveBorder={2}
+                                    multiple={false}
+                                    offset={0}
+                                    onHidden={[Function]}
+                                    onHide={[Function]}
+                                    onRequestClose={[Function]}
+                                    onShow={[Function]}
+                                    onShown={[Function]}
+                                    popperOptions={Object {}}
+                                    position="bottom"
+                                    size="small"
+                                    sticky={false}
+                                    stickyDuration={200}
+                                    style={Object {}}
+                                    tag="div"
+                                    theme="sierra"
+                                    title=""
+                                    touchHold={false}
+                                    trigger="mouseenter focus"
+                                    unmountHTMLWhenHide={false}
+                                    zIndex={9999}
+                                  >
+                                    <div
+                                      className=""
+                                      style={
+                                        Object {
+                                          "display": "inline",
+                                        }
+                                      }
+                                      title=""
+                                    >
+                                      <WithStyles(ForwardRef(IconButton))
+                                        color="primary"
+                                        component="span"
+                                        onClick={[Function]}
+                                      >
+                                        <ForwardRef(IconButton)
+                                          classes={
+                                            Object {
+                                              "colorInherit": "MuiIconButton-colorInherit",
+                                              "colorPrimary": "MuiIconButton-colorPrimary",
+                                              "colorSecondary": "MuiIconButton-colorSecondary",
+                                              "disabled": "Mui-disabled",
+                                              "edgeEnd": "MuiIconButton-edgeEnd",
+                                              "edgeStart": "MuiIconButton-edgeStart",
+                                              "label": "MuiIconButton-label",
+                                              "root": "MuiIconButton-root",
+                                              "sizeSmall": "MuiIconButton-sizeSmall",
+                                            }
+                                          }
+                                          color="primary"
+                                          component="span"
+                                          onClick={[Function]}
+                                        >
+                                          <WithStyles(ForwardRef(ButtonBase))
+                                            centerRipple={true}
+                                            className="MuiIconButton-root MuiIconButton-colorPrimary"
+                                            component="span"
+                                            disabled={false}
+                                            focusRipple={true}
+                                            onClick={[Function]}
+                                          >
+                                            <ForwardRef(ButtonBase)
+                                              centerRipple={true}
+                                              className="MuiIconButton-root MuiIconButton-colorPrimary"
+                                              classes={
+                                                Object {
+                                                  "disabled": "Mui-disabled",
+                                                  "focusVisible": "Mui-focusVisible",
+                                                  "root": "MuiButtonBase-root",
+                                                }
+                                              }
+                                              component="span"
+                                              disabled={false}
+                                              focusRipple={true}
+                                              onClick={[Function]}
+                                            >
+                                              <span
+                                                aria-disabled={false}
+                                                className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary"
+                                                onBlur={[Function]}
+                                                onClick={[Function]}
+                                                onDragLeave={[Function]}
+                                                onFocus={[Function]}
+                                                onKeyDown={[Function]}
+                                                onKeyUp={[Function]}
+                                                onMouseDown={[Function]}
+                                                onMouseLeave={[Function]}
+                                                onMouseUp={[Function]}
+                                                onTouchEnd={[Function]}
+                                                onTouchMove={[Function]}
+                                                onTouchStart={[Function]}
+                                                role="button"
+                                                tabIndex={0}
+                                              >
+                                                <span
+                                                  className="MuiIconButton-label"
+                                                >
+                                                  <WithStyles(ForwardRef(Icon))
+                                                    color="primary"
+                                                  >
+                                                    <ForwardRef(Icon)
+                                                      classes={
+                                                        Object {
+                                                          "colorAction": "MuiIcon-colorAction",
+                                                          "colorDisabled": "MuiIcon-colorDisabled",
+                                                          "colorError": "MuiIcon-colorError",
+                                                          "colorPrimary": "MuiIcon-colorPrimary",
+                                                          "colorSecondary": "MuiIcon-colorSecondary",
+                                                          "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                                                          "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                                                          "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                                                          "root": "MuiIcon-root",
+                                                        }
+                                                      }
+                                                      color="primary"
+                                                    >
+                                                      <span
+                                                        aria-hidden={true}
+                                                        className="material-icons MuiIcon-root MuiIcon-colorPrimary"
+                                                      >
+                                                        visibility_off
+                                                      </span>
+                                                    </ForwardRef(Icon)>
+                                                  </WithStyles(ForwardRef(Icon))>
+                                                </span>
+                                                <WithStyles(memo)
+                                                  center={true}
+                                                >
+                                                  <ForwardRef(TouchRipple)
+                                                    center={true}
+                                                    classes={
+                                                      Object {
+                                                        "child": "MuiTouchRipple-child",
+                                                        "childLeaving": "MuiTouchRipple-childLeaving",
+                                                        "childPulsate": "MuiTouchRipple-childPulsate",
+                                                        "ripple": "MuiTouchRipple-ripple",
+                                                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                        "root": "MuiTouchRipple-root",
+                                                      }
+                                                    }
+                                                  >
+                                                    <span
+                                                      className="MuiTouchRipple-root"
+                                                    >
+                                                      <TransitionGroup
+                                                        childFactory={[Function]}
+                                                        component={null}
+                                                        exit={true}
+                                                      />
+                                                    </span>
+                                                  </ForwardRef(TouchRipple)>
+                                                </WithStyles(memo)>
+                                              </span>
+                                            </ForwardRef(ButtonBase)>
+                                          </WithStyles(ForwardRef(ButtonBase))>
+                                        </ForwardRef(IconButton)>
+                                      </WithStyles(ForwardRef(IconButton))>
+                                    </div>
+                                  </Tooltip>
+                                </SierraTooltip>
+                              </div>
+                            </IntegrationsAlerts__StyledAlertRow>
+                          </div>
+                        </div>
+                      </ScrollBar>
+                    </div>
+                  </IntegrationsAlerts__StyledList>
+                </div>
+              </div>
+            </div>
+          </Transition>
+        </ForwardRef(Collapse)>
+      </WithStyles(ForwardRef(Collapse))>
+    </div>
+  </IntegrationsAlerts__StyledIntegrationAlerts>
+</IntegrationsAlerts>
+`;

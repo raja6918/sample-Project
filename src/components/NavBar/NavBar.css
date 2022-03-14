@@ -1,0 +1,18 @@
+.MuiIconButton-root {
+  padding: 0px;
+}
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.profile-content {
+  padding: 24px 16px 16px 16px;
+}
+.heading1,
+.heading2 {
+  color: #65aeff;
+  padding: 24px 20px 12px 24px;
+  font-weight: 500;
+}
+.hamburger-scroll {
+  overflow-y: hidden;
+}
